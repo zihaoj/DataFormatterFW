@@ -1,0 +1,5 @@
+vhdl work ../../pulsar2_fmc_interface/fmcLib.vhd
+vhdl work ../../pulsar2b_integration_test_2014summer/data_formatter_constants.vhd
+vhdl work ../df_switch_element_v3.vhd
+vhdl work pattern_gen.vhd
+vhdl work testbench.vhd

@@ -1,0 +1,84 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:15:54 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Tue May 27 17:18:57 2014
+# Process ID: 276196
+# Log file: c:/cygwin64/home/okumura/firmware_vivado/ipcore/xc7vx690t-ffg1927-2/gt6_rtm34l/gt6_rtm34l_example/vivado.log
+# Journal file: c:/cygwin64/home/okumura/firmware_vivado/ipcore/xc7vx690t-ffg1927-2/gt6_rtm34l/gt6_rtm34l_example\vivado.jou
+#-----------------------------------------------------------
+start_gui
+source c:/cygwin64/home/okumura/firmware_vivado/ipcore/xc7vx690t-ffg1927-2/gt6_rtm34l/gt6_rtm34l_ex.tcl
+# set srcIpDir "c:/cygwin64/home/okumura/firmware_vivado/ipcore/xc7vx690t-ffg1927-2/gt6_rtm34l"
+# create_project -name gt6_rtm34l_example -force
+INFO: [Project 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'c:/cygwin64/home/okumura/firmware_vivado/ipcore/xc7vx690t-ffg1927-2/gt6_rtm34l/gt6_rtm34l_example'
+# set_property part xc7vx690tffg1927-2 [current_project]
+# set_property target_language vhdl [current_project]
+# set_property simulator_language VHDL [current_project]
+# set returnCode 0
+# import_ip -files [list [file join $srcIpDir gt6_rtm34l.xci]] -name gt6_rtm34l
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.1/data/ip'.
+# reset_target {example} [get_ips gt6_rtm34l]
+# proc _filter_supported_targets {targets ip} {
+#   set res {}
+#   set all [get_property SUPPORTED_TARGETS $ip]
+#   foreach target $targets {
+#     lappend res {*}[lsearch -all -inline -nocase $all $target]
+#   }
+#   return $res
+# }
+# generate_target [_filter_supported_targets {instantiation_template synthesis simulation} [get_ips gt6_rtm34l]] [get_ips gt6_rtm34l]
+INFO: [IP_Flow 19-1706] Not generating 'Instantiation Template' target for IP 'gt6_rtm34l'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'gt6_rtm34l'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Simulation' target for IP 'gt6_rtm34l'. Target already exists and is up to date.
+# add_files -scan_for_includes -fileset [current_fileset] \
+#   [list [file join $srcIpDir gt6_rtm34l/example_design/support/gt6_rtm34l_common_reset.vhd]] \
+#   [list [file join $srcIpDir gt6_rtm34l/example_design/support/gt6_rtm34l_common.vhd]] \
+#   [list [file join $srcIpDir gt6_rtm34l/example_design/support/gt6_rtm34l_gt_usrclk_source.vhd]] \
+#   [list [file join $srcIpDir gt6_rtm34l/example_design/support/gt6_rtm34l_support.vhd]] \
+#   [list [file join $srcIpDir gt6_rtm34l/example_design/gt6_rtm34l_exdes.vhd]] \
+#   [list [file join $srcIpDir gt6_rtm34l/example_design/gt6_rtm34l_gt_frame_check.vhd]] \
+#   [list [file join $srcIpDir gt6_rtm34l/example_design/gt6_rtm34l_gt_frame_gen.vhd]]
+# add_files -fileset [current_fileset] \
+#   [list [file join $srcIpDir gt6_rtm34l/example_design/gt_rom_init_rx.dat]] \
+#   [list [file join $srcIpDir gt6_rtm34l/example_design/gt_rom_init_tx.dat]]
+# add_files -fileset [current_fileset -constrset] \
+#   [list [file join $srcIpDir gt6_rtm34l/example_design/gt6_rtm34l_exdes.xdc]]
+# if { [catch {current_fileset -simset} exc] } { create_fileset -simset sim_1 }
+# add_files -scan_for_includes -fileset [current_fileset -simset] \
+#   [list [file join $srcIpDir gt6_rtm34l/simulation/gt6_rtm34l_tb.vhd]] \
+#   [list [file join $srcIpDir gt6_rtm34l/simulation/sim_reset_gt_model.vhd]]
+# set_property USED_IN_SYNTHESIS false [get_files [file join $srcIpDir gt6_rtm34l/simulation/gt6_rtm34l_tb.vhd]]
+# set_property USED_IN_SYNTHESIS false [get_files [file join $srcIpDir gt6_rtm34l/simulation/sim_reset_gt_model.vhd]]
+# if { [catch {current_fileset -simset} exc] } { create_fileset -simset sim_1 }
+# add_files -fileset [current_fileset -simset] \
+#   [list [file join $srcIpDir gt6_rtm34l/simulation/functional/gt_rom_init_rx.dat]] \
+#   [list [file join $srcIpDir gt6_rtm34l/simulation/functional/gt_rom_init_tx.dat]]
+# import_files
+# set_property TOP [lindex [find_top] 0] [current_fileset]
+# if {[catch {source [file join $srcIpDir tcl/set_top.tcl]} errMsg]} {
+#   puts "Error encountered while sourcing custom IP example design script."
+#   puts "$errorInfo"
+#   incr returnCode
+# }
+## get_filesets sim_1
+## current_fileset
+# if {[catch {source [file join $srcIpDir gt6_rtm34l/tcl/xci.tcl]} errMsg]} {
+#   puts "Error encountered while sourcing custom IP example design script."
+#   puts "$errorInfo"
+#   incr returnCode
+# }
+## get_drc_checks NSTD-1
+## get_drc_checks UCIO-1
+# update_compile_order -fileset [current_fileset]
+# update_compile_order -fileset [current_fileset -simset]
+# set dfile c:/cygwin64/home/okumura/firmware_vivado/ipcore/xc7vx690t-ffg1927-2/gt6_rtm34l/oepdone.txt
+# set doneFile [open $dfile w]
+# puts $doneFile "Open Example Project DONE"
+# close $doneFile
+# if { $returnCode != 0 } {
+#   error "Problems were encountered while executing the example design script, please review the log files."
+# }

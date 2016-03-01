@@ -1,0 +1,8 @@
+$ make clean
+$ make
+
+from the Vivado GUI
+open Harwdware target
+right click on xc7k325t and program device
+add the bit file and ltx file (ltx file is optional)
+

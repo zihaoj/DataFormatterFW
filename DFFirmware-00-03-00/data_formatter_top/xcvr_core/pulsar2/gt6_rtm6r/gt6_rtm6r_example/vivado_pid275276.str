@@ -1,0 +1,117 @@
+/*
+
+Vivado v2014.1 (64-bit)
+SW Build 881834 on Fri Apr  4 14:15:54 MDT 2014
+Process ID: 275276
+
+Current time: 	5/27/14 5:21:05 PM
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: Windows 7
+Version: 6.1
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1600x900
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.7.0_40 64-bit
+Java home: 	C:/Xilinx/Vivado/2014.1/tps/win64/jre
+
+User name: 	okumura
+User directory: C:/cygwin64/home/okumura/firmware_vivado/ipcore/xc7vx690t-ffg1927-2/gt6_rtm6r/gt6_rtm6r_example
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+GUI Allocated memory:	122 mb
+GUI Max memory:		3,066 mb
+Engine Allocated memory: 495 mb
+
+*/
+
+// TclEventType: START_GUI
+// HColorUtils.generateUniqueColorPalette (num colors: 55) elapsed time: 0.6s
+// TclEventType: START_PROGRESS_DIALOG
+// cm:O (cg:JFrame):  Sourcing Tcl script 'c:/cygwin64/home/okumura/firmware_vivado/ipcore/xc7vx690t-ffg1927-2/gt6_rtm6r/gt6_rtm6r_ex.tcl' : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: source c:/cygwin64/home/okumura/firmware_vivado/ipcore/xc7vx690t-ffg1927-2/gt6_rtm6r/gt6_rtm6r_ex.tcl 
+// Tcl Message: # set srcIpDir "c:/cygwin64/home/okumura/firmware_vivado/ipcore/xc7vx690t-ffg1927-2/gt6_rtm6r" # create_project -name gt6_rtm6r_example -force 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 62 mb (+62404kb) [00:00:03]
+// [Engine Memory]: 392 mb (+259348kb) [00:00:03]
+// [Engine Memory]: 401 mb (+9596kb) [00:00:04]
+// [Engine Memory]: 405 mb (+4366kb) [00:00:04]
+// [GUI Memory]: 62 mb (+589kb) [00:00:04]
+// [Engine Memory]: 418 mb (+13160kb) [00:00:04]
+// [Engine Memory]: 436 mb (+19030kb) [00:00:04]
+// [Engine Memory]: 437 mb (+757kb) [00:00:04]
+// [Engine Memory]: 439 mb (+3108kb) [00:00:05]
+// [Engine Memory]: 450 mb (+11141kb) [00:00:05]
+// [GUI Memory]: 65 mb (+2718kb) [00:00:05]
+// [Engine Memory]: 450 mb (+77kb) [00:00:05]
+// [GUI Memory]: 70 mb (+5053kb) [00:00:05]
+// [GUI Memory]: 76 mb (+5996kb) [00:00:05]
+// [Engine Memory]: 474 mb (+25227kb) [00:00:05]
+// [Engine Memory]: 493 mb (+19685kb) [00:00:05]
+// [Engine Memory]: 494 mb (+1093kb) [00:00:05]
+// TclEventType: RUN_MODIFY
+// TclEventType: PART_MODIFIED
+// [Engine Memory]: 495 mb (+1064kb) [00:00:05]
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// Tcl Message: # set_property part xc7vx690tffg1927-2 [current_project] # set_property target_language vhdl [current_project] # set_property simulator_language VHDL [current_project] # set returnCode 0 # import_ip -files [list [file join $srcIpDir gt6_rtm6r.xci]] -name gt6_rtm6r 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.1/data/ip'. 
+// TclEventType: LOAD_FEATURE
+// TclEventType: PARAM_UPDATED
+// HMemoryUtils.trashcanNow. Engine heap size: 532 MB (GUI used memory: 27 MB). Current time: 5/27/14 5:21:07 PM
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 538 mb (+44699kb) [00:00:09]
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: # reset_target {example} [get_ips gt6_rtm6r] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 542 mb (+4354kb) [00:00:10]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: # proc _filter_supported_targets {targets ip} { #   set res {} #   set all [get_property SUPPORTED_TARGETS $ip] #   foreach target $targets { #     lappend res {*}[lsearch -all -inline -nocase $all $target] #   } #   return $res # } # generate_target [_filter_supported_targets {instantiation_template synthesis simulation} [get_ips gt6_rtm6r]] [get_ips gt6_rtm6r] 
+// Tcl Message: INFO: [IP_Flow 19-1706] Not generating 'Instantiation Template' target for IP 'gt6_rtm6r'. Target already exists and is up to date. INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'gt6_rtm6r'. Target already exists and is up to date. INFO: [IP_Flow 19-1706] Not generating 'Simulation' target for IP 'gt6_rtm6r'. Target already exists and is up to date. 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: STOP_PROGRESS_DIALOG
+// [Engine Memory]: 549 mb (+6967kb) [00:00:11]
+dismissDialog("Sourcing Tcl script 'c:/cygwin64/home/okumura/firmware_vivado/ipcore/xc7vx690t-ffg1927-2/gt6_rtm6r/gt6_rtm6r_ex.tcl'"); // cm:O (cg:JFrame)
+// Tcl Message: # set dfile c:/cygwin64/home/okumura/firmware_vivado/ipcore/xc7vx690t-ffg1927-2/gt6_rtm6r/oepdone.txt # set doneFile [open $dfile w] # puts $doneFile "Open Example Project DONE" # close $doneFile # if { $returnCode != 0 } { #   error "Problems were encountered while executing the example design script, please review the log files." # } 
+// TclEventType: STOP_PROGRESS_DIALOG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 549 mb (+409kb) [00:00:20]

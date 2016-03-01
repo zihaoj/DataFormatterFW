@@ -1,0 +1,850 @@
+/*
+
+xsim v2015.3 (64-bit)
+SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+Process ID: 11198
+
+Current time: 	2/8/16 2:57:47 PM CET
+Time zone: 	Central European Time (Europe/Vaduz)
+
+OS: Scientific Linux CERN SLC release 6.7 (Carbon)
+Version: 2.6.32-573.12.1.el6.x86_64
+Architecture: amd64
+Available processors (cores): 8
+
+DISPLAY: :0.0
+Screen size: 1920x1200
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	/home/Xilinx/Vivado/2015.3/tps/lnx64/jre
+
+User name: 	zijiang
+User home directory: /afs/cern.ch/user/z/zijiang
+User working directory: /afs/cern.ch/work/z/zijiang/rom_pattern_generator_test
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: /afs/cern.ch/user/z/zijiang/.Xilinx/xsim/2015.3/vivado.ini
+Vivado layouts directory: /afs/cern.ch/user/z/zijiang/.Xilinx/xsim/2015.3/layouts
+
+GUI allocated memory:	133 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,942 MB
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: START_PROGRESS_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: START_PROGRESS_DIALOG
+// bF:g (cq:JFrame):  Sourcing Tcl script 'xsim.dir/run_gen/xsim_script.tcl' : addNotify
+// Tcl Message: source xsim.dir/run_gen/xsim_script.tcl 
+// Tcl Message: # load_feature core 
+// TclEventType: LOAD_FEATURE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: # current_fileset 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 46 MB (+45923kb) [00:00:03]
+// [Engine Memory]: 4,877 MB (+4961970kb) [00:00:03]
+// [GUI Memory]: 52 MB (+4183kb) [00:00:03]
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/Xilinx/Vivado/2015.3/data/ip'. 
+// Tcl Message: # xsim {run_gen} -maxdeltaid 10000 -wdb {simulation_xsim.wdb} -autoloadwcfg 
+// Tcl Message: Vivado Simulator 2015.3 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: STOP_PROGRESS_DIALOG
+// Tcl Message: open_wave_config /afs/cern.ch/work/z/zijiang/rom_pattern_generator_test/simulation_xsim.wcfg 
+dismissDialog("Sourcing Tcl script 'xsim.dir/run_gen/xsim_script.tcl'"); // bF:g (cq:JFrame)
+// TclEventType: STOP_PROGRESS_DIALOG
+// HMemoryUtils.trashcanNow. Engine heap size: 4,981 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:57:49 PM CET
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "DATA_WIDTH ; 32 ; Integer", 5, "DATA_WIDTH", 0, false); // l:aw (JViewport:JComponent, cq:JFrame)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "main_clk_i ; 0 ; Logic", 0, "main_clk_i", 0, false, true, false, false, false, false); // l:aw (JViewport:JComponent, cq:JFrame) - Shift Key
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "main_clk_i ; 0 ; Logic", 0, "main_clk_i", 0, false, false, false, false, true, false); // l:aw (JViewport:JComponent, cq:JFrame) - Popup Trigger
+selectMenu((HResource) null, "Radix"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+// [GUI Memory]: 59 MB (+4054kb) [00:00:09]
+selectMenu((HResource) null, "Radix"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenuItem((HResource) null, "Add To Wave Window"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: add_wave {{/testbench/main_clk_i}} {{/testbench/rdreq_i}} {{/testbench/dout_i}} {{/testbench/reset_i}} {{/testbench/data_valid_i}} {{/testbench/DATA_WIDTH}}  
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, dout_i[31:0]]", 4, true); // a:k (JViewport:JComponent, cq:JFrame) - Node
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 50 ns 
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 165, 54, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,983 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:57:56 PM CET
+selectMenuItem((HResource) null, "Full View"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 100, 69, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectMenuItem((HResource) null, "Full View"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 6, 165); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,983 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:58:00 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,983 MB. GUI used memory: 38 MB. Current time: 2/8/16 2:58:03 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,983 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:58:03 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 453, 184); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 4,983 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:58:03 PM CET
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 50 ns 
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 50 ns 
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 61, -26, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectMenuItem((HResource) null, "To Cursors"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 255, 28, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,983 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:58:09 PM CET
+selectMenuItem((HResource) null, "Full View"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 50 ns 
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 50 ns 
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 50 ns 
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 50 ns 
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 50 ns 
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 50 ns 
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 50 ns 
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 144, -24, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectMenuItem((HResource) null, "Full View"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 4,983 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:58:14 PM CET
+// Elapsed time: 10 seconds
+setText(PAResourceQtoS.SimulationLiveRunForComp_SPECIFY_TIME_AND_UNITS, "200", true); // d:ao (a:JPanel, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 200 ns 
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 200 ns 
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 274, 88, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectMenuItem((HResource) null, "Full View"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 4,983 MB. GUI used memory: 37 MB. Current time: 2/8/16 2:58:28 PM CET
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 360, -11, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectMenuItem((HResource) null, "Full View"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 200 ns 
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 297, 20, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectMenuItem((HResource) null, "Full View"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 55 MB. Current time: 2/8/16 2:58:33 PM CET
+selectComboBox(PAResourceQtoS.SimulationLiveRunForComp_SPECIFY_TIME_AND_UNITS, "us", 2); // b:f (a:JPanel, cq:JFrame)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 200 us 
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// [GUI Memory]: 62 MB (+207kb) [00:00:58]
+// [GUI Memory]: 65 MB (+37kb) [00:00:59]
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 200 us 
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 292, -95); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// [GUI Memory]: 69 MB (+640kb) [00:00:59]
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 292, -95, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectMenuItem((HResource) null, "Full View"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 47 MB. Current time: 2/8/16 2:58:43 PM CET
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 142, 72); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 46 MB. Current time: 2/8/16 2:58:45 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 47 MB. Current time: 2/8/16 2:58:45 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 47 MB. Current time: 2/8/16 2:58:45 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 163, 86); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 45 MB. Current time: 2/8/16 2:58:45 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 47 MB. Current time: 2/8/16 2:58:45 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 47 MB. Current time: 2/8/16 2:58:45 PM CET
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 215, 58); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 47 MB. Current time: 2/8/16 2:58:46 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 45 MB. Current time: 2/8/16 2:58:46 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 47 MB. Current time: 2/8/16 2:58:46 PM CET
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 287, 75); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 49 MB. Current time: 2/8/16 2:58:47 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 45 MB. Current time: 2/8/16 2:58:47 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:58:49 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:58:49 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 2:58:49 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 2:58:49 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:58:49 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 2:58:49 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:58:49 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:58:50 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:58:50 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 2:58:50 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:58:50 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:58:50 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:58:51 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:58:51 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:58:51 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:58:51 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 285, 313, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+selectMenuItem((HResource) null, "Full View"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 67, 29); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 42 MB. Current time: 2/8/16 2:58:54 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 2:58:54 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 35 MB. Current time: 2/8/16 2:58:54 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 39 MB. Current time: 2/8/16 2:58:54 PM CET
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 203, 55); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 35 MB. Current time: 2/8/16 2:58:55 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 2:58:55 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 450, 41); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 39 MB. Current time: 2/8/16 2:58:56 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 2:58:56 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 2:58:56 PM CET
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 438, 12); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 2:58:56 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 2:58:57 PM CET
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 591, 66); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 2:58:57 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:58:57 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 551, 35, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 2:58:58 PM CET
+selectMenuItem((HResource) null, "Full View"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 126, 57); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:59:01 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:59:01 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 44 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 434, -3); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 423, 3, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectMenuItem((HResource) null, "Full View"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 2:59:46 PM CET
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 383, 38); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 2:59:46 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 392, 12); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 39 MB. Current time: 2/8/16 2:59:47 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:59:47 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 431, 49); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 2:59:47 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 2:59:48 PM CET
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 477, 83, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 444, 371); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 521, 254, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectMenuItem((HResource) null, "Out"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 2:59:52 PM CET
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 538, 105, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectMenuItem((HResource) null, "Out"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 2:59:55 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:59:56 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:59:56 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 2:59:56 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:59:56 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:59:56 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:59:56 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:59:57 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 2:59:57 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:59:57 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:59:57 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:59:57 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 36 MB. Current time: 2/8/16 2:59:57 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 597, 717); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+closeMainWindow("Vivado 2015.3"); // cq:JFrame
+// G:aY (cq:JFrame): Exit Vivado: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, G:aY)
+dismissDialog("Exit Vivado"); // G:aY (cq:JFrame)
+// Elapsed time: 36 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 457, 231); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:00:44 PM CET
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 474, 138, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectMenuItem((HResource) null, "Full View"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 127, -12); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:00:47 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 220, -17); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:00:48 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 248, -2); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 3:00:49 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 304, 13, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:00:49 PM CET
+selectMenuItem((HResource) null, "Full View"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 484, 87, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 244, 207); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:00:51 PM CET
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 257, 22); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 3:00:51 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 346, 55); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:00:52 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 356, 61, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:00:53 PM CET
+selectMenuItem((HResource) null, "Full View"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 21 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 598, 276); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 3:01:16 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 634, 295); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:01:17 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 688, 312); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 3:01:17 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 40 MB. Current time: 2/8/16 3:01:17 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 749, 328, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+selectMenuItem((HResource) null, "Out"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 3:01:19 PM CET
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 847, 365, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectMenuItem((HResource) null, "Out"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 894, 401, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectMenuItem((HResource) null, "In"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 41 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 146, 28, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:02:05 PM CET
+selectMenuItem((HResource) null, "Full View"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 132, 47); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 3:02:08 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 181, 46); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:02:08 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 3:02:09 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 3:02:09 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:02:09 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 199, 63); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 3:02:10 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 3:02:10 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 613, 90); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 3:02:11 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:02:11 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 951, 43); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:02:12 PM CET
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 254, 53, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectMenuItem((HResource) null, "Full View"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 58, 39); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:02:17 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 3:02:17 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 400, 63); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 3:02:18 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 3:02:18 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 248, 31); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:02:19 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 3:02:19 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:02:19 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 486, 71); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:02:20 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:02:20 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 478, 12); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 36 MB. Current time: 2/8/16 3:02:22 PM CET
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 570, 31, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectMenuItem((HResource) null, "Out"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:02:30 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:02:31 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:02:31 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:02:32 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 3:02:33 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 3:02:33 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 3:02:34 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 38 MB. Current time: 2/8/16 3:02:35 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,985 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:02:44 PM CET
+// [GUI Memory]: 73 MB (+68kb) [00:18:43]
+// [GUI Memory]: 77 MB (+71kb) [00:21:23]
+// [GUI Memory]: 81 MB (+743kb) [00:22:24]
+// [GUI Memory]: 86 MB (+955kb) [00:25:19]
+// [GUI Memory]: 90 MB (+45kb) [00:27:12]
+// Elapsed time: 1483 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 154, 312); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 39 MB. Current time: 2/8/16 3:32:44 PM CET
+// Elapsed time: 1027 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 312, 4, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectMenuItem((HResource) null, "Out"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 38 MB. Current time: 2/8/16 3:44:19 PM CET
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 518, 4, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectMenuItem((HResource) null, "Out"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 44 MB. Current time: 2/8/16 3:44:23 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:44:23 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:44:24 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:44:24 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:44:24 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:44:24 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:44:24 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:44:25 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:44:25 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:44:25 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 466, 314, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 38 MB. Current time: 2/8/16 3:44:25 PM CET
+selectMenuItem((HResource) null, "Full View"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 323, 51); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:44:28 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 374, 43); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:44:28 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 380, 36); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:44:29 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:44:29 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 426, 69); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:44:29 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 437, 77, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:44:31 PM CET
+selectMenuItem((HResource) null, "Full View"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 465, 309); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 13, 14); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:44:33 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 39 MB. Current time: 2/8/16 3:44:33 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:44:34 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 472, 28); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:44:38 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:44:38 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 400, 13); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:44:39 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:44:39 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 643, 34); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:44:40 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 38 MB. Current time: 2/8/16 3:44:40 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:44:40 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 955, 59); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:44:40 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:44:40 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 506, 222, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+selectMenuItem((HResource) null, "Full View"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:44:44 PM CET
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 185, 88); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 154, 82); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 130 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 36, 59); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 38 MB. Current time: 2/8/16 3:46:57 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:46:57 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:46:57 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:46:57 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 296, 14); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:46:58 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 39 MB. Current time: 2/8/16 3:46:58 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 24, 43); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:46:59 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:46:59 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:46:59 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 346, 20); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:47:00 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:47:00 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 508, 12); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 38 MB. Current time: 2/8/16 3:47:01 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:47:01 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:47:01 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 538, 53); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:47:02 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 38 MB. Current time: 2/8/16 3:47:02 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 2/8/16 3:47:02 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 858, 219); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 38 MB. Current time: 2/8/16 3:47:03 PM CET

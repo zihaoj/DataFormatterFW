@@ -1,0 +1,69 @@
+/*
+
+xsim v2015.3 (64-bit)
+SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+Process ID: 13450
+
+Current time: 	2/8/16 4:24:40 PM CET
+Time zone: 	Central European Time (Europe/Vaduz)
+
+OS: Scientific Linux CERN SLC release 6.7 (Carbon)
+Version: 2.6.32-573.12.1.el6.x86_64
+Architecture: amd64
+Available processors (cores): 8
+
+DISPLAY: :0.0
+Screen size: 1920x1200
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	/home/Xilinx/Vivado/2015.3/tps/lnx64/jre
+
+User name: 	zijiang
+User home directory: /afs/cern.ch/user/z/zijiang
+User working directory: /afs/cern.ch/work/z/zijiang/DFFirmwareDebugSpy/pulsar2_df_internal_decoder/test_slink_packer_v2
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: /afs/cern.ch/user/z/zijiang/.Xilinx/xsim/2015.3/vivado.ini
+Vivado layouts directory: /afs/cern.ch/user/z/zijiang/.Xilinx/xsim/2015.3/layouts
+
+GUI allocated memory:	160 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,941 MB
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: START_PROGRESS_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: START_PROGRESS_DIALOG
+// bF:g (cq:JFrame):  Sourcing Tcl script 'xsim.dir/run_gen/xsim_script.tcl' : addNotify
+// Tcl Message: source xsim.dir/run_gen/xsim_script.tcl 
+// Tcl Message: # load_feature core 
+// TclEventType: LOAD_FEATURE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 46 MB (+45417kb) [00:00:03]
+// [Engine Memory]: 4,879 MB (+4964067kb) [00:00:03]
+// [GUI Memory]: 52 MB (+4403kb) [00:00:03]
+// [GUI Memory]: 55 MB (+218kb) [00:00:03]
+// Tcl Message: # current_fileset 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/Xilinx/Vivado/2015.3/data/ip'. 
+// Tcl Message: # xsim {run_gen} -maxdeltaid 10000 -wdb {simulation_xsim.wdb} -autoloadwcfg 
+// Tcl Message: Vivado Simulator 2015.3 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// [GUI Memory]: 63 MB (+5460kb) [00:00:05]
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: STOP_PROGRESS_DIALOG
+dismissDialog("Sourcing Tcl script 'xsim.dir/run_gen/xsim_script.tcl'"); // bF:g (cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,979 MB. GUI used memory: 35 MB. Current time: 2/8/16 4:24:42 PM CET

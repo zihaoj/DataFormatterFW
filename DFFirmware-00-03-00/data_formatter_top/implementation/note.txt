@@ -1,0 +1,44 @@
+(1) Minimum change to use Vivado 2014.2
+===> Spy buffer readout addressing has timing violation
+
+(2) Modification of the spybuffer readout design
+===> For (1), since the latcing is not required for the line, I explicitly make the read address signal asynchrous
+M       my_registers/spy_buffer_multilanes_d4096_multi_clock_domain.vhd
+M       my_registers/spy_buffer_multilanes_d1024_multi_clock_domain.vhd
+        generated_ip/xc7vx690t-ffg1927-2/pulsar2_simple_dpram_w36_d1024/pulsar2_simple_dpram_w36_d1024_my_wrapper.vhd
+        generated_ip/xc7vx690t-ffg1927-2/pulsar2_simple_dpram_w36_d4096/pulsar2_simple_dpram_w36_d4096_my_wrapper.vhd
+
+(3) modify my_wrapper 
+../data_formatter_constants.vhd => add VIVADO_2014_2_OR_LATER
+
+../../../ipcore/xc7vx690t-ffg1927-2/event_sorting_buffer/event_sorting_buffer_my_wrapper.vhd
+../../../ipcore/xc7vx690t-ffg1927-2/fwft_cc_w36_d512_for_ilrx/fwft_cc_w36_d512_for_ilrx_my_wrapper.vhd
+../../../ipcore/xc7vx690t-ffg1927-2/fwft_cc_w36_d512/fwft_cc_w36_d512_my_wrapper.vhd
+../../../ipcore/xc7vx690t-ffg1927-2/fwft_cc_w36_dram64/fwft_cc_w36_dram64_my_wrapper.vhd
+../../../ipcore/xc7vx690t-ffg1927-2/fwft_ic_w36_d512/fwft_ic_w36_d512_my_wrapper.vhd
+../../../ipcore/xc7vx690t-ffg1927-2/input_idx2mod/input_idx2mod_my_wrapper.vhd
+../../../ipcore/xc7vx690t-ffg1927-2/input_mod2idx/input_mod2idx_my_wrapper.vhd
+../../../ipcore/xc7vx690t-ffg1927-2/input_pixmod2dest/input_pixmod2dest_my_wrapper.vhd
+../../../ipcore/xc7vx690t-ffg1927-2/input_sctmod2dest/input_sctmod2dest_my_wrapper.vhd
+../../../ipcore/xc7vx690t-ffg1927-2/INTERNAL_LINK_INPUT_BUFFER/INTERNAL_LINK_INPUT_BUFFER_my_wrapper.vhd
+../../../ipcore/xc7vx690t-ffg1927-2/output_pixmod2duplication/output_pixmod2duplication_my_wrapper.vhd
+../../../ipcore/xc7vx690t-ffg1927-2/output_pixmod2ftkplane/output_pixmod2ftkplane_my_wrapper.vhd
+../../../ipcore/xc7vx690t-ffg1927-2/output_pixmod2tower/output_pixmod2tower_my_wrapper.vhd
+../../../ipcore/xc7vx690t-ffg1927-2/output_sctmod2duplication/output_sctmod2duplication_my_wrapper.vhd
+../../../ipcore/xc7vx690t-ffg1927-2/output_sctmod2ftkplane/output_sctmod2ftkplane_my_wrapper.vhd
+../../../ipcore/xc7vx690t-ffg1927-2/output_sctmod2tower/output_sctmod2tower_my_wrapper.vhd
+../../../ipcore/xc7vx690t-ffg1927-2/pulsar2_fifo_w32_d512_standard/pulsar2_fifo_w32_d512_standard_my_wrapper.vhd
+../../../ipcore/xc7vx690t-ffg1927-2/pulsar2_fifo_w36_d1024_fwft/pulsar2_fifo_w36_d1024_fwft_my_wrapper.vhd
+../../../ipcore/xc7vx690t-ffg1927-2/pulsar2_fifo_w36_d8192_fwft/pulsar2_fifo_w36_d8192_fwft_my_wrapper.vhd
+../../../ipcore/xc7vx690t-ffg1927-2/pulsar2_fifo_w37_d512_standard/pulsar2_fifo_w37_d512_standard_my_wrapper.vhd
+../../../ipcore/xc7vx690t-ffg1927-2/pulsar2_simple_dpram_w36_d1024/pulsar2_simple_dpram_w36_d1024_my_wrapper.vhd
+../../../ipcore/xc7vx690t-ffg1927-2/pulsar2_simple_dpram_w36_d4096/pulsar2_simple_dpram_w36_d4096_my_wrapper.vhd
+../../../ipcore/xc7vx690t-ffg1927-2/XFIFOLDC/XFIFOLDC_my_wrapper.vhd
+../../../ipcore/xc7vx690t-ffg1927-2/XFIFOLSC/XFIFOLSC_my_wrapper.vhd
+
+
+****************************************
+To have the 40 channels enabled
+/nfs/net/users/okumura/firmware_vivado.2014.2.for.svn/data_formatter_firmware_pro/data_formatter_top/df_output_data_operator_v2.vhd.4SSBMODE
+/nfs/net/users/okumura/firmware_vivado.2014.2.for.svn/data_formatter_firmware_pro/data_formatter_top/data_formatter_constants.vhd.4SSBMODE
+/nfs/net/users/okumura/firmware_vivado.2014.2.for.svn/data_formatter_firmware_pro/data_formatter_top/implementation/df_top.xdc.4SSBMODE

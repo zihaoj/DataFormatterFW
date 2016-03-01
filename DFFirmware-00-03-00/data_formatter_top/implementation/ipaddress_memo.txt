@@ -1,0 +1,19 @@
+### After implementation of the internal input disable mask
+
+(1) df_top_v1209_10.193.64.22.bit
+  mac_addr <= X"000a3502b47f"; --DF-TBED-FTK-04-FABRIC@CERN
+  ip_addr  <= X"0ac14016"; -- 10.193.64.22 --DF-TBED-FTK-04-FABRIC@CERN  
+
+(2) df_top_v1209_10.193.64.20.bit
+  mac_addr <= X"000a3502b47d"; --DF-TBED-FTK-01-FABRIC@CERN
+  ip_addr  <= X"0ac14014"; -- 10.193.64.20 --DF-TBED-FTK-01-FABRIC@CERN  
+
+
+### After modification of the URL implementation, small bu modification in the internal link
+(1) df_top_v1209_10.193.64.22.bit
+  mac_addr <= X"000a3502b47f"; --DF-TBED-FTK-04-FABRIC@CERN
+  ip_addr  <= X"0ac14016"; -- 10.193.64.22 --DF-TBED-FTK-04-FABRIC@CERN  
+
+(2) df_top_v1209_10.193.64.20.bit
+  mac_addr <= X"000a3502b47d"; --DF-TBED-FTK-01-FABRIC@CERN
+  ip_addr  <= X"0ac14014"; -- 10.193.64.20 --DF-TBED-FTK-01-FABRIC@CERN  

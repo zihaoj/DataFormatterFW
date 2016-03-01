@@ -1,0 +1,12 @@
+vhdl work ../../data_formatter_top/implementation/fmcLib.vhd.im
+vhdl work ../../data_formatter_top/data_formatter_constants.vhd
+vhdl work ../../pulsar2_df_switch/df_switch_2ch_merger_v2.vhd
+vhdl work ../../generated_ip/xc7vx690t-ffg1927-2/fwft_cc_w36_d512/fwft_cc_w36_d512_my_wrapper.vhd
+vhdl work ../../generated_ip/xc7vx690t-ffg1927-2/fwft_cc_w36_d512/fwft_cc_w36_d512_funcsim.vhdl
+vhdl work ../../generated_ip/xc7vx690t-ffg1927-2/event_sorting_buffer/event_sorting_buffer_funcsim.vhdl
+vhdl work ../../generated_ip/xc7vx690t-ffg1927-2/event_sorting_buffer/event_sorting_buffer_my_wrapper.vhd
+vhdl work ../../pulsar2_df_switch/df_switch_element_v3.vhd
+vhdl work ../df_eventid_comparator.vhd
+vhdl work ../df_output_slink_packer_v2.vhd
+vhdl work testbench.vhd
+vhdl work pattern_generator.vhd

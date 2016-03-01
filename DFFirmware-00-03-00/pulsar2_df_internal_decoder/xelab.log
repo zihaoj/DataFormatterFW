@@ -1,0 +1,7 @@
+Vivado Simulator 2015.3
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /home/Xilinx/Vivado/2015.3/bin/unwrapped/lnx64.o/xelab -incremental -prj simulation_xsim.prj -s run_gen work.testbench --debug all 
+Multi-threading is on. Using 6 slave threads.
+Determining compilation order of HDL files.
+ERROR: [VRFC 10-454] cannot open vhdl file ../../data_formatter_top/implementation/fmcLib.vhd.im
+ERROR: [XSIM 43-3317] Sorting of project file "simulation_xsim.prj" failed. Please sort the files manually, add a nosort keyword on the last line of "simulation_xsim.prj" and rerun the compiler.

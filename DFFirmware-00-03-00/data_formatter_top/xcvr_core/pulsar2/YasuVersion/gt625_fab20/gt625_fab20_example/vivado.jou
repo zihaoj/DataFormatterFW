@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 928826 on Thu Jun  5 18:17:50 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Wed Aug 13 15:58:43 2014
+# Process ID: 52476
+# Log file: c:/cygwin64/home/okumura/firmware_vivado/ipcore/xc7vx690t-ffg1927-2/gt625_fab20/gt625_fab20_example/vivado.log
+# Journal file: c:/cygwin64/home/okumura/firmware_vivado/ipcore/xc7vx690t-ffg1927-2/gt625_fab20/gt625_fab20_example\vivado.jou
+#-----------------------------------------------------------
+start_gui
+source c:/cygwin64/home/okumura/firmware_vivado/ipcore/xc7vx690t-ffg1927-2/gt625_fab20/gt625_fab20_ex.tcl

@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# xsim v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:00:25 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Mon Jul 28 08:56:08 2014
+# Process ID: 3529
+# Log file: /nfs/net/users/okumura/firmware_vivado/pulsar2_dev/slink32handler/test_woxcvr/xsim.log
+# Journal file: /nfs/net/users/okumura/firmware_vivado/pulsar2_dev/slink32handler/test_woxcvr/xsim.jou
+#-----------------------------------------------------------
+start_gui
+source xsim.dir/run_gen/xsim_script.tcl
+# load_feature core
+# current_fileset
+# xsim {run_gen} -maxdeltaid 10000 -wdb {simulation_xsim.wdb}
+Vivado Simulator 2014.1
+ERROR: [Simtcl 6-50] Simulation engine failed to start: A valid license was not found for simulation. Please run the Vivado License Manager for assistance in determining which features and devices are licensed for your system.
+Please see the Tcl Console or the Messages for details.
+
+    while executing
+"xsim {run_gen} -maxdeltaid 10000 -wdb {simulation_xsim.wdb}"
+    (file "xsim.dir/run_gen/xsim_script.tcl" line 3)
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Jul 28 08:56:35 2014...

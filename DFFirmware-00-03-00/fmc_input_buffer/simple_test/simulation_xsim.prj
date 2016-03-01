@@ -1,0 +1,5 @@
+vhdl work ../../pulsar2_fmc_interface/fmcLib.2A.vhd
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/pulsar2_fifo_w36_d1024_fwft/pulsar2_fifo_w36_d1024_fwft_funcsim.vhdl
+vhdl work ../fmc_input_buffer.vhd
+
+vhdl work testbench.vhd

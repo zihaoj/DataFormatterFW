@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# xsim v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+# IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+# Start of session at: Wed Feb 10 00:34:55 2016
+# Process ID: 1018
+# Current directory: /afs/cern.ch/work/z/zijiang/DFFirmwareDebugSpy/pulsar2_df_internal_decoder/test_slink_packer_v2
+# Command line: xsim -source {xsim.dir/run_gen/xsim_script.tcl}
+# Log file: /afs/cern.ch/work/z/zijiang/DFFirmwareDebugSpy/pulsar2_df_internal_decoder/test_slink_packer_v2/xsim.log
+# Journal file: /afs/cern.ch/work/z/zijiang/DFFirmwareDebugSpy/pulsar2_df_internal_decoder/test_slink_packer_v2/xsim.jou
+#-----------------------------------------------------------
+start_gui
+source xsim.dir/run_gen/xsim_script.tcl
+# load_feature core
+# current_fileset
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/Xilinx/Vivado/2015.3/data/ip'.
+# xsim {run_gen} -maxdeltaid 10000 -wdb {simulation_xsim.wdb} -autoloadwcfg
+Vivado Simulator 2015.3
+Time resolution is 1 ps
+add_wave {{/testbench/my_slink_packer/df_internal_event_counter}} 
+run 20 us
+add_wave {{/testbench/my_slink_packer/moddata_data_i}} 
+add_wave {{/testbench/my_slink_packer/number_of_checked_modules}} 
+run 20 us
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 20 us
+run 20 us
+add_wave {{/testbench/my_slink_packer/MODDATA_DIN}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 20 us
+add_wave {{/testbench/reset_in_i}} {{/testbench/rdreq_i}} {{/testbench/data_valid_i}} {{/testbench/header_data_valid_i}} {{/testbench/dout_i}} {{/testbench/header_dout_i}} {{/testbench/moddata_rdy_i}} {{/testbench/current_state}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 20 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting xsim at Wed Feb 10 01:55:09 2016...

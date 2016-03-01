@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# xsim v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+# IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+# Start of session at: Mon Feb  8 14:57:40 2016
+# Process ID: 11198
+# Current directory: /afs/cern.ch/work/z/zijiang/rom_pattern_generator_test
+# Command line: xsim -source {xsim.dir/run_gen/xsim_script.tcl}
+# Log file: /afs/cern.ch/work/z/zijiang/rom_pattern_generator_test/xsim.log
+# Journal file: /afs/cern.ch/work/z/zijiang/rom_pattern_generator_test/xsim.jou
+#-----------------------------------------------------------
+start_gui
+source xsim.dir/run_gen/xsim_script.tcl
+# load_feature core
+# current_fileset
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/Xilinx/Vivado/2015.3/data/ip'.
+# xsim {run_gen} -maxdeltaid 10000 -wdb {simulation_xsim.wdb} -autoloadwcfg
+Vivado Simulator 2015.3
+Time resolution is 1 ps
+open_wave_config /afs/cern.ch/work/z/zijiang/rom_pattern_generator_test/simulation_xsim.wcfg
+add_wave {{/testbench/main_clk_i}} {{/testbench/rdreq_i}} {{/testbench/dout_i}} {{/testbench/reset_i}} {{/testbench/data_valid_i}} {{/testbench/DATA_WIDTH}} 
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 200 ns
+run 200 ns
+run 200 ns
+run 200 us
+run 200 us

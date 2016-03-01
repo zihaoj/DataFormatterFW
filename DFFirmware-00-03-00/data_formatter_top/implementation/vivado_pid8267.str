@@ -1,0 +1,841 @@
+/*
+
+Vivado v2015.3 (64-bit)
+SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+Process ID: 8267
+
+Current time: 	12/16/15 2:23:21 PM CET
+Time zone: 	Central European Time (Europe/Vaduz)
+
+OS: Scientific Linux CERN SLC release 6.7 (Carbon)
+Version: 2.6.32-573.8.1.el6.x86_64
+Architecture: amd64
+Available processors (cores): 8
+
+DISPLAY: :0.0
+Screen size: 1920x1200
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	/home/Xilinx/Vivado/2015.3/tps/lnx64/jre
+
+User name: 	zijiang
+User home directory: /afs/cern.ch/user/z/zijiang
+User working directory: /afs/cern.ch/work/z/zijiang/DFFirmware2015/data_formatter_firmware/data_formatter_top/implementation
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: /afs/cern.ch/user/z/zijiang/.Xilinx/Vivado/2015.3/vivado.ini
+Vivado layouts directory: /afs/cern.ch/user/z/zijiang/.Xilinx/Vivado/2015.3/layouts
+
+GUI allocated memory:	184 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,873 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 46 MB (+45470kb) [00:00:04]
+// [Engine Memory]: 4,850 MB (+4933745kb) [00:00:04]
+selectList(PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, "/afs/cern.ch/work/z/zijiang/DFFirmware2015/data_formatter_firmware/data_formatter_top/implementation/dummy/my_project.xpr", 0); // q:v (JViewport:JComponent, cq:JFrame)
+// Opening Vivado Project: /afs/cern.ch/work/z/zijiang/DFFirmware2015/data_formatter_firmware/data_formatter_top/implementation/dummy/my_project.xpr. Version: Vivado v2015.3 
+// bF:g (cq:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// Tcl Message: open_project /afs/cern.ch/work/z/zijiang/DFFirmware2015/data_formatter_firmware/data_formatter_top/implementation/dummy/my_project.xpr 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 53 MB (+5019kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,029 MB. GUI used memory: 34 MB. Current time: 12/16/15 2:23:25 PM CET
+// Tcl Message: open_project /afs/cern.ch/work/z/zijiang/DFFirmware2015/data_formatter_firmware/data_formatter_top/implementation/dummy/my_project.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/Xilinx/Vivado/2015.3/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: my_project; location: /afs/cern.ch/work/z/zijiang/DFFirmware2015/data_formatter_firmware/data_formatter_top/implementation/dummy; part: xc7vx690tffg1927-2
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// [GUI Memory]: 59 MB (+3538kb) [00:00:14]
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 18, true); // w:Y (v:I, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bF:g (cq:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: launch_runs synth_1 
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// [GUI Memory]: 66 MB (+4657kb) [00:00:26]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// [GUI Memory]: 73 MB (+3130kb) [00:00:27]
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// [GUI Memory]: 78 MB (+1882kb) [00:00:29]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,063 MB. GUI used memory: 39 MB. Current time: 12/16/15 2:23:49 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Dec 16 14:23:50 2015] Launched synth_1... Run output will be captured here: /afs/cern.ch/work/z/zijiang/DFFirmware2015/data_formatter_firmware/data_formatter_top/implementation/dummy/my_project.runs/synth_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 6047.340 ; gain = 19.352 ; free physical = 23732 ; free virtual = 44422 
+// 'm' command handler elapsed time: 8 seconds
+dismissDialog("Starting Design Runs"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,102 MB. GUI used memory: 52 MB. Current time: 12/16/15 2:24:49 PM CET
+// [Engine Memory]: 5,102 MB (+9822kb) [00:01:32]
+// [GUI Memory]: 84 MB (+2330kb) [00:01:45]
+// [GUI Memory]: 89 MB (+147kb) [00:01:52]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// [GUI Memory]: 97 MB (+3946kb) [00:02:33]
+// [GUI Memory]: 105 MB (+3466kb) [00:02:42]
+// [GUI Memory]: 112 MB (+1916kb) [00:03:17]
+// [GUI Memory]: 119 MB (+1521kb) [00:03:31]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// [GUI Memory]: 128 MB (+2705kb) [00:04:12]
+// [GUI Memory]: 134 MB (+69kb) [00:04:26]
+// [GUI Memory]: 141 MB (+454kb) [00:04:42]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// [GUI Memory]: 149 MB (+422kb) [00:05:52]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 158 MB (+1289kb) [00:10:30]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// [GUI Memory]: 171 MB (+5546kb) [00:11:01]
+// [GUI Memory]: 180 MB (+617kb) [00:11:17]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 190 MB (+832kb) [00:11:51]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// [GUI Memory]: 200 MB (+450kb) [00:12:09]
+// [GUI Memory]: 213 MB (+3486kb) [00:12:32]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 229 MB (+5550kb) [00:19:58]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 241 MB (+228kb) [00:19:59]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// [GUI Memory]: 254 MB (+1458kb) [00:20:37]
+// [GUI Memory]: 267 MB (+28kb) [00:21:02]
+// Elapsed time: 1230 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 2); // g:JideTabbedPane (M:aO, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, df_top_CLK125.vhd]", 144, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, user_interface_df_top.vhd]", 143, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, user_interface_df_top.vhd]", 143, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+// [GUI Memory]: 282 MB (+1733kb) [00:21:06]
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "fw", true); // o:ao (ai:f, cq:JFrame)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ip_addr"); // o:ao (ai:f, cq:JFrame)
+selectCodeEditor("user_interface_df_top.vhd", 126, 20); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("user_interface_df_top.vhd", 126, 20, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+selectCodeEditor("user_interface_df_top.vhd", 170, 235); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("user_interface_df_top.vhd", 170, 235, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// [GUI Memory]: 297 MB (+1210kb) [00:29:06]
+// [GUI Memory]: 312 MB (+171kb) [00:29:25]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 329 MB (+1088kb) [00:29:37]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// [GUI Memory]: 346 MB (+737kb) [00:29:52]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,106 MB. GUI used memory: 84 MB. Current time: 12/16/15 2:54:49 PM CET
+// Elapsed time: 609 seconds
+selectCodeEditor("user_interface_df_top.vhd", 219, 214); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 32 seconds
+selectTab((HResource) null, (HResource) null, "Log", 2); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+selectTab(PAResourceItoN.LogView_TABBED_PANE, (HResource) null, "Simulation", 2); // g:JideTabbedPane (x:aO, cq:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // h:JCheckBox (JPanel:JComponent, cq:JFrame): FALSE
+selectButton(RDIResource.FilterToolBar_SHOW_ALL, "Show All"); // a:JButton (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 1005 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_project /afs/cern.ch/work/z/zijiang/DFFirmware2015/data_formatter_firmware/data_formatter_top/implementation/dummy/my_project.xpr. , [filemgmt 20-344] File circular dependency detected using rule: define-before-use.. ]", 6, false); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTab((HResource) null, (HResource) null, "Log", 2); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 335, 315); // F:bl (JPanel:JComponent, cq:JFrame)
+selectTab(PAResourceItoN.LogView_TABBED_PANE, (HResource) null, "Synthesis", 0); // g:JideTabbedPane (x:aO, cq:JFrame)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 361, 344); // F:bl (JPanel:JComponent, cq:JFrame)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 1164, 301); // F:bl (JPanel:JComponent, cq:JFrame)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 1044, 297); // F:bl (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 129 seconds
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 527, 132); // F:bl (JPanel:JComponent, cq:JFrame)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 532, 209); // F:bl (JPanel:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,111 MB. GUI used memory: 109 MB. Current time: 12/16/15 3:24:49 PM CET
+// TclEventType: RUN_COMPLETED
+// W:G (cq:JFrame): Synthesis Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 5,234 MB. GUI used memory: 181 MB. Current time: 12/16/15 3:41:53 PM CET
+// Elapsed time: 3336 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, W:G)
+dismissDialog("Synthesis Completed"); // W:G (cq:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // h:JCheckBox (JPanel:JComponent, cq:JFrame): FALSE
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // h:JCheckBox (JPanel:JComponent, cq:JFrame): FALSE
+selectCheckBox(PAResourceItoN.MsgView_STATUS_MESSAGES, (String) null, false); // h:JCheckBox (JPanel:JComponent, cq:JFrame): FALSE
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-3352] multi-driven net CENTRAL_SWITCH_IN_RESET with 1st driver pin 'MY_DF_MAIN/INST_INTERNAL_LINK_OUTPUT.my_internal_link_output/OUTPUT_SWTICH_INST.INTERNALLINK_OUTPUT_SWITCH/IN_RST_reg/Q' [/afs/cern.ch/work/z/zijiang/DFFirmware2015/data_formatter_firmware/pulsar2_df_switch/df_switch_matrix_32x32.vhd:169]. ]", 3, true); // ag:k (JViewport:JComponent, cq:JFrame) - Node
+// Elapsed time: 58 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, ipbus_register_interface.vhd]", 14, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, spy_buffer_multilanes_d4096_multi_clock_domain.vhd]", 138, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, spy_buffer_multilanes_d4096_multi_clock_domain.vhd]", 138, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+selectCodeEditor("spy_buffer_multilanes_d4096_multi_clock_domain.vhd", 439, 452); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, spy_buffer_core_d4096.vhd]", 137, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, spy_buffer_core_d4096.vhd]", 137, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+selectCodeEditor("spy_buffer_core_d4096.vhd", 413, 353); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("spy_buffer_core_d4096.vhd", 261, 324); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, user_interface_df_top.vhd]", 143, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, spy_buffer_core_d1024.vhd]", 140, false); // y:k (I:JPanel, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,234 MB. GUI used memory: 124 MB. Current time: 12/16/15 4:11:54 PM CET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, spy_buffer_multilanes_d1024_multi_clock_domain.vhd]", 141, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, spy_buffer_multilanes_d1024_multi_clock_domain.vhd]", 141, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, spy_buffer_multilanes_d1024_multi_clock_domain.vhd]", 141, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, spy_buffer_multilanes_d4096_multi_clock_domain.vhd]", 138, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, spy_buffer_multilanes_d4096_multi_clock_domain.vhd]", 138, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, spy_buffer_multilanes_d4096_multi_clock_domain.vhd]", 138, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+selectCodeEditor("spy_buffer_multilanes_d4096_multi_clock_domain.vhd", 354, 355); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, my_writable_register.vhd]", 135, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, spy_buffer_core_d4096.vhd]", 137, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, spy_buffer_core_d4096.vhd]", 137, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, spy_buffer_multilanes_d4096_multi_clock_domain.vhd]", 138, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, spy_buffer_multilanes_d4096_multi_clock_domain.vhd]", 138, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, my_writable_register.vhd]", 135, false); // y:k (I:JPanel, cq:JFrame)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, spy_buffer_core_d1024.vhd]", 140, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, pulsar2_simple_dpram_w36_d4096_my_wrapper.vhd]", 139, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, pulsar2_simple_dpram_w36_d4096_my_wrapper.vhd]", 139, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, pulsar2_simple_dpram_w36_d4096_my_wrapper.vhd]", 139, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+selectCodeEditor("pulsar2_simple_dpram_w36_d4096_my_wrapper.vhd", 161, 637); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 20 seconds
+selectCodeEditor("pulsar2_simple_dpram_w36_d4096_my_wrapper.vhd", 123, 322); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("pulsar2_simple_dpram_w36_d4096_my_wrapper.vhd", 123, 322, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+selectCodeEditor("pulsar2_simple_dpram_w36_d4096_my_wrapper.vhd", 123, 321); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 12 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 35 seconds
+selectCodeEditor("pulsar2_simple_dpram_w36_d4096_my_wrapper.vhd", 329, 677); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("pulsar2_simple_dpram_w36_d4096_my_wrapper.vhd", 137, 370); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("pulsar2_simple_dpram_w36_d4096_my_wrapper.vhd", 137, 370, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+selectCodeEditor("pulsar2_simple_dpram_w36_d4096_my_wrapper.vhd", 137, 370); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 35 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bF:g (cq:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bF:g (cq:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Dec 16 16:14:49 2015] Launched synth_1... Run output will be captured here: /afs/cern.ch/work/z/zijiang/DFFirmware2015/data_formatter_firmware/data_formatter_top/implementation/dummy/my_project.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bF:g (cq:JFrame)
+// Elapsed time: 235 seconds
+selectCodeEditor("pulsar2_simple_dpram_w36_d4096_my_wrapper.vhd", 298, 501); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+selectTab((HResource) null, (HResource) null, "Log", 2); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)

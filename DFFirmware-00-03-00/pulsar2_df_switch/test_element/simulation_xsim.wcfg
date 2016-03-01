@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="simulation_xsim.wdb" id="1">
+         <top_modules>
+            <top_module name="attributes" />
+            <top_module name="data_formatter_constants" />
+            <top_module name="fmcconstants" />
+            <top_module name="standard" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_misc" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="group17" type="group">
+      <obj_property name="label">testbench top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_element/intermediate_1to1_new_mod_rdy_i" type="logic">
+         <obj_property name="ElementShortName">intermediate_1to1_new_mod_rdy_i</obj_property>
+         <obj_property name="ObjectShortName">intermediate_1to1_new_mod_rdy_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_element/intermediate_1to2_new_mod_rdy_i" type="logic">
+         <obj_property name="ElementShortName">intermediate_1to2_new_mod_rdy_i</obj_property>
+         <obj_property name="ObjectShortName">intermediate_1to2_new_mod_rdy_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_element/intermediate_2to1_new_mod_rdy_i" type="logic">
+         <obj_property name="ElementShortName">intermediate_2to1_new_mod_rdy_i</obj_property>
+         <obj_property name="ObjectShortName">intermediate_2to1_new_mod_rdy_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_element/intermediate_2to2_new_mod_rdy_i" type="logic">
+         <obj_property name="ElementShortName">intermediate_2to2_new_mod_rdy_i</obj_property>
+         <obj_property name="ObjectShortName">intermediate_2to2_new_mod_rdy_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/clk_i" type="logic">
+         <obj_property name="ElementShortName">clk_i</obj_property>
+         <obj_property name="ObjectShortName">clk_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/rst_i" type="logic">
+         <obj_property name="ElementShortName">rst_i</obj_property>
+         <obj_property name="ObjectShortName">rst_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/input_port1_din_i" type="array">
+         <obj_property name="ElementShortName">input_port1_din_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">input_port1_din_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/input_port1_den_i" type="logic">
+         <obj_property name="ElementShortName">input_port1_den_i</obj_property>
+         <obj_property name="ObjectShortName">input_port1_den_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/input_port1_rdy_i" type="logic">
+         <obj_property name="ElementShortName">input_port1_rdy_i</obj_property>
+         <obj_property name="ObjectShortName">input_port1_rdy_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/input_port2_din_i" type="array">
+         <obj_property name="ElementShortName">input_port2_din_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">input_port2_din_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/input_port2_den_i" type="logic">
+         <obj_property name="ElementShortName">input_port2_den_i</obj_property>
+         <obj_property name="ObjectShortName">input_port2_den_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/input_port2_rdy_i" type="logic">
+         <obj_property name="ElementShortName">input_port2_rdy_i</obj_property>
+         <obj_property name="ObjectShortName">input_port2_rdy_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/output_port1_dout_i" type="array">
+         <obj_property name="ElementShortName">output_port1_dout_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">output_port1_dout_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/output_port1_den_i" type="logic">
+         <obj_property name="ElementShortName">output_port1_den_i</obj_property>
+         <obj_property name="ObjectShortName">output_port1_den_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/output_port1_rdy_i" type="logic">
+         <obj_property name="ElementShortName">output_port1_rdy_i</obj_property>
+         <obj_property name="ObjectShortName">output_port1_rdy_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/output_port2_dout_i" type="array">
+         <obj_property name="ElementShortName">output_port2_dout_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">output_port2_dout_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/output_port2_den_i" type="logic">
+         <obj_property name="ElementShortName">output_port2_den_i</obj_property>
+         <obj_property name="ObjectShortName">output_port2_den_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/output_port2_rdy_i" type="logic">
+         <obj_property name="ElementShortName">output_port2_rdy_i</obj_property>
+         <obj_property name="ObjectShortName">output_port2_rdy_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/enable_port1_i" type="logic">
+         <obj_property name="ElementShortName">enable_port1_i</obj_property>
+         <obj_property name="ObjectShortName">enable_port1_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/enable_port2_i" type="logic">
+         <obj_property name="ElementShortName">enable_port2_i</obj_property>
+         <obj_property name="ObjectShortName">enable_port2_i</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group60" type="group">
+      <obj_property name="label">Element</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_element/CLK" type="logic">
+         <obj_property name="ElementShortName">CLK</obj_property>
+         <obj_property name="ObjectShortName">CLK</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_element/RST" type="logic">
+         <obj_property name="ElementShortName">RST</obj_property>
+         <obj_property name="ObjectShortName">RST</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_element/INPUT_PORT1_DIN" type="array">
+         <obj_property name="ElementShortName">INPUT_PORT1_DIN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">INPUT_PORT1_DIN[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_element/INPUT_PORT1_DEN" type="logic">
+         <obj_property name="ElementShortName">INPUT_PORT1_DEN</obj_property>
+         <obj_property name="ObjectShortName">INPUT_PORT1_DEN</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_element/INPUT_PORT1_RDY" type="logic">
+         <obj_property name="ElementShortName">INPUT_PORT1_RDY</obj_property>
+         <obj_property name="ObjectShortName">INPUT_PORT1_RDY</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_element/INPUT_PORT2_DIN" type="array">
+         <obj_property name="ElementShortName">INPUT_PORT2_DIN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">INPUT_PORT2_DIN[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_element/INPUT_PORT2_DEN" type="logic">
+         <obj_property name="ElementShortName">INPUT_PORT2_DEN</obj_property>
+         <obj_property name="ObjectShortName">INPUT_PORT2_DEN</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_element/INPUT_PORT2_RDY" type="logic">
+         <obj_property name="ElementShortName">INPUT_PORT2_RDY</obj_property>
+         <obj_property name="ObjectShortName">INPUT_PORT2_RDY</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_element/OUTPUT_PORT1_DOUT" type="array">
+         <obj_property name="ElementShortName">OUTPUT_PORT1_DOUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OUTPUT_PORT1_DOUT[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_element/OUTPUT_PORT1_DEN" type="logic">
+         <obj_property name="ElementShortName">OUTPUT_PORT1_DEN</obj_property>
+         <obj_property name="ObjectShortName">OUTPUT_PORT1_DEN</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_element/OUTPUT_PORT1_RDY" type="logic">
+         <obj_property name="ElementShortName">OUTPUT_PORT1_RDY</obj_property>
+         <obj_property name="ObjectShortName">OUTPUT_PORT1_RDY</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_element/OUTPUT_PORT2_DOUT" type="array">
+         <obj_property name="ElementShortName">OUTPUT_PORT2_DOUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OUTPUT_PORT2_DOUT[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_element/OUTPUT_PORT2_DEN" type="logic">
+         <obj_property name="ElementShortName">OUTPUT_PORT2_DEN</obj_property>
+         <obj_property name="ObjectShortName">OUTPUT_PORT2_DEN</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_element/OUTPUT_PORT2_RDY" type="logic">
+         <obj_property name="ElementShortName">OUTPUT_PORT2_RDY</obj_property>
+         <obj_property name="ObjectShortName">OUTPUT_PORT2_RDY</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_element/OUTPORT1_MASK" type="array">
+         <obj_property name="ElementShortName">OUTPORT1_MASK[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OUTPORT1_MASK[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_element/OUTPORT2_MASK" type="array">
+         <obj_property name="ElementShortName">OUTPORT2_MASK[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OUTPORT2_MASK[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group106" type="group">
+      <obj_property name="label">patgen 1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/testbench/patgen_1/CLK" type="logic">
+         <obj_property name="ElementShortName">CLK</obj_property>
+         <obj_property name="ObjectShortName">CLK</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/patgen_1/TX_DATA" type="array">
+         <obj_property name="ElementShortName">TX_DATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">TX_DATA[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/patgen_1/TX_DVALID" type="logic">
+         <obj_property name="ElementShortName">TX_DVALID</obj_property>
+         <obj_property name="ObjectShortName">TX_DVALID</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/patgen_1/TX_RDY" type="logic">
+         <obj_property name="ElementShortName">TX_RDY</obj_property>
+         <obj_property name="ObjectShortName">TX_RDY</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/patgen_1/ENABLE" type="logic">
+         <obj_property name="ElementShortName">ENABLE</obj_property>
+         <obj_property name="ObjectShortName">ENABLE</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/patgen_1/control_counter_i" type="array">
+         <obj_property name="ElementShortName">control_counter_i[27:0]</obj_property>
+         <obj_property name="ObjectShortName">control_counter_i[27:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/patgen_1/test_pattern_i" type="array">
+         <obj_property name="ElementShortName">test_pattern_i[7:0]</obj_property>
+         <obj_property name="ObjectShortName">test_pattern_i[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/patgen_1/patgen_en_i" type="logic">
+         <obj_property name="ElementShortName">patgen_en_i</obj_property>
+         <obj_property name="ObjectShortName">patgen_en_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/patgen_1/longer_period" type="logic">
+         <obj_property name="ElementShortName">longer_period</obj_property>
+         <obj_property name="ObjectShortName">longer_period</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/patgen_1/const_pattern" type="array">
+         <obj_property name="ElementShortName">const_pattern[7:0]</obj_property>
+         <obj_property name="ObjectShortName">const_pattern[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/patgen_1/DESTINATION_BIT_PATTERN_1" type="array">
+         <obj_property name="ElementShortName">DESTINATION_BIT_PATTERN_1[3:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">DESTINATION_BIT_PATTERN_1[3:0][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group118" type="group">
+      <obj_property name="label">patgen 2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/testbench/patgen_2/CLK" type="logic">
+         <obj_property name="ElementShortName">CLK</obj_property>
+         <obj_property name="ObjectShortName">CLK</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/patgen_2/TX_DATA" type="array">
+         <obj_property name="ElementShortName">TX_DATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">TX_DATA[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/patgen_2/TX_DVALID" type="logic">
+         <obj_property name="ElementShortName">TX_DVALID</obj_property>
+         <obj_property name="ObjectShortName">TX_DVALID</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/patgen_2/TX_RDY" type="logic">
+         <obj_property name="ElementShortName">TX_RDY</obj_property>
+         <obj_property name="ObjectShortName">TX_RDY</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/patgen_2/ENABLE" type="logic">
+         <obj_property name="ElementShortName">ENABLE</obj_property>
+         <obj_property name="ObjectShortName">ENABLE</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/patgen_2/control_counter_i" type="array">
+         <obj_property name="ElementShortName">control_counter_i[27:0]</obj_property>
+         <obj_property name="ObjectShortName">control_counter_i[27:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/patgen_2/test_pattern_i" type="array">
+         <obj_property name="ElementShortName">test_pattern_i[7:0]</obj_property>
+         <obj_property name="ObjectShortName">test_pattern_i[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/patgen_2/patgen_en_i" type="logic">
+         <obj_property name="ElementShortName">patgen_en_i</obj_property>
+         <obj_property name="ObjectShortName">patgen_en_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/patgen_2/longer_period" type="logic">
+         <obj_property name="ElementShortName">longer_period</obj_property>
+         <obj_property name="ObjectShortName">longer_period</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/patgen_2/const_pattern" type="array">
+         <obj_property name="ElementShortName">const_pattern[7:0]</obj_property>
+         <obj_property name="ObjectShortName">const_pattern[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/patgen_2/DESTINATION_BIT_PATTERN_1" type="array">
+         <obj_property name="ElementShortName">DESTINATION_BIT_PATTERN_1[3:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">DESTINATION_BIT_PATTERN_1[3:0][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

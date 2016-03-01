@@ -1,0 +1,389 @@
+####
+#### This Configuration is tested to work on the following quest command :
+#### sh run_quest.sh test.v20140719_sct_pixel_300w_4ch.txt 20 0XF
+
+#### Example (1) if you change the number of FMC input
+#### 1-1 modify enable_fmc_lanes_mask
+#### 1-2 modify fmcin2nummodules for added FMC channels
+#### 1-3 add (or modify) lane_mod2idx / lane_idx2mod for added FMC channels
+#### 1-4 if there are new modules added according to this change,
+####     add destination/plane/tower definitions for these newly added modules
+####     pixmod2dst/pixmod2ftkplane/pixmod2tower
+####     sctmod2dst/sctmod2ftkplane/sctmod2tower
+#### 1-5 modify slinkout2nummodules
+
+#### this_board_mask <uint32_t>
+this_board_mask				0X00000001
+
+#### imfpga2clkinv   <uint32_t (IM FPGA (0-7))> <uint32_t (INV 0-1)>
+#### FMC input forwarded clock edge selector (0 or 1) for eight IM FPGAs
+#### optimal value has been chosen with respect to phase scan results and do not change.
+imfpga2clkinv 	     0	       0
+imfpga2clkinv 	     1	       0
+imfpga2clkinv 	     2	       0
+imfpga2clkinv 	     3	       0
+imfpga2clkinv 	     4	       0
+imfpga2clkinv 	     5	       0
+imfpga2clkinv 	     6	       0
+imfpga2clkinv 	     7	       0
+
+
+#### imfpga2clkdelay <uint32_t (IM FPGA (0-7))> <uint32_t (DELAY 0-31)>
+#### FMC input forwarded clock delay (31 step) for eight IM FPGAs. 80ps x 32 is the dynamic range
+#### optimal value has been chosen with respect to phase scan results and do not change.
+imfpga2clkdelay	     0	       16
+imfpga2clkdelay	     1	       16
+imfpga2clkdelay	     2	       12
+imfpga2clkdelay	     3	       12
+imfpga2clkdelay	     4	       19
+imfpga2clkdelay	     5	       19
+imfpga2clkdelay	     6	       18
+imfpga2clkdelay	     7	       18
+
+#### enable_fmc_lanes_mask <uint32_t>
+#### enable mask for FMC input for 16 lanes from four FMCs
+#### e.g. 0X0300 = 0011_0011_0000_0000 - channel 0 and channel 1 of 3rd and 4th FMC.
+enable_fmc_lanes_mask	   0X3300
+
+#### fmcin2nummodules <uint32_t (FMC lanes in (0-15))> <uint32_t (number of modules)>
+#### Number of expected (maximum) modules for 16 FMC lanes.
+#### This is used for the completion of missing modules due to zero suppresssion
+fmcin2nummodules      0		0
+fmcin2nummodules      1		0
+fmcin2nummodules      2		0
+fmcin2nummodules      3		0
+
+fmcin2nummodules      4		0
+fmcin2nummodules      5		0
+fmcin2nummodules      6		0
+fmcin2nummodules      7		0
+
+fmcin2nummodules      8		4
+fmcin2nummodules      9		21
+fmcin2nummodules     10		0
+fmcin2nummodules     11		0
+
+fmcin2nummodules     12		4
+fmcin2nummodules     13		21
+fmcin2nummodules     14		0
+fmcin2nummodules     15		0
+
+#### lane_mod2idx <uint32_t (lane id (0-15))> <uint32_t (module id (14-bit))> <uint32_t (index)>
+#### lane_idx2mod <uint32_t (lane id (0-15))> <uint32_t (index)> <uint32_t (module id (14-bit))>
+
+#### Lane 8 Pixel
+lane_mod2idx	  8	    0X0000   0
+lane_idx2mod	  8	    0	     0X0000
+lane_mod2idx	  8	    0X0002   1
+lane_idx2mod	  8	    1	     0X0002
+lane_mod2idx	  8	    0X0010   2
+lane_idx2mod	  8	    2	     0X0010
+lane_mod2idx	  8	    0X0060   3
+lane_idx2mod	  8	    3	     0X0060
+
+#### Lane 9 SCT
+lane_mod2idx	  9	    0X1a01   0
+lane_idx2mod	  9	    0	     0X1a01
+lane_mod2idx	  9	    0X0a02    1
+lane_idx2mod	  9	    1	     0X0a02
+lane_mod2idx	  9	    0X1a03   2
+lane_idx2mod	  9	    2	     0X1a03
+lane_mod2idx	  9	    0X0a04    3
+lane_idx2mod	  9	    3	     0X0a04
+lane_mod2idx	  9	    0X1a05   4
+lane_idx2mod	  9	    4	     0X1a05
+lane_mod2idx	  9	    0X0a06    5
+lane_idx2mod	  9	    5	     0X0a06
+lane_mod2idx	  9	    0X1a07   6
+lane_idx2mod	  9	    6	     0X1a07
+lane_mod2idx	  9	    0X0a08    7
+lane_idx2mod	  9	    7	     0X0a08
+lane_mod2idx	  9	    0X1a09   8
+lane_idx2mod	  9	    8	     0X1a09
+lane_mod2idx	  9	    0X0a0a    9
+lane_idx2mod	  9	    9	     0X0a0a
+lane_mod2idx	  9	    0X1a0b   10
+lane_idx2mod	  9	    10	     0X1a0b
+lane_mod2idx	  9	    0X0a0c    11
+lane_idx2mod	  9	    11	     0X0a0c
+lane_mod2idx	  9	    0X1a0d   12
+lane_idx2mod	  9	    12	     0X1a0d
+lane_mod2idx	  9	    0X0a0e    13
+lane_idx2mod	  9	    13	     0X0a0e
+lane_mod2idx	  9	    0X1a0f   14
+lane_idx2mod	  9	    14	     0X1a0f
+lane_mod2idx	  9	    0X0a10    15
+lane_idx2mod	  9	    15	     0X0a10
+lane_mod2idx	  9	    0X0a20    16
+lane_idx2mod	  9	    16	     0X0a20
+lane_mod2idx	  9	    0X1a25   17
+lane_idx2mod	  9	    17	     0X1a25
+lane_mod2idx	  9	    0X0a30    18
+lane_idx2mod	  9	    18	     0X0a30
+lane_mod2idx	  9	    0X0a40    19
+lane_idx2mod	  9	    19	     0X0a40
+lane_mod2idx	  9	    0X0a50    20
+lane_idx2mod	  9	    20	     0X0a50
+
+#### Lane 12 Pixel
+lane_mod2idx	  12	    0X0000   0
+lane_idx2mod	  12	    0	     0X0000
+lane_mod2idx	  12	    0X0002   1
+lane_idx2mod	  12	    1	     0X0002
+lane_mod2idx	  12	    0X0010   2
+lane_idx2mod	  12	    2	     0X0010
+lane_mod2idx	  12	    0X0060   3
+lane_idx2mod	  12	    3	     0X0060
+
+#### Lane 13 SCT
+lane_mod2idx	  13	    0X1a01   0
+lane_idx2mod	  13	    0	     0X1a01
+lane_mod2idx	  13	    0X0a02    1
+lane_idx2mod	  13	    1	     0X0a02
+lane_mod2idx	  13	    0X1a03   2
+lane_idx2mod	  13	    2	     0X1a03
+lane_mod2idx	  13	    0X0a04    3
+lane_idx2mod	  13	    3	     0X0a04
+lane_mod2idx	  13	    0X1a05   4
+lane_idx2mod	  13	    4	     0X1a05
+lane_mod2idx	  13	    0X0a06    5
+lane_idx2mod	  13	    5	     0X0a06
+lane_mod2idx	  13	    0X1a07   6
+lane_idx2mod	  13	    6	     0X1a07
+lane_mod2idx	  13	    0X0a08    7
+lane_idx2mod	  13	    7	     0X0a08
+lane_mod2idx	  13	    0X1a09   8
+lane_idx2mod	  13	    8	     0X1a09
+lane_mod2idx	  13	    0X0a0a    9
+lane_idx2mod	  13	    9	     0X0a0a
+lane_mod2idx	  13	    0X1a0b   10
+lane_idx2mod	  13	    10	     0X1a0b
+lane_mod2idx	  13	    0X0a0c    11
+lane_idx2mod	  13	    11	     0X0a0c
+lane_mod2idx	  13	    0X1a0d   12
+lane_idx2mod	  13	    12	     0X1a0d
+lane_mod2idx	  13	    0X0a0e    13
+lane_idx2mod	  13	    13	     0X0a0e
+lane_mod2idx	  13	    0X1a0f   14
+lane_idx2mod	  13	    14	     0X1a0f
+lane_mod2idx	  13	    0X0a10    15
+lane_idx2mod	  13	    15	     0X0a10
+lane_mod2idx	  13	    0X0a20    16
+lane_idx2mod	  13	    16	     0X0a20
+lane_mod2idx	  13	    0X1a25   17
+lane_idx2mod	  13	    17	     0X1a25
+lane_mod2idx	  13	    0X0a30    18
+lane_idx2mod	  13	    18	     0X0a30
+lane_mod2idx	  13	    0X0a40    19
+lane_idx2mod	  13	    19	     0X0a40
+lane_mod2idx	  13	    0X0a50    20
+lane_idx2mod	  13	    20	     0X0a50
+
+#### pixmod2dst   	<uint32_t (pixel module id (11-bit))> <uint32_t (32bit destination mask)>
+#### Pixel module ID to global destination word for 32 DF boards
+#### 0X00000001 = 0000_0000_0000_0000_0000_0000_0000_0001 : distributed to only the first board
+#### Common for all the FMC input lanes
+pixmod2dst		0X0000	  0X00000001
+pixmod2dst		0X0002	  0X00000001
+pixmod2dst		0X0010	  0X00000001
+pixmod2dst		0X0060	  0X00000001
+
+#### pixmod2ftkplane	<uint32_t (pixel module id (11-bit))> <uint32_t (9bit df output lane)>
+#### Pixel module ID to DF output
+#### DF_Output[0] = AUX plane0
+#### DF_Output[1] = AUX plane1
+#### DF_Output[2] = AUX plane2
+#### DF_Output[3] = AUX plane3
+#### DF_Output[4] = AUX plane4
+#### DF_Output[5] = AUX plane5
+#### DF_Output[6] = AUX plan06
+#### DF_Output[7] = AUX plan07
+#### DF_Output[8] = SSB
+#### <Common for all the output lanes>
+pixmod2ftkplane		0X0000	  0X002 ## to AUX plane1
+pixmod2ftkplane		0X0002	  0X002 ## to AUX plane1
+pixmod2ftkplane		0X0010	  0X002 ## to AUX plane1
+pixmod2ftkplane		0X0060	  0X002 ## to AUX plane1
+
+#### pixmod2tower	<uint32_t (pixel module id (11-bit))> <uint32_t (2bit tower)>
+#### TOWER[0] = Upper Tower
+#### TOWER[1] = Lower Tower
+#### i.e. "11"=both towers, "01"=only upper tower, "10"=only lower tower
+#### <Common for all the output lanes>
+pixmod2tower		0X0000	  0X3 ## the module distributed both upper and lower tower at this board
+pixmod2tower		0X0002	  0X3 ## the module distributed both upper and lower tower at this board
+pixmod2tower		0X0010	  0X3 ## the module distributed both upper and lower tower at this board
+pixmod2tower		0X0060	  0X3 ## the module distributed both upper and lower tower at this board
+
+#### sctmod2dst   	<uint32_t (sctel module id (13-bit))> <uint32_t (32bit destination mask)>
+#### SCT module ID to global destination word for 32 DF boards
+#### 0X00000001 = 0000_0000_0000_0000_0000_0000_0000_0001 : distributed to only the first board
+#### <Common for all the FMC input lanes>
+sctmod2dst	    0X1a01	  0X00000001
+sctmod2dst	    0X0a02	  0X00000001
+sctmod2dst	    0X1a03	  0X00000001
+sctmod2dst	    0X0a04	  0X00000001
+sctmod2dst	    0X1a05	  0X00000001
+sctmod2dst	    0X0a06	  0X00000001
+sctmod2dst	    0X1a07	  0X00000001
+sctmod2dst	    0X0a08	  0X00000001
+sctmod2dst	    0X1a09	  0X00000001
+sctmod2dst	    0X0a0a	  0X00000001
+sctmod2dst	    0X1a0b	  0X00000001
+sctmod2dst	    0X0a0c	  0X00000001
+sctmod2dst	    0X1a0d	  0X00000001
+sctmod2dst	    0X0a0e	  0X00000001
+sctmod2dst	    0X1a0f	  0X00000001
+sctmod2dst	    0X0a10	  0X00000001
+sctmod2dst	    0X0a20	  0X00000001
+sctmod2dst	    0X1a25	  0X00000001
+sctmod2dst	    0X0a30	  0X00000001
+sctmod2dst	    0X0a40	  0X00000001
+sctmod2dst	    0X0a50	  0X00000001
+
+#### sctmod2ftkplane	<uint32_t (sctel module id (13-bit))> <uint32_t (9bit df output lane)>
+#### SCT module ID to DF output
+#### DF_Output[0] = AUX plane0
+#### DF_Output[1] = AUX plane1
+#### DF_Output[2] = AUX plane2
+#### DF_Output[3] = AUX plane3
+#### DF_Output[4] = AUX plane4
+#### DF_Output[5] = AUX plane5
+#### DF_Output[6] = AUX plan06
+#### DF_Output[7] = AUX plan07
+#### DF_Output[8] = SSB
+#### <Common for all the output lanes>
+sctmod2ftkplane	    0X1a01	  0X010 # for AUX plane4 (SCT)
+sctmod2ftkplane	    0X0a02	  0X010 # for AUX plane4 (SCT)
+sctmod2ftkplane	    0X1a03	  0X010 # for AUX plane4 (SCT)
+sctmod2ftkplane	    0X0a04	  0X010 # for AUX plane4 (SCT)
+sctmod2ftkplane	    0X1a05	  0X010 # for AUX plane4 (SCT)
+sctmod2ftkplane	    0X0a06	  0X010 # for AUX plane4 (SCT)
+sctmod2ftkplane	    0X1a07	  0X010 # for AUX plane4 (SCT)
+sctmod2ftkplane	    0X0a08	  0X010 # for AUX plane4 (SCT)
+sctmod2ftkplane	    0X1a09	  0X010 # for AUX plane4 (SCT)
+sctmod2ftkplane	    0X0a0a	  0X010 # for AUX plane4 (SCT)
+sctmod2ftkplane	    0X1a0b	  0X020 # for AUX plane5 (SCT)
+sctmod2ftkplane	    0X0a0c	  0X020 # for AUX plane5 (SCT)
+sctmod2ftkplane	    0X1a0d	  0X020 # for AUX plane5 (SCT)
+sctmod2ftkplane	    0X0a0e	  0X020 # for AUX plane5 (SCT)
+sctmod2ftkplane	    0X1a0f	  0X020 # for AUX plane5 (SCT)
+sctmod2ftkplane	    0X0a10	  0X020 # for AUX plane5 (SCT)
+sctmod2ftkplane	    0X0a20	  0X020 # for AUX plane5 (SCT)
+sctmod2ftkplane	    0X1a25	  0X020 # for AUX plane5 (SCT)
+sctmod2ftkplane	    0X0a30	  0X020 # for AUX plane5 (SCT)
+sctmod2ftkplane	    0X0a40	  0X020 # for AUX plane5 (SCT)
+sctmod2ftkplane	    0X0a50	  0X100 # for SSB
+
+#### sctmod2tower	<uint32_t (sctel module id (13-bit))> <uint32_t (2bit tower)>
+#### TOWER[0] = Upper Tower
+#### TOWER[1] = Lower Tower
+#### i.e. "11"=both towers, "01"=only upper tower, "10"=only lower tower
+#### <Common for all the output lanes>
+sctmod2tower	    0X1a01	  0X3 # the module distributed both upper and lower tower at this board
+sctmod2tower	    0X0a02	  0X3 # the module distributed both upper and lower tower at this board
+sctmod2tower	    0X1a03	  0X3 # the module distributed both upper and lower tower at this board
+sctmod2tower	    0X0a04	  0X3 # the module distributed both upper and lower tower at this board
+sctmod2tower	    0X1a05	  0X3 # the module distributed both upper and lower tower at this board
+sctmod2tower	    0X0a06	  0X3 # the module distributed both upper and lower tower at this board
+sctmod2tower	    0X1a07	  0X3 # the module distributed both upper and lower tower at this board
+sctmod2tower	    0X0a08	  0X3 # the module distributed both upper and lower tower at this board
+sctmod2tower	    0X1a09	  0X3 # the module distributed both upper and lower tower at this board
+sctmod2tower	    0X0a0a	  0X3 # the module distributed both upper and lower tower at this board
+sctmod2tower	    0X1a0b	  0X3 # the module distributed both upper and lower tower at this board
+sctmod2tower	    0X0a0c	  0X3 # the module distributed both upper and lower tower at this board
+sctmod2tower	    0X1a0d	  0X3 # the module distributed both upper and lower tower at this board
+sctmod2tower	    0X0a0e	  0X3 # the module distributed both upper and lower tower at this board
+sctmod2tower	    0X1a0f	  0X3 # the module distributed both upper and lower tower at this board
+sctmod2tower	    0X0a10	  0X3 # the module distributed both upper and lower tower at this board
+sctmod2tower	    0X0a20	  0X3 # the module distributed both upper and lower tower at this board
+sctmod2tower	    0X1a25	  0X3 # the module distributed both upper and lower tower at this board
+sctmod2tower	    0X0a30	  0X3 # the module distributed both upper and lower tower at this board
+sctmod2tower	    0X0a40	  0X3 # the module distributed both upper and lower tower at this board
+sctmod2tower	    0X0a50	  0X3 # the module distributed both upper and lower tower at this board
+
+#### slinkout2nummodules     <uint32_t (SLINK output (0-33))> <uint32_t (number of modules)>
+#### Number of expected module for SLINK LSC 34 channels
+#### This is used for inserting the event boundary in the output data
+slinkout2nummodules	     0	        0  # AUX plane 0 for 1st AUX on upper tower 
+slinkout2nummodules	     1	        8  # AUX plane 1 for 1st AUX on upper tower 
+slinkout2nummodules	     2	        0  # AUX plane 2 for 1st AUX on upper tower 
+slinkout2nummodules	     3	        0  # AUX plane 3 for 1st AUX on upper tower 
+slinkout2nummodules	     4	        20 # AUX plane 4 for 1st AUX on upper tower 
+slinkout2nummodules	     5	        20 # AUX plane 5 for 1st AUX on upper tower 
+slinkout2nummodules	     6	        0  # AUX plane 6 for 1st AUX on upper tower 
+slinkout2nummodules	     7	        0  # AUX plane 7 for 1st AUX on upper tower 
+
+slinkout2nummodules	     8	        0  # AUX plane 0 for 2nd AUX on upper tower <by default duplication of the 1st AUX>
+slinkout2nummodules	     9	        8  # AUX plane 1 for 2nd AUX on upper tower <by default duplication of the 1st AUX>
+slinkout2nummodules	     10	        0  # AUX plane 2 for 2nd AUX on upper tower <by default duplication of the 1st AUX>
+slinkout2nummodules	     11	        0  # AUX plane 3 for 2nd AUX on upper tower <by default duplication of the 1st AUX>
+slinkout2nummodules	     12	        20 # AUX plane 4 for 2nd AUX on upper tower <by default duplication of the 1st AUX>
+slinkout2nummodules	     13	        20 # AUX plane 5 for 2nd AUX on upper tower <by default duplication of the 1st AUX>
+slinkout2nummodules	     14	        0  # AUX plane 6 for 2nd AUX on upper tower <by default duplication of the 1st AUX>
+slinkout2nummodules	     15	        0  # AUX plane 7 for 2nd AUX on upper tower <by default duplication of the 1st AUX>
+
+slinkout2nummodules	     16	        2  # SSB for upper tower
+
+slinkout2nummodules	     17	        0  # AUX plane 0 for 1st AUX on lower tower
+slinkout2nummodules	     18	        8  # AUX plane 1 for 1st AUX on lower tower
+slinkout2nummodules	     19	        0  # AUX plane 2 for 1st AUX on lower tower
+slinkout2nummodules	     20	        0  # AUX plane 3 for 1st AUX on lower tower
+slinkout2nummodules	     21	        20 # AUX plane 4 for 1st AUX on lower tower
+slinkout2nummodules	     22	        20 # AUX plane 5 for 1st AUX on lower tower
+slinkout2nummodules	     23	        0  # AUX plane 6 for 1st AUX on lower tower
+slinkout2nummodules	     24	        0  # AUX plane 7 for 1st AUX on lower tower
+
+slinkout2nummodules	     25	        0  # AUX plane 0 for 2nd AUX on lower tower <by default duplication of the 1st AUX>
+slinkout2nummodules	     26	        8  # AUX plane 1 for 2nd AUX on lower tower <by default duplication of the 1st AUX>
+slinkout2nummodules	     27	        0  # AUX plane 2 for 2nd AUX on lower tower <by default duplication of the 1st AUX>
+slinkout2nummodules	     28	        0  # AUX plane 3 for 2nd AUX on lower tower <by default duplication of the 1st AUX>
+slinkout2nummodules	     29	        20 # AUX plane 4 for 2nd AUX on lower tower <by default duplication of the 1st AUX>
+slinkout2nummodules	     30	        20 # AUX plane 5 for 2nd AUX on lower tower <by default duplication of the 1st AUX>
+slinkout2nummodules	     31	        0  # AUX plane 6 for 2nd AUX on lower tower <by default duplication of the 1st AUX>
+slinkout2nummodules	     32	        0  # AUX plane 7 for 2nd AUX on lower tower <by default duplication of the 1st AUX>
+
+slinkout2nummodules	     33	        2  # SSB for lower tower
+
+
+#### centralswlaneid2destinationmask <uint32_t (Central Switch Output ()> <uint32_t (destination mask)> 
+#### do not change
+centralswlaneid2destinationmask	     0	       0X0000 # for shelf1 slot 3
+centralswlaneid2destinationmask	     1	       0X4000 # for shelf2 slot 3
+centralswlaneid2destinationmask	     2	       0X4000 # for shelf3 slot 3
+centralswlaneid2destinationmask	     3	       0X8000 # for shelf4 slot 3
+
+centralswlaneid2destinationmask	     4	       0X0001 # for shelf1 slot 4
+centralswlaneid2destinationmask	     5	       0X4000 # for shelf2 slot 4
+centralswlaneid2destinationmask	     6	       0X4000 # for shelf3 slot 4
+centralswlaneid2destinationmask	     7	       0X8000 # for shelf4 slot 4
+
+centralswlaneid2destinationmask	     8	       0X0100 # for shelf1 slot 5
+centralswlaneid2destinationmask	     9	       0X4000 # for shelf2 slot 5
+centralswlaneid2destinationmask	     10	       0X4000 # for shelf3 slot 5
+centralswlaneid2destinationmask	     11	       0X8000 # for shelf4 slot 5
+
+centralswlaneid2destinationmask	     12	       0X0010 # for shelf1 slot 6
+centralswlaneid2destinationmask	     13	       0X4000 # for shelf2 slot 6
+centralswlaneid2destinationmask	     14	       0X4000 # for shelf3 slot 6
+centralswlaneid2destinationmask	     15	       0X8000 # for shelf4 slot 6
+
+centralswlaneid2destinationmask	     16	       0X1000 # for shelf1 slot 7
+centralswlaneid2destinationmask	     17	       0X4000 # for shelf2 slot 7
+centralswlaneid2destinationmask	     18	       0X8000 # for shelf3 slot 7
+centralswlaneid2destinationmask	     19	       0X8000 # for shelf4 slot 7
+
+centralswlaneid2destinationmask	     20	       0X0004 # for shelf1 slot 8
+centralswlaneid2destinationmask	     21	       0X4000 # for shelf2 slot 8
+centralswlaneid2destinationmask	     22	       0X8000 # for shelf3 slot 8
+centralswlaneid2destinationmask	     23	       0X8000 # for shelf4 slot 8
+
+centralswlaneid2destinationmask	     24	       0X0400 # for shelf1 slot 9
+centralswlaneid2destinationmask	     25	       0X4000 # for shelf2 slot 9
+centralswlaneid2destinationmask	     26	       0X8000 # for shelf3 slot 9
+centralswlaneid2destinationmask	     27	       0X8000 # for shelf4 slot 9
+
+centralswlaneid2destinationmask	     28	       0X0040 # for shelf1 slot 10
+centralswlaneid2destinationmask	     29	       0X4000 # for shelf2 slot 10
+centralswlaneid2destinationmask	     30	       0X8000 # for shelf3 slot 10
+centralswlaneid2destinationmask	     31	       0X8000 # for shelf4 slot 10

@@ -1,0 +1,8 @@
+when you want to change the choice of FIFO for element,
+1) df_switch_element.vhd
+2) df_switch_2ch_merger.vhd
+3) df_switch_element_1ch_in.vhd
+
+any releated 
+1) input_list.tcl
+1) simulation_xsim.prj

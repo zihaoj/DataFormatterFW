@@ -1,0 +1,1432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="simulation_xsim.wdb" id="1">
+         <top_modules>
+            <top_module name="attributes" />
+            <top_module name="data_formatter_constants" />
+            <top_module name="fmcconstants" />
+            <top_module name="numeric_std" />
+            <top_module name="standard" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_misc" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="testbench" />
+            <top_module name="textio" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="group172" type="group">
+      <obj_property name="label">testbench top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/reset_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">reset_i</obj_property>
+         <obj_property name="ObjectShortName">reset_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/sys_clk_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sys_clk_i</obj_property>
+         <obj_property name="ObjectShortName">sys_clk_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/l1a_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">l1a_i[1:0]</obj_property>
+         <obj_property name="ObjectShortName">l1a_i[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/merger1_data_out_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">merger1_data_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">merger1_data_out_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/merger1_wen_out_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">merger1_wen_out_i</obj_property>
+         <obj_property name="ObjectShortName">merger1_wen_out_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/merger1_rdy_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">merger1_rdy_i</obj_property>
+         <obj_property name="ObjectShortName">merger1_rdy_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/merger2_data_out_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">merger2_data_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">merger2_data_out_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/merger2_wen_out_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">merger2_wen_out_i</obj_property>
+         <obj_property name="ObjectShortName">merger2_wen_out_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/merger2_rdy_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">merger2_rdy_i</obj_property>
+         <obj_property name="ObjectShortName">merger2_rdy_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/input_lane0_rdy" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">input_lane0_rdy</obj_property>
+         <obj_property name="ObjectShortName">input_lane0_rdy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/input_lane1_rdy" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">input_lane1_rdy</obj_property>
+         <obj_property name="ObjectShortName">input_lane1_rdy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/local_destination_adder_data_in_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">local_destination_adder_data_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">local_destination_adder_data_in_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/local_destination_adder_den_in_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">local_destination_adder_den_in_i</obj_property>
+         <obj_property name="ObjectShortName">local_destination_adder_den_in_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/buffer2_empty" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">buffer2_empty</obj_property>
+         <obj_property name="ObjectShortName">buffer2_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/buffer2_full" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">buffer2_full</obj_property>
+         <obj_property name="ObjectShortName">buffer2_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/destination_out_data_out_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">destination_out_data_out_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">destination_out_data_out_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/destination_out_wen_out_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">destination_out_wen_out_i</obj_property>
+         <obj_property name="ObjectShortName">destination_out_wen_out_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/destination_out_xoff_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">destination_out_xoff_i</obj_property>
+         <obj_property name="ObjectShortName">destination_out_xoff_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/destination_out_rdy_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">destination_out_rdy_i</obj_property>
+         <obj_property name="ObjectShortName">destination_out_rdy_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/sendback_port_dout_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sendback_port_dout_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sendback_port_dout_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/sendback_port_den_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sendback_port_den_i</obj_property>
+         <obj_property name="ObjectShortName">sendback_port_den_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/sendback_port_rdy_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sendback_port_rdy_i</obj_property>
+         <obj_property name="ObjectShortName">sendback_port_rdy_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/float4bit" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">float4bit[3:0]</obj_property>
+         <obj_property name="ObjectShortName">float4bit[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/slink_ud_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">slink_ud_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slink_ud_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/slink_uwen_n_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">slink_uwen_n_i</obj_property>
+         <obj_property name="ObjectShortName">slink_uwen_n_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/slink_uctrl_n_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">slink_uctrl_n_i</obj_property>
+         <obj_property name="ObjectShortName">slink_uctrl_n_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/slink_lff_n_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">slink_lff_n_i</obj_property>
+         <obj_property name="ObjectShortName">slink_lff_n_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER_DATA_IN" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">DECODER_DATA_IN[0:7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">DECODER_DATA_IN[0:7][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER_CTRL_IN" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">DECODER_CTRL_IN[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DECODER_CTRL_IN[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER_DEN_IN" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">DECODER_DEN_IN[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DECODER_DEN_IN[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER_FIFO_GO_NEXT_IF_EXIST_OUT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">DECODER_FIFO_GO_NEXT_IF_EXIST_OUT[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DECODER_FIFO_GO_NEXT_IF_EXIST_OUT[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER_MODDATA_DATA_OUT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">DECODER_MODDATA_DATA_OUT[0:7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">DECODER_MODDATA_DATA_OUT[0:7][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group286" type="group">
+      <obj_property name="label">input buffer ch0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/\channels(0)\/input_buffer/FMC_CLK_IN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">FMC_CLK_IN</obj_property>
+         <obj_property name="ObjectShortName">FMC_CLK_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(0)\/input_buffer/FMC_DATA_IN" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">FMC_DATA_IN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FMC_DATA_IN[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(0)\/input_buffer/FMC_CTRL_IN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">FMC_CTRL_IN</obj_property>
+         <obj_property name="ObjectShortName">FMC_CTRL_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(0)\/input_buffer/FMC_DEN_IN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">FMC_DEN_IN</obj_property>
+         <obj_property name="ObjectShortName">FMC_DEN_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(0)\/input_buffer/MAIN_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">MAIN_CLK</obj_property>
+         <obj_property name="ObjectShortName">MAIN_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(0)\/input_buffer/DATA_OUT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">DATA_OUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_OUT[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(0)\/input_buffer/CTRL_OUT" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">CTRL_OUT</obj_property>
+         <obj_property name="ObjectShortName">CTRL_OUT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(0)\/input_buffer/DEN_OUT" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">DEN_OUT</obj_property>
+         <obj_property name="ObjectShortName">DEN_OUT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(0)\/input_buffer/FIFO_GO_NEXT_IF_EXIST_IN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">FIFO_GO_NEXT_IF_EXIST_IN</obj_property>
+         <obj_property name="ObjectShortName">FIFO_GO_NEXT_IF_EXIST_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(0)\/input_buffer/RESET" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">RESET</obj_property>
+         <obj_property name="ObjectShortName">RESET</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(0)\/input_buffer/FIFO_FULL_OUT" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">FIFO_FULL_OUT</obj_property>
+         <obj_property name="ObjectShortName">FIFO_FULL_OUT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(0)\/input_buffer/FIFO_BUSY_OUT" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">FIFO_BUSY_OUT</obj_property>
+         <obj_property name="ObjectShortName">FIFO_BUSY_OUT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(0)\/input_buffer/three_bit_float" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">three_bit_float[2:0]</obj_property>
+         <obj_property name="ObjectShortName">three_bit_float[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(0)\/input_buffer/wr_data_count_buf_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wr_data_count_buf_i[9:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_data_count_buf_i[9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(0)\/input_buffer/empty_buf_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">empty_buf_i</obj_property>
+         <obj_property name="ObjectShortName">empty_buf_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(0)\/input_buffer/din_sync_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">din_sync_i[35:0]</obj_property>
+         <obj_property name="ObjectShortName">din_sync_i[35:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(0)\/input_buffer/den_sync_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">den_sync_i</obj_property>
+         <obj_property name="ObjectShortName">den_sync_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(0)\/input_buffer/BUFFER_DEPTH" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">BUFFER_DEPTH</obj_property>
+         <obj_property name="ObjectShortName">BUFFER_DEPTH</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(0)\/input_buffer/fifo_depth" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">fifo_depth</obj_property>
+         <obj_property name="ObjectShortName">fifo_depth</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(0)\/input_buffer/busy_threshold" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">busy_threshold</obj_property>
+         <obj_property name="ObjectShortName">busy_threshold</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(0)\/input_buffer/three_bit_zero" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">three_bit_zero[2:0]</obj_property>
+         <obj_property name="ObjectShortName">three_bit_zero[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group308" type="group">
+      <obj_property name="label">input buffer ch1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/\channels(1)\/input_buffer/FMC_CLK_IN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">FMC_CLK_IN</obj_property>
+         <obj_property name="ObjectShortName">FMC_CLK_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(1)\/input_buffer/FMC_DATA_IN" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">FMC_DATA_IN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FMC_DATA_IN[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(1)\/input_buffer/FMC_CTRL_IN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">FMC_CTRL_IN</obj_property>
+         <obj_property name="ObjectShortName">FMC_CTRL_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(1)\/input_buffer/FMC_DEN_IN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">FMC_DEN_IN</obj_property>
+         <obj_property name="ObjectShortName">FMC_DEN_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(1)\/input_buffer/MAIN_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">MAIN_CLK</obj_property>
+         <obj_property name="ObjectShortName">MAIN_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(1)\/input_buffer/DATA_OUT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">DATA_OUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_OUT[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(1)\/input_buffer/CTRL_OUT" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">CTRL_OUT</obj_property>
+         <obj_property name="ObjectShortName">CTRL_OUT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(1)\/input_buffer/DEN_OUT" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">DEN_OUT</obj_property>
+         <obj_property name="ObjectShortName">DEN_OUT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(1)\/input_buffer/FIFO_GO_NEXT_IF_EXIST_IN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">FIFO_GO_NEXT_IF_EXIST_IN</obj_property>
+         <obj_property name="ObjectShortName">FIFO_GO_NEXT_IF_EXIST_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(1)\/input_buffer/RESET" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">RESET</obj_property>
+         <obj_property name="ObjectShortName">RESET</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(1)\/input_buffer/FIFO_FULL_OUT" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">FIFO_FULL_OUT</obj_property>
+         <obj_property name="ObjectShortName">FIFO_FULL_OUT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(1)\/input_buffer/FIFO_BUSY_OUT" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">FIFO_BUSY_OUT</obj_property>
+         <obj_property name="ObjectShortName">FIFO_BUSY_OUT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(1)\/input_buffer/three_bit_float" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">three_bit_float[2:0]</obj_property>
+         <obj_property name="ObjectShortName">three_bit_float[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(1)\/input_buffer/wr_data_count_buf_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wr_data_count_buf_i[9:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_data_count_buf_i[9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(1)\/input_buffer/empty_buf_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">empty_buf_i</obj_property>
+         <obj_property name="ObjectShortName">empty_buf_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(1)\/input_buffer/din_sync_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">din_sync_i[35:0]</obj_property>
+         <obj_property name="ObjectShortName">din_sync_i[35:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(1)\/input_buffer/den_sync_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">den_sync_i</obj_property>
+         <obj_property name="ObjectShortName">den_sync_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(1)\/input_buffer/BUFFER_DEPTH" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">BUFFER_DEPTH</obj_property>
+         <obj_property name="ObjectShortName">BUFFER_DEPTH</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(1)\/input_buffer/fifo_depth" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">fifo_depth</obj_property>
+         <obj_property name="ObjectShortName">fifo_depth</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(1)\/input_buffer/busy_threshold" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">busy_threshold</obj_property>
+         <obj_property name="ObjectShortName">busy_threshold</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/\channels(1)\/input_buffer/three_bit_zero" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">three_bit_zero[2:0]</obj_property>
+         <obj_property name="ObjectShortName">three_bit_zero[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group208" type="group">
+      <obj_property name="label">decoder</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/DECODER/\INPUT_LANES(1)\/allow_to_see_next_event_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">allow_to_see_next_event_i</obj_property>
+         <obj_property name="ObjectShortName">allow_to_see_next_event_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/\INPUT_LANES(0)\/allow_to_see_next_event_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">allow_to_see_next_event_i</obj_property>
+         <obj_property name="ObjectShortName">allow_to_see_next_event_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/MAIN_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">MAIN_CLK</obj_property>
+         <obj_property name="ObjectShortName">MAIN_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/RESET_IN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">RESET_IN</obj_property>
+         <obj_property name="ObjectShortName">RESET_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/DATA_IN" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">DATA_IN[0:7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_IN[0:7][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/CTRL_IN" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">CTRL_IN[7:0]</obj_property>
+         <obj_property name="ObjectShortName">CTRL_IN[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/DEN_IN" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">DEN_IN[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DEN_IN[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/FIFO_GO_NEXT_IF_EXIST_OUT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">FIFO_GO_NEXT_IF_EXIST_OUT[7:0]</obj_property>
+         <obj_property name="ObjectShortName">FIFO_GO_NEXT_IF_EXIST_OUT[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/MODDATA_DATA_OUT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">MODDATA_DATA_OUT[0:7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">MODDATA_DATA_OUT[0:7][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/MODDATA_WEN_OUT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">MODDATA_WEN_OUT[7:0]</obj_property>
+         <obj_property name="ObjectShortName">MODDATA_WEN_OUT[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/MODDATA_XOFF_IN" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">MODDATA_XOFF_IN[7:0]</obj_property>
+         <obj_property name="ObjectShortName">MODDATA_XOFF_IN[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/FRAME_DATA_OUT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">FRAME_DATA_OUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FRAME_DATA_OUT[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/FRAME_WEN_OUT" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">FRAME_WEN_OUT</obj_property>
+         <obj_property name="ObjectShortName">FRAME_WEN_OUT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/FRAME_CTRL_OUT" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">FRAME_CTRL_OUT</obj_property>
+         <obj_property name="ObjectShortName">FRAME_CTRL_OUT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/FRAME_XOFF_IN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">FRAME_XOFF_IN</obj_property>
+         <obj_property name="ObjectShortName">FRAME_XOFF_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/INPUT_ENABLE_MASK" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">INPUT_ENABLE_MASK[7:0]</obj_property>
+         <obj_property name="ObjectShortName">INPUT_ENABLE_MASK[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/FRAME_DOUT_LANEID" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">FRAME_DOUT_LANEID</obj_property>
+         <obj_property name="ObjectShortName">FRAME_DOUT_LANEID</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/MOD2IDX_ADDR_CONFIN" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">MOD2IDX_ADDR_CONFIN[0:7][13:0]</obj_property>
+         <obj_property name="ObjectShortName">MOD2IDX_ADDR_CONFIN[0:7][13:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/MOD2IDX_DATA_CONFIN" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">MOD2IDX_DATA_CONFIN[0:7][8:0]</obj_property>
+         <obj_property name="ObjectShortName">MOD2IDX_DATA_CONFIN[0:7][8:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/MOD2IDX_WEN_CONFIN" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">MOD2IDX_WEN_CONFIN[7:0]</obj_property>
+         <obj_property name="ObjectShortName">MOD2IDX_WEN_CONFIN[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/MOD2IDX_DATA_CONFOUT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">MOD2IDX_DATA_CONFOUT[0:7][8:0]</obj_property>
+         <obj_property name="ObjectShortName">MOD2IDX_DATA_CONFOUT[0:7][8:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/IDX2MOD_ADDR_CONFIN" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">IDX2MOD_ADDR_CONFIN[0:7][8:0]</obj_property>
+         <obj_property name="ObjectShortName">IDX2MOD_ADDR_CONFIN[0:7][8:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/IDX2MOD_DATA_CONFIN" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">IDX2MOD_DATA_CONFIN[0:7][13:0]</obj_property>
+         <obj_property name="ObjectShortName">IDX2MOD_DATA_CONFIN[0:7][13:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/IDX2MOD_WEN_CONFIN" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">IDX2MOD_WEN_CONFIN[7:0]</obj_property>
+         <obj_property name="ObjectShortName">IDX2MOD_WEN_CONFIN[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/IDX2MOD_DATA_CONFOUT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">IDX2MOD_DATA_CONFOUT[0:7][13:0]</obj_property>
+         <obj_property name="ObjectShortName">IDX2MOD_DATA_CONFOUT[0:7][13:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/STATE_MACHINE_ERROR_MONITOR" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">STATE_MACHINE_ERROR_MONITOR[0:7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">STATE_MACHINE_ERROR_MONITOR[0:7][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/EXPECTED_NUM_OF_MODULE" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">EXPECTED_NUM_OF_MODULE[0:7]</obj_property>
+         <obj_property name="ObjectShortName">EXPECTED_NUM_OF_MODULE[0:7]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/frame_data_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">frame_data_i[0:7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">frame_data_i[0:7][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/frame_wen_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">frame_wen_i[7:0]</obj_property>
+         <obj_property name="ObjectShortName">frame_wen_i[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/frame_ctrl_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">frame_ctrl_i[7:0]</obj_property>
+         <obj_property name="ObjectShortName">frame_ctrl_i[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/in_reading_event_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">in_reading_event_i[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in_reading_event_i[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/ready_for_permission_to_new_event_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ready_for_permission_to_new_event_i[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ready_for_permission_to_new_event_i[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DECODER/unused_lanes_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">unused_lanes_i[7:0]</obj_property>
+         <obj_property name="ObjectShortName">unused_lanes_i[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group245" type="group">
+      <obj_property name="label">merger 1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/MERGER1/CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">CLK</obj_property>
+         <obj_property name="ObjectShortName">CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/RST" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">RST</obj_property>
+         <obj_property name="ObjectShortName">RST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/INPUT_PORT1_DIN" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">INPUT_PORT1_DIN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">INPUT_PORT1_DIN[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/INPUT_PORT1_DEN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">INPUT_PORT1_DEN</obj_property>
+         <obj_property name="ObjectShortName">INPUT_PORT1_DEN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/INPUT_PORT1_RDY" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">INPUT_PORT1_RDY</obj_property>
+         <obj_property name="ObjectShortName">INPUT_PORT1_RDY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/INPUT_PORT2_DIN" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">INPUT_PORT2_DIN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">INPUT_PORT2_DIN[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/INPUT_PORT2_DEN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">INPUT_PORT2_DEN</obj_property>
+         <obj_property name="ObjectShortName">INPUT_PORT2_DEN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/INPUT_PORT2_RDY" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">INPUT_PORT2_RDY</obj_property>
+         <obj_property name="ObjectShortName">INPUT_PORT2_RDY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/OUTPUT_PORT_DOUT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">OUTPUT_PORT_DOUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OUTPUT_PORT_DOUT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/OUTPUT_PORT_DEN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">OUTPUT_PORT_DEN</obj_property>
+         <obj_property name="ObjectShortName">OUTPUT_PORT_DEN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/OUTPUT_PORT_RDY" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">OUTPUT_PORT_RDY</obj_property>
+         <obj_property name="ObjectShortName">OUTPUT_PORT_RDY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/input_port1_empty_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">input_port1_empty_i</obj_property>
+         <obj_property name="ObjectShortName">input_port1_empty_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/input_port1_full_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">input_port1_full_i</obj_property>
+         <obj_property name="ObjectShortName">input_port1_full_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/input_port1_dout_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">input_port1_dout_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">input_port1_dout_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/input_port2_empty_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">input_port2_empty_i</obj_property>
+         <obj_property name="ObjectShortName">input_port2_empty_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/input_port2_full_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">input_port2_full_i</obj_property>
+         <obj_property name="ObjectShortName">input_port2_full_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/input_port2_dout_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">input_port2_dout_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">input_port2_dout_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/input_go_next_if_exist_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">input_go_next_if_exist_i[2:1]</obj_property>
+         <obj_property name="ObjectShortName">input_go_next_if_exist_i[2:1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/current_state_i" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">current_state_i</obj_property>
+         <obj_property name="ObjectShortName">current_state_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/source_lane_i" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">source_lane_i</obj_property>
+         <obj_property name="ObjectShortName">source_lane_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/din_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">din_i[2:1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">din_i[2:1][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/den_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">den_i[2:1]</obj_property>
+         <obj_property name="ObjectShortName">den_i[2:1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/allow_read_fifo_at_next_cycle" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">allow_read_fifo_at_next_cycle</obj_property>
+         <obj_property name="ObjectShortName">allow_read_fifo_at_next_cycle</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/input_port1_selected" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">input_port1_selected</obj_property>
+         <obj_property name="ObjectShortName">input_port1_selected</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/input_port2_selected" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">input_port2_selected</obj_property>
+         <obj_property name="ObjectShortName">input_port2_selected</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/dest_outport_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">dest_outport_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dest_outport_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/float_port2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">float_port2[3:0]</obj_property>
+         <obj_property name="ObjectShortName">float_port2[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/float_port1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">float_port1[3:0]</obj_property>
+         <obj_property name="ObjectShortName">float_port1[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/output_buf_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">output_buf_i[32:0]</obj_property>
+         <obj_property name="ObjectShortName">output_buf_i[32:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/link_ready" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">link_ready</obj_property>
+         <obj_property name="ObjectShortName">link_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/module_count_in_a_row" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">module_count_in_a_row</obj_property>
+         <obj_property name="ObjectShortName">module_count_in_a_row</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/idle_word" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">idle_word[32:0]</obj_property>
+         <obj_property name="ObjectShortName">idle_word[32:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/data_valid" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">data_valid</obj_property>
+         <obj_property name="ObjectShortName">data_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER1/MAX_MODULE_COUNT_IN_A_ROW" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">MAX_MODULE_COUNT_IN_A_ROW</obj_property>
+         <obj_property name="ObjectShortName">MAX_MODULE_COUNT_IN_A_ROW</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group286" type="group">
+      <obj_property name="label">local destination</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/LOCAL_DESTINATION_ADDER/MAIN_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">MAIN_CLK</obj_property>
+         <obj_property name="ObjectShortName">MAIN_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/LOCAL_DESTINATION_ADDER/RESET_IN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">RESET_IN</obj_property>
+         <obj_property name="ObjectShortName">RESET_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/LOCAL_DESTINATION_ADDER/DATA_IN" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">DATA_IN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_IN[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/LOCAL_DESTINATION_ADDER/DEN_IN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">DEN_IN</obj_property>
+         <obj_property name="ObjectShortName">DEN_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/LOCAL_DESTINATION_ADDER/DATA_OUT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">DATA_OUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_OUT[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/LOCAL_DESTINATION_ADDER/WEN_OUT" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">WEN_OUT</obj_property>
+         <obj_property name="ObjectShortName">WEN_OUT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/LOCAL_DESTINATION_ADDER/XOFF_IN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">XOFF_IN</obj_property>
+         <obj_property name="ObjectShortName">XOFF_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/LOCAL_DESTINATION_ADDER/STATE_MACHINE_ERROR_MONITOR" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">STATE_MACHINE_ERROR_MONITOR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">STATE_MACHINE_ERROR_MONITOR[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/LOCAL_DESTINATION_ADDER/current_state_i" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">current_state_i</obj_property>
+         <obj_property name="ObjectShortName">current_state_i</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/LOCAL_DESTINATION_ADDER/allow_read_fifo_at_next_cycle" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">allow_read_fifo_at_next_cycle</obj_property>
+         <obj_property name="ObjectShortName">allow_read_fifo_at_next_cycle</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/LOCAL_DESTINATION_ADDER/output_ready" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">output_ready</obj_property>
+         <obj_property name="ObjectShortName">output_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/LOCAL_DESTINATION_ADDER/next_output_data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">next_output_data[32:0]</obj_property>
+         <obj_property name="ObjectShortName">next_output_data[32:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/LOCAL_DESTINATION_ADDER/module_header_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">module_header_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">module_header_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/LOCAL_DESTINATION_ADDER/input_go_next_if_exist_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">input_go_next_if_exist_i</obj_property>
+         <obj_property name="ObjectShortName">input_go_next_if_exist_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/LOCAL_DESTINATION_ADDER/state_machine_error_out_buf" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">state_machine_error_out_buf[31:0]</obj_property>
+         <obj_property name="ObjectShortName">state_machine_error_out_buf[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/LOCAL_DESTINATION_ADDER/output_idle" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">output_idle[32:0]</obj_property>
+         <obj_property name="ObjectShortName">output_idle[32:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/LOCAL_DESTINATION_ADDER/ERROR_BITPOS_WAIT_SAMPLE_INTERNAL_HEADER_AND_SEND_HEADER" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_INTERNAL_HEADER_AND_SEND_HEADER</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_INTERNAL_HEADER_AND_SEND_HEADER</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/LOCAL_DESTINATION_ADDER/ERROR_BITSOS_WAIT_WAIT_SAMPLE_GLOBAL_DESTINATION_BIT" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ERROR_BITSOS_WAIT_WAIT_SAMPLE_GLOBAL_DESTINATION_BIT</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITSOS_WAIT_WAIT_SAMPLE_GLOBAL_DESTINATION_BIT</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/LOCAL_DESTINATION_ADDER/ERROR_BITPOS_WAIT_SAMPLE_MODULE_ID_AND_SET_TO_LUT" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_MODULE_ID_AND_SET_TO_LUT</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_MODULE_ID_AND_SET_TO_LUT</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/LOCAL_DESTINATION_ADDER/ERROR_BITPOS_WAIT_LUT_READY1" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_LUT_READY1</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_LUT_READY1</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/LOCAL_DESTINATION_ADDER/ERROR_BITPOS_WAIT_LUT_READY2" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_LUT_READY2</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_LUT_READY2</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/LOCAL_DESTINATION_ADDER/ERROR_BITPOS_WAIT_SEND_LOCAL_DESTINATION_BIT" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SEND_LOCAL_DESTINATION_BIT</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SEND_LOCAL_DESTINATION_BIT</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/LOCAL_DESTINATION_ADDER/ERROR_BITPOS_WAIT_SEND_MODULE_ID" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SEND_MODULE_ID</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SEND_MODULE_ID</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/LOCAL_DESTINATION_ADDER/ERROR_BITPOS_WAIT_SAMPLE_DATA_AND_SEND_DATA_AND_CHECK_INTERNAL_TRAILER" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_DATA_AND_SEND_DATA_AND_CHECK_INTERNAL_TRAILER</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_DATA_AND_SEND_DATA_AND_CHECK_INTERNAL_TRAILER</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group321" type="group">
+      <obj_property name="label">merger 2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/MERGER2/CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">CLK</obj_property>
+         <obj_property name="ObjectShortName">CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/RST" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">RST</obj_property>
+         <obj_property name="ObjectShortName">RST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/INPUT_PORT1_DIN" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">INPUT_PORT1_DIN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">INPUT_PORT1_DIN[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/INPUT_PORT1_DEN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">INPUT_PORT1_DEN</obj_property>
+         <obj_property name="ObjectShortName">INPUT_PORT1_DEN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/INPUT_PORT1_RDY" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">INPUT_PORT1_RDY</obj_property>
+         <obj_property name="ObjectShortName">INPUT_PORT1_RDY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/INPUT_PORT2_DIN" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">INPUT_PORT2_DIN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">INPUT_PORT2_DIN[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/INPUT_PORT2_DEN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">INPUT_PORT2_DEN</obj_property>
+         <obj_property name="ObjectShortName">INPUT_PORT2_DEN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/INPUT_PORT2_RDY" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">INPUT_PORT2_RDY</obj_property>
+         <obj_property name="ObjectShortName">INPUT_PORT2_RDY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/OUTPUT_PORT_DOUT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">OUTPUT_PORT_DOUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OUTPUT_PORT_DOUT[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/OUTPUT_PORT_DEN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">OUTPUT_PORT_DEN</obj_property>
+         <obj_property name="ObjectShortName">OUTPUT_PORT_DEN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/OUTPUT_PORT_RDY" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">OUTPUT_PORT_RDY</obj_property>
+         <obj_property name="ObjectShortName">OUTPUT_PORT_RDY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/input_port1_empty_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">input_port1_empty_i</obj_property>
+         <obj_property name="ObjectShortName">input_port1_empty_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/input_port1_full_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">input_port1_full_i</obj_property>
+         <obj_property name="ObjectShortName">input_port1_full_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/input_port1_dout_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">input_port1_dout_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">input_port1_dout_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/input_port2_empty_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">input_port2_empty_i</obj_property>
+         <obj_property name="ObjectShortName">input_port2_empty_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/input_port2_full_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">input_port2_full_i</obj_property>
+         <obj_property name="ObjectShortName">input_port2_full_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/input_port2_dout_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">input_port2_dout_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">input_port2_dout_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/input_go_next_if_exist_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">input_go_next_if_exist_i[2:1]</obj_property>
+         <obj_property name="ObjectShortName">input_go_next_if_exist_i[2:1]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/current_state_i" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">current_state_i</obj_property>
+         <obj_property name="ObjectShortName">current_state_i</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/source_lane_i" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">source_lane_i</obj_property>
+         <obj_property name="ObjectShortName">source_lane_i</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/din_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">din_i[2:1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">din_i[2:1][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/den_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">den_i[2:1]</obj_property>
+         <obj_property name="ObjectShortName">den_i[2:1]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/allow_read_fifo_at_next_cycle" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">allow_read_fifo_at_next_cycle</obj_property>
+         <obj_property name="ObjectShortName">allow_read_fifo_at_next_cycle</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/input_port1_selected" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">input_port1_selected</obj_property>
+         <obj_property name="ObjectShortName">input_port1_selected</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/input_port2_selected" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">input_port2_selected</obj_property>
+         <obj_property name="ObjectShortName">input_port2_selected</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/dest_outport_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">dest_outport_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dest_outport_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/float_port2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">float_port2[3:0]</obj_property>
+         <obj_property name="ObjectShortName">float_port2[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/float_port1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">float_port1[3:0]</obj_property>
+         <obj_property name="ObjectShortName">float_port1[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/output_buf_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">output_buf_i[32:0]</obj_property>
+         <obj_property name="ObjectShortName">output_buf_i[32:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/link_ready" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">link_ready</obj_property>
+         <obj_property name="ObjectShortName">link_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/module_count_in_a_row" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">module_count_in_a_row</obj_property>
+         <obj_property name="ObjectShortName">module_count_in_a_row</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/idle_word" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">idle_word[32:0]</obj_property>
+         <obj_property name="ObjectShortName">idle_word[32:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/data_valid" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">data_valid</obj_property>
+         <obj_property name="ObjectShortName">data_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/MERGER2/MAX_MODULE_COUNT_IN_A_ROW" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">MAX_MODULE_COUNT_IN_A_ROW</obj_property>
+         <obj_property name="ObjectShortName">MAX_MODULE_COUNT_IN_A_ROW</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group394" type="group">
+      <obj_property name="label">event sorter</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/EVENT_SORTER/MAIN_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">MAIN_CLK</obj_property>
+         <obj_property name="ObjectShortName">MAIN_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/RESET_IN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">RESET_IN</obj_property>
+         <obj_property name="ObjectShortName">RESET_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/MODDATA_DIN" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">MODDATA_DIN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MODDATA_DIN[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/MODDATA_DEN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">MODDATA_DEN</obj_property>
+         <obj_property name="ObjectShortName">MODDATA_DEN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/MODDATA_RDY" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">MODDATA_RDY</obj_property>
+         <obj_property name="ObjectShortName">MODDATA_RDY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/FRAME_DATA_IN" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">FRAME_DATA_IN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FRAME_DATA_IN[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/FRAME_WEN_IN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">FRAME_WEN_IN</obj_property>
+         <obj_property name="ObjectShortName">FRAME_WEN_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/FRAME_CTRL_IN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">FRAME_CTRL_IN</obj_property>
+         <obj_property name="ObjectShortName">FRAME_CTRL_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/FRAME_XOFF_OUT" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">FRAME_XOFF_OUT</obj_property>
+         <obj_property name="ObjectShortName">FRAME_XOFF_OUT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/SLINK_UD" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">SLINK_UD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SLINK_UD[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/SLINK_UWEN_N" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">SLINK_UWEN_N</obj_property>
+         <obj_property name="ObjectShortName">SLINK_UWEN_N</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/SLINK_UCTRL_N" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">SLINK_UCTRL_N</obj_property>
+         <obj_property name="ObjectShortName">SLINK_UCTRL_N</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/SLINK_LFF_N" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">SLINK_LFF_N</obj_property>
+         <obj_property name="ObjectShortName">SLINK_LFF_N</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/SLINK_LDOWN_N" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">SLINK_LDOWN_N</obj_property>
+         <obj_property name="ObjectShortName">SLINK_LDOWN_N</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/SEND_BACK_PORT_DOUT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">SEND_BACK_PORT_DOUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SEND_BACK_PORT_DOUT[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/SEND_BACK_PORT_DEN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">SEND_BACK_PORT_DEN</obj_property>
+         <obj_property name="ObjectShortName">SEND_BACK_PORT_DEN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/SEND_BACK_PORT_RDY" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">SEND_BACK_PORT_RDY</obj_property>
+         <obj_property name="ObjectShortName">SEND_BACK_PORT_RDY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/NUMBER_OF_EXPECTED_MODULES" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">NUMBER_OF_EXPECTED_MODULES</obj_property>
+         <obj_property name="ObjectShortName">NUMBER_OF_EXPECTED_MODULES</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/STATE_MACHINE_ERROR_MONITOR" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">STATE_MACHINE_ERROR_MONITOR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">STATE_MACHINE_ERROR_MONITOR[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/current_state" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">current_state</obj_property>
+         <obj_property name="ObjectShortName">current_state</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/moddata_empty_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">moddata_empty_i</obj_property>
+         <obj_property name="ObjectShortName">moddata_empty_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/moddata_full_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">moddata_full_i</obj_property>
+         <obj_property name="ObjectShortName">moddata_full_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/frame_empty_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">frame_empty_i</obj_property>
+         <obj_property name="ObjectShortName">frame_empty_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/frame_full_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">frame_full_i</obj_property>
+         <obj_property name="ObjectShortName">frame_full_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/link_ready" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">link_ready</obj_property>
+         <obj_property name="ObjectShortName">link_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/slink_ready" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">slink_ready</obj_property>
+         <obj_property name="ObjectShortName">slink_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/sendbackdata_buf" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sendbackdata_buf[32:0]</obj_property>
+         <obj_property name="ObjectShortName">sendbackdata_buf[32:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/slink_out_buf" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">slink_out_buf[33:0]</obj_property>
+         <obj_property name="ObjectShortName">slink_out_buf[33:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/float_moddata" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">float_moddata[3:0]</obj_property>
+         <obj_property name="ObjectShortName">float_moddata[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/float_frame" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">float_frame[2:0]</obj_property>
+         <obj_property name="ObjectShortName">float_frame[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/allow_read_fifo_at_next_cycle" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">allow_read_fifo_at_next_cycle</obj_property>
+         <obj_property name="ObjectShortName">allow_read_fifo_at_next_cycle</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/moddata_input_go_next_if_exist_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">moddata_input_go_next_if_exist_i</obj_property>
+         <obj_property name="ObjectShortName">moddata_input_go_next_if_exist_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/frame_input_go_next_if_exist_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">frame_input_go_next_if_exist_i</obj_property>
+         <obj_property name="ObjectShortName">frame_input_go_next_if_exist_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/frame_data_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">frame_data_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">frame_data_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/frame_ctrl_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">frame_ctrl_i</obj_property>
+         <obj_property name="ObjectShortName">frame_ctrl_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/frame_den_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">frame_den_i</obj_property>
+         <obj_property name="ObjectShortName">frame_den_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/moddata_data_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">moddata_data_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">moddata_data_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/moddata_den_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">moddata_den_i</obj_property>
+         <obj_property name="ObjectShortName">moddata_den_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/readmode" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">readmode[1:0]</obj_property>
+         <obj_property name="ObjectShortName">readmode[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/moddata_selected" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">moddata_selected</obj_property>
+         <obj_property name="ObjectShortName">moddata_selected</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/frame_selected" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">frame_selected</obj_property>
+         <obj_property name="ObjectShortName">frame_selected</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/df_internal_event_counter" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">df_internal_event_counter[15:0]</obj_property>
+         <obj_property name="ObjectShortName">df_internal_event_counter[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/number_of_checked_modules" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">number_of_checked_modules</obj_property>
+         <obj_property name="ObjectShortName">number_of_checked_modules</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/number_of_words" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">number_of_words[31:0]</obj_property>
+         <obj_property name="ObjectShortName">number_of_words[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/error_flags_buf" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">error_flags_buf[31:0]</obj_property>
+         <obj_property name="ObjectShortName">error_flags_buf[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/ERROR_BITPOS_WAIT_SAMPLE_INTERNAL_HEADER_IN_FRAME_AND_SKIP" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_INTERNAL_HEADER_IN_FRAME_AND_SKIP</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_INTERNAL_HEADER_IN_FRAME_AND_SKIP</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/ERROR_BITPOS_WAIT_SAMPLE_HEADER0_AND_SEND_HEADER0" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER0_AND_SEND_HEADER0</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER0_AND_SEND_HEADER0</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/ERROR_BITPOS_WAIT_SAMPLE_HEADER1_AND_SEND_HEADER1" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER1_AND_SEND_HEADER1</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER1_AND_SEND_HEADER1</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/ERROR_BITPOS_WAIT_SAMPLE_HEADER2_AND_SEND_HEADER2" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER2_AND_SEND_HEADER2</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER2_AND_SEND_HEADER2</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/ERROR_BITPOS_WAIT_SAMPLE_HEADER3_AND_SEND_HEADER3" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER3_AND_SEND_HEADER3</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER3_AND_SEND_HEADER3</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/ERROR_BITPOS_WAIT_SAMPLE_HEADER4_AND_SEND_HEADER4" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER4_AND_SEND_HEADER4</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER4_AND_SEND_HEADER4</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/ERROR_BITPOS_WAIT_SAMPLE_HEADER5_AND_SEND_HEADER5" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER5_AND_SEND_HEADER5</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER5_AND_SEND_HEADER5</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/ERROR_BITPOS_WAIT_SAMPLE_HEADER6_AND_SEND_HEADER6" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER6_AND_SEND_HEADER6</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER6_AND_SEND_HEADER6</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/ERROR_BITPOS_WAIT_SAMPLE_INTERNAL_HEADER_IN_MODDATA_AND_DECIDE" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_INTERNAL_HEADER_IN_MODDATA_AND_DECIDE</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_INTERNAL_HEADER_IN_MODDATA_AND_DECIDE</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/ERROR_BITPOS_WAIT_SAMPLE_MODDATA_AND_SEND_BACK_TO_SWITCH_AND_CHECK_TRAILER" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_MODDATA_AND_SEND_BACK_TO_SWITCH_AND_CHECK_TRAILER</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_MODDATA_AND_SEND_BACK_TO_SWITCH_AND_CHECK_TRAILER</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/ERROR_BITPOS_WAIT_SAMPLE_LOCAL_DESTINATION_WORD_AND_SKIP_IT" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_LOCAL_DESTINATION_WORD_AND_SKIP_IT</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_LOCAL_DESTINATION_WORD_AND_SKIP_IT</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/ERROR_BITPOS_WAIT_SAMPLE_DATA_AND_SEND_DATA_AND_CHECK_TRAILER" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_DATA_AND_SEND_DATA_AND_CHECK_TRAILER</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_DATA_AND_SEND_DATA_AND_CHECK_TRAILER</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/ERROR_BITPOS_WAIT_SAMPLE_DATA_AND_SKIP_AND_CHECK_TRAILER" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_DATA_AND_SKIP_AND_CHECK_TRAILER</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_DATA_AND_SKIP_AND_CHECK_TRAILER</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/ERROR_BITPOS_WAIT_SAMPLE_EODA_WORD_AND_SEND_EODA_WORD" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_EODA_WORD_AND_SEND_EODA_WORD</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_EODA_WORD_AND_SEND_EODA_WORD</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/ERROR_BITPOS_WAIT_SAMPLE_TRAILER1_SEND_TRAILER1" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_TRAILER1_SEND_TRAILER1</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_TRAILER1_SEND_TRAILER1</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/ERROR_BITPOS_WAIT_SAMPLE_TRAILER2_SEND_TRAILER2" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_TRAILER2_SEND_TRAILER2</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_TRAILER2_SEND_TRAILER2</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/ERROR_BITPOS_WAIT_SAMPLE_TRAILER3_SEND_TRAILER3" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_TRAILER3_SEND_TRAILER3</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_TRAILER3_SEND_TRAILER3</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/ERROR_BITPOS_WAIT_SAMPLE_TRAILER4_SEND_TRAILER4" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_TRAILER4_SEND_TRAILER4</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_TRAILER4_SEND_TRAILER4</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/ERROR_BITPOS_WAIT_SAMPLE_TRAILER5_SEND_TRAILER5" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_TRAILER5_SEND_TRAILER5</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_TRAILER5_SEND_TRAILER5</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/sendbackdata_idle" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sendbackdata_idle[32:0]</obj_property>
+         <obj_property name="ObjectShortName">sendbackdata_idle[32:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/slink_idle" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">slink_idle[33:0]</obj_property>
+         <obj_property name="ObjectShortName">slink_idle[33:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/slink_ctrl_fragment" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">slink_ctrl_fragment[1:0]</obj_property>
+         <obj_property name="ObjectShortName">slink_ctrl_fragment[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/slink_data_fragment" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">slink_data_fragment[1:0]</obj_property>
+         <obj_property name="ObjectShortName">slink_data_fragment[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/read_moddata_mode" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">read_moddata_mode[1:0]</obj_property>
+         <obj_property name="ObjectShortName">read_moddata_mode[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/read_frame_mode" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">read_frame_mode[1:0]</obj_property>
+         <obj_property name="ObjectShortName">read_frame_mode[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/EVENT_SORTER/noread_mode" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">noread_mode[1:0]</obj_property>
+         <obj_property name="ObjectShortName">noread_mode[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group335" type="group">
+      <obj_property name="label">SINGLE SWITCH 1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/WCLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">WCLK</obj_property>
+         <obj_property name="ObjectShortName">WCLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/RCLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">RCLK</obj_property>
+         <obj_property name="ObjectShortName">RCLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/RST" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">RST</obj_property>
+         <obj_property name="ObjectShortName">RST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/INPUT_PORT_DIN" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">INPUT_PORT_DIN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">INPUT_PORT_DIN[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/INPUT_PORT_DEN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">INPUT_PORT_DEN</obj_property>
+         <obj_property name="ObjectShortName">INPUT_PORT_DEN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/INPUT_PORT_RDY" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">INPUT_PORT_RDY</obj_property>
+         <obj_property name="ObjectShortName">INPUT_PORT_RDY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/OUTPUT_PORT1_DOUT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">OUTPUT_PORT1_DOUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OUTPUT_PORT1_DOUT[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/OUTPUT_PORT1_DEN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">OUTPUT_PORT1_DEN</obj_property>
+         <obj_property name="ObjectShortName">OUTPUT_PORT1_DEN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/OUTPUT_PORT1_RDY" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">OUTPUT_PORT1_RDY</obj_property>
+         <obj_property name="ObjectShortName">OUTPUT_PORT1_RDY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/OUTPUT_PORT2_DOUT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">OUTPUT_PORT2_DOUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OUTPUT_PORT2_DOUT[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/OUTPUT_PORT2_DEN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">OUTPUT_PORT2_DEN</obj_property>
+         <obj_property name="ObjectShortName">OUTPUT_PORT2_DEN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/OUTPUT_PORT2_RDY" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">OUTPUT_PORT2_RDY</obj_property>
+         <obj_property name="ObjectShortName">OUTPUT_PORT2_RDY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/OUTPORT1_MASK" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">OUTPORT1_MASK[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OUTPORT1_MASK[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/OUTPORT2_MASK" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">OUTPORT2_MASK[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OUTPORT2_MASK[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/input_port_empty_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">input_port_empty_i</obj_property>
+         <obj_property name="ObjectShortName">input_port_empty_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/input_port_full_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">input_port_full_i</obj_property>
+         <obj_property name="ObjectShortName">input_port_full_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/input_port_dout_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">input_port_dout_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">input_port_dout_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/input_go_next_if_exist_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">input_go_next_if_exist_i</obj_property>
+         <obj_property name="ObjectShortName">input_go_next_if_exist_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/current_state_i" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">current_state_i</obj_property>
+         <obj_property name="ObjectShortName">current_state_i</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/output_lanes_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">output_lanes_i[2:1]</obj_property>
+         <obj_property name="ObjectShortName">output_lanes_i[2:1]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/din_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">din_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">din_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/den_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">den_i</obj_property>
+         <obj_property name="ObjectShortName">den_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/allow_read_fifo_at_next_cycle" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">allow_read_fifo_at_next_cycle</obj_property>
+         <obj_property name="ObjectShortName">allow_read_fifo_at_next_cycle</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/header_buffer_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">header_buffer_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">header_buffer_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/dest_outport1_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">dest_outport1_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dest_outport1_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/dest_outport2_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">dest_outport2_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dest_outport2_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/float_port2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">float_port2[3:0]</obj_property>
+         <obj_property name="ObjectShortName">float_port2[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/float_port1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">float_port1[3:0]</obj_property>
+         <obj_property name="ObjectShortName">float_port1[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/output_buf_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">output_buf_i[2:1][32:0]</obj_property>
+         <obj_property name="ObjectShortName">output_buf_i[2:1][32:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/link_ready" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">link_ready</obj_property>
+         <obj_property name="ObjectShortName">link_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/module_count_in_a_row" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">module_count_in_a_row</obj_property>
+         <obj_property name="ObjectShortName">module_count_in_a_row</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/idle_word" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">idle_word[32:0]</obj_property>
+         <obj_property name="ObjectShortName">idle_word[32:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/data_valid" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">data_valid</obj_property>
+         <obj_property name="ObjectShortName">data_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/SINGLE_SWITCH1/MAX_MODULE_COUNT_IN_A_ROW" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">MAX_MODULE_COUNT_IN_A_ROW</obj_property>
+         <obj_property name="ObjectShortName">MAX_MODULE_COUNT_IN_A_ROW</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

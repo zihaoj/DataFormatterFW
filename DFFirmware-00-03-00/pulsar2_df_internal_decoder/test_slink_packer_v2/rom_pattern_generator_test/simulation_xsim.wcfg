@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="simulation_xsim.wdb" id="1">
+         <top_modules>
+            <top_module name="standard" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="testbench" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="2" />
+   <wvobject fp_name="group5" type="group">
+      <obj_property name="label">Testbench top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/testbench/data_valid_i" type="logic">
+         <obj_property name="ElementShortName">data_valid_i</obj_property>
+         <obj_property name="ObjectShortName">data_valid_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/main_clk_i" type="logic">
+         <obj_property name="ElementShortName">main_clk_i</obj_property>
+         <obj_property name="ObjectShortName">main_clk_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/rdreq_i" type="logic">
+         <obj_property name="ElementShortName">rdreq_i</obj_property>
+         <obj_property name="ObjectShortName">rdreq_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/dout_i" type="array">
+         <obj_property name="ElementShortName">dout_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dout_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/reset_i" type="logic">
+         <obj_property name="ElementShortName">reset_i</obj_property>
+         <obj_property name="ObjectShortName">reset_i</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group12" type="group">
+      <obj_property name="label">Pattern generator</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/testbench/MyROM/SYS_CLK" type="logic">
+         <obj_property name="ElementShortName">SYS_CLK</obj_property>
+         <obj_property name="ObjectShortName">SYS_CLK</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/MyROM/RDREQ" type="logic">
+         <obj_property name="ElementShortName">RDREQ</obj_property>
+         <obj_property name="ObjectShortName">RDREQ</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/MyROM/Q" type="array">
+         <obj_property name="ElementShortName">Q[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Q[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ACLR" type="logic">
+         <obj_property name="ElementShortName">ACLR</obj_property>
+         <obj_property name="ObjectShortName">ACLR</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM" type="array">
+         <obj_property name="ElementShortName">ROM[0:31][32:0]</obj_property>
+         <obj_property name="ObjectShortName">ROM[0:31][32:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[0]" type="array">
+            <obj_property name="ElementShortName">[0][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[0][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[1]" type="array">
+            <obj_property name="ElementShortName">[1][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[1][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[2]" type="array">
+            <obj_property name="ElementShortName">[2][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[2][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[3]" type="array">
+            <obj_property name="ElementShortName">[3][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[3][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[4]" type="array">
+            <obj_property name="ElementShortName">[4][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[4][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[5]" type="array">
+            <obj_property name="ElementShortName">[5][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[5][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[6]" type="array">
+            <obj_property name="ElementShortName">[6][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[6][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[7]" type="array">
+            <obj_property name="ElementShortName">[7][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[7][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[8]" type="array">
+            <obj_property name="ElementShortName">[8][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[8][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[9]" type="array">
+            <obj_property name="ElementShortName">[9][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[9][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[10]" type="array">
+            <obj_property name="ElementShortName">[10][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[10][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[11]" type="array">
+            <obj_property name="ElementShortName">[11][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[11][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[12]" type="array">
+            <obj_property name="ElementShortName">[12][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[12][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[13]" type="array">
+            <obj_property name="ElementShortName">[13][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[13][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[14]" type="array">
+            <obj_property name="ElementShortName">[14][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[14][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[15]" type="array">
+            <obj_property name="ElementShortName">[15][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[15][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[16]" type="array">
+            <obj_property name="ElementShortName">[16][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[16][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[17]" type="array">
+            <obj_property name="ElementShortName">[17][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[17][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[18]" type="array">
+            <obj_property name="ElementShortName">[18][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[18][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[19]" type="array">
+            <obj_property name="ElementShortName">[19][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[19][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[20]" type="array">
+            <obj_property name="ElementShortName">[20][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[20][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[21]" type="array">
+            <obj_property name="ElementShortName">[21][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[21][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[22]" type="array">
+            <obj_property name="ElementShortName">[22][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[22][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[23]" type="array">
+            <obj_property name="ElementShortName">[23][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[23][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[24]" type="array">
+            <obj_property name="ElementShortName">[24][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[24][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[25]" type="array">
+            <obj_property name="ElementShortName">[25][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[25][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[26]" type="array">
+            <obj_property name="ElementShortName">[26][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[26][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[27]" type="array">
+            <obj_property name="ElementShortName">[27][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[27][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[28]" type="array">
+            <obj_property name="ElementShortName">[28][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[28][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[29]" type="array">
+            <obj_property name="ElementShortName">[29][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[29][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[30]" type="array">
+            <obj_property name="ElementShortName">[30][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[30][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/MyROM/ROM[31]" type="array">
+            <obj_property name="ElementShortName">[31][32:0]</obj_property>
+            <obj_property name="ObjectShortName">ROM[31][32:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/MyROM/rom_read_address" type="array">
+         <obj_property name="ElementShortName">rom_read_address[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rom_read_address[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

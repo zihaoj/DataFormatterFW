@@ -1,0 +1,237 @@
+/*
+
+xsim v2015.3 (64-bit)
+SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+Process ID: 32461
+
+Current time: 	2/10/16 12:22:54 AM CET
+Time zone: 	Central European Time (Europe/Vaduz)
+
+OS: Scientific Linux CERN SLC release 6.7 (Carbon)
+Version: 2.6.32-573.12.1.el6.x86_64
+Architecture: amd64
+Available processors (cores): 8
+
+DISPLAY: :0.0
+Screen size: 1920x1200
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	/home/Xilinx/Vivado/2015.3/tps/lnx64/jre
+
+User name: 	zijiang
+User home directory: /afs/cern.ch/user/z/zijiang
+User working directory: /afs/cern.ch/work/z/zijiang/DFFirmwareDebugSpy/pulsar2_df_internal_decoder/test_slink_packer_v2
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: /afs/cern.ch/user/z/zijiang/.Xilinx/xsim/2015.3/vivado.ini
+Vivado layouts directory: /afs/cern.ch/user/z/zijiang/.Xilinx/xsim/2015.3/layouts
+
+GUI allocated memory:	151 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,951 MB
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: START_PROGRESS_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: START_PROGRESS_DIALOG
+// bF:g (cq:JFrame):  Sourcing Tcl script 'xsim.dir/run_gen/xsim_script.tcl' : addNotify
+// Tcl Message: source xsim.dir/run_gen/xsim_script.tcl 
+// Tcl Message: # load_feature core 
+// TclEventType: LOAD_FEATURE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 45 MB (+45080kb) [00:00:03]
+// [Engine Memory]: 4,882 MB (+4967209kb) [00:00:03]
+// [GUI Memory]: 52 MB (+4338kb) [00:00:03]
+// [GUI Memory]: 55 MB (+168kb) [00:00:03]
+// Tcl Message: # current_fileset 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/Xilinx/Vivado/2015.3/data/ip'. 
+// Tcl Message: # xsim {run_gen} -maxdeltaid 10000 -wdb {simulation_xsim.wdb} -autoloadwcfg 
+// Tcl Message: Vivado Simulator 2015.3 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// [GUI Memory]: 58 MB (+388kb) [00:00:05]
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: STOP_PROGRESS_DIALOG
+dismissDialog("Sourcing Tcl script 'xsim.dir/run_gen/xsim_script.tcl'"); // bF:g (cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,997 MB. GUI used memory: 34 MB. Current time: 2/10/16 12:22:56 AM CET
+selectTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATION_SCOPES_TREE_TABLE, "testbench ; testbench(logic) ; VHDL Entity", 0, "testbench", 0, true); // d:aw (JViewport:JComponent, cq:JFrame) - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "dout_i[31:0] ; UUUUUUUU ; Array", 5, "dout_i[31:0]", 0, true); // l:aw (JViewport:JComponent, cq:JFrame) - Node
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "header_dout_i[31:0] ; UUUUUUUU ; Array", 6, "header_dout_i[31:0]", 0, true, false, true, false, false, false); // l:aw (JViewport:JComponent, cq:JFrame) - Control Key - Node
+// [GUI Memory]: 61 MB (+44kb) [00:00:11]
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "header_dout_i[31:0] ; UUUUUUUU ; Array", 6, "header_dout_i[31:0]", 0, true, false, false, false, true, false); // l:aw (JViewport:JComponent, cq:JFrame) - Popup Trigger - Node
+selectMenuItem((HResource) null, "Add To Wave Window"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: add_wave {{/testbench/dout_i}} {{/testbench/header_dout_i}}  
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// Tcl Message: run 20 us 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// Tcl Message: run 20 us 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 5,034 MB. GUI used memory: 38 MB. Current time: 2/10/16 12:23:06 AM CET
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 501, 98, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+selectMenuItem((HResource) null, "Full View"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 226, 80); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,034 MB. GUI used memory: 39 MB. Current time: 2/10/16 12:23:08 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 399, 56); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,034 MB. GUI used memory: 39 MB. Current time: 2/10/16 12:23:08 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,034 MB. GUI used memory: 39 MB. Current time: 2/10/16 12:23:09 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 321, 103); // o:a (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,034 MB. GUI used memory: 39 MB. Current time: 2/10/16 12:23:10 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,034 MB. GUI used memory: 38 MB. Current time: 2/10/16 12:23:10 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 532, 116, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+selectMenuItem((HResource) null, "Full View"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// Tcl Message: run 20 us 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 5,034 MB. GUI used memory: 39 MB. Current time: 2/10/16 12:23:15 AM CET
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+selectTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATION_SCOPES_TREE_TABLE, "MyROM ; pattern_generator(logic) ; VHDL Entity", 1, "MyROM", 0, false); // d:aw (JViewport:JComponent, cq:JFrame)
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// [GUI Memory]: 64 MB (+301kb) [00:00:30]
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "DATA_WIDTH ; 32 ; Integer", 8, "DATA_WIDTH", 0, false); // l:aw (JViewport:JComponent, cq:JFrame)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "DATA_WIDTH ; 32 ; Integer", 8, "DATA_WIDTH", 0, false, false, false, false, true, false); // l:aw (JViewport:JComponent, cq:JFrame) - Popup Trigger
+selectMenuItem((HResource) null, "Add To Wave Window"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: add_wave {{/testbench/MyROM/DATA_WIDTH}}  
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "ROM[0:255][32:0] ; 0c01e0000,000008000,080008b4a,000008102,0e0000000,0c0040000,000008000,080008b4b,000008102,0e0000000,0c00a0000,000008000,080008b48,000008102,0e0000000,0c0100000,000008000,080008b49,000008102,0e0000000,0c0060000,000008000,080008b62,000008102,0e0000000,0c00c0000,000008000,080008b63,000008102,0e0000000,0c0120000,000008000,080008b60,000008102,0e0000000,0c0180000,000008000,080008b61,000008102,0e0000000,0c00e0000,000008000,080008b32,000008102,0e0000000,0c0140000,000008000,080008b33,000008102,0e0000000,0c01a0000,000008000,080008b30,000008102,0e0000000,0c0000000,000008000,080008b31,000008102,0e0000000,0c00a0001,000008000,080008b4a,000008102,0e0000000,0c0100001,000008000,080008b4b,000008102,0e0000000,0c0160001,000008000,080008b48,000008102,0e0000000,0c01c0001,000008000,080008b49,000008102,0e0000000,0c0120001,000008000,080008b62,000008102,0e0000000,0c0180001,000008000,080008b63,000008102,0e0000000,0c01e0001,000008000,080008b60,000008102,0e0000000,0c0040001,000008000,080008b61,000008102,0e0000000,0c01a0001,000008000,080008b32,000008102,0e0000000,0c0000001,000008000,080008b33,000008102,0e0000000,0c0060001,000008000,080008b30,000008102,0e0000000,0c00c0001,000008000,080008b31,000008102,0e0000000,0c0150000,000008000,080008b1a,000008102,0e0000000,0c01b0000,000008000,080008b1b,000008102,0e0000000,0c0010000,000008000,080008b18,000008102,0e0000000,0c0070000,000008000,080008b19,000008102,0e0000000,0c0010001,000008000,080008b1a,000008102,0e0000000,0c0070001,000008000,080008b1b,000008102,0e0000000,0c00d0001,000008000,080008b18,000008102,0e0000000,0c0130001,000008000,080008b19,000008102,0e0000000,0c00d0002,000008000,080008b1a,000008102,0e0000000,0c0130002,000008000,080008b1b,000008102,0e0000000,0c0190002,000008000,080008b18,000008102,0e0000000,0c01f0002,000008000,080008b19,000008102,1e0000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000 ; Array", 5, "ROM[0:255][32:0]", 0, true); // l:aw (JViewport:JComponent, cq:JFrame) - Node
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "ROM[0:255][32:0] ; 0c01e0000,000008000,080008b4a,000008102,0e0000000,0c0040000,000008000,080008b4b,000008102,0e0000000,0c00a0000,000008000,080008b48,000008102,0e0000000,0c0100000,000008000,080008b49,000008102,0e0000000,0c0060000,000008000,080008b62,000008102,0e0000000,0c00c0000,000008000,080008b63,000008102,0e0000000,0c0120000,000008000,080008b60,000008102,0e0000000,0c0180000,000008000,080008b61,000008102,0e0000000,0c00e0000,000008000,080008b32,000008102,0e0000000,0c0140000,000008000,080008b33,000008102,0e0000000,0c01a0000,000008000,080008b30,000008102,0e0000000,0c0000000,000008000,080008b31,000008102,0e0000000,0c00a0001,000008000,080008b4a,000008102,0e0000000,0c0100001,000008000,080008b4b,000008102,0e0000000,0c0160001,000008000,080008b48,000008102,0e0000000,0c01c0001,000008000,080008b49,000008102,0e0000000,0c0120001,000008000,080008b62,000008102,0e0000000,0c0180001,000008000,080008b63,000008102,0e0000000,0c01e0001,000008000,080008b60,000008102,0e0000000,0c0040001,000008000,080008b61,000008102,0e0000000,0c01a0001,000008000,080008b32,000008102,0e0000000,0c0000001,000008000,080008b33,000008102,0e0000000,0c0060001,000008000,080008b30,000008102,0e0000000,0c00c0001,000008000,080008b31,000008102,0e0000000,0c0150000,000008000,080008b1a,000008102,0e0000000,0c01b0000,000008000,080008b1b,000008102,0e0000000,0c0010000,000008000,080008b18,000008102,0e0000000,0c0070000,000008000,080008b19,000008102,0e0000000,0c0010001,000008000,080008b1a,000008102,0e0000000,0c0070001,000008000,080008b1b,000008102,0e0000000,0c00d0001,000008000,080008b18,000008102,0e0000000,0c0130001,000008000,080008b19,000008102,0e0000000,0c00d0002,000008000,080008b1a,000008102,0e0000000,0c0130002,000008000,080008b1b,000008102,0e0000000,0c0190002,000008000,080008b18,000008102,0e0000000,0c01f0002,000008000,080008b19,000008102,1e0000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000,000000000 ; Array", 5, "ROM[0:255][32:0]", 0, true, false, false, false, true, false); // l:aw (JViewport:JComponent, cq:JFrame) - Popup Trigger - Node
+selectMenuItem((HResource) null, "Add To Wave Window"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: add_wave {{/testbench/MyROM/ROM}}  
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "rom_read_address[7:0] ; 2d ; Array", 6, "rom_read_address[7:0]", 0, true); // l:aw (JViewport:JComponent, cq:JFrame) - Node
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "rom_read_address[7:0] ; 2d ; Array", 6, "rom_read_address[7:0]", 0, true, false, false, false, true, false); // l:aw (JViewport:JComponent, cq:JFrame) - Popup Trigger - Node
+selectMenuItem((HResource) null, "Add To Wave Window"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: add_wave {{/testbench/MyROM/rom_read_address}}  
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// Tcl Message: run 20 us 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 5,034 MB. GUI used memory: 38 MB. Current time: 2/10/16 12:23:25 AM CET
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 255, 69, false, false, false, true, false); // o:a (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectMenuItem((HResource) null, "Full View"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 752, 93); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,034 MB. GUI used memory: 53 MB. Current time: 2/10/16 12:23:29 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,034 MB. GUI used memory: 42 MB. Current time: 2/10/16 12:23:29 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,034 MB. GUI used memory: 48 MB. Current time: 2/10/16 12:23:29 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,034 MB. GUI used memory: 48 MB. Current time: 2/10/16 12:23:29 AM CET
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 722, 56); // o:a (JViewport:JComponent, cq:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,034 MB. GUI used memory: 41 MB. Current time: 2/10/16 12:23:30 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,036 MB. GUI used memory: 46 MB. Current time: 2/10/16 12:23:30 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+closeMainWindow("Vivado 2015.3"); // cq:JFrame
+// G:aY (cq:JFrame): Exit Vivado: addNotify

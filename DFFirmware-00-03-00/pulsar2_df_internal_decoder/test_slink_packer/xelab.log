@@ -1,0 +1,95 @@
+Vivado Simulator 2015.3
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /home/Xilinx/Vivado/2015.3/bin/unwrapped/lnx64.o/xelab -incremental -prj simulation_xsim.prj -s run_gen work.testbench --debug all 
+Multi-threading is on. Using 6 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-163] Analyzing VHDL file "/afs/cern.ch/work/z/zijiang/DFFirmwareDebugSpy/data_formatter_top/implementation/fmcLib.vhd.im" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "/afs/cern.ch/work/z/zijiang/DFFirmwareDebugSpy/data_formatter_top/data_formatter_constants.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "/afs/cern.ch/work/z/zijiang/DFFirmwareDebugSpy/pulsar2_df_switch/df_switch_2ch_merger_v2.vhd" into library work
+INFO: [VRFC 10-307] analyzing entity df_switch_2ch_merger
+INFO: [VRFC 10-163] Analyzing VHDL file "/afs/cern.ch/work/z/zijiang/DFFirmwareDebugSpy/generated_ip/xc7vx690t-ffg1927-2/fwft_cc_w36_d512/fwft_cc_w36_d512_my_wrapper.vhd" into library work
+INFO: [VRFC 10-307] analyzing entity fwft_cc_w36_d512_my_wrapper
+INFO: [VRFC 10-163] Analyzing VHDL file "/afs/cern.ch/work/z/zijiang/DFFirmwareDebugSpy/generated_ip/xc7vx690t-ffg1927-2/fwft_cc_w36_d512/fwft_cc_w36_d512_funcsim.vhdl" into library work
+INFO: [VRFC 10-307] analyzing entity fwft_cc_w36_d512_blk_mem_gen_prim_wrapper
+INFO: [VRFC 10-307] analyzing entity fwft_cc_w36_d512_compare
+INFO: [VRFC 10-307] analyzing entity fwft_cc_w36_d512_compare_0
+INFO: [VRFC 10-307] analyzing entity fwft_cc_w36_d512_compare_1
+INFO: [VRFC 10-307] analyzing entity fwft_cc_w36_d512_compare_2
+INFO: [VRFC 10-307] analyzing entity fwft_cc_w36_d512_rd_bin_cntr
+INFO: [VRFC 10-307] analyzing entity fwft_cc_w36_d512_rd_fwft
+INFO: [VRFC 10-307] analyzing entity fwft_cc_w36_d512_reset_blk_ramfifo
+INFO: [VRFC 10-307] analyzing entity fwft_cc_w36_d512_wr_bin_cntr
+INFO: [VRFC 10-307] analyzing entity fwft_cc_w36_d512_wr_pf_ss
+INFO: [VRFC 10-307] analyzing entity fwft_cc_w36_d512_blk_mem_gen_prim_width
+INFO: [VRFC 10-307] analyzing entity fwft_cc_w36_d512_rd_status_flags_ss
+INFO: [VRFC 10-307] analyzing entity fwft_cc_w36_d512_wr_status_flags_ss
+INFO: [VRFC 10-307] analyzing entity fwft_cc_w36_d512_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-307] analyzing entity fwft_cc_w36_d512_rd_logic
+INFO: [VRFC 10-307] analyzing entity fwft_cc_w36_d512_wr_logic
+INFO: [VRFC 10-307] analyzing entity fwft_cc_w36_d512_blk_mem_gen_top
+INFO: [VRFC 10-307] analyzing entity fwft_cc_w36_d512_blk_mem_gen_v8_2_synth
+INFO: [VRFC 10-307] analyzing entity \fwft_cc_w36_d512_blk_mem_gen_v8_2__parameterized0\
+INFO: [VRFC 10-307] analyzing entity fwft_cc_w36_d512_memory
+INFO: [VRFC 10-307] analyzing entity fwft_cc_w36_d512_fifo_generator_ramfifo
+INFO: [VRFC 10-307] analyzing entity fwft_cc_w36_d512_fifo_generator_top
+INFO: [VRFC 10-307] analyzing entity fwft_cc_w36_d512_fifo_generator_v12_0_synth
+INFO: [VRFC 10-307] analyzing entity \fwft_cc_w36_d512_fifo_generator_v12_0__parameterized0\
+INFO: [VRFC 10-307] analyzing entity fwft_cc_w36_d512
+INFO: [VRFC 10-163] Analyzing VHDL file "/afs/cern.ch/work/z/zijiang/DFFirmwareDebugSpy/generated_ip/xc7vx690t-ffg1927-2/event_sorting_buffer/event_sorting_buffer_funcsim.vhdl" into library work
+INFO: [VRFC 10-307] analyzing entity \event_sorting_buffer_blk_mem_gen_mux__parameterized0\
+INFO: [VRFC 10-307] analyzing entity event_sorting_buffer_blk_mem_gen_prim_wrapper
+INFO: [VRFC 10-307] analyzing entity \event_sorting_buffer_blk_mem_gen_prim_wrapper__parameterized0\
+INFO: [VRFC 10-307] analyzing entity \event_sorting_buffer_blk_mem_gen_prim_wrapper__parameterized1\
+INFO: [VRFC 10-307] analyzing entity \event_sorting_buffer_blk_mem_gen_prim_wrapper__parameterized2\
+INFO: [VRFC 10-307] analyzing entity \event_sorting_buffer_blk_mem_gen_prim_wrapper__parameterized3\
+INFO: [VRFC 10-307] analyzing entity \event_sorting_buffer_blk_mem_gen_prim_wrapper__parameterized4\
+INFO: [VRFC 10-307] analyzing entity \event_sorting_buffer_blk_mem_gen_prim_wrapper__parameterized5\
+INFO: [VRFC 10-307] analyzing entity \event_sorting_buffer_blk_mem_gen_prim_wrapper__parameterized6\
+INFO: [VRFC 10-307] analyzing entity event_sorting_buffer_compare
+INFO: [VRFC 10-307] analyzing entity event_sorting_buffer_compare_0
+INFO: [VRFC 10-307] analyzing entity event_sorting_buffer_compare_1
+INFO: [VRFC 10-307] analyzing entity event_sorting_buffer_compare_2
+INFO: [VRFC 10-307] analyzing entity event_sorting_buffer_rd_bin_cntr
+INFO: [VRFC 10-307] analyzing entity event_sorting_buffer_rd_fwft
+INFO: [VRFC 10-307] analyzing entity event_sorting_buffer_reset_blk_ramfifo
+INFO: [VRFC 10-307] analyzing entity event_sorting_buffer_updn_cntr
+INFO: [VRFC 10-307] analyzing entity event_sorting_buffer_wr_bin_cntr
+INFO: [VRFC 10-307] analyzing entity event_sorting_buffer_wr_pf_ss
+INFO: [VRFC 10-307] analyzing entity event_sorting_buffer_blk_mem_gen_prim_width
+INFO: [VRFC 10-307] analyzing entity \event_sorting_buffer_blk_mem_gen_prim_width__parameterized0\
+INFO: [VRFC 10-307] analyzing entity \event_sorting_buffer_blk_mem_gen_prim_width__parameterized1\
+INFO: [VRFC 10-307] analyzing entity \event_sorting_buffer_blk_mem_gen_prim_width__parameterized2\
+INFO: [VRFC 10-307] analyzing entity \event_sorting_buffer_blk_mem_gen_prim_width__parameterized3\
+INFO: [VRFC 10-307] analyzing entity \event_sorting_buffer_blk_mem_gen_prim_width__parameterized4\
+INFO: [VRFC 10-307] analyzing entity \event_sorting_buffer_blk_mem_gen_prim_width__parameterized5\
+INFO: [VRFC 10-307] analyzing entity \event_sorting_buffer_blk_mem_gen_prim_width__parameterized6\
+INFO: [VRFC 10-307] analyzing entity event_sorting_buffer_dc_ss_fwft
+INFO: [VRFC 10-307] analyzing entity event_sorting_buffer_rd_status_flags_ss
+INFO: [VRFC 10-307] analyzing entity event_sorting_buffer_wr_status_flags_ss
+INFO: [VRFC 10-307] analyzing entity event_sorting_buffer_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-307] analyzing entity event_sorting_buffer_rd_logic
+INFO: [VRFC 10-307] analyzing entity event_sorting_buffer_wr_logic
+INFO: [VRFC 10-307] analyzing entity event_sorting_buffer_blk_mem_gen_top
+INFO: [VRFC 10-307] analyzing entity event_sorting_buffer_blk_mem_gen_v8_2_synth
+INFO: [VRFC 10-307] analyzing entity \event_sorting_buffer_blk_mem_gen_v8_2__parameterized0\
+INFO: [VRFC 10-307] analyzing entity event_sorting_buffer_memory
+INFO: [VRFC 10-307] analyzing entity event_sorting_buffer_fifo_generator_ramfifo
+INFO: [VRFC 10-307] analyzing entity event_sorting_buffer_fifo_generator_top
+INFO: [VRFC 10-307] analyzing entity event_sorting_buffer_fifo_generator_v12_0_synth
+INFO: [VRFC 10-307] analyzing entity \event_sorting_buffer_fifo_generator_v12_0__parameterized0\
+INFO: [VRFC 10-307] analyzing entity event_sorting_buffer
+INFO: [VRFC 10-163] Analyzing VHDL file "/afs/cern.ch/work/z/zijiang/DFFirmwareDebugSpy/generated_ip/xc7vx690t-ffg1927-2/event_sorting_buffer/event_sorting_buffer_my_wrapper.vhd" into library work
+INFO: [VRFC 10-307] analyzing entity event_sorting_buffer_my_wrapper
+INFO: [VRFC 10-163] Analyzing VHDL file "/afs/cern.ch/work/z/zijiang/DFFirmwareDebugSpy/pulsar2_df_switch/df_switch_element_v3.vhd" into library work
+INFO: [VRFC 10-307] analyzing entity df_switch_element
+INFO: [VRFC 10-307] analyzing entity GrayAddressCounter
+INFO: [VRFC 10-307] analyzing entity short_fwft_fifo
+INFO: [VRFC 10-163] Analyzing VHDL file "/afs/cern.ch/work/z/zijiang/DFFirmwareDebugSpy/pulsar2_df_internal_decoder/df_eventid_comparator.vhd" into library work
+INFO: [VRFC 10-307] analyzing entity df_eventid_comparator
+INFO: [VRFC 10-163] Analyzing VHDL file "/afs/cern.ch/work/z/zijiang/DFFirmwareDebugSpy/pulsar2_df_internal_decoder/df_output_slink_packer_v2.vhd" into library work
+INFO: [VRFC 10-307] analyzing entity df_output_slink_packer
+INFO: [VRFC 10-163] Analyzing VHDL file "/afs/cern.ch/work/z/zijiang/DFFirmwareDebugSpy/pulsar2_df_internal_decoder/test_slink_packer/testbench.vhd" into library work
+INFO: [VRFC 10-307] analyzing entity testbench
+Starting static elaboration
+ERROR: [VRFC 10-718] formal port <STATE_MACHINE_ERROR_MONITOR> does not exist in entity <df_output_slink_packer>.  Please compare the definition of block <df_output_slink_packer> to its component declaration and its instantion to detect the mismatch. [/afs/cern.ch/work/z/zijiang/DFFirmwareDebugSpy/pulsar2_df_internal_decoder/test_slink_packer/testbench.vhd:41]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit testbench in library work failed.

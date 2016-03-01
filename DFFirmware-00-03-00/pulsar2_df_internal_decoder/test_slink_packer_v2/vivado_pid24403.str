@@ -1,0 +1,159 @@
+/*
+
+xsim v2015.3 (64-bit)
+SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+Process ID: 24403
+
+Current time: 	2/6/16 4:40:20 PM CET
+Time zone: 	Central European Time (Europe/Vaduz)
+
+OS: Scientific Linux CERN SLC release 6.7 (Carbon)
+Version: 2.6.32-573.12.1.el6.x86_64
+Architecture: amd64
+Available processors (cores): 8
+
+DISPLAY: :0.0
+Screen size: 1920x1200
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	/home/Xilinx/Vivado/2015.3/tps/lnx64/jre
+
+User name: 	zijiang
+User home directory: /afs/cern.ch/user/z/zijiang
+User working directory: /afs/cern.ch/work/z/zijiang/DFFirmwareDebugSpy/pulsar2_df_internal_decoder/test_slink_packer_v2
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: /afs/cern.ch/user/z/zijiang/.Xilinx/xsim/2015.3/vivado.ini
+Vivado layouts directory: /afs/cern.ch/user/z/zijiang/.Xilinx/xsim/2015.3/layouts
+
+GUI allocated memory:	140 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,944 MB
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: START_PROGRESS_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: START_PROGRESS_DIALOG
+// bF:g (cq:JFrame):  Sourcing Tcl script 'xsim.dir/run_gen/xsim_script.tcl' : addNotify
+// Tcl Message: source xsim.dir/run_gen/xsim_script.tcl 
+// Tcl Message: # load_feature core 
+// TclEventType: LOAD_FEATURE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 39 MB (+38767kb) [00:00:03]
+// [Engine Memory]: 4,881 MB (+4966160kb) [00:00:03]
+// [GUI Memory]: 46 MB (+4533kb) [00:00:03]
+// [GUI Memory]: 49 MB (+823kb) [00:00:03]
+// Tcl Message: # current_fileset 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/Xilinx/Vivado/2015.3/data/ip'. 
+// Tcl Message: # xsim {run_gen} -maxdeltaid 10000 -wdb {simulation_xsim.wdb} -autoloadwcfg 
+// Tcl Message: Vivado Simulator 2015.3 
+// [GUI Memory]: 53 MB (+2227kb) [00:00:05]
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: STOP_PROGRESS_DIALOG
+dismissDialog("Sourcing Tcl script 'xsim.dir/run_gen/xsim_script.tcl'"); // bF:g (cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,979 MB. GUI used memory: 29 MB. Current time: 2/6/16 4:40:22 PM CET
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN_ALL, "simulation_live_run_all"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN_ALL
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// Tcl Message: run all 
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// bF:g (cq:JFrame):  Run All : addNotify
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// Elapsed time: 11 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, bF:g)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// [GUI Memory]: 57 MB (+542kb) [00:00:24]
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 5944.695 ; gain = 9.133 ; free physical = 23196 ; free virtual = 44357 
+// Tcl Message: INFO: [Common 17-344] 'run' was cancelled 
+// [GUI Memory]: 66 MB (+7349kb) [00:00:24]
+dismissDialog("Run All"); // bF:g (cq:JFrame)
+// [GUI Memory]: 73 MB (+2909kb) [00:00:26]
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: run 10 us 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,007 MB. GUI used memory: 35 MB. Current time: 2/6/16 4:40:47 PM CET
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN_ALL, "simulation_live_run_all"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN_ALL
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// Tcl Message: run all 
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// bF:g (cq:JFrame):  Run All : addNotify
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// Elapsed time: 77 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, bF:g)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_BREAK, "simulation_live_break"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_BREAK
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// HOptionPane Error: "Could not find file: '.../primitive/FDCE.vhd' (File Not Found)"
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+selectButton("RDIResource.BaseWorkspace_FILE_NOT_FOUND_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+// Tcl Message: run: Time (s): cpu = 00:00:02 ; elapsed = 00:01:21 . Memory (MB): peak = 5960.930 ; gain = 0.000 ; free physical = 22965 ; free virtual = 44168 
+dismissDialog("Run All"); // bF:g (cq:JFrame)
+selectComboBox(PAResourceQtoS.SimulationLiveRunForComp_SPECIFY_TIME_AND_UNITS, "ns", 3); // b:f (a:JPanel, cq:JFrame)
+setText(PAResourceQtoS.SimulationLiveRunForComp_SPECIFY_TIME_AND_UNITS, "50"); // d:ao (a:JPanel, cq:JFrame)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 50 ns 
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 50 ns 
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+selectTab((HResource) null, (HResource) null, "Sources", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "OUT_DELAY ; 100 ps ; Physical Type", 18, "100 ps", 1, false); // l:aw (JViewport:JComponent, cq:JFrame)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+expandTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "OUT_DELAY ; 100 ps ; Physical Type", 18); // l:aw (JViewport:JComponent, cq:JFrame)
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "OUT_DELAY ; 100 ps ; Physical Type", 18, "100 ps", 1, false, false, false, false, false, true); // l:aw (JViewport:JComponent, cq:JFrame) - Double Click
+// TclEventType: SIMULATION_OPEN_SOURCE
+// HOptionPane Error: "Could not find file: '.../primitive/FDCE.vhd' (File Not Found)"
+selectButton("RDIResource.BaseWorkspace_FILE_NOT_FOUND_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "Q ; 0 ; Logic", 0, "Q", 0, false); // l:aw (JViewport:JComponent, cq:JFrame)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "OUTCLK_DELAY ; 100 ps ; Physical Type", 20, "OUTCLK_DELAY", 0, false, true, false, false, false, false); // l:aw (JViewport:JComponent, cq:JFrame) - Shift Key
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "OUTCLK_DELAY ; 100 ps ; Physical Type", 20, "OUTCLK_DELAY", 0, false, false, false, false, true, false); // l:aw (JViewport:JComponent, cq:JFrame) - Popup Trigger
+closeMainWindow("Vivado 2015.3"); // cq:JFrame
+// G:aY (cq:JFrame): Exit Vivado: addNotify

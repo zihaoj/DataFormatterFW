@@ -1,0 +1,3 @@
+vhdl work ../i2c_master.vhd
+vhdl work ../i2c_slave.vhd
+vhdl work testbench.vhd

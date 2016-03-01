@@ -1,0 +1,35 @@
+/*
+
+Vivado v2014.2 (64-bit)
+SW Build 932637 on Wed Jun 11 13:08:52 MDT 2014
+Process ID: 11010
+
+Current time: 	11/10/15 9:56:24 AM
+Time zone: 	Central European Time (Europe/Vaduz)
+
+OS: Scientific Linux CERN SLC release 6.7 (Carbon)
+Version: 2.6.32-573.7.1.el6.x86_64
+Architecture: amd64
+Available processors (cores): 8
+
+DISPLAY: :0.0
+Screen size: 1920x1200
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.7.0_40 64-bit
+Java home: 	/opt/Xilinx/Vivado/2014.2/tps/lnx64/jre
+
+User name: 	zijiang
+User directory: /afs/cern.ch/work/z/zijiang/DFFirmware/data_formatter_firmware_pro-00-00-02-branch/data_formatter_top/implementation
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Gui allocated memory:	122 mb
+Gui max memory:		3,066 mb
+Engine allocated memory: 3,889 mb
+
+*/
+
+// TclEventType: START_GUI

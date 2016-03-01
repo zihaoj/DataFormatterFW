@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="simulation_xsim.wdb" id="1">
+         <top_modules>
+            <top_module name="attributes" />
+            <top_module name="data_formatter_constants" />
+            <top_module name="fmcconstants" />
+            <top_module name="numeric_std" />
+            <top_module name="spiconstants" />
+            <top_module name="spiregistersdeclarations" />
+            <top_module name="spybufferconstants" />
+            <top_module name="standard" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_misc" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="testbench" />
+            <top_module name="textio" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="group10" type="group">
+      <obj_property name="label">testbench top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/testbench/txdata" type="array">
+         <obj_property name="ElementShortName">txdata[15:0]</obj_property>
+         <obj_property name="ObjectShortName">txdata[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/rxdata" type="array">
+         <obj_property name="ElementShortName">rxdata[15:0]</obj_property>
+         <obj_property name="ObjectShortName">rxdata[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/SCLK" type="logic">
+         <obj_property name="ElementShortName">SCLK</obj_property>
+         <obj_property name="ObjectShortName">SCLK</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/SPI_SEL" type="logic">
+         <obj_property name="ElementShortName">SPI_SEL</obj_property>
+         <obj_property name="ObjectShortName">SPI_SEL</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/MOSI" type="logic">
+         <obj_property name="ElementShortName">MOSI</obj_property>
+         <obj_property name="ObjectShortName">MOSI</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/MISO" type="logic">
+         <obj_property name="ElementShortName">MISO</obj_property>
+         <obj_property name="ObjectShortName">MISO</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/SYSCLK_P" type="logic">
+         <obj_property name="ElementShortName">SYSCLK_P</obj_property>
+         <obj_property name="ObjectShortName">SYSCLK_P</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/SYSCLK_N" type="logic">
+         <obj_property name="ElementShortName">SYSCLK_N</obj_property>
+         <obj_property name="ObjectShortName">SYSCLK_N</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/clk_per_sysclk" type="other">
+         <obj_property name="ElementShortName">clk_per_sysclk</obj_property>
+         <obj_property name="ObjectShortName">clk_per_sysclk</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group67" type="group">
+      <obj_property name="label">SPI Interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/CLK50" type="logic">
+         <obj_property name="ElementShortName">CLK50</obj_property>
+         <obj_property name="ObjectShortName">CLK50</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/MAIN_CLK" type="logic">
+         <obj_property name="ElementShortName">MAIN_CLK</obj_property>
+         <obj_property name="ObjectShortName">MAIN_CLK</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/SCLK" type="logic">
+         <obj_property name="ElementShortName">SCLK</obj_property>
+         <obj_property name="ObjectShortName">SCLK</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/SPI_SEL" type="logic">
+         <obj_property name="ElementShortName">SPI_SEL</obj_property>
+         <obj_property name="ObjectShortName">SPI_SEL</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/MOSI" type="logic">
+         <obj_property name="ElementShortName">MOSI</obj_property>
+         <obj_property name="ObjectShortName">MOSI</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/MISO" type="logic">
+         <obj_property name="ElementShortName">MISO</obj_property>
+         <obj_property name="ObjectShortName">MISO</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/INPUT_DATA" type="array">
+         <obj_property name="ElementShortName">INPUT_DATA[0:7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">INPUT_DATA[0:7][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/INPUT_DATA_EN" type="array">
+         <obj_property name="ElementShortName">INPUT_DATA_EN[7:0]</obj_property>
+         <obj_property name="ObjectShortName">INPUT_DATA_EN[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/OUTPUT_DATA" type="array">
+         <obj_property name="ElementShortName">OUTPUT_DATA[0:7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">OUTPUT_DATA[0:7][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/OUTPUT_DATA_EN" type="array">
+         <obj_property name="ElementShortName">OUTPUT_DATA_EN[7:0]</obj_property>
+         <obj_property name="ObjectShortName">OUTPUT_DATA_EN[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/RESET_MONITOR" type="logic">
+         <obj_property name="ElementShortName">RESET_MONITOR</obj_property>
+         <obj_property name="ObjectShortName">RESET_MONITOR</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/SWITCH_RESET" type="logic">
+         <obj_property name="ElementShortName">SWITCH_RESET</obj_property>
+         <obj_property name="ObjectShortName">SWITCH_RESET</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/ENABLE_PATGEN" type="logic">
+         <obj_property name="ElementShortName">ENABLE_PATGEN</obj_property>
+         <obj_property name="ObjectShortName">ENABLE_PATGEN</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/reg_spi" type="array">
+         <obj_property name="ElementShortName">reg_spi[127:0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_spi[127:0][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/reg_logic" type="array">
+         <obj_property name="ElementShortName">reg_logic[127:0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_logic[127:0][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/valid_logic" type="array">
+         <obj_property name="ElementShortName">valid_logic[127:0]</obj_property>
+         <obj_property name="ObjectShortName">valid_logic[127:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/buf_reset" type="array">
+         <obj_property name="ElementShortName">buf_reset[7:0]</obj_property>
+         <obj_property name="ObjectShortName">buf_reset[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/buf_enable" type="array">
+         <obj_property name="ElementShortName">buf_enable[7:0]</obj_property>
+         <obj_property name="ObjectShortName">buf_enable[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/buf_generic_monitor" type="array">
+         <obj_property name="ElementShortName">buf_generic_monitor[7:0]</obj_property>
+         <obj_property name="ObjectShortName">buf_generic_monitor[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/buf_spy_readout0" type="array">
+         <obj_property name="ElementShortName">buf_spy_readout0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">buf_spy_readout0[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/buf_spy_readout1" type="array">
+         <obj_property name="ElementShortName">buf_spy_readout1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">buf_spy_readout1[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/buf_spy_readout2" type="array">
+         <obj_property name="ElementShortName">buf_spy_readout2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">buf_spy_readout2[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/buf_spy_readout3" type="array">
+         <obj_property name="ElementShortName">buf_spy_readout3[7:0]</obj_property>
+         <obj_property name="ObjectShortName">buf_spy_readout3[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/buf_spy_readaddr0" type="array">
+         <obj_property name="ElementShortName">buf_spy_readaddr0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">buf_spy_readaddr0[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/buf_spy_readaddr1" type="array">
+         <obj_property name="ElementShortName">buf_spy_readaddr1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">buf_spy_readaddr1[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/buf_spy_laneselector" type="array">
+         <obj_property name="ElementShortName">buf_spy_laneselector[7:0]</obj_property>
+         <obj_property name="ObjectShortName">buf_spy_laneselector[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/buf_spy_controller" type="array">
+         <obj_property name="ElementShortName">buf_spy_controller[7:0]</obj_property>
+         <obj_property name="ObjectShortName">buf_spy_controller[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/spy_din" type="array">
+         <obj_property name="ElementShortName">spy_din[0:255][31:0]</obj_property>
+         <obj_property name="ObjectShortName">spy_din[0:255][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/spy_write_clock" type="array">
+         <obj_property name="ElementShortName">spy_write_clock[255:0]</obj_property>
+         <obj_property name="ObjectShortName">spy_write_clock[255:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/spy_wen" type="array">
+         <obj_property name="ElementShortName">spy_wen[255:0]</obj_property>
+         <obj_property name="ObjectShortName">spy_wen[255:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/spy_dout" type="array">
+         <obj_property name="ElementShortName">spy_dout[31:0]</obj_property>
+         <obj_property name="ObjectShortName">spy_dout[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/spy_lane_selector" type="array">
+         <obj_property name="ElementShortName">spy_lane_selector[7:0]</obj_property>
+         <obj_property name="ObjectShortName">spy_lane_selector[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/spy_read_address" type="array">
+         <obj_property name="ElementShortName">spy_read_address[11:0]</obj_property>
+         <obj_property name="ObjectShortName">spy_read_address[11:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/word_counters" type="array">
+         <obj_property name="ElementShortName">word_counters[15:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">word_counters[15:0][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/selected_counter_r1" type="array">
+         <obj_property name="ElementShortName">selected_counter_r1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">selected_counter_r1[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/buf_counter_lane_selector" type="array">
+         <obj_property name="ElementShortName">buf_counter_lane_selector[7:0]</obj_property>
+         <obj_property name="ObjectShortName">buf_counter_lane_selector[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/selected_counter_lane_id_r1" type="other">
+         <obj_property name="ElementShortName">selected_counter_lane_id_r1</obj_property>
+         <obj_property name="ObjectShortName">selected_counter_lane_id_r1</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/addr_reserved" type="other">
+         <obj_property name="ElementShortName">addr_reserved</obj_property>
+         <obj_property name="ObjectShortName">addr_reserved</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/addr_reset" type="other">
+         <obj_property name="ElementShortName">addr_reset</obj_property>
+         <obj_property name="ObjectShortName">addr_reset</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/addr_enable" type="other">
+         <obj_property name="ElementShortName">addr_enable</obj_property>
+         <obj_property name="ObjectShortName">addr_enable</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/addr_generic_monitor" type="other">
+         <obj_property name="ElementShortName">addr_generic_monitor</obj_property>
+         <obj_property name="ObjectShortName">addr_generic_monitor</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/addr_spy_readout0" type="other">
+         <obj_property name="ElementShortName">addr_spy_readout0</obj_property>
+         <obj_property name="ObjectShortName">addr_spy_readout0</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/addr_spy_readout1" type="other">
+         <obj_property name="ElementShortName">addr_spy_readout1</obj_property>
+         <obj_property name="ObjectShortName">addr_spy_readout1</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/addr_spy_readout2" type="other">
+         <obj_property name="ElementShortName">addr_spy_readout2</obj_property>
+         <obj_property name="ObjectShortName">addr_spy_readout2</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/addr_spy_readout3" type="other">
+         <obj_property name="ElementShortName">addr_spy_readout3</obj_property>
+         <obj_property name="ObjectShortName">addr_spy_readout3</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/addr_spy_readaddr0" type="other">
+         <obj_property name="ElementShortName">addr_spy_readaddr0</obj_property>
+         <obj_property name="ObjectShortName">addr_spy_readaddr0</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/addr_spy_readaddr1" type="other">
+         <obj_property name="ElementShortName">addr_spy_readaddr1</obj_property>
+         <obj_property name="ObjectShortName">addr_spy_readaddr1</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/addr_spy_laneselector" type="other">
+         <obj_property name="ElementShortName">addr_spy_laneselector</obj_property>
+         <obj_property name="ObjectShortName">addr_spy_laneselector</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/addr_spy_controller" type="other">
+         <obj_property name="ElementShortName">addr_spy_controller</obj_property>
+         <obj_property name="ObjectShortName">addr_spy_controller</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/addr_counter0" type="other">
+         <obj_property name="ElementShortName">addr_counter0</obj_property>
+         <obj_property name="ObjectShortName">addr_counter0</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/addr_counter1" type="other">
+         <obj_property name="ElementShortName">addr_counter1</obj_property>
+         <obj_property name="ObjectShortName">addr_counter1</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/addr_counter2" type="other">
+         <obj_property name="ElementShortName">addr_counter2</obj_property>
+         <obj_property name="ObjectShortName">addr_counter2</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/addr_counter3" type="other">
+         <obj_property name="ElementShortName">addr_counter3</obj_property>
+         <obj_property name="ObjectShortName">addr_counter3</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/addr_counter_lane_selector" type="other">
+         <obj_property name="ElementShortName">addr_counter_lane_selector</obj_property>
+         <obj_property name="ObjectShortName">addr_counter_lane_selector</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/spy_lane_size" type="other">
+         <obj_property name="ElementShortName">spy_lane_size</obj_property>
+         <obj_property name="ObjectShortName">spy_lane_size</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_spi_interface/number_of_word_counter_lanes" type="other">
+         <obj_property name="ElementShortName">number_of_word_counter_lanes</obj_property>
+         <obj_property name="ObjectShortName">number_of_word_counter_lanes</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group84" type="group">
+      <obj_property name="label">SWITCH</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/CLK" type="logic">
+         <obj_property name="ElementShortName">CLK</obj_property>
+         <obj_property name="ObjectShortName">CLK</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/RST" type="logic">
+         <obj_property name="ElementShortName">RST</obj_property>
+         <obj_property name="ObjectShortName">RST</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/IN_RST" type="logic">
+         <obj_property name="ElementShortName">IN_RST</obj_property>
+         <obj_property name="ObjectShortName">IN_RST</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/INPUT_DIN" type="array">
+         <obj_property name="ElementShortName">INPUT_DIN[0:7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">INPUT_DIN[0:7][31:0]</obj_property>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/INPUT_DIN[0]" type="array">
+            <obj_property name="ElementShortName">[0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">INPUT_DIN[0][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/INPUT_DIN[1]" type="array">
+            <obj_property name="ElementShortName">[1][31:0]</obj_property>
+            <obj_property name="ObjectShortName">INPUT_DIN[1][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/INPUT_DIN[2]" type="array">
+            <obj_property name="ElementShortName">[2][31:0]</obj_property>
+            <obj_property name="ObjectShortName">INPUT_DIN[2][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/INPUT_DIN[3]" type="array">
+            <obj_property name="ElementShortName">[3][31:0]</obj_property>
+            <obj_property name="ObjectShortName">INPUT_DIN[3][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/INPUT_DIN[4]" type="array">
+            <obj_property name="ElementShortName">[4][31:0]</obj_property>
+            <obj_property name="ObjectShortName">INPUT_DIN[4][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/INPUT_DIN[5]" type="array">
+            <obj_property name="ElementShortName">[5][31:0]</obj_property>
+            <obj_property name="ObjectShortName">INPUT_DIN[5][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/INPUT_DIN[6]" type="array">
+            <obj_property name="ElementShortName">[6][31:0]</obj_property>
+            <obj_property name="ObjectShortName">INPUT_DIN[6][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/INPUT_DIN[7]" type="array">
+            <obj_property name="ElementShortName">[7][31:0]</obj_property>
+            <obj_property name="ObjectShortName">INPUT_DIN[7][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/INPUT_DEN" type="array">
+         <obj_property name="ElementShortName">INPUT_DEN[7:0]</obj_property>
+         <obj_property name="ObjectShortName">INPUT_DEN[7:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/INPUT_RDY" type="array">
+         <obj_property name="ElementShortName">INPUT_RDY[7:0]</obj_property>
+         <obj_property name="ObjectShortName">INPUT_RDY[7:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/OUTPUT_DOUT" type="array">
+         <obj_property name="ElementShortName">OUTPUT_DOUT[0:7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">OUTPUT_DOUT[0:7][31:0]</obj_property>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/OUTPUT_DOUT[0]" type="array">
+            <obj_property name="ElementShortName">[0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">OUTPUT_DOUT[0][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/OUTPUT_DOUT[1]" type="array">
+            <obj_property name="ElementShortName">[1][31:0]</obj_property>
+            <obj_property name="ObjectShortName">OUTPUT_DOUT[1][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/OUTPUT_DOUT[2]" type="array">
+            <obj_property name="ElementShortName">[2][31:0]</obj_property>
+            <obj_property name="ObjectShortName">OUTPUT_DOUT[2][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/OUTPUT_DOUT[3]" type="array">
+            <obj_property name="ElementShortName">[3][31:0]</obj_property>
+            <obj_property name="ObjectShortName">OUTPUT_DOUT[3][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/OUTPUT_DOUT[4]" type="array">
+            <obj_property name="ElementShortName">[4][31:0]</obj_property>
+            <obj_property name="ObjectShortName">OUTPUT_DOUT[4][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/OUTPUT_DOUT[5]" type="array">
+            <obj_property name="ElementShortName">[5][31:0]</obj_property>
+            <obj_property name="ObjectShortName">OUTPUT_DOUT[5][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/OUTPUT_DOUT[6]" type="array">
+            <obj_property name="ElementShortName">[6][31:0]</obj_property>
+            <obj_property name="ObjectShortName">OUTPUT_DOUT[6][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/OUTPUT_DOUT[7]" type="array">
+            <obj_property name="ElementShortName">[7][31:0]</obj_property>
+            <obj_property name="ObjectShortName">OUTPUT_DOUT[7][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/OUTPUT_DEN" type="array">
+         <obj_property name="ElementShortName">OUTPUT_DEN[7:0]</obj_property>
+         <obj_property name="ObjectShortName">OUTPUT_DEN[7:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/OUTPUT_RDY" type="array">
+         <obj_property name="ElementShortName">OUTPUT_RDY[7:0]</obj_property>
+         <obj_property name="ObjectShortName">OUTPUT_RDY[7:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/data_i" type="array">
+         <obj_property name="ElementShortName">data_i[0:5][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_i[0:5][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/den_i" type="array">
+         <obj_property name="ElementShortName">den_i[0:5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">den_i[0:5][31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/rdy_i" type="array">
+         <obj_property name="ElementShortName">rdy_i[0:5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">rdy_i[0:5][31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/rst_i" type="array">
+         <obj_property name="ElementShortName">rst_i[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rst_i[4:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/rst_r1" type="array">
+         <obj_property name="ElementShortName">rst_r1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rst_r1[4:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/rst_r2" type="array">
+         <obj_property name="ElementShortName">rst_r2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rst_r2[4:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/rst_control_counter" type="array">
+         <obj_property name="ElementShortName">rst_control_counter[6:0]</obj_property>
+         <obj_property name="ObjectShortName">rst_control_counter[6:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group728" type="group">
+      <obj_property name="label">input port 1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT1/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT1/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT1/din" type="array">
+         <obj_property name="ElementShortName">din[35:0]</obj_property>
+         <obj_property name="ObjectShortName">din[35:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT1/wr_en" type="logic">
+         <obj_property name="ElementShortName">wr_en</obj_property>
+         <obj_property name="ObjectShortName">wr_en</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT1/rd_en" type="logic">
+         <obj_property name="ElementShortName">rd_en</obj_property>
+         <obj_property name="ObjectShortName">rd_en</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT1/dout" type="array">
+         <obj_property name="ElementShortName">dout[35:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[35:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT1/empty" type="logic">
+         <obj_property name="ElementShortName">empty</obj_property>
+         <obj_property name="ObjectShortName">empty</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT1/prog_full" type="logic">
+         <obj_property name="ElementShortName">prog_full</obj_property>
+         <obj_property name="ObjectShortName">prog_full</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT1/buf" type="array">
+         <obj_property name="ElementShortName">buf[0:7][35:0]</obj_property>
+         <obj_property name="ObjectShortName">buf[0:7][35:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT1/buf[0]" type="array">
+            <obj_property name="ElementShortName">[0][35:0]</obj_property>
+            <obj_property name="ObjectShortName">buf[0][35:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT1/buf[1]" type="array">
+            <obj_property name="ElementShortName">[1][35:0]</obj_property>
+            <obj_property name="ObjectShortName">buf[1][35:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT1/buf[2]" type="array">
+            <obj_property name="ElementShortName">[2][35:0]</obj_property>
+            <obj_property name="ObjectShortName">buf[2][35:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT1/buf[3]" type="array">
+            <obj_property name="ElementShortName">[3][35:0]</obj_property>
+            <obj_property name="ObjectShortName">buf[3][35:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT1/buf[4]" type="array">
+            <obj_property name="ElementShortName">[4][35:0]</obj_property>
+            <obj_property name="ObjectShortName">buf[4][35:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT1/buf[5]" type="array">
+            <obj_property name="ElementShortName">[5][35:0]</obj_property>
+            <obj_property name="ObjectShortName">buf[5][35:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT1/buf[6]" type="array">
+            <obj_property name="ElementShortName">[6][35:0]</obj_property>
+            <obj_property name="ObjectShortName">buf[6][35:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT1/buf[7]" type="array">
+            <obj_property name="ElementShortName">[7][35:0]</obj_property>
+            <obj_property name="ObjectShortName">buf[7][35:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT1/raddr" type="array">
+         <obj_property name="ElementShortName">raddr[2:0]</obj_property>
+         <obj_property name="ObjectShortName">raddr[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT1/raddr_next" type="array">
+         <obj_property name="ElementShortName">raddr_next[2:0]</obj_property>
+         <obj_property name="ObjectShortName">raddr_next[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT1/waddr" type="array">
+         <obj_property name="ElementShortName">waddr[2:0]</obj_property>
+         <obj_property name="ObjectShortName">waddr[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT1/empty_buf" type="logic">
+         <obj_property name="ElementShortName">empty_buf</obj_property>
+         <obj_property name="ObjectShortName">empty_buf</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT1/AddressWidth" type="other">
+         <obj_property name="ElementShortName">AddressWidth</obj_property>
+         <obj_property name="ObjectShortName">AddressWidth</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT1/NStage" type="other">
+         <obj_property name="ElementShortName">NStage</obj_property>
+         <obj_property name="ObjectShortName">NStage</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group729" type="group">
+      <obj_property name="label">input port 2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT2/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT2/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT2/din" type="array">
+         <obj_property name="ElementShortName">din[35:0]</obj_property>
+         <obj_property name="ObjectShortName">din[35:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT2/wr_en" type="logic">
+         <obj_property name="ElementShortName">wr_en</obj_property>
+         <obj_property name="ObjectShortName">wr_en</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT2/rd_en" type="logic">
+         <obj_property name="ElementShortName">rd_en</obj_property>
+         <obj_property name="ObjectShortName">rd_en</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT2/dout" type="array">
+         <obj_property name="ElementShortName">dout[35:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[35:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT2/empty" type="logic">
+         <obj_property name="ElementShortName">empty</obj_property>
+         <obj_property name="ObjectShortName">empty</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT2/prog_full" type="logic">
+         <obj_property name="ElementShortName">prog_full</obj_property>
+         <obj_property name="ObjectShortName">prog_full</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT2/buf" type="array">
+         <obj_property name="ElementShortName">buf[0:7][35:0]</obj_property>
+         <obj_property name="ObjectShortName">buf[0:7][35:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT2/buf[0]" type="array">
+            <obj_property name="ElementShortName">[0][35:0]</obj_property>
+            <obj_property name="ObjectShortName">buf[0][35:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT2/buf[1]" type="array">
+            <obj_property name="ElementShortName">[1][35:0]</obj_property>
+            <obj_property name="ObjectShortName">buf[1][35:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT2/buf[2]" type="array">
+            <obj_property name="ElementShortName">[2][35:0]</obj_property>
+            <obj_property name="ObjectShortName">buf[2][35:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT2/buf[3]" type="array">
+            <obj_property name="ElementShortName">[3][35:0]</obj_property>
+            <obj_property name="ObjectShortName">buf[3][35:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT2/buf[4]" type="array">
+            <obj_property name="ElementShortName">[4][35:0]</obj_property>
+            <obj_property name="ObjectShortName">buf[4][35:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT2/buf[5]" type="array">
+            <obj_property name="ElementShortName">[5][35:0]</obj_property>
+            <obj_property name="ObjectShortName">buf[5][35:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT2/buf[6]" type="array">
+            <obj_property name="ElementShortName">[6][35:0]</obj_property>
+            <obj_property name="ObjectShortName">buf[6][35:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT2/buf[7]" type="array">
+            <obj_property name="ElementShortName">[7][35:0]</obj_property>
+            <obj_property name="ObjectShortName">buf[7][35:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT2/raddr" type="array">
+         <obj_property name="ElementShortName">raddr[2:0]</obj_property>
+         <obj_property name="ObjectShortName">raddr[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT2/raddr_next" type="array">
+         <obj_property name="ElementShortName">raddr_next[2:0]</obj_property>
+         <obj_property name="ObjectShortName">raddr_next[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT2/waddr" type="array">
+         <obj_property name="ElementShortName">waddr[2:0]</obj_property>
+         <obj_property name="ObjectShortName">waddr[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT2/empty_buf" type="logic">
+         <obj_property name="ElementShortName">empty_buf</obj_property>
+         <obj_property name="ObjectShortName">empty_buf</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT2/AddressWidth" type="other">
+         <obj_property name="ElementShortName">AddressWidth</obj_property>
+         <obj_property name="ObjectShortName">AddressWidth</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(0)\/\SWITCH_GENERATE(1)\/SWITCH_ELEMENT/INPUT_PORT2/NStage" type="other">
+         <obj_property name="ElementShortName">NStage</obj_property>
+         <obj_property name="ObjectShortName">NStage</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group166" type="group">
+      <obj_property name="label">input port (output) 1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT1/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT1/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT1/din" type="array">
+         <obj_property name="ElementShortName">din[35:0]</obj_property>
+         <obj_property name="ObjectShortName">din[35:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT1/wr_en" type="logic">
+         <obj_property name="ElementShortName">wr_en</obj_property>
+         <obj_property name="ObjectShortName">wr_en</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT1/rd_en" type="logic">
+         <obj_property name="ElementShortName">rd_en</obj_property>
+         <obj_property name="ObjectShortName">rd_en</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT1/dout" type="array">
+         <obj_property name="ElementShortName">dout[35:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[35:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT1/empty" type="logic">
+         <obj_property name="ElementShortName">empty</obj_property>
+         <obj_property name="ObjectShortName">empty</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT1/prog_full" type="logic">
+         <obj_property name="ElementShortName">prog_full</obj_property>
+         <obj_property name="ObjectShortName">prog_full</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT1/buf" type="array">
+         <obj_property name="ElementShortName">buf[0:7][35:0]</obj_property>
+         <obj_property name="ObjectShortName">buf[0:7][35:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT1/raddr" type="array">
+         <obj_property name="ElementShortName">raddr[2:0]</obj_property>
+         <obj_property name="ObjectShortName">raddr[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT1/raddr_next" type="array">
+         <obj_property name="ElementShortName">raddr_next[2:0]</obj_property>
+         <obj_property name="ObjectShortName">raddr_next[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT1/waddr" type="array">
+         <obj_property name="ElementShortName">waddr[2:0]</obj_property>
+         <obj_property name="ObjectShortName">waddr[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT1/empty_buf" type="logic">
+         <obj_property name="ElementShortName">empty_buf</obj_property>
+         <obj_property name="ObjectShortName">empty_buf</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT1/raddr_bin" type="array">
+         <obj_property name="ElementShortName">raddr_bin[2:0]</obj_property>
+         <obj_property name="ObjectShortName">raddr_bin[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT1/waddr_bin" type="array">
+         <obj_property name="ElementShortName">waddr_bin[2:0]</obj_property>
+         <obj_property name="ObjectShortName">waddr_bin[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT1/AddressWidth" type="other">
+         <obj_property name="ElementShortName">AddressWidth</obj_property>
+         <obj_property name="ObjectShortName">AddressWidth</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT1/NStage" type="other">
+         <obj_property name="ElementShortName">NStage</obj_property>
+         <obj_property name="ObjectShortName">NStage</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group184" type="group">
+      <obj_property name="label">input port (output) 2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT2/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT2/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT2/din" type="array">
+         <obj_property name="ElementShortName">din[35:0]</obj_property>
+         <obj_property name="ObjectShortName">din[35:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT2/wr_en" type="logic">
+         <obj_property name="ElementShortName">wr_en</obj_property>
+         <obj_property name="ObjectShortName">wr_en</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT2/rd_en" type="logic">
+         <obj_property name="ElementShortName">rd_en</obj_property>
+         <obj_property name="ObjectShortName">rd_en</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT2/dout" type="array">
+         <obj_property name="ElementShortName">dout[35:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[35:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT2/empty" type="logic">
+         <obj_property name="ElementShortName">empty</obj_property>
+         <obj_property name="ObjectShortName">empty</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT2/prog_full" type="logic">
+         <obj_property name="ElementShortName">prog_full</obj_property>
+         <obj_property name="ObjectShortName">prog_full</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT2/buf" type="array">
+         <obj_property name="ElementShortName">buf[0:7][35:0]</obj_property>
+         <obj_property name="ObjectShortName">buf[0:7][35:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT2/raddr" type="array">
+         <obj_property name="ElementShortName">raddr[2:0]</obj_property>
+         <obj_property name="ObjectShortName">raddr[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT2/raddr_next" type="array">
+         <obj_property name="ElementShortName">raddr_next[2:0]</obj_property>
+         <obj_property name="ObjectShortName">raddr_next[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT2/waddr" type="array">
+         <obj_property name="ElementShortName">waddr[2:0]</obj_property>
+         <obj_property name="ObjectShortName">waddr[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT2/empty_buf" type="logic">
+         <obj_property name="ElementShortName">empty_buf</obj_property>
+         <obj_property name="ObjectShortName">empty_buf</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT2/raddr_bin" type="array">
+         <obj_property name="ElementShortName">raddr_bin[2:0]</obj_property>
+         <obj_property name="ObjectShortName">raddr_bin[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT2/waddr_bin" type="array">
+         <obj_property name="ElementShortName">waddr_bin[2:0]</obj_property>
+         <obj_property name="ObjectShortName">waddr_bin[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT2/AddressWidth" type="other">
+         <obj_property name="ElementShortName">AddressWidth</obj_property>
+         <obj_property name="ObjectShortName">AddressWidth</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_top/my_switch_matrix/\STEP_GENERATE(2)\/\SWITCH_GENERATE(0)\/SWITCH_ELEMENT/INPUT_PORT2/NStage" type="other">
+         <obj_property name="ElementShortName">NStage</obj_property>
+         <obj_property name="ObjectShortName">NStage</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

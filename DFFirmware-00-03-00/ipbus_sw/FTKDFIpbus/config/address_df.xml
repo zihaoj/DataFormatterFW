@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!-- NOTE that address base defined in ipbus_addr_decode.vhd  -->
+
+<node id="DF">
+  <node id="reg" address="0x00000000">
+    <node id="ipaddress" address="0x00"/>
+    <node id="reset" address="0x01">
+      <node id="reset_delay" mask="0x01"/>
+      <node id="disable_fmc_input" mask="0x02"/>
+      <node id="reset_parity_checker" mask="0x04"/>
+      <node id="fmcin_logic_reset" mask="0x08"/>
+      <node id="main_state_machine_reset" mask="0x10"/>
+      <node id="i2c_state_machine_reset" mask="0x20"/>
+      <node id="configurable_parameter_reset" mask="0x40"/>
+      <node id="counter_parameter_reset" mask="0x80"/>
+    </node>
+    <node id="fmcin_front_fifo_error" address="0x02"/>
+    <node id="fmcin_front_fifo_full" address="0x03"/>
+    <node id="fmcin_parity_check_ok" address="0x05"/>
+    <node id="fmcin_parity_error" address="0x06"/>
+    <node id="gt_link_controller" address="0x07">
+      <node id="pll_reset" mask="0x01"/>
+      <node id="transceiver_reset" mask="0x02"/>
+      <node id="slink_reset" mask="0x04"/>
+      <node id="slink_ureset" mask="0x08"/>
+      <node id="slink_utest" mask="0x10"/>
+      <node id="patgen_enable" mask="0x20"/>
+      <node id="patgen_reset" mask="0x40"/>
+    </node>
+    <node id="gt_slink_lrl_monitor" address="0x04"/>
+    <node id="gt_link_monitor" address="0x08">
+      <node id="gt_rxbyteisaligned" mask="0x001"/>
+      <node id="gt_tx_reset_done" mask="0x002"/>
+      <node id="gt_rx_reset_done" mask="0x004"/>
+      <node id="gt_pll_lock" mask="0x008"/>
+      <node id="slink_testled_n" mask="0x010"/>
+      <node id="slink_lderrled_n" mask="0x020"/>
+      <node id="slink_lupled_n" mask="0x040"/>
+      <node id="slink_flowctrlled_n" mask="0x080"/>
+      <node id="slink_activityled_n" mask="0x100"/>
+    </node>
+    <node id="gt_link_monitor_configure_laneselector" address="0x09"/>
+    <node id="gt_link_configuration" address="0x0A">
+      <node id="gt_rxpolarity" mask="0X01"/>
+      <node id="gt_txpolarity" mask="0X02"/>
+      <node id="force_ready_mode" mask="0X04"/>
+      <node id="to_altera_fpga" mask="0X08"/>
+    </node>
+    <node id="gt_link_configuration_wen" address="0x0B">
+      <node id="wen" mask="0x01"/>
+    </node>
+    <node id="gt_link_configuration_read" address="0x0C">
+      <node id="gt_rxpolarity" mask="0X01"/>
+      <node id="gt_txpolarity" mask="0X02"/>
+      <node id="force_ready_mode" mask="0X04"/>
+      <node id="to_altera_fpga" mask="0X08"/>
+    </node>
+    <node id="fmc_user_signal" address="0x0D">
+      <node id="mezzanine_reset" mask="0X01"/>
+      <node id="mezzanine_trigger" mask="0X02"/>
+    </node>
+    <node id="input_buffer_full" address="0x0E"/>
+    <node id="input_buffer_xoff" address="0x0F"/>
+    <node id="spy_readout" address="0x10"/>
+    <node id="spy_readaddr" address="0x14"/>
+    <node id="spy_laneselector" address="0x16"/>
+    <node id="spy_controller" address="0x17">
+      <node id="spy_reset" mask="0X01"/>
+      <node id="spy_freeze" mask="0X02"/>
+    </node>
+    <node id="this_board_mask_ido" address="0x19"/>
+    <node id="this_board_mask_ili" address="0x1A"/>
+    <node id="enable_fmc_lanes_mask" address="0x1D"/>
+    <node id="expected_number_of_module" address="0x20"/>
+    <node id="switching_configuration_lane_selector" address="0x22"/>
+    <node id="internallink_destination_words" address="0x24"/>
+    <node id="update_switching_configuration_enable" address="0x28">
+      <node id="fmc_input_number_of_expected_modules" mask="0x01"/>
+      <node id="slink_output_number_of_expected_modules" mask="0x02"/>
+      <node id="central_switch_output_to_destination_port" mask="0x04"/>
+    </node>
+    <node id="fb_i2c_address" address="0x30">
+      <node id="address" mask="0x7F"/>
+      <node id="is_read_access" mask="0x80"/>
+    </node>
+    <node id="fb_i2c_data_from_master" address="0x31"/>
+    <node id="fb_i2c_data_from_slave" address="0x32"/>
+    <node id="fb_i2c_enable" address="0x3D">
+      <node id="enable" mask="0x01"/>
+    </node>
+    <node id="fb_i2c_status" address="0x3E">
+      <node id="busy" mask="0x01"/>
+      <node id="ack_error" mask="0x02"/>
+    </node>
+    <node id="lut_configuration_selector" address="0X40"/>
+    <node id="lut_configuration_addr_confin" address="0X41"/>
+    <node id="lut_configuration_wen_confin" address="0X43"/>
+    <node id="lut_configuration_read_lane" address="0X47"/>
+    <node id="lut_configuration_data_confin" address="0X48"/>
+    <node id="lut_configuration_data_confout" address="0X4C"/>
+    <node id="fmc_config_clk_inv" address="0X60"/>
+    <node id="fmc_config_clkdelay_ce" address="0X61"/>
+    <node id="fmc_config_channeldelay_channel_selector" address="0X62"/>
+    <node id="fmc_config_channeldelay_ce" address="0X63"/>
+    <node id="readout_32bit_counter" address="0X70"/>
+    <node id="readout_32bit_counter_lane_selector" address="0X74">
+      <node id="lane" mask="0X0FFFF"/>
+      <node id="type" mask="0XF0000"/>
+    </node>
+  </node>
+</node>

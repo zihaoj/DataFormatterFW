@@ -1,0 +1,50 @@
+vhdl work ../../pulsar2_fmc_interface/fmcLib.2A.vhd
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/pulsar2_fifo_w36_d1024_fwft/pulsar2_fifo_w36_d1024_fwft_funcsim.vhdl
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/pulsar2_fifo_w36_d1024_fwft/pulsar2_fifo_w36_d1024_fwft_my_wrapper.vhd
+vhdl work ../../fmc_input_buffer/fmc_input_buffer.vhd
+
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/input_pixmod2dest/input_pixmod2dest_funcsim.vhdl
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/input_pixmod2dest/input_pixmod2dest_my_wrapper.vhd
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/input_sctmod2dest/input_sctmod2dest_funcsim.vhdl
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/input_sctmod2dest/input_sctmod2dest_my_wrapper.vhd
+vhdl work ../../pulsar2_df_switch/data_formatter_constants.vhd
+
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/input_mod2idx/input_mod2idx_my_wrapper.vhd
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/input_mod2idx/input_mod2idx_funcsim.vhdl
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/input_idx2mod/input_idx2mod_my_wrapper.vhd
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/input_idx2mod/input_idx2mod_funcsim.vhdl
+
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/pulsar2_fifo_w37_d512_standard/pulsar2_fifo_w37_d512_standard_my_wrapper.vhd
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/pulsar2_fifo_w32_d512_standard/pulsar2_fifo_w32_d512_standard_my_wrapper.vhd
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/pulsar2_fifo_w37_d512_standard/pulsar2_fifo_w37_d512_standard_funcsim.vhdl
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/pulsar2_fifo_w32_d512_standard/pulsar2_fifo_w32_d512_standard_funcsim.vhdl
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/tp_w37_d4096_true_dp_cc/tp_w37_d4096_true_dp_cc_funcsim.vhdl
+vhdl work ../../slink_testpattern_transmitter/Slinkmerger/TX/TestPatternTx/TestPatternFIFO.vhd
+vhdl work ../../slink_testpattern_transmitter/Slinkmerger/TX/TestPatternTx/TestPatternTx.vhd
+vhdl work ../../slink_testpattern_transmitter/Slinkmerger/TX/TestPatternTx/TestPatternTxLib.vhd
+
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/fwft_cc_w36_d512/fwft_cc_w36_d512_my_wrapper.vhd
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/fwft_cc_w36_d512/fwft_cc_w36_d512_funcsim.vhdl
+vhdl work ../../pulsar2_df_switch/df_switch_2ch_merger.vhd
+
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/output_pixmod2ftkplane/output_pixmod2ftkplane_my_wrapper.vhd
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/output_pixmod2ftkplane/output_pixmod2ftkplane_funcsim.vhdl
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/output_pixmod2tower/output_pixmod2tower_my_wrapper.vhd
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/output_pixmod2tower/output_pixmod2tower_funcsim.vhdl
+
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/output_sctmod2ftkplane/output_sctmod2ftkplane_my_wrapper.vhd
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/output_sctmod2ftkplane/output_sctmod2ftkplane_funcsim.vhdl
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/output_sctmod2tower/output_sctmod2tower_my_wrapper.vhd
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/output_sctmod2tower/output_sctmod2tower_funcsim.vhdl
+
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/INTERNAL_LINK_INPUT_BUFFER/INTERNAL_LINK_INPUT_BUFFER_my_wrapper.vhd
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/INTERNAL_LINK_INPUT_BUFFER/INTERNAL_LINK_INPUT_BUFFER_funcsim.vhdl
+vhdl work ../../pulsar2_df_switch/df_internal_link_buffer_switch.vhd
+vhdl work ../add_df_internalframe.vhd
+vhdl work ../add_df_ftkplane_word.vhd
+vhdl work ../add_df_internallink_destination_word.vhd
+vhdl work ../remove_df_internallink_destination_word.vhd
+vhdl work ../df_output_event_sorter.vhd
+vhdl work ../df_input_handler.vhd
+
+vhdl work testbench.vhd

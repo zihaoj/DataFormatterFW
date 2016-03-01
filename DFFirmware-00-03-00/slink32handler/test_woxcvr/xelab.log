@@ -1,0 +1,155 @@
+Vivado Simulator 2014.1
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: /net/sw/Xilinx/Vivado/2014.1/bin/unwrapped/lnx64.o/xelab -incremental -prj simulation_xsim.prj -s run_gen work.testbench --debug all 
+Multi-threading is on. Using 6 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-163] Analyzing VHDL file "../../slink32handler/TLK_GT_Interface/tlk_gtx_interface.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "../../slink32handler/TLK_GT_Interface/tlk_gtx_interfaceLib.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "../../generated_ip/xc7k325t-ffg900-2/XFIFOLSC/XFIFOLSC_funcsim.vhdl" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "../../generated_ip/xc7k325t-ffg900-2/XFIFOLDC/XFIFOLDC_funcsim.vhdl" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "../../generated_ip/xc7k325t-ffg900-2/XFIFOLSC/XFIFOLSC_my_wrapper.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "../../generated_ip/xc7k325t-ffg900-2/XFIFOLDC/XFIFOLDC_my_wrapper.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "../../slink32handler/LSC/core_holalsc.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "../../slink32handler/LSC/holalsc_gtx.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "../../slink32handler/LSC/core_holalscLib.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "../../slink32handler/LDC/core_holaldc.vhd" into library work
+WARNING: [VRFC 10-1194] overwriting existing secondary unit behaviour [../../slink32handler/LDC/core_holaldc.vhd:1730]
+INFO: [VRFC 10-163] Analyzing VHDL file "../../slink32handler/LDC/holaldc_gtx.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "../../slink32handler/LDC/core_holaldcLib.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "testbench.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package work.lscmoddeclarations
+Compiling package work.ldcmoddeclarations
+Compiling package work.tlkgtxinterfacedeclarations
+Compiling package unisim.vcomponents
+Compiling package std.textio
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package ieee.std_logic_signed
+Compiling package ieee.std_logic_textio
+Compiling architecture behavioural of entity work.RETCH [\RETCH(10)\]
+Compiling architecture behavioural of entity work.CONTROL [\CONTROL(3)\]
+Compiling architecture behaviour of entity work.REGLSC [reglsc_default]
+Compiling architecture behaviour of entity work.TESTING_st [testing_st_default]
+Compiling architecture behaviour of entity work.TEST [\TEST(15)\]
+Compiling architecture gnd_v of entity unisim.GND [gnd_default]
+Compiling architecture vcc_v of entity unisim.VCC [vcc_default]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4("1001000000001001")(0,15)\]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2("1001")(0,3)\]
+Compiling architecture fdce_v of entity unisim.FDCE [\FDCE('0','0','0','0')\]
+Compiling architecture structure of entity work.XFIFOLSCsynchronizer_ff [xfifolscsynchronizer_ff_default]
+Compiling architecture structure of entity work.XFIFOLSCsynchronizer_ff_3 [xfifolscsynchronizer_ff_3_defaul...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4("0110100110010110")(0,15)\]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3("10010110")(0,7)\]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2("0110")(0,3)\]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6("0110100110010110100101100...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5("1001011001101001011010011...]
+Compiling architecture structure of entity work.XFIFOLSCsynchronizer_ff_4 [xfifolscsynchronizer_ff_4_defaul...]
+Compiling architecture structure of entity work.XFIFOLSCsynchronizer_ff_5 [xfifolscsynchronizer_ff_5_defaul...]
+Compiling architecture structure of entity work.XFIFOLSCclk_x_pntrs [xfifolscclk_x_pntrs_default]
+Compiling architecture carry4_v of entity unisim.CARRY4 [carry4_default]
+Compiling architecture structure of entity work.XFIFOLSCcompare_1 [xfifolsccompare_1_default]
+Compiling architecture structure of entity work.XFIFOLSCcompare_2 [xfifolsccompare_2_default]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2("0010")(0,3)\]
+Compiling architecture fdpe_v of entity unisim.FDPE [\FDPE('1','0','0','0')\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4("1010111010101010")(0,15)\]
+Compiling architecture structure of entity work.XFIFOLSCrd_status_flags_as [xfifolscrd_status_flags_as_defau...]
+Compiling architecture lut1_v of entity unisim.LUT1 [\LUT1("0001")(0,3)\]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3("01101010")(0,7)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4("0111111110000000")(0,15)\]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5("0110101010101010101010101...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6("0110101010101010101010101...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4("0110101010101010")(0,15)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4("1000000000000000")(0,15)\]
+Compiling architecture structure of entity work.XFIFOLSCrd_bin_cntr [xfifolscrd_bin_cntr_default]
+Compiling architecture structure of entity work.XFIFOLSCrd_logic [xfifolscrd_logic_default]
+Compiling architecture structure of entity work.XFIFOLSCwr_dc_as [xfifolscwr_dc_as_default]
+Compiling architecture structure of entity work.XFIFOLSCcompare [xfifolsccompare_default]
+Compiling architecture structure of entity work.XFIFOLSCcompare_0 [xfifolsccompare_0_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5("0101010101010101000001000...]
+Compiling architecture structure of entity work.XFIFOLSCwr_status_flags_as [xfifolscwr_status_flags_as_defau...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3("01111000")(0,7)\]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5("0111111111111111100000000...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6("0111111111111111111111111...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6("1000000000000000000000000...]
+Compiling architecture structure of entity work.XFIFOLSCwr_bin_cntr [xfifolscwr_bin_cntr_default]
+Compiling architecture structure of entity work.XFIFOLSCwr_logic [xfifolscwr_logic_default]
+Compiling architecture rb18_internal_vhdl_v of entity unisim.RB18_INTERNAL_VHDL [\RB18_INTERNAL_VHDL(18,0,0,false...]
+Compiling architecture ramb18e1_v of entity unisim.RAMB18E1 [\RAMB18E1(0,0,"00000000000000000...]
+Compiling architecture structure of entity work.XFIFOLSCblk_mem_gen_prim_wrapper [xfifolscblk_mem_gen_prim_wrapper...]
+Compiling architecture structure of entity work.XFIFOLSCblk_mem_gen_prim_width [xfifolscblk_mem_gen_prim_width_d...]
+Compiling architecture structure of entity work.XFIFOLSCblk_mem_gen_generic_cstr [xfifolscblk_mem_gen_generic_cstr...]
+Compiling architecture structure of entity work.XFIFOLSCblk_mem_gen_top [xfifolscblk_mem_gen_top_default]
+Compiling architecture structure of entity work.XFIFOLSCblk_mem_gen_v8_2_synth [xfifolscblk_mem_gen_v8_2_synth_d...]
+Compiling architecture structure of entity work.\XFIFOLSCblk_mem_gen_v8_2__parameterized0\ [\XFIFOLSCblk_mem_gen_v8_2__param...]
+Compiling architecture structure of entity work.XFIFOLSCmemory [xfifolscmemory_default]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3("10111010")(0,7)\]
+Compiling architecture fdre_v of entity unisim.FDRE [\FDRE('0','0','0','0')\]
+Compiling architecture structure of entity work.XFIFOLSCreset_blk_ramfifo [xfifolscreset_blk_ramfifo_defaul...]
+Compiling architecture structure of entity work.XFIFOLSCfifo_generator_ramfifo [xfifolscfifo_generator_ramfifo_d...]
+Compiling architecture structure of entity work.XFIFOLSCfifo_generator_top [xfifolscfifo_generator_top_defau...]
+Compiling architecture structure of entity work.XFIFOLSCfifo_generator_v12_0_synth [xfifolscfifo_generator_v12_0_syn...]
+Compiling architecture structure of entity work.\XFIFOLSCfifo_generator_v12_0__parameterized0\ [\XFIFOLSCfifo_generator_v12_0__p...]
+Compiling architecture structure of entity work.XFIFOLSC [xfifolsc_default]
+Compiling architecture logic of entity work.XFIFOLSC_my_wrapper [xfifolsc_my_wrapper_default]
+Compiling architecture behavioural of entity work.FIFOLSC [\FIFOLSC(0,512,9,16)\]
+Compiling architecture behavioural of entity work.FRAMELSC [framelsc_default]
+Compiling architecture behavioural of entity work.paritylsc [paritylsc_default]
+Compiling architecture behaviour of entity work.CRCGEN [crcgen_default]
+Compiling architecture behaviour of entity work.CRCLSC [crclsc_default]
+Compiling architecture behavioural of entity work.SPLIT [split_default]
+Compiling architecture structure of entity work.holalsc_core [\holalsc_core(1,0,15,512,9,16)\]
+Compiling architecture behaviour of entity work.tlk_gtx_interface [tlk_gtx_interface_default]
+Compiling architecture logic of entity work.holalsc_gtx [\holalsc_gtx(1,0,15,512,9,16)\]
+Compiling architecture behavioural of entity work.FRONT [\FRONT(7,15)\]
+Compiling architecture behaviour of entity work.CONTROL_LDC [\CONTROL_LDC(2)\]
+Compiling architecture structure of entity work.XFIFOLDCsynchronizer_ff [xfifoldcsynchronizer_ff_default]
+Compiling architecture structure of entity work.XFIFOLDCsynchronizer_ff_3 [xfifoldcsynchronizer_ff_3_defaul...]
+Compiling architecture structure of entity work.XFIFOLDCsynchronizer_ff_4 [xfifoldcsynchronizer_ff_4_defaul...]
+Compiling architecture structure of entity work.XFIFOLDCsynchronizer_ff_5 [xfifoldcsynchronizer_ff_5_defaul...]
+Compiling architecture structure of entity work.XFIFOLDCclk_x_pntrs [xfifoldcclk_x_pntrs_default]
+Compiling architecture structure of entity work.XFIFOLDCrd_dc_as [xfifoldcrd_dc_as_default]
+Compiling architecture structure of entity work.XFIFOLDCcompare_1 [xfifoldccompare_1_default]
+Compiling architecture structure of entity work.XFIFOLDCcompare_2 [xfifoldccompare_2_default]
+Compiling architecture structure of entity work.XFIFOLDCrd_status_flags_as [xfifoldcrd_status_flags_as_defau...]
+Compiling architecture structure of entity work.XFIFOLDCrd_bin_cntr [xfifoldcrd_bin_cntr_default]
+Compiling architecture structure of entity work.XFIFOLDCrd_logic [xfifoldcrd_logic_default]
+Compiling architecture structure of entity work.XFIFOLDCcompare [xfifoldccompare_default]
+Compiling architecture structure of entity work.XFIFOLDCcompare_0 [xfifoldccompare_0_default]
+Compiling architecture structure of entity work.XFIFOLDCwr_status_flags_as [xfifoldcwr_status_flags_as_defau...]
+Compiling architecture structure of entity work.XFIFOLDCwr_bin_cntr [xfifoldcwr_bin_cntr_default]
+Compiling architecture structure of entity work.XFIFOLDCwr_logic [xfifoldcwr_logic_default]
+Compiling architecture structure of entity work.XFIFOLDCblk_mem_gen_prim_wrapper [xfifoldcblk_mem_gen_prim_wrapper...]
+Compiling architecture structure of entity work.XFIFOLDCblk_mem_gen_prim_width [xfifoldcblk_mem_gen_prim_width_d...]
+Compiling architecture structure of entity work.XFIFOLDCblk_mem_gen_generic_cstr [xfifoldcblk_mem_gen_generic_cstr...]
+Compiling architecture structure of entity work.XFIFOLDCblk_mem_gen_top [xfifoldcblk_mem_gen_top_default]
+Compiling architecture structure of entity work.XFIFOLDCblk_mem_gen_v8_2_synth [xfifoldcblk_mem_gen_v8_2_synth_d...]
+Compiling architecture structure of entity work.\XFIFOLDCblk_mem_gen_v8_2__parameterized0\ [\XFIFOLDCblk_mem_gen_v8_2__param...]
+Compiling architecture structure of entity work.XFIFOLDCmemory [xfifoldcmemory_default]
+Compiling architecture structure of entity work.XFIFOLDCreset_blk_ramfifo [xfifoldcreset_blk_ramfifo_defaul...]
+Compiling architecture structure of entity work.XFIFOLDCfifo_generator_ramfifo [xfifoldcfifo_generator_ramfifo_d...]
+Compiling architecture structure of entity work.XFIFOLDCfifo_generator_top [xfifoldcfifo_generator_top_defau...]
+Compiling architecture structure of entity work.XFIFOLDCfifo_generator_v12_0_synth [xfifoldcfifo_generator_v12_0_syn...]
+Compiling architecture structure of entity work.\XFIFOLDCfifo_generator_v12_0__parameterized0\ [\XFIFOLDCfifo_generator_v12_0__p...]
+Compiling architecture structure of entity work.XFIFOLDC [xfifoldc_default]
+Compiling architecture logic of entity work.XFIFOLDC_my_wrapper [xfifoldc_my_wrapper_default]
+Compiling architecture behavioural of entity work.FIFOLDC [\FIFOLDC(0,512,9,16)\]
+Compiling architecture behaviour of entity work.FRAMELDC [frameldc_default]
+Compiling architecture behaviour of entity work.CRCLDC [crcldc_default]
+Compiling architecture behaviour of entity work.PARLDC [parldc_default]
+Compiling architecture behaviour of entity work.TESTCHECK [testcheck_default]
+Compiling architecture structure of entity work.holaldc_core [\holaldc_core(0,1,15,512,9,16)\]
+Compiling architecture logic of entity work.holaldc_gtx [\holaldc_gtx(0,1,15,512,9,16)\]
+Compiling architecture logic of entity work.testbench
+Built simulation snapshot run_gen

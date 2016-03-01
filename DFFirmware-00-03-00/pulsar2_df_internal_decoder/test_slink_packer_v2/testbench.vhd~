@@ -1,0 +1,183 @@
+------------------------------------------------------------------------------
+-- PulsarII
+------------------------------------------------------------------------------
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+library work;
+
+use work.data_formatter_constants.all;
+
+entity testbench is
+end testbench;
+
+architecture logic of testbench is
+
+  component df_output_slink_packer
+    port (
+      -- common clock
+      MAIN_CLK : in std_logic;
+      RESET_IN : in std_logic;
+      -- input port
+      MODDATA_DIN : in  std_logic_vector(31 downto 0);
+      MODDATA_DEN : in  std_logic;
+      MODDATA_RDY : out std_logic;
+      -- input port
+      FRAME_DATA_IN  : in  std_logic_vector(31 downto 0);
+      FRAME_WEN_IN   : in  std_logic;
+      FRAME_CTRL_IN  : in  std_logic;      
+      FRAME_XOFF_OUT : out std_logic;      
+      -- output port
+      SLINK_UD       : out std_logic_vector(31 downto 0);
+      SLINK_UWEN_N   : out std_logic;
+      SLINK_UCTRL_N  : out std_logic;
+      SLINK_LFF_N    : in  std_logic;
+      SLINK_LDOWN_N  : in  std_logic;
+      
+      -- <configure / monitor>
+      EVENT_SORTING_FIFO_FULL     : out std_logic;
+      NUMBER_OF_EXPECTED_MODULES  : in  integer;
+      --STATE_MACHINE_ERROR_MONITOR : out std_logic_vector(31 downto 0);
+      NUMBER_OF_DISCARDED_MODULES : out std_logic_vector(31 downto 0)
+      );
+  end component;
+
+  component pattern_generator is
+  generic (
+    INPUT_ROM_FILE_NALE : string  := "test_slink_v2.dat";
+    DATA_WIDTH        : positive := 32;
+    RAM_ADDRESS_WIDTH : positive := 8
+    );
+  port (
+    SYS_CLK : in  std_logic;    
+    
+    -- FIFO Output Port
+    RDREQ   : in  std_logic;
+    Q       : out std_logic_vector(DATA_WIDTH-1 downto 0);
+    DV      : out std_logic; -- data valid    
+    
+    -- CLEAR signal
+    ACLR    : in  std_logic
+    );
+  end component;
+
+  
+  signal main_clk_i : std_logic;
+  signal reset_in_i : std_logic;
+  signal rdreq_i    : std_logic;
+  signal data_valid_i : std_logic;
+  signal header_data_valid_i : std_logic;
+  signal dout_i       : std_logic_vector(31 downto 0);
+  signal header_dout_i       : std_logic_vector(31 downto 0);
+  signal moddata_rdy_i : std_logic;
+  signal frame_wen_in_i   : std_logic;
+  signal frame_ctrl_in_i  : std_logic;
+  signal frame_xoff_out_i : std_logic;
+  signal event_sorting_fifo_full_i : std_logic;
+  
+  type state_machine_t is (SEND_INTERNAL_HEADER_TO_FRAME,
+                           SEND_HEADER0_TO_FRAME,
+                           SEND_HEADER1_TO_FRAME,
+                           SEND_HEADER2_TO_FRAME,
+                           SEND_HEADER3_TO_FRAME,
+                           SEND_HEADER4_TO_FRAME,
+                           SEND_HEADER5_TO_FRAME,
+                           SEND_HEADER6_TO_FRAME,
+                           SEND_INTERNAL_MODULE_HEADER,
+                           SEND_DESTINATION_WORD,
+                           SEND_MODULE_HEADER,
+                           SEND_MODULE_DATA,
+                           SEND_INTERNAL_MODULE_TRAILER,
+                           SEND_EODA_WORD_TO_FRAME,
+                           SEND_TRAILER1_TO_FRAME,
+                           SEND_TRAILER2_TO_FRAME,
+                           SEND_TRAILER3_TO_FRAME,
+                           SEND_TRAILER4_TO_FRAME,
+                           SEND_TRAILER5_TO_FRAME,
+                           WAIT_UNTIL_NEXT_EVENT);
+  signal current_state : state_machine_t;
+  
+begin
+
+
+  MyROM : pattern_generator
+    generic map (
+      INPUT_ROM_FILE_NALE => "test_slink_v2.dat"
+    )
+    port map (
+      SYS_CLK => main_clk_i,
+      RDREQ   => rdreq_i,
+      Q       => dout_i,
+      DV      => data_valid_i,
+      ACLR    => reset_in_i
+    );
+
+  MyROM_header : pattern_generator
+    generic map (
+      INPUT_ROM_FILE_NALE => "test_slink_header.dat"
+    )
+    port map (
+      SYS_CLK => main_clk_i,
+      RDREQ   => rdreq_i,
+      Q       => header_dout_i,
+      DV      => header_data_valid_i,
+      ACLR    => reset_in_i
+    );
+
+
+  my_slink_packer : df_output_slink_packer
+    port map (
+      MAIN_CLK => main_clk_i,
+      RESET_IN => reset_in_i,
+
+
+      MODDATA_DIN => dout_i,
+      MODDATA_DEN => data_valid_i,
+      MODDATA_RDY => moddata_rdy_i, 
+
+      -- input port
+      FRAME_DATA_IN  => header_dout_i,
+      FRAME_WEN_IN   => header_data_valid_i,
+      FRAME_CTRL_IN  => '1',
+      FRAME_XOFF_OUT => frame_xoff_out_i,
+
+      SLINK_LFF_N    => '1',
+      SLINK_LDOWN_N  => '1',
+      
+      -- <configure / monitor>
+      NUMBER_OF_EXPECTED_MODULES  => 17,
+      EVENT_SORTING_FIFO_FULL     => event_sorting_fifo_full_i
+      );
+
+  process
+  begin
+    main_clk_i<='0';
+    wait for 2.5 ns;
+    main_clk_i<='1';
+    wait for 2.5 ns;
+  end process;  
+
+
+  -- time line
+  process
+  begin
+
+    rdreq_i    <= '0';
+    reset_in_i <= '1';
+
+    wait for 5 us;
+
+    rdreq_i    <= '0';
+    reset_in_i <= '0';
+
+    wait for 5 us;
+
+    rdreq_i <= '1';
+    reset_in_i <= '0';
+
+    wait;
+    
+  end process;
+  
+end logic;

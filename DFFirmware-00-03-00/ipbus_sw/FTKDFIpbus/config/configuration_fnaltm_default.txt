@@ -1,0 +1,392 @@
+#### this_board_mask <uint32_t>
+this_board_mask      0X00000001
+
+#### imfpga2clkinv   <uint32_t (IM FPGA (0-7))> <uint32_t (INV 0-1)>
+imfpga2clkinv 	     0	       1
+imfpga2clkinv 	     1	       1
+imfpga2clkinv 	     2	       1
+imfpga2clkinv 	     3	       1
+imfpga2clkinv 	     4	       1
+imfpga2clkinv 	     5	       1
+imfpga2clkinv 	     6	       1
+imfpga2clkinv 	     7	       1
+
+
+#### imfpga2clkdelay <uint32_t (IM FPGA (0-7))> <uint32_t (DELAY 0-31)>
+imfpga2clkdelay	     0	       18
+imfpga2clkdelay	     1	       18
+imfpga2clkdelay	     2	       12
+imfpga2clkdelay	     3	       12
+imfpga2clkdelay	     4	       12
+imfpga2clkdelay	     5	       12
+imfpga2clkdelay	     6	       12
+imfpga2clkdelay	     7	       12
+
+#### enable_fmc_lanes_mask <uint32_t>
+enable_fmc_lanes_mask	   0X000000FF
+  
+#### fmcin2nummodules <uint32_t (FMC module in (0-15))> <uint32_t (number of modules)>
+fmcin2nummodules      0		8
+fmcin2nummodules      1		8
+fmcin2nummodules      2		8
+fmcin2nummodules      3		8
+fmcin2nummodules      4		8
+fmcin2nummodules      5		8
+fmcin2nummodules      6		8
+fmcin2nummodules      7		8
+fmcin2nummodules      8		8
+fmcin2nummodules      9		8
+fmcin2nummodules     10		8
+fmcin2nummodules     11		8
+fmcin2nummodules     12		8
+fmcin2nummodules     13		8
+fmcin2nummodules     14		8
+fmcin2nummodules     15		8
+
+#### lane_mod2idx <uint32_t (lane id (0-15))> <uint32_t (module id (14-bit))> <uint32_t (index)>
+#### lane_idx2mod <uint32_t (lane id (0-15))> <uint32_t (index)> <uint32_t (module id (14-bit))>
+#### Lane 0
+lane_mod2idx	  0	    0X0000   0
+lane_idx2mod	  0	    0	     0X0000
+lane_mod2idx	  0	    0X0100   1
+lane_idx2mod	  0	    1	     0X0100
+lane_mod2idx	  0	    0X0200   2
+lane_idx2mod	  0	    2	     0X0200
+lane_mod2idx	  0	    0X0300   3
+lane_idx2mod	  0	    3	     0X0300
+lane_mod2idx	  0	    0X2000   4
+lane_idx2mod	  0	    4	     0X2000
+lane_mod2idx	  0	    0X2400   5
+lane_idx2mod	  0	    5	     0X2400
+lane_mod2idx	  0	    0X2800   6
+lane_idx2mod	  0	    6	     0X2800
+lane_mod2idx	  0	    0X2C00   7
+lane_idx2mod	  0	    7	     0X2C00
+
+lane_mod2idx	  1	    0X0000   0
+lane_idx2mod	  1	    0	     0X0000
+lane_mod2idx	  1	    0X0100   1
+lane_idx2mod	  1	    1	     0X0100
+lane_mod2idx	  1	    0X0200   2
+lane_idx2mod	  1	    2	     0X0200
+lane_mod2idx	  1	    0X0300   3
+lane_idx2mod	  1	    3	     0X0300
+lane_mod2idx	  1	    0X2000   4
+lane_idx2mod	  1	    4	     0X2000
+lane_mod2idx	  1	    0X2400   5
+lane_idx2mod	  1	    5	     0X2400
+lane_mod2idx	  1	    0X2800   6
+lane_idx2mod	  1	    6	     0X2800
+lane_mod2idx	  1	    0X2C00   7
+lane_idx2mod	  1	    7	     0X2C00
+
+lane_mod2idx	  2	    0X0000   0
+lane_idx2mod	  2	    0	     0X0000
+lane_mod2idx	  2	    0X0100   1
+lane_idx2mod	  2	    1	     0X0100
+lane_mod2idx	  2	    0X0200   2
+lane_idx2mod	  2	    2	     0X0200
+lane_mod2idx	  2	    0X0300   3
+lane_idx2mod	  2	    3	     0X0300
+lane_mod2idx	  2	    0X2000   4
+lane_idx2mod	  2	    4	     0X2000
+lane_mod2idx	  2	    0X2400   5
+lane_idx2mod	  2	    5	     0X2400
+lane_mod2idx	  2	    0X2800   6
+lane_idx2mod	  2	    6	     0X2800
+lane_mod2idx	  2	    0X2C00   7
+lane_idx2mod	  2	    7	     0X2C00
+
+lane_mod2idx	  3	    0X0000   0
+lane_idx2mod	  3	    0	     0X0000
+lane_mod2idx	  3	    0X0100   1
+lane_idx2mod	  3	    1	     0X0100
+lane_mod2idx	  3	    0X0200   2
+lane_idx2mod	  3	    2	     0X0200
+lane_mod2idx	  3	    0X0300   3
+lane_idx2mod	  3	    3	     0X0300
+lane_mod2idx	  3	    0X2000   4
+lane_idx2mod	  3	    4	     0X2000
+lane_mod2idx	  3	    0X2400   5
+lane_idx2mod	  3	    5	     0X2400
+lane_mod2idx	  3	    0X2800   6
+lane_idx2mod	  3	    6	     0X2800
+lane_mod2idx	  3	    0X2C00   7
+lane_idx2mod	  3	    7	     0X2C00
+
+lane_mod2idx	  4	    0X0000   0
+lane_idx2mod	  4	    0	     0X0000
+lane_mod2idx	  4	    0X0100   1
+lane_idx2mod	  4	    1	     0X0100
+lane_mod2idx	  4	    0X0200   2
+lane_idx2mod	  4	    2	     0X0200
+lane_mod2idx	  4	    0X0300   3
+lane_idx2mod	  4	    3	     0X0300
+lane_mod2idx	  4	    0X2000   4
+lane_idx2mod	  4	    4	     0X2000
+lane_mod2idx	  4	    0X2400   5
+lane_idx2mod	  4	    5	     0X2400
+lane_mod2idx	  4	    0X2800   6
+lane_idx2mod	  4	    6	     0X2800
+lane_mod2idx	  4	    0X2C00   7
+lane_idx2mod	  4	    7	     0X2C00
+
+lane_mod2idx	  5	    0X0000   0
+lane_idx2mod	  5	    0	     0X0000
+lane_mod2idx	  5	    0X0100   1
+lane_idx2mod	  5	    1	     0X0100
+lane_mod2idx	  5	    0X0200   2
+lane_idx2mod	  5	    2	     0X0200
+lane_mod2idx	  5	    0X0300   3
+lane_idx2mod	  5	    3	     0X0300
+lane_mod2idx	  5	    0X2000   4
+lane_idx2mod	  5	    4	     0X2000
+lane_mod2idx	  5	    0X2400   5
+lane_idx2mod	  5	    5	     0X2400
+lane_mod2idx	  5	    0X2800   6
+lane_idx2mod	  5	    6	     0X2800
+lane_mod2idx	  5	    0X2C00   7
+lane_idx2mod	  5	    7	     0X2C00
+
+lane_mod2idx	  6	    0X0000   0
+lane_idx2mod	  6	    0	     0X0000
+lane_mod2idx	  6	    0X0100   1
+lane_idx2mod	  6	    1	     0X0100
+lane_mod2idx	  6	    0X0200   2
+lane_idx2mod	  6	    2	     0X0200
+lane_mod2idx	  6	    0X0300   3
+lane_idx2mod	  6	    3	     0X0300
+lane_mod2idx	  6	    0X2000   4
+lane_idx2mod	  6	    4	     0X2000
+lane_mod2idx	  6	    0X2400   5
+lane_idx2mod	  6	    5	     0X2400
+lane_mod2idx	  6	    0X2800   6
+lane_idx2mod	  6	    6	     0X2800
+lane_mod2idx	  6	    0X2C00   7
+lane_idx2mod	  6	    7	     0X2C00
+
+lane_mod2idx	  7	    0X0000   0
+lane_idx2mod	  7	    0	     0X0000
+lane_mod2idx	  7	    0X0100   1
+lane_idx2mod	  7	    1	     0X0100
+lane_mod2idx	  7	    0X0200   2
+lane_idx2mod	  7	    2	     0X0200
+lane_mod2idx	  7	    0X0300   3
+lane_idx2mod	  7	    3	     0X0300
+lane_mod2idx	  7	    0X2000   4
+lane_idx2mod	  7	    4	     0X2000
+lane_mod2idx	  7	    0X2400   5
+lane_idx2mod	  7	    5	     0X2400
+lane_mod2idx	  7	    0X2800   6
+lane_idx2mod	  7	    6	     0X2800
+lane_mod2idx	  7	    0X2C00   7
+lane_idx2mod	  7	    7	     0X2C00
+
+lane_mod2idx	  8	    0X0000   0
+lane_idx2mod	  8	    0	     0X0000
+lane_mod2idx	  8	    0X0100   1
+lane_idx2mod	  8	    1	     0X0100
+lane_mod2idx	  8	    0X0200   2
+lane_idx2mod	  8	    2	     0X0200
+lane_mod2idx	  8	    0X0300   3
+lane_idx2mod	  8	    3	     0X0300
+lane_mod2idx	  8	    0X2000   4
+lane_idx2mod	  8	    4	     0X2000
+lane_mod2idx	  8	    0X2400   5
+lane_idx2mod	  8	    5	     0X2400
+lane_mod2idx	  8	    0X2800   6
+lane_idx2mod	  8	    6	     0X2800
+lane_mod2idx	  8	    0X2C00   7
+lane_idx2mod	  8	    7	     0X2C00
+
+lane_mod2idx	  9	    0X0000   0
+lane_idx2mod	  9	    0	     0X0000
+lane_mod2idx	  9	    0X0100   1
+lane_idx2mod	  9	    1	     0X0100
+lane_mod2idx	  9	    0X0200   2
+lane_idx2mod	  9	    2	     0X0200
+lane_mod2idx	  9	    0X0300   3
+lane_idx2mod	  9	    3	     0X0300
+lane_mod2idx	  9	    0X2000   4
+lane_idx2mod	  9	    4	     0X2000
+lane_mod2idx	  9	    0X2400   5
+lane_idx2mod	  9	    5	     0X2400
+lane_mod2idx	  9	    0X2800   6
+lane_idx2mod	  9	    6	     0X2800
+lane_mod2idx	  9	    0X2C00   7
+lane_idx2mod	  9	    7	     0X2C00
+
+lane_mod2idx	 10	    0X0000   0
+lane_idx2mod	 10	    0	     0X0000
+lane_mod2idx	 10	    0X0100   1
+lane_idx2mod	 10	    1	     0X0100
+lane_mod2idx	 10	    0X0200   2
+lane_idx2mod	 10	    2	     0X0200
+lane_mod2idx	 10	    0X0300   3
+lane_idx2mod	 10	    3	     0X0300
+lane_mod2idx	 10	    0X2000   4
+lane_idx2mod	 10	    4	     0X2000
+lane_mod2idx	 10	    0X2400   5
+lane_idx2mod	 10	    5	     0X2400
+lane_mod2idx	 10	    0X2800   6
+lane_idx2mod	 10	    6	     0X2800
+lane_mod2idx	 10	    0X2C00   7
+lane_idx2mod	 10	    7	     0X2C00
+
+lane_mod2idx	 11	    0X0000   0
+lane_idx2mod	 11	    0	     0X0000
+lane_mod2idx	 11	    0X0100   1
+lane_idx2mod	 11	    1	     0X0100
+lane_mod2idx	 11	    0X0200   2
+lane_idx2mod	 11	    2	     0X0200
+lane_mod2idx	 11	    0X0300   3
+lane_idx2mod	 11	    3	     0X0300
+lane_mod2idx	 11	    0X2000   4
+lane_idx2mod	 11	    4	     0X2000
+lane_mod2idx	 11	    0X2400   5
+lane_idx2mod	 11	    5	     0X2400
+lane_mod2idx	 11	    0X2800   6
+lane_idx2mod	 11	    6	     0X2800
+lane_mod2idx	 11	    0X2C00   7
+lane_idx2mod	 11	    7	     0X2C00
+
+lane_mod2idx	 12	    0X0000   0
+lane_idx2mod	 12	    0	     0X0000
+lane_mod2idx	 12	    0X0100   1
+lane_idx2mod	 12	    1	     0X0100
+lane_mod2idx	 12	    0X0200   2
+lane_idx2mod	 12	    2	     0X0200
+lane_mod2idx	 12	    0X0300   3
+lane_idx2mod	 12	    3	     0X0300
+lane_mod2idx	 12	    0X2000   4
+lane_idx2mod	 12	    4	     0X2000
+lane_mod2idx	 12	    0X2400   5
+lane_idx2mod	 12	    5	     0X2400
+lane_mod2idx	 12	    0X2800   6
+lane_idx2mod	 12	    6	     0X2800
+lane_mod2idx	 12	    0X2C00   7
+lane_idx2mod	 12	    7	     0X2C00
+
+lane_mod2idx	 13	    0X0000   0
+lane_idx2mod	 13	    0	     0X0000
+lane_mod2idx	 13	    0X0100   1
+lane_idx2mod	 13	    1	     0X0100
+lane_mod2idx	 13	    0X0200   2
+lane_idx2mod	 13	    2	     0X0200
+lane_mod2idx	 13	    0X0300   3
+lane_idx2mod	 13	    3	     0X0300
+lane_mod2idx	 13	    0X2000   4
+lane_idx2mod	 13	    4	     0X2000
+lane_mod2idx	 13	    0X2400   5
+lane_idx2mod	 13	    5	     0X2400
+lane_mod2idx	 13	    0X2800   6
+lane_idx2mod	 13	    6	     0X2800
+lane_mod2idx	 13	    0X2C00   7
+lane_idx2mod	 13	    7	     0X2C00
+
+lane_mod2idx	 14	    0X0000   0
+lane_idx2mod	 14	    0	     0X0000
+lane_mod2idx	 14	    0X0100   1
+lane_idx2mod	 14	    1	     0X0100
+lane_mod2idx	 14	    0X0200   2
+lane_idx2mod	 14	    2	     0X0200
+lane_mod2idx	 14	    0X0300   3
+lane_idx2mod	 14	    3	     0X0300
+lane_mod2idx	 14	    0X2000   4
+lane_idx2mod	 14	    4	     0X2000
+lane_mod2idx	 14	    0X2400   5
+lane_idx2mod	 14	    5	     0X2400
+lane_mod2idx	 14	    0X2800   6
+lane_idx2mod	 14	    6	     0X2800
+lane_mod2idx	 14	    0X2C00   7
+lane_idx2mod	 14	    7	     0X2C00
+
+lane_mod2idx	 15	    0X0000   0
+lane_idx2mod	 15	    0	     0X0000
+lane_mod2idx	 15	    0X0100   1
+lane_idx2mod	 15	    1	     0X0100
+lane_mod2idx	 15	    0X0200   2
+lane_idx2mod	 15	    2	     0X0200
+lane_mod2idx	 15	    0X0300   3
+lane_idx2mod	 15	    3	     0X0300
+lane_mod2idx	 15	    0X2000   4
+lane_idx2mod	 15	    4	     0X2000
+lane_mod2idx	 15	    0X2400   5
+lane_idx2mod	 15	    5	     0X2400
+lane_mod2idx	 15	    0X2800   6
+lane_idx2mod	 15	    6	     0X2800
+lane_mod2idx	 15	    0X2C00   7
+lane_idx2mod	 15	    7	     0X2C00
+
+#### pixmod2dst   	<uint32_t (pixel module id (11-bit))> <uint32_t (32bit destination mask)>
+pixmod2dst		0X0000	  0X00000001
+pixmod2dst		0X0100	  0X00000001
+pixmod2dst		0X0200	  0X00000001
+pixmod2dst		0X0300	  0X00000001
+
+#### pixmod2ftkplane	<uint32_t (pixel module id (11-bit))> <uint32_t (9bit df output lane)>
+pixmod2ftkplane		0X0000	  0X1FF
+pixmod2ftkplane		0X0100	  0X1FF
+pixmod2ftkplane		0X0200	  0X1FF
+pixmod2ftkplane		0X0300	  0X1FF
+
+#### pixmod2tower	<uint32_t (pixel module id (11-bit))> <uint32_t (2bit tower)>
+pixmod2tower		0X0000	  0X3
+pixmod2tower		0X0100	  0X3
+pixmod2tower		0X0200	  0X3
+pixmod2tower		0X0300	  0X3
+
+#### sctmod2dst   	<uint32_t (sctel module id (13-bit))> <uint32_t (32bit destination mask)>
+sctmod2dst	    0X0000	  0X00000001
+sctmod2dst	    0X0400	  0X00000001
+sctmod2dst	    0X0800	  0X00000001
+sctmod2dst	    0X0C00	  0X00000001
+
+#### sctmod2ftkplane	<uint32_t (sctel module id (13-bit))> <uint32_t (9bit df output lane)>
+sctmod2ftkplane	    0X0000	  0X1FF
+sctmod2ftkplane	    0X0400	  0X1FF
+sctmod2ftkplane	    0X0800	  0X1FF
+sctmod2ftkplane	    0X0C00	  0X1FF
+
+#### sctmod2tower	<uint32_t (sctel module id (13-bit))> <uint32_t (2bit tower)>
+sctmod2tower	    0X0000	  0X3
+sctmod2tower	    0X0400	  0X3
+sctmod2tower	    0X0800	  0X3
+sctmod2tower	    0X0C00	  0X3
+
+#### slinkout2nummodules     <uint32_t (SLINK output (0-33))> <uint32_t (number of modules)
+slinkout2nummodules	     0	       64
+slinkout2nummodules	     1	       64
+slinkout2nummodules	     2	       64
+slinkout2nummodules	     3	       64
+slinkout2nummodules	     4	       64
+slinkout2nummodules	     5	       64
+slinkout2nummodules	     6	       64
+slinkout2nummodules	     7	       64
+slinkout2nummodules	     8	       64
+slinkout2nummodules	     9	       64
+slinkout2nummodules	     10	       64
+slinkout2nummodules	     11	       64
+slinkout2nummodules	     12	       64
+slinkout2nummodules	     13	       64
+slinkout2nummodules	     14	       64
+slinkout2nummodules	     15	       64
+slinkout2nummodules	     16	       64
+slinkout2nummodules	     17	       64
+slinkout2nummodules	     18	       64
+slinkout2nummodules	     19	       64
+slinkout2nummodules	     20	       64
+slinkout2nummodules	     21	       64
+slinkout2nummodules	     22	       64
+slinkout2nummodules	     23	       64
+slinkout2nummodules	     24	       64
+slinkout2nummodules	     25	       64
+slinkout2nummodules	     26	       64
+slinkout2nummodules	     27	       64
+slinkout2nummodules	     28	       64
+slinkout2nummodules	     29	       64
+slinkout2nummodules	     30	       64
+slinkout2nummodules	     31	       64
+slinkout2nummodules	     32	       64
+slinkout2nummodules	     33	       64
+

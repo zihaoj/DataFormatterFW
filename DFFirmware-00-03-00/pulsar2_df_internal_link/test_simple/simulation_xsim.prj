@@ -1,0 +1,11 @@
+vhdl work ../../generated_ip/xc7vx690t-ffg1927-2//fwft_ic_w36_d512/fwft_ic_w36_d512_my_wrapper.vhd
+vhdl work ../../generated_ip/xc7vx690t-ffg1927-2//fwft_ic_w36_d512/fwft_ic_w36_d512_funcsim.vhdl
+vhdl work ../../generated_ip/xc7vx690t-ffg1927-2//fwft_ic_w36_d512_f256/fwft_ic_w36_d512_f256_my_wrapper.vhd
+vhdl work ../../generated_ip/xc7vx690t-ffg1927-2//fwft_ic_w36_d512_f256/fwft_ic_w36_d512_f256_funcsim.vhdl
+
+vhdl work ../ilink_interface.vhd
+vhdl work ../../data_formatter_top/data_formatter_constants.vhd
+vhdl work ../../data_formatter_top/implementation/fmcLib.vhd.im
+vhdl work ../pattern_gen.vhd
+vhdl work ../pattern_chk.vhd
+vhdl work testbench.vhd

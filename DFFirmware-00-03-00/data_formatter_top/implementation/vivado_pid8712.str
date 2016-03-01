@@ -1,0 +1,1950 @@
+/*
+
+Vivado v2014.2 (64-bit)
+SW Build 932637 on Wed Jun 11 13:08:52 MDT 2014
+Process ID: 8712
+
+Current time: 	11/15/15 7:08:33 PM
+Time zone: 	Central European Time (Europe/Vaduz)
+
+OS: Scientific Linux CERN SLC release 6.7 (Carbon)
+Version: 2.6.32-573.7.1.el6.x86_64
+Architecture: amd64
+Available processors (cores): 8
+
+DISPLAY: :0.0
+Screen size: 1920x1200
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.7.0_40 64-bit
+Java home: 	/opt/Xilinx/Vivado/2014.2/tps/lnx64/jre
+
+User name: 	zijiang
+User directory: /afs/cern.ch/work/z/zijiang/DFFirmware/data_formatter_firmware/data_formatter_top/implementation
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Gui allocated memory:	122 mb
+Gui max memory:		3,066 mb
+Engine allocated memory: 3,890 mb
+
+*/
+
+// TclEventType: START_GUI
+selectList(PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, "/afs/cern.ch/work/z/zijiang/DFFirmware/data_formatter_firmware/data_formatter_top/implementation/dummy/my_project.xpr", 0); // s:v (JViewport:JComponent, cg:JFrame)
+// co:P (cg:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 53 mb (+52745kb) [00:00:06]
+// [Engine Memory]: 3,915 mb (+3953809kb) [00:00:06]
+// [GUI Memory]: 73 mb (+20862kb) [00:00:06]
+// [GUI Memory]: 82 mb (+9697kb) [00:00:06]
+// [Engine Memory]: 3,924 mb (+9449kb) [00:00:06]
+// [Engine Memory]: 3,948 mb (+24821kb) [00:00:06]
+// [Engine Memory]: 3,950 mb (+2146kb) [00:00:06]
+// [Engine Memory]: 3,952 mb (+2580kb) [00:00:06]
+// [Engine Memory]: 3,953 mb (+1048kb) [00:00:06]
+// [GUI Memory]: 84 mb (+1823kb) [00:00:06]
+// [GUI Memory]: 88 mb (+5079kb) [00:00:06]
+// Tcl Message: open_project /afs/cern.ch/work/z/zijiang/DFFirmware/data_formatter_firmware/data_formatter_top/implementation/dummy/my_project.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2014.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 3,959 MB. GUI used memory: 34 MB. Current time: 11/15/15 7:08:36 PM
+// [Engine Memory]: 3,959 mb (+6299kb) [00:00:07]
+dismissDialog("Open Project"); // co:P (cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 3,964 mb (+4726kb) [00:00:09]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// [Engine Memory]: 3,969 mb (+5758kb) [00:00:09]
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // g:JideTabbedPane (I:aC, cg:JFrame)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 2); // g:JideTabbedPane (I:aC, cg:JFrame)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // g:JideTabbedPane (I:aC, cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 3,980 mb (+10911kb) [00:00:10]
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 3,984 mb (+4505kb) [00:00:11]
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // g:JideTabbedPane (I:aC, cg:JFrame)
+selectButton(PAResourceCommand.PACommandNames_OPEN_PROJECT, "open_project"); // v:JideButton (CommandBar:DockableBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 58 seconds
+setFileChooser("/afs/cern.ch/work/z/zijiang/DFFirmware/data_formatter_firmware/data_formatter_top/implementation/dummy/my_project.xpr");
+// HOptionPane Error: "Project '/afs/cern.ch/work/z/zijiang/DFFirmware/data_formatter_firmware/data_formatter_top/implementation/dummy/my_project.xpr' is already open. (Open Project)"
+// 'g' command handler elapsed time: 62 seconds
+// [Engine Memory]: 3,984 mb (+233kb) [00:01:15]
+selectButton("PAResourceOtoP.PlanAhead_OPEN_PROJECT_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, P:JDialog)
+selectButton(PAResourceCommand.PACommandNames_OPEN_PROJECT, "open_project"); // v:JideButton (CommandBar:DockableBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+setFileChooser("/afs/cern.ch/work/z/zijiang/LVDS_v11/LVDS_v11.xpr");
+// HOptionPane Warning: 'This project was created with a future version of Vivado. It will be opened in read-only mode for the protection of unrecognized data. Please use 'File | Save Project As...' if you need to alter a copy of this project. The project may or may not open reliably with this version of Vivado. OK to proceed and open the project? (Future Project Version)'
+selectButton("PAResourceOtoP.PABaseTab_WOULD_YOU_LIKE_TO_CLOSE_CURRENTLY_No", "No"); // JButton:AbstractButton (JPanel:JComponent, P:JDialog)
+// co:P (cg:JFrame):  Open Project : addNotify
+selectButton("PAResourceOtoP.PABaseTab_THIS_PROJECT_WILL_BE_OPENED_IN_READ_ONLY_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, P:JDialog)
+// TclEventType: MSGMGR_MOVEMSG
+// Tcl Message: open_project /afs/cern.ch/work/z/zijiang/LVDS_v11/LVDS_v11.xpr 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// [GUI Memory]: 93 mb (+4624kb) [00:01:27]
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// [GUI Memory]: 94 mb (+1763kb) [00:01:27]
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 3,990 mb (+6299kb) [00:01:29]
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/ATLAS/Desktop/LVDS_v11' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2014.2/data/ip'. 
+// [Engine Memory]: 3,993 mb (+3149kb) [00:01:31]
+// 'g' command handler elapsed time: 14 seconds
+// [Engine Memory]: 3,994 mb (+1048kb) [00:01:31]
+dismissDialog("Open Project"); // co:P (cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// C:an (cg:JFrame): Project is Read-Only: addNotify
+// [GUI Memory]: 96 mb (+1649kb) [00:01:34]
+// [GUI Memory]: 98 mb (+2148kb) [00:01:34]
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, C:an)
+dismissDialog("Project is Read-Only"); // C:an (cg:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 102 mb (+3566kb) [00:01:57]
+// Elapsed time: 21 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // u:k (w:JPanel, cg:JFrame)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 2); // g:JideTabbedPane (I:aC, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL]", 1); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib]", 2); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, auto_adjuster_clkdelay.vhd]", 10, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, auto_adjuster_clkdelay.vhd]", 10, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+// [GUI Memory]: 105 mb (+3412kb) [00:02:06]
+// [Engine Memory]: 3,999 mb (+5103kb) [00:02:16]
+// [Engine Memory]: 4,000 mb (+1048kb) [00:02:47]
+// [GUI Memory]: 107 mb (+2018kb) [00:02:47]
+// [Engine Memory]: 4,001 mb (+1048kb) [00:02:47]
+// [Engine Memory]: 4,004 mb (+3203kb) [00:02:47]
+// [Engine Memory]: 4,013 mb (+8880kb) [00:02:49]
+// [Engine Memory]: 4,014 mb (+1048kb) [00:02:51]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,017 MB. GUI used memory: 51 MB. Current time: 11/15/15 7:11:20 PM
+// [Engine Memory]: 4,017 mb (+3149kb) [00:03:00]
+// Elapsed time: 247 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // g:JideTabbedPane (I:aC, cg:JFrame)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 2); // g:JideTabbedPane (I:aC, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP]", 2); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL]", 1); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib]", 2); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced]", 145); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, fmc_rx_parity.vhd]", 146, false); // u:k (w:JPanel, cg:JFrame)
+// Tcl Message: current_project my_project 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, fmc_rx_parity.vhd]", 146, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, fmc_rx_parity.vhd]", 146, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, fmc_rx_data_checker.vhd]", 147, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, fmc_rx_data_checker.vhd]", 147, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, fmc_rx_parity.vhd]", 146, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, fmc_rx_parity.vhd]", 146, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+// [Engine Memory]: 4,020 mb (+3149kb) [00:06:45]
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, transactor_cfg.vhd]", 63, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, holalsc_gtx.vhd]", 11, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, data_formatter_constants.vhd]", 9, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, data_formatter_constants.vhd]", 9, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+// [Engine Memory]: 4,023 mb (+3149kb) [00:07:02]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_parity.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_parity.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 330, 366); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 330, 366, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "data_formatter_constants.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "data_formatter_constants.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 446, 183); // aU:J (JPanel:JComponent, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, FMC_RX_CLOCK.BUFMR.vhd]", 22, false); // u:k (w:JPanel, cg:JFrame)
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, fmcLib.vhd.im]", 136, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, user_interface_df_top.vhd]", 135, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, fmcLib.vhd.im]", 136, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, fmcLib.vhd.im]", 136, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+// [Engine Memory]: 4,026 mb (+3149kb) [00:07:51]
+selectCodeEditor("fmcLib.vhd.im", 311, 155); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("fmcLib.vhd.im", 322, 314); // aU:J (JPanel:JComponent, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_parity.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_parity.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("fmc_rx_parity.vhd", 423, 264); // aU:J (JPanel:JComponent, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_parity.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_parity.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 65, 275); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 65, 275, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 576, 259); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 78, 274); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 78, 274, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 38 seconds
+selectCodeEditor("fmc_rx_data_checker.vhd", 275, 420); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 16 seconds
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 267, 632); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 198, 529); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 198, 529, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 198, 529); // aU:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 108 mb (+1885kb) [00:10:02]
+// Elapsed time: 57 seconds
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 414, 657); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 58 seconds
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 297, 34); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, error_counter.vhd]", 9, false); // u:k (w:JPanel, cg:JFrame)
+// Tcl Message: current_project LVDS_v11 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, error_counter.vhd]", 9, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+// [Engine Memory]: 4,029 mb (+3149kb) [00:12:10]
+// Elapsed time: 40 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_adjuster_clkdelay.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_adjuster_clkdelay.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// Elapsed time: 44 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_adjuster_clkdelay.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_adjuster_clkdelay.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 249, 264); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 252, 302); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_parity.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_parity.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("fmc_rx_parity.vhd", 138, 279); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_parity.vhd", 138, 279, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_parity.vhd", 138, 279); // aU:J (JPanel:JComponent, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 283, 280); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 24, 297); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: current_project my_project 
+// Elapsed time: 24 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 292, 374); // aU:J (JPanel:JComponent, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "data_formatter_constants.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "data_formatter_constants.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// [GUI Memory]: 109 mb (+947kb) [00:14:20]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "data_formatter_constants.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "data_formatter_constants.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmcLib.vhd.im", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmcLib.vhd.im", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "data_formatter_constants.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "data_formatter_constants.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// [GUI Memory]: 109 mb (+109kb) [00:14:22]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// [GUI Memory]: 110 mb (+891kb) [00:14:25]
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 188, 470); // aU:J (JPanel:JComponent, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "error_counter.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "error_counter.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("error_counter.vhd", 10, 218); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("error_counter.vhd", 10, 218, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("error_counter.vhd", 10, 218); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("error_counter.vhd", 10, 218, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("error_counter.vhd", 10, 218); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("error_counter.vhd", 123, 535); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("error_counter.vhd", 123, 535, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("error_counter.vhd", 123, 535); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("error_counter.vhd", 136, 328); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("error_counter.vhd", 117, 123); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("error_counter.vhd", 117, 123, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("error_counter.vhd", 117, 123); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("error_counter.vhd", 229, 338, false, false, false, true, false); // aU:J (JPanel:JComponent, cg:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HCodeEditor_COPY, "Copy"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_adjuster_clkdelay.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_adjuster_clkdelay.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 116, 643); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 118, 391, false, false, false, true, false); // aU:J (JPanel:JComponent, cg:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HCodeEditor_PASTE, "Paste"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 19, 238); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 111 mb (+223kb) [00:17:30]
+// [GUI Memory]: 111 mb (+167kb) [00:17:30]
+// [GUI Memory]: 111 mb (+194kb) [00:17:30]
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 149 seconds
+selectCodeEditor("fmc_rx_data_checker.vhd", 339, 473); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 18 seconds
+selectCodeEditor("fmc_rx_data_checker.vhd", 107, 393); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 107, 393, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+// [GUI Memory]: 112 mb (+740kb) [00:18:05]
+// Elapsed time: 24 seconds
+selectCodeEditor("fmc_rx_data_checker.vhd", 2, 621); // aU:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 113 mb (+1737kb) [00:20:21]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// [GUI Memory]: 119 mb (+5569kb) [00:22:48]
+// Elapsed time: 280 seconds
+selectCodeEditor("fmc_rx_data_checker.vhd", 153, 623); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 153, 623, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 157, 622); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 157, 622, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 152, 626); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 72, 564); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 163, 572); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 163, 572, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 163, 572); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 230, 611); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 230, 611, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 230, 611); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("fmc_rx_data_checker.vhd", 59, 538); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+selectCodeEditor("fmc_rx_data_checker.vhd", 260, 469); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 77, 569); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 72, 479); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 72, 485); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 32, 489); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 32, 489, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 16, 400); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 8, 413); // aU:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 119 mb (+885kb) [00:25:27]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 102 seconds
+selectCodeEditor("fmc_rx_data_checker.vhd", 96, 611); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 96, 611, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 96, 611); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 120 mb (+1085kb) [00:25:54]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 4,032 mb (+3153kb) [00:25:56]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 18 seconds
+selectCodeEditor("fmc_rx_data_checker.vhd", 400, 364); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 122 mb (+1339kb) [00:26:36]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 124 mb (+2047kb) [00:26:36]
+// [GUI Memory]: 124 mb (+309kb) [00:26:36]
+// [GUI Memory]: 124 mb (+219kb) [00:26:36]
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 139 seconds
+selectCodeEditor("fmc_rx_data_checker.vhd", 378, 460); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// [GUI Memory]: 125 mb (+1109kb) [00:28:41]
+// Elapsed time: 36 seconds
+selectCodeEditor("fmc_rx_data_checker.vhd", 586, 594); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 107, 619); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 126 mb (+333kb) [00:29:00]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// [GUI Memory]: 126 mb (+47kb) [00:29:10]
+// Elapsed time: 29 seconds
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 276, 562); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 274, 565, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 252, 567); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 252, 567, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 243, 563); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 243, 563, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 312, 561, false, false, false, true, false); // aU:J (JPanel:JComponent, cg:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HCodeEditor_COPY, "Copy"); // ab:JMenuItem (ag:JPopupMenu, Popup:JWindow)
+// Elapsed time: 21 seconds
+selectCodeEditor("fmc_rx_data_checker.vhd", 247, 607, false, false, false, true, false); // aU:J (JPanel:JComponent, cg:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HCodeEditor_COPY, "Copy"); // ab:JMenuItem (ag:JPopupMenu, Popup:JWindow)
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 278, 562); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 278, 562, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 278, 562); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 241, 566); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 241, 566); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 314, 561, false, false, false, true, false); // aU:J (JPanel:JComponent, cg:JFrame) - Popup Trigger
+dismissFileChooser();
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 304, 562, false, false, false, true, false); // aU:J (JPanel:JComponent, cg:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HCodeEditor_COPY, "Copy"); // ab:JMenuItem (ag:JPopupMenu, Popup:JWindow)
+selectCodeEditor("fmc_rx_data_checker.vhd", 135, 609); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 135, 609, false, false, false, true, false); // aU:J (JPanel:JComponent, cg:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HCodeEditor_PASTE, "Paste"); // ab:JMenuItem (ag:JPopupMenu, Popup:JWindow)
+// Elapsed time: 67 seconds
+selectCodeEditor("fmc_rx_data_checker.vhd", 277, 350); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 132, 360); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 285, 439); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 61 seconds
+selectCodeEditor("fmc_rx_parity.vhd", 342, 378); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 111, 338); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 111, 338, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 93, 607); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 369, 404); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 365, 413); // aU:J (JPanel:JComponent, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "data_formatter_constants.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "data_formatter_constants.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,032 MB. GUI used memory: 53 MB. Current time: 11/15/15 7:41:20 PM
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmcLib.vhd.im", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmcLib.vhd.im", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 15 seconds
+selectCodeEditor("fmc_rx_data_checker.vhd", 446, 422); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 446, 422, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 446, 422); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 103, 430); // aU:J (JPanel:JComponent, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL]", 1); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib]", 2); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, fmc_tx_interface.vhd]", 15, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, fmc_rx_interface.vhd]", 19, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, fmc_rx_frame.vhd]", 21, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, fmc_rx_front.vhd]", 20, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, fmc_rx_front.vhd]", 20, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_front.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_front.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // I:b
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, fmc_tx_interface.vhd]", 15, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, fmc_tx_interface.vhd]", 15, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, fmc_tx_interface.vhd]", 15, false); // u:k (w:JPanel, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_tx_interface.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_tx_interface.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // I:b
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, fmc_rx_interface.vhd]", 19, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, fmc_rx_interface.vhd]", 19, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, df_switch_2ch_merger_v2.vhd]", 26, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, df_switch_element_1ch_in.vhd]", 25, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, df_switch_matrix_32x32.vhd]", 23, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, df_fmc_interface.vhd]", 144, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, df_fmc_interface.vhd]", 144, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+// Elapsed time: 28 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_fmc_interface.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_fmc_interface.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_interface.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_interface.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "data_formatter_constants.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "data_formatter_constants.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // I:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmcLib.vhd.im", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmcLib.vhd.im", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_fmc_interface.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_fmc_interface.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_parity.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_parity.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// Elapsed time: 72 seconds
+selectCodeEditor("fmc_rx_data_checker.vhd", 161, 420); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 161, 420, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 8, 140); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 47 seconds
+selectCodeEditor("fmc_rx_data_checker.vhd", 245, 252); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 245, 252, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 245, 252); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 227, 269); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 227, 269, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 227, 269); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("fmc_rx_data_checker.vhd", 260, 328); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 260, 328, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 260, 328); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 178, 569); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 177, 569, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("fmc_rx_data_checker.vhd", 156, 537); // aU:J (JPanel:JComponent, cg:JFrame)
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+selectCodeEditor("fmc_rx_data_checker.vhd", 128, 518); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 297, 602); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 70, 461); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 70, 461, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 70, 461); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 74, 476, false, false, false, true, false); // aU:J (JPanel:JComponent, cg:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HCodeEditor_COPY, "Copy"); // ab:JMenuItem (ag:JPopupMenu, Popup:JWindow)
+selectCodeEditor("fmc_rx_data_checker.vhd", 13, 531); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 70 seconds
+selectCodeEditor("fmc_rx_data_checker.vhd", 269, 52); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 269, 52); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 269, 52, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 269, 52); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 269, 52); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 26 seconds
+selectCodeEditor("fmc_rx_data_checker.vhd", 219, 310); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 219, 310, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 177, 529); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 248, 178); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 258, 173); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("fmc_rx_data_checker.vhd", 407, 359); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 407, 359, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 387, 370); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 387, 370, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 387, 370); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("fmc_rx_data_checker.vhd", 169, 440); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 169, 440, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 169, 440); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 143, 452); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 120 seconds
+selectCodeEditor("fmc_rx_data_checker.vhd", 150, 589); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 7, 588); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 70 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmcLib.vhd.im", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmcLib.vhd.im", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_fmc_interface.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_fmc_interface.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 102, 298); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 102, 298, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 102, 298); // aU:J (JPanel:JComponent, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// Elapsed time: 27 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_fmc_interface.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_fmc_interface.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("fmc_rx_interface.vhd", 207, 427); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_interface.vhd", 207, 427, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_interface.vhd", 207, 427); // aU:J (JPanel:JComponent, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_interface.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_interface.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 654, 366); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_fmc_interface.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_fmc_interface.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("fmc_rx_interface.vhd", 110, 495); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_interface.vhd", 110, 495, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_interface.vhd", 122, 463); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_interface.vhd", 120, 437); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_interface.vhd", 120, 431); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_interface.vhd", 120, 431, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_interface.vhd", 80, 449); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_interface.vhd", 80, 449, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_interface.vhd", 91, 447, false, false, false, true, false); // aU:J (JPanel:JComponent, cg:JFrame) - Popup Trigger
+selectCodeEditor("fmc_rx_interface.vhd", 69, 460); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("fmc_rx_interface.vhd", 231, 395); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_interface.vhd", 231, 395, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_interface.vhd", 73, 334); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_interface.vhd", 73, 334, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_interface.vhd", 73, 334, false, false, false, true, false); // aU:J (JPanel:JComponent, cg:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HCodeEditor_COPY, "Copy"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_interface.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_interface.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_fmc_interface.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_fmc_interface.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_interface.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_interface.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 943, 188); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 474, 301); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 483, 310); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 485, 431); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_fmc_interface.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_fmc_interface.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("fmc_rx_data_checker.vhd", 93, 251); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 93, 251, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 100, 251); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 100, 251, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 100, 251); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 108, 303, false, false, false, true, false); // aU:J (JPanel:JComponent, cg:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HCodeEditor_COPY, "Copy"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// [GUI Memory]: 126 mb (+803kb) [00:45:36]
+selectCodeEditor("df_fmc_interface.vhd", 211, 224); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 135, 272); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 135, 272, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 135, 272); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 134, 261); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 134, 261, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 134, 261); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 291, 201); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 291, 201, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 291, 201); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 454, 201); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 1, 215); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 38 seconds
+selectCodeEditor("df_fmc_interface.vhd", 408, 377); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 407, 364); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 407, 364, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 407, 363); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 386, 216); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 386, 216, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 386, 216); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 5, 348); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// [GUI Memory]: 128 mb (+1266kb) [00:47:02]
+// [GUI Memory]: 128 mb (+326kb) [00:47:09]
+// Elapsed time: 35 seconds
+selectCodeEditor("df_fmc_interface.vhd", 519, 91); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 27 seconds
+selectCodeEditor("df_fmc_interface.vhd", 490, 207); // aU:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 129 mb (+676kb) [00:47:38]
+// Elapsed time: 22 seconds
+selectCodeEditor("df_fmc_interface.vhd", 458, 398); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 458, 399); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 458, 399); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 458, 399, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 130, 370); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 130, 370, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 131, 347); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 131, 347, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 167, 352, false, false, false, true, false); // aU:J (JPanel:JComponent, cg:JFrame) - Popup Trigger
+selectCodeEditor("df_fmc_interface.vhd", 162, 398); // aU:J (JPanel:JComponent, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_fmc_interface.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_fmc_interface.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("fmc_rx_interface.vhd", 199, 293); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_interface.vhd", 199, 293, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_interface.vhd", 199, 293, false, false, false, true, false); // aU:J (JPanel:JComponent, cg:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HCodeEditor_COPY, "Copy"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_interface.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_interface.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 462, 307); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("df_fmc_interface.vhd", 205, 90); // aU:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 131 mb (+2502kb) [00:48:27]
+selectCodeEditor("df_fmc_interface.vhd", 220, 240); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 223, 234); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 486, 86); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 487, 213); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 425, 461); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+selectCodeEditor("df_fmc_interface.vhd", 162, 293); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("df_fmc_interface.vhd", 289, 235); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 287, 305); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 287, 305, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 287, 305); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 287, 305); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 287, 305, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 287, 305); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 300, 290); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 300, 290, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 300, 290); // aU:J (JPanel:JComponent, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_fmc_interface.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_fmc_interface.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("fmc_rx_interface.vhd", 251, 309); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_interface.vhd", 251, 309, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_interface.vhd", 259, 362); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_interface.vhd", 259, 362, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_interface.vhd", 261, 345); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_interface.vhd", 261, 345, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_interface.vhd", 260, 332); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_interface.vhd", 260, 332, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_interface.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_interface.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// [GUI Memory]: 133 mb (+2640kb) [00:49:07]
+selectCodeEditor("df_fmc_interface.vhd", 416, 125); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("df_fmc_interface.vhd", 68, 95); // aU:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 134 mb (+427kb) [00:49:27]
+selectCodeEditor("df_fmc_interface.vhd", 68, 95, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 362, 187); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 238, 415); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 238, 415, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 238, 415); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 238, 415, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 196, 549); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 196, 549, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 293, 410); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// [GUI Memory]: 134 mb (+34kb) [00:52:30]
+// Elapsed time: 194 seconds
+selectCodeEditor("df_fmc_interface.vhd", 218, 348); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 136 mb (+1925kb) [00:53:01]
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+selectCodeEditor("df_fmc_interface.vhd", 266, 456); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 266, 456, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 266, 456); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+selectCodeEditor("df_fmc_interface.vhd", 303, 292); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 303, 292, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 303, 292); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 302, 264); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 302, 264, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 302, 264); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 138 mb (+2577kb) [00:53:09]
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 32 seconds
+selectCodeEditor("df_fmc_interface.vhd", 519, 354); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("df_fmc_interface.vhd", 446, 427); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 446, 427); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 446, 427); // aU:J (JPanel:JComponent, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,032 MB. GUI used memory: 54 MB. Current time: 11/15/15 8:11:20 PM
+// Elapsed time: 564 seconds
+selectCodeEditor("df_fmc_interface.vhd", 216, 352); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 401, 315); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 401, 315, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 401, 315); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 401, 315); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 415, 194); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 57 seconds
+selectCodeEditor("df_fmc_interface.vhd", 59, 277); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 59, 277, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 181, 275); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 70, 277, false, false, false, true, false); // aU:J (JPanel:JComponent, cg:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HCodeEditor_COPY, "Copy"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 175, 286); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("df_fmc_interface.vhd", 112, 427); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 144, 430); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 144, 430, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 471, 427, false, false, false, true, false); // aU:J (JPanel:JComponent, cg:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HCodeEditor_COPY, "Copy"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 544, 531); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 541, 531); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 66 seconds
+selectCodeEditor("df_fmc_interface.vhd", 827, 66); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 1076 seconds
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 386, 24); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 459, 412); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("auto_adjuster_clkdelay.vhd", 459, 412); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 312, 180); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("df_fmc_interface.vhd", 160, 526); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 160, 526, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 158, 511); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 158, 511, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 158, 511); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 158, 511); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 158, 511, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+// Elapsed time: 31 seconds
+selectCodeEditor("df_fmc_interface.vhd", 156, 454); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 156, 454, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 365, 324); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 22 seconds
+selectCodeEditor("df_fmc_interface.vhd", 136, 411); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 136, 411, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 680, 285); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 363, 488); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 37 seconds
+selectCodeEditor("df_fmc_interface.vhd", 428, 402); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 186, 155); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 65 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmcLib.vhd.im", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmcLib.vhd.im", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // I:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_interface.vhd", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_interface.vhd", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // I:b
+selectCodeEditor("df_fmc_interface.vhd", 429, 122); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation-Only Sources]", 2); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 1); // u:k (w:JPanel, cg:JFrame)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // g:JideTabbedPane (I:aC, cg:JFrame)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // g:JideTabbedPane (I:aC, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 14, true); // u:k (w:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 15, true); // u:k (w:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, short_fwft_fifo_d32_w32 (short_fwft_fifo_d32_w32.xci)]", 12, false); // u:k (w:JPanel, cg:JFrame)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 2); // g:JideTabbedPane (I:aC, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL]", 1); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib]", 2); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, fmc_rx_mapper_fpga_to_detword.vhd]", 17, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, df_internallink_output.vhd]", 141, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, df_main.vhd]", 140, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, df_main.vhd]", 140, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+selectCodeEditor("df_main.vhd", 251, 313); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("df_main.vhd", 356, 379); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+selectCodeEditor("df_main.vhd", 372, 559); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation-Only Sources]", 2); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 1); // u:k (w:JPanel, cg:JFrame)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // g:JideTabbedPane (I:aC, cg:JFrame)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // g:JideTabbedPane (I:aC, cg:JFrame)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Compile Order", 3); // g:JideTabbedPane (I:aC, cg:JFrame)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 2); // g:JideTabbedPane (I:aC, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL]", 1); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib]", 2); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, fmc_rx_interface.vhd]", 19, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, df_top.vhd]", 137, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, df_top.vhd]", 137, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+selectCodeEditor("df_top.vhd", 166, 258); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_top.vhd", 166, 258); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_top.vhd", 370, 646); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 4,046 mb (+14757kb) [01:29:01]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,049 MB. GUI used memory: 56 MB. Current time: 11/15/15 8:37:31 PM
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 4,049 mb (+3149kb) [01:29:03]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+selectCodeEditor("df_top.vhd", 364, 650); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+selectCodeEditor("df_top.vhd", 378, 653); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 18 seconds
+selectCodeEditor("df_top.vhd", 234, 459); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_top.vhd", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_top.vhd", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+selectCodeEditor("df_main.vhd", 437, 54); // aU:J (JPanel:JComponent, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation-Only Sources]", 2); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 1); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL]", 1); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib]", 2); // u:k (w:JPanel, cg:JFrame)
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, udp_packet_parser.vhd]", 45, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, df_switch_2ch_merger_v2.vhd]", 26, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, pattern_gen.vhd]", 27, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, ilink_interface.vhd]", 29, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, pattern_chk.vhd]", 28, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, fwft_ic_w36_d512_my_wrapper.vhd]", 94, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, user_interface_df_top.vhd]", 135, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, user_interface_df_top.vhd]", 135, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+// Elapsed time: 33 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "user_interface_df_top.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "user_interface_df_top.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 40, 160); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 40, 160, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 40, 160); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 204, 268); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 204, 268, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("df_fmc_interface.vhd", 118, 497); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 117, 618); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 117, 604); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 54 seconds
+selectCodeEditor("df_fmc_interface.vhd", 444, 433); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 403, 478); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 403, 478, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 132, 445); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 132, 445, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 250, 261); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 290, 280); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 192, 348); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 192, 348, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 231, 358); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 231, 358, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 231, 358); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 266, 402); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("df_fmc_interface.vhd", 129, 416); // aU:J (JPanel:JComponent, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_fmc_interface.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_fmc_interface.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 498, 363); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+selectCodeEditor("fmc_rx_data_checker.vhd", 578, 176); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("fmc_rx_data_checker.vhd", 0, 325); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 20 seconds
+selectCodeEditor("fmc_rx_data_checker.vhd", 139, 437); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 139, 437, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 139, 437); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 555, 464); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 18, 476); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 29 seconds
+selectCodeEditor("fmc_rx_data_checker.vhd", 168, 591); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 268, 577); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 268, 577, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 268, 590); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 268, 590, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 268, 590); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 208, 614); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 176, 610); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 176, 610, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 183, 613); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 183, 613, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 187, 606); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+selectCodeEditor("fmc_rx_data_checker.vhd", 116, 410); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 192, 415); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 192, 415, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 192, 415); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 390, 413); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 4, 420); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 49 seconds
+selectCodeEditor("fmc_rx_data_checker.vhd", 398, 42); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 327, 427); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 85 seconds
+selectCodeEditor("fmc_rx_data_checker.vhd", 146, 407); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 146, 407, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 146, 407); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 139, 500); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 139, 500, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 139, 500); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("fmc_rx_data_checker.vhd", 155, 515); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 155, 515, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 155, 515); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("fmc_rx_data_checker.vhd", 157, 504); // aU:J (JPanel:JComponent, cg:JFrame)
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+selectCodeEditor("fmc_rx_data_checker.vhd", 157, 504, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 157, 504); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 4,052 mb (+3149kb) [01:36:47]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+selectCodeEditor("fmc_rx_data_checker.vhd", 334, 400); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 40 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_parity.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_parity.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+selectCodeEditor("df_fmc_interface.vhd", 510, 497); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 483, 369); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 206, 351); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 206, 351, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 203, 334); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 122, 187); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 31 seconds
+selectCodeEditor("df_fmc_interface.vhd", 393, 500); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 393, 500, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 340, 497); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 340, 497, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 480, 499, false, false, false, true, false); // aU:J (JPanel:JComponent, cg:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HCodeEditor_COPY, "Copy"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 237, 127); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 237, 127, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 265, 131); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 265, 131, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 16 seconds
+selectCodeEditor("df_fmc_interface.vhd", 61, 51); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 61, 51, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+selectCodeEditor("df_fmc_interface.vhd", 265, 95); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 265, 95, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 265, 95); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 477, 115); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 3, 123); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 18 seconds
+selectCodeEditor("df_fmc_interface.vhd", 675, 120); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 358, 477); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 358, 477, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_fmc_interface.vhd", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_fmc_interface.vhd", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("df_main.vhd", 359, 67); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_main.vhd", 359, 67, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_main.vhd", 378, 657); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_main.vhd", 451, 417); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_main.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_main.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("df_top.vhd", 375, 23); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_top.vhd", 375, 23, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+selectCodeEditor("df_top.vhd", 367, 657); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+selectCodeEditor("df_top.vhd", 383, 656); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("df_top.vhd", 391, 569); // aU:J (JPanel:JComponent, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_top.vhd", 6); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_top.vhd", 6); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+selectCodeEditor("user_interface_df_top.vhd", 343, 574); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "user_interface_df_top.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "user_interface_df_top.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_fmc_interface.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_fmc_interface.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // I:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_main.vhd", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_main.vhd", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_top.vhd", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_top.vhd", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // I:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "user_interface_df_top.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "user_interface_df_top.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // I:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "user_interface_df_top.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "user_interface_df_top.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 432, 284); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_parity.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_parity.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // I:b
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 1); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation-Only Sources]", 4); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL]", 1); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib]", 2); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, variable_delay_fmc.vhd]", 13, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, FMC_RX_CLOCK.BUFMR.vhd]", 22, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, df_switch_element_1ch_in.vhd]", 25, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, df_eventid_comparator.vhd]", 35, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, fmc_tx_clockfoward.vhd]", 16, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, fmc_rx_front.vhd]", 20, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, fmc_rx_frame.vhd]", 21, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, fmc_rx_mapper_fmc_to_fpga.vhd]", 18, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, fmc_tx_mapper_fmc_to_fpga.vhd]", 14, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, fmc_tx_interface.vhd]", 15, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, fmc_tx_interface.vhd]", 15, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_tx_interface.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_tx_interface.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // I:b
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, df_switch_matrix_32x32.vhd]", 23, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, df_eventid_comparator.vhd]", 35, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced]", 145, true); // u:k (w:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, df_internallink_input.vhd]", 142, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, df_fmc_interface.vhd]", 144, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, df_fmc_interface.vhd]", 144, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 266, 352); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 13, 330); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 66, 438); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 9, 332); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 130, 459); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 130, 459, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 130, 459); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("df_fmc_interface.vhd", 188, 539); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+selectCodeEditor("df_fmc_interface.vhd", 401, 500); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+selectCodeEditor("df_fmc_interface.vhd", 52, 50); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("df_fmc_interface.vhd", 33, 413); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 33, 414, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 33, 414); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 140, 514, false, false, false, true, false); // aU:J (JPanel:JComponent, cg:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HCodeEditor_COPY, "Copy"); // ab:JMenuItem (ag:JPopupMenu, Popup:JWindow)
+selectCodeEditor("df_fmc_interface.vhd", 72, 151); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 73, 142); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 31, 141); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 31, 141, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("df_fmc_interface.vhd", 31, 141); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_fmc_interface.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "df_fmc_interface.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 139, 144); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("fmc_rx_data_checker.vhd", 139, 144, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("fmc_rx_data_checker.vhd", 139, 144); // aU:J (JPanel:JComponent, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_rx_data_checker.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 176, 135); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 176, 125); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 7, 137); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 18 seconds
+selectCodeEditor("df_fmc_interface.vhd", 11, 153); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 14, 163); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 8, 170); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 9, 193); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 9, 200); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("df_fmc_interface.vhd", 3, 188); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Tcl Message: INFO: [filemgmt 20-352] Relaxing define-before-use dependency to only entity and package declarations. 
+// Elapsed time: 32 seconds
+selectCodeEditor("df_fmc_interface.vhd", 520, 245); // aU:J (JPanel:JComponent, cg:JFrame)
+closeMainWindow("my_project - [/afs/cern.ch/work/z/zijiang/DFFirmware/data_formatter_firmware/data_formatter_top/implementation/dummy/my_project.xpr] - Vivado 2014.2"); // cg:JFrame
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// an:bF (cg:JFrame): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, an:bF)
+// co:P (cg:JFrame):  Close Project : addNotify
+dismissDialog("Close Project"); // an:bF (cg:JFrame)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 4,052 MB. GUI used memory: 56 MB. Current time: 11/15/15 8:52:00 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,052 MB. GUI used memory: 50 MB. Current time: 11/15/15 8:52:01 PM
+// Tcl Message: close_project 
+dismissDialog("Close Project"); // an:bF (cg:JFrame)
+dismissDialog("Close Project"); // co:P (cg:JFrame)
+dismissDialog("Close Project"); // co:P (cg:JFrame)

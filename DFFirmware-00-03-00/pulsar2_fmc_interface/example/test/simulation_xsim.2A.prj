@@ -1,0 +1,43 @@
+vhdl work ../../../generated_ip/xc7k325t-ffg900-2/fwft_ic_w36_d512/fwft_ic_w36_d512_funcsim.vhdl
+vhdl work ../../../generated_ip/xc7k325t-ffg900-2/fwft_ic_w36_d512/fwft_ic_w36_d512_my_wrapper.vhd
+vhdl work ../../../generated_ip/xc7k325t-ffg900-2/pulsar2_simple_dpram_w36_d4096/pulsar2_simple_dpram_w36_d4096_funcsim.vhdl
+vhdl work ../../../generated_ip/xc7k325t-ffg900-2/pulsar2_sysclk/pulsar2_sysclk_funcsim.vhdl
+
+vhdl work ../../fmcLib.2A.vhd
+
+vhdl work ../../FMC_RX_CLOCK.BUFMR.2A.vhd
+vhdl work ../../variable_delay_fmc.vhd
+vhdl work ../../fmc_rx_front.2A.vhd
+vhdl work ../../fmc_rx_frame.vhd
+vhdl work ../../fmc_rx_mapper_fpga_to_detword.vhd
+vhdl work ../../fmc_rx_parity.vhd
+vhdl work ../../fmc_rx_interface.vhd
+vhdl work ../../fmc_rx_mapper_fmc_to_fpga.vhd
+
+
+# SPI
+vhdl work ../../../spi_register_interface_v2/spilib.vhd
+vhdl work ../../../spi_register_interface_v2/spi_slave_core.vhd
+vhdl work ../../../spi_register_interface_v2/spi_slave_interface.vhd
+
+
+vhdl work ../../../spi_register_interface_v2/spi_register_examples/spy_buffer_core/GrayCounter.vhd
+vhdl work ../../../spi_register_interface_v2/spi_register_examples/spy_buffer_core/spybufferlib.vhd
+vhdl work ../../../spi_register_interface_v2/spi_register_examples/spy_buffer_core/spy_buffer_core_d4096.vhd
+vhdl work ../../../spi_register_interface_v2/spi_register_examples/spi_spy_buffer_multilanes_d4096.vhd
+
+vhdl work ../../../spi_register_interface_v2/spi_register_examples/spi_readonly_register.vhd
+vhdl work ../../../spi_register_interface_v2/spi_register_examples/spi_writable_register.vhd
+vhdl work ../../../spi_register_interface_v2/spi_register_examples/spi_pulse_generator.vhd
+vhdl work ../../../spi_register_interface_v2/spi_register_examples/spi_registers_lib.vhd
+
+vhdl work ../spi_interface.vhd
+
+vhdl work ../my_config_parameters.vhd
+vhdl work ../top_2A.vhd
+
+vhdl work fmc_connector_emulator2.vhd
+
+vhdl work testmezz_sysclk.vhd
+vhdl work testbench_mezz.vhd
+vhdl work testbench.2A.vhd

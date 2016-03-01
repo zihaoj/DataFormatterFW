@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# xsim v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+# IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+# Start of session at: Wed Feb 10 00:03:20 2016
+# Process ID: 30790
+# Current directory: /afs/cern.ch/work/z/zijiang/DFFirmwareDebugSpy/pulsar2_df_internal_decoder/test_slink_packer_v2
+# Command line: xsim -source {xsim.dir/run_gen/xsim_script.tcl}
+# Log file: /afs/cern.ch/work/z/zijiang/DFFirmwareDebugSpy/pulsar2_df_internal_decoder/test_slink_packer_v2/xsim.log
+# Journal file: /afs/cern.ch/work/z/zijiang/DFFirmwareDebugSpy/pulsar2_df_internal_decoder/test_slink_packer_v2/xsim.jou
+#-----------------------------------------------------------
+start_gui
+source xsim.dir/run_gen/xsim_script.tcl
+# load_feature core
+# current_fileset
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/Xilinx/Vivado/2015.3/data/ip'.
+# xsim {run_gen} -maxdeltaid 10000 -wdb {simulation_xsim.wdb} -autoloadwcfg
+Vivado Simulator 2015.3
+Time resolution is 1 ps
+add_wave {{/testbench/main_clk_i}} {{/testbench/reset_in_i}} {{/testbench/rdreq_i}} {{/testbench/data_valid_i}} {{/testbench/header_data_valid_i}} {{/testbench/dout_i}} {{/testbench/header_dout_i}} {{/testbench/moddata_rdy_i}} {{/testbench/frame_wen_in_i}} {{/testbench/frame_ctrl_in_i}} {{/testbench/frame_xoff_out_i}} {{/testbench/event_sorting_fifo_full_i}} {{/testbench/current_state}} 
+run 20 us
+run 20 us
+add_wave {{/testbench/my_slink_packer/current_state}} {{/testbench/my_slink_packer/moddata_empty_i}} {{/testbench/my_slink_packer/moddata_full_i}} {{/testbench/my_slink_packer/frame_empty_i}} {{/testbench/my_slink_packer/frame_full_i}} {{/testbench/my_slink_packer/link_ready}} {{/testbench/my_slink_packer/slink_ready}} {{/testbench/my_slink_packer/slink_out_buf}} {{/testbench/my_slink_packer/float_moddata}} {{/testbench/my_slink_packer/float_frame}} {{/testbench/my_slink_packer/allow_read_fifo_at_next_cycle}} {{/testbench/my_slink_packer/moddata_input_go_next_if_exist_i}} {{/testbench/my_slink_packer/frame_input_go_next_if_exist_i}} {{/testbench/my_slink_packer/frame_data_i}} {{/testbench/my_slink_packer/frame_ctrl_i}} {{/testbench/my_slink_packer/frame_den_i}} {{/testbench/my_slink_packer/moddata_data_i}} {{/testbench/my_slink_packer/moddata_den_i}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 20 us
+run 20 us
+add_wave {{/testbench/my_slink_packer/number_of_checked_modules}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 20 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting xsim at Wed Feb 10 00:05:10 2016...

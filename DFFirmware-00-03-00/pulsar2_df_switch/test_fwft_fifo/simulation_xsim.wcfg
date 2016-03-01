@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="simulation_xsim.wdb" id="1">
+         <top_modules>
+            <top_module name="attributes" />
+            <top_module name="data_formatter_constants" />
+            <top_module name="fmcconstants" />
+            <top_module name="numeric_std" />
+            <top_module name="standard" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_misc" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="3" />
+   <wvobject fp_name="group11" type="group">
+      <obj_property name="label">testbench top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/testbench/clk_i" type="logic">
+         <obj_property name="ElementShortName">clk_i</obj_property>
+         <obj_property name="ObjectShortName">clk_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/tx_data_i" type="array">
+         <obj_property name="ElementShortName">tx_data_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_data_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/tx_dvalid_i" type="logic">
+         <obj_property name="ElementShortName">tx_dvalid_i</obj_property>
+         <obj_property name="ObjectShortName">tx_dvalid_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/tx_rdy_i" type="logic">
+         <obj_property name="ElementShortName">tx_rdy_i</obj_property>
+         <obj_property name="ObjectShortName">tx_rdy_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/enable_i" type="logic">
+         <obj_property name="ElementShortName">enable_i</obj_property>
+         <obj_property name="ObjectShortName">enable_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/reset_i" type="logic">
+         <obj_property name="ElementShortName">reset_i</obj_property>
+         <obj_property name="ObjectShortName">reset_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/rd_en_i" type="logic">
+         <obj_property name="ElementShortName">rd_en_i</obj_property>
+         <obj_property name="ObjectShortName">rd_en_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/fifo_dout_i" type="array">
+         <obj_property name="ElementShortName">fifo_dout_i[35:0]</obj_property>
+         <obj_property name="ObjectShortName">fifo_dout_i[35:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/fifo_empty_i" type="logic">
+         <obj_property name="ElementShortName">fifo_empty_i</obj_property>
+         <obj_property name="ObjectShortName">fifo_empty_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/fifo_full_i" type="logic">
+         <obj_property name="ElementShortName">fifo_full_i</obj_property>
+         <obj_property name="ObjectShortName">fifo_full_i</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group19" type="group">
+      <obj_property name="label">Write Address Counter</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/testbench/fifo/WriteAddress/GrayCount_out" type="array">
+         <obj_property name="ElementShortName">GrayCount_out[3:0]</obj_property>
+         <obj_property name="ObjectShortName">GrayCount_out[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/fifo/WriteAddress/BinaryCount_out" type="array">
+         <obj_property name="ElementShortName">BinaryCount_out[3:0]</obj_property>
+         <obj_property name="ObjectShortName">BinaryCount_out[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/fifo/WriteAddress/Enable_in" type="logic">
+         <obj_property name="ElementShortName">Enable_in</obj_property>
+         <obj_property name="ObjectShortName">Enable_in</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/fifo/WriteAddress/Clear_in" type="logic">
+         <obj_property name="ElementShortName">Clear_in</obj_property>
+         <obj_property name="ObjectShortName">Clear_in</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/fifo/WriteAddress/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/fifo/WriteAddress/BinaryCount" type="array">
+         <obj_property name="ElementShortName">BinaryCount[3:0]</obj_property>
+         <obj_property name="ObjectShortName">BinaryCount[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/fifo/WriteAddress/COUNTER_WIDTH" type="other">
+         <obj_property name="ElementShortName">COUNTER_WIDTH</obj_property>
+         <obj_property name="ObjectShortName">COUNTER_WIDTH</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group27" type="group">
+      <obj_property name="label">Read Address Counter</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/testbench/fifo/ReadAddress/GrayCount_out" type="array">
+         <obj_property name="ElementShortName">GrayCount_out[3:0]</obj_property>
+         <obj_property name="ObjectShortName">GrayCount_out[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/fifo/ReadAddress/BinaryCount_out" type="array">
+         <obj_property name="ElementShortName">BinaryCount_out[3:0]</obj_property>
+         <obj_property name="ObjectShortName">BinaryCount_out[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/fifo/ReadAddress/Enable_in" type="logic">
+         <obj_property name="ElementShortName">Enable_in</obj_property>
+         <obj_property name="ObjectShortName">Enable_in</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/fifo/ReadAddress/Clear_in" type="logic">
+         <obj_property name="ElementShortName">Clear_in</obj_property>
+         <obj_property name="ObjectShortName">Clear_in</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/fifo/ReadAddress/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/fifo/ReadAddress/BinaryCount" type="array">
+         <obj_property name="ElementShortName">BinaryCount[3:0]</obj_property>
+         <obj_property name="ObjectShortName">BinaryCount[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/fifo/ReadAddress/COUNTER_WIDTH" type="other">
+         <obj_property name="ElementShortName">COUNTER_WIDTH</obj_property>
+         <obj_property name="ObjectShortName">COUNTER_WIDTH</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

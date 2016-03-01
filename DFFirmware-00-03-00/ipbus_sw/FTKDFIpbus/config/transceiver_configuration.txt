@@ -1,0 +1,313 @@
+###################################################################
+#### <GT Channel Summary>
+#### ch 0	SLINK OUT AUX-OUT Upper Tower 1st AUX 1st QSFP+ ch0
+#### ch 1	SLINK OUT AUX-OUT Upper Tower 1st AUX 1st QSFP+ ch1
+#### ch 2	SLINK OUT AUX-OUT Upper Tower 1st AUX 1st QSFP+ ch2
+#### ch 3	SLINK OUT AUX-OUT Upper Tower 1st AUX 1st QSFP+ ch3
+#### ch 4	SLINK OUT AUX-OUT Upper Tower 1st AUX 2nd QSFP+ ch0
+#### ch 5	SLINK OUT AUX-OUT Upper Tower 1st AUX 2nd QSFP+ ch1
+#### ch 6	SLINK OUT AUX-OUT Upper Tower 1st AUX 2nd QSFP+ ch2
+#### ch 7	SLINK OUT AUX-OUT Upper Tower 1st AUX 2nd QSFP+ ch3
+#### ch 8	SLINK OUT AUX-OUT Upper Tower 2nd AUX 1st QSFP+ ch0
+#### ch 9	SLINK OUT AUX-OUT Upper Tower 2nd AUX 1st QSFP+ ch1
+#### ch 10	SLINK OUT AUX-OUT Upper Tower 2nd AUX 1st QSFP+ ch2
+#### ch 11	SLINK OUT AUX-OUT Upper Tower 2nd AUX 1st QSFP+ ch3
+#### ch 12	SLINK OUT AUX-OUT Upper Tower 2nd AUX 1st QSFP+ ch0
+#### ch 13	SLINK OUT AUX-OUT Upper Tower 2nd AUX 1st QSFP+ ch1
+#### ch 14	SLINK OUT AUX-OUT Upper Tower 2nd AUX 1st QSFP+ ch2
+#### ch 15	SLINK OUT AUX-OUT Upper Tower 2nd AUX 1st QSFP+ ch3
+#### ch 16	SLINK OUT SSB-OUT Upper Tower
+#### ch 17	SLINK OUT AUX-OUT Upper Tower 1st AUX 1st QSFP+ ch0
+#### ch 18	SLINK OUT AUX-OUT Upper Tower 1st AUX 1st QSFP+ ch1
+#### ch 19	SLINK OUT AUX-OUT Upper Tower 1st AUX 1st QSFP+ ch2
+#### ch 20	SLINK OUT AUX-OUT Upper Tower 1st AUX 1st QSFP+ ch3
+#### ch 21	SLINK OUT AUX-OUT Upper Tower 1st AUX 2nd QSFP+ ch0
+#### ch 22	SLINK OUT AUX-OUT Upper Tower 1st AUX 2nd QSFP+ ch1
+#### ch 23	SLINK OUT AUX-OUT Upper Tower 1st AUX 2nd QSFP+ ch2
+#### ch 24	SLINK OUT AUX-OUT Upper Tower 1st AUX 2nd QSFP+ ch3
+#### ch 25	SLINK OUT AUX-OUT Upper Tower 2nd AUX 1st QSFP+ ch0
+#### ch 26	SLINK OUT AUX-OUT Upper Tower 2nd AUX 1st QSFP+ ch1
+#### ch 27	SLINK OUT AUX-OUT Upper Tower 2nd AUX 1st QSFP+ ch2
+#### ch 28	SLINK OUT AUX-OUT Upper Tower 2nd AUX 1st QSFP+ ch3
+#### ch 29	SLINK OUT AUX-OUT Upper Tower 2nd AUX 1st QSFP+ ch0
+#### ch 30	SLINK OUT AUX-OUT Upper Tower 2nd AUX 1st QSFP+ ch1
+#### ch 31	SLINK OUT AUX-OUT Upper Tower 2nd AUX 1st QSFP+ ch2
+#### ch 32	SLINK OUT AUX-OUT Upper Tower 2nd AUX 1st QSFP+ ch3
+#### ch 33	SLINK OUT SSB-OUT Upper Tower
+#### ch 34	ATCA FABRIC ch3 port0
+#### ch 35	ATCA FABRIC ch4 port0
+#### ch 36	ATCA FABRIC ch5 port0
+#### ch 37	ATCA FABRIC ch6 port0
+#### ch 38	ATCA FABRIC ch7 port0
+#### ch 39	ATCA FABRIC ch8 port0
+#### ch 40	ATCA FABRIC ch9 port0
+#### ch 41	ATCA FABRIC ch10 port0
+#### ch 42	ATCA FABRIC ch11 port0
+#### ch 43	ATCA FABRIC ch12 port0
+#### ch 44	INTER-CRATE ch0 port0
+#### ch 45	INTER-CRATE ch1 port0
+#### ch 46	ATCA FABRIC ch3 port0
+#### ch 47	ATCA FABRIC ch4 port0
+#### ch 48	ATCA FABRIC ch5 port0
+#### ch 49	ATCA FABRIC ch6 port0
+#### ch 50	ATCA FABRIC ch7 port0
+#### ch 51	ATCA FABRIC ch8 port0
+#### ch 52	ATCA FABRIC ch9 port0
+#### ch 53	ATCA FABRIC ch10 port0
+#### ch 54	ATCA FABRIC ch11 port0
+#### ch 55	ATCA FABRIC ch12 port0
+#### ch 56	INTER-CRATE ch0 port0
+#### ch 57	INTER-CRATE ch1 port0
+###################################################################
+
+#### gtch2rxpolarity <uint32_t (GT Channel)> <uint32_t (1 or 0)>
+#### POLARITY FLIP (N/P) for individual Transceiver Parameters.
+#### This parameters are based on the schematics. Do not change.
+gtch2rxpolarity   0	0
+gtch2rxpolarity   1	0
+gtch2rxpolarity   2	0
+gtch2rxpolarity   3	0
+gtch2rxpolarity   4	0
+gtch2rxpolarity   5	0
+gtch2rxpolarity   6	0
+gtch2rxpolarity   7	0
+gtch2rxpolarity   8	0
+gtch2rxpolarity   9	0
+gtch2rxpolarity  10	0
+gtch2rxpolarity  11	0
+gtch2rxpolarity  12	0
+gtch2rxpolarity  13	0
+gtch2rxpolarity  14	0
+gtch2rxpolarity  15	0
+gtch2rxpolarity  16	0
+gtch2rxpolarity  17	0
+gtch2rxpolarity  18	0
+gtch2rxpolarity  19	0
+gtch2rxpolarity  20	1
+gtch2rxpolarity  21	0
+gtch2rxpolarity  22	0
+gtch2rxpolarity  23	0
+gtch2rxpolarity  24	0
+gtch2rxpolarity  25	0
+gtch2rxpolarity  26	0
+gtch2rxpolarity  27	0
+gtch2rxpolarity  28	0
+gtch2rxpolarity  29	0
+gtch2rxpolarity  30	0
+gtch2rxpolarity  31	1
+gtch2rxpolarity  32	1
+gtch2rxpolarity  33	1
+gtch2rxpolarity  34	0
+gtch2rxpolarity  35	0
+gtch2rxpolarity  36	0
+gtch2rxpolarity  37	0
+gtch2rxpolarity  38	1
+gtch2rxpolarity  39	0
+gtch2rxpolarity  40	0
+gtch2rxpolarity  41	0
+gtch2rxpolarity  42	0
+gtch2rxpolarity  43	0
+gtch2rxpolarity  44	1
+gtch2rxpolarity  45	1
+gtch2rxpolarity  46	0
+gtch2rxpolarity  47	0
+gtch2rxpolarity  48	0
+gtch2rxpolarity  49	0
+gtch2rxpolarity  50	0
+gtch2rxpolarity  51	0
+gtch2rxpolarity  52	0
+gtch2rxpolarity  53	0
+gtch2rxpolarity  54	0
+gtch2rxpolarity  55	0
+gtch2rxpolarity  56	0
+gtch2rxpolarity  57	0
+
+#### gtch2txpolarity <uint32_t (GT Channel)> <uint32_t (1 or 0)>
+#### POLARITY FLIP (N/P) for individual Transceiver Parameters.
+#### This parameters are based on the schematics. Do not change.
+gtch2txpolarity   0	0
+gtch2txpolarity   1	0
+gtch2txpolarity   2	0
+gtch2txpolarity   3	0
+gtch2txpolarity   4	0
+gtch2txpolarity   5	0
+gtch2txpolarity   6	0
+gtch2txpolarity   7	0
+gtch2txpolarity   8	0
+gtch2txpolarity   9	0
+gtch2txpolarity  10	0
+gtch2txpolarity  11	0
+gtch2txpolarity  12	0
+gtch2txpolarity  13	0
+gtch2txpolarity  14	0
+gtch2txpolarity  15	0
+gtch2txpolarity  16	0
+gtch2txpolarity  17	0
+gtch2txpolarity  18	0
+gtch2txpolarity  19	1
+gtch2txpolarity  20	0
+gtch2txpolarity  21	0
+gtch2txpolarity  22	0
+gtch2txpolarity  23	0
+gtch2txpolarity  24	1
+gtch2txpolarity  25	0
+gtch2txpolarity  26	0
+gtch2txpolarity  27	0
+gtch2txpolarity  28	0
+gtch2txpolarity  29	0
+gtch2txpolarity  30	0
+gtch2txpolarity  31	1
+gtch2txpolarity  32	1
+gtch2txpolarity  33	1
+gtch2txpolarity  34	0
+gtch2txpolarity  35	0
+gtch2txpolarity  36	0
+gtch2txpolarity  37	0
+gtch2txpolarity  38	0
+gtch2txpolarity  39	0
+gtch2txpolarity  40	0
+gtch2txpolarity  41	0
+gtch2txpolarity  42	0
+gtch2txpolarity  43	0
+gtch2txpolarity  44	0
+gtch2txpolarity  45	1
+gtch2txpolarity  46	0
+gtch2txpolarity  47	0
+gtch2txpolarity  48	0
+gtch2txpolarity  49	0
+gtch2txpolarity  50	0
+gtch2txpolarity  51	0
+gtch2txpolarity  52	0
+gtch2txpolarity  53	0
+gtch2txpolarity  54	0
+gtch2txpolarity  55	0
+gtch2txpolarity  56	0
+gtch2txpolarity  57	1
+
+####  <uint32_t gtch2force_ready_mode (GT Channel)> <uint32_t (1 or 0)>
+#### '0' : normal mode
+#### '1' : force_ready mode ignoring the hold & error signals from transceiver.
+####       (used for gt channels where we do not have connection (e.g. in commissioning))
+#### PLEASE UPDATE as the hardware configuration changed accordingly
+gtch2force_ready_mode   0	      1
+gtch2force_ready_mode   1	      1
+gtch2force_ready_mode   2	      1
+gtch2force_ready_mode   3	      1
+gtch2force_ready_mode   4	      1
+gtch2force_ready_mode   5	      1
+gtch2force_ready_mode   6	      1
+gtch2force_ready_mode   7	      1
+gtch2force_ready_mode   8	      1
+gtch2force_ready_mode   9	      1
+gtch2force_ready_mode  10	      1
+gtch2force_ready_mode  11	      1
+gtch2force_ready_mode  12	      1
+gtch2force_ready_mode  13	      1
+gtch2force_ready_mode  14	      1
+gtch2force_ready_mode  15	      1
+gtch2force_ready_mode  16	      1
+gtch2force_ready_mode  17	      1
+gtch2force_ready_mode  18	      1
+gtch2force_ready_mode  19	      1
+gtch2force_ready_mode  20	      1
+gtch2force_ready_mode  21	      1
+gtch2force_ready_mode  22	      1
+gtch2force_ready_mode  23	      1
+gtch2force_ready_mode  24	      1
+gtch2force_ready_mode  25	      1
+gtch2force_ready_mode  26	      1
+gtch2force_ready_mode  27	      1
+gtch2force_ready_mode  28	      1
+gtch2force_ready_mode  29	      1
+gtch2force_ready_mode  30	      1
+gtch2force_ready_mode  31	      1
+gtch2force_ready_mode  32	      1
+gtch2force_ready_mode  33	      1
+gtch2force_ready_mode  34	      1
+gtch2force_ready_mode  35	      1
+gtch2force_ready_mode  36	      1
+gtch2force_ready_mode  37	      1
+gtch2force_ready_mode  38	      1
+gtch2force_ready_mode  39	      1
+gtch2force_ready_mode  40	      1
+gtch2force_ready_mode  41	      1
+gtch2force_ready_mode  42	      1
+gtch2force_ready_mode  43	      1
+gtch2force_ready_mode  44	      0
+gtch2force_ready_mode  45	      0
+gtch2force_ready_mode  46	      1
+gtch2force_ready_mode  47	      1
+gtch2force_ready_mode  48	      1
+gtch2force_ready_mode  49	      1
+gtch2force_ready_mode  50	      1
+gtch2force_ready_mode  51	      1
+gtch2force_ready_mode  52	      1
+gtch2force_ready_mode  53	      1
+gtch2force_ready_mode  54	      1
+gtch2force_ready_mode  55	      1
+gtch2force_ready_mode  56	      0
+gtch2force_ready_mode  57	      0
+
+####  <uint32_t gtch2to_altera_fpga (GT Channel)> <uint32_t (1 or 0)>
+#### switch for IDLE word definition.
+#### '0' : to xilinx mode (idle word = 0XC5C5C5BC : 0XBC=K28.5 sent as K-char)
+#### '1' : to altera mode (idle word = 0X0000BCC5 : 0XBC=K28.5 sent as K-char)
+#### '1' is for AUX channels
+gtch2to_altera_fpga   0	    1 
+gtch2to_altera_fpga   1	    1
+gtch2to_altera_fpga   2	    1
+gtch2to_altera_fpga   3	    1
+gtch2to_altera_fpga   4	    1
+gtch2to_altera_fpga   5	    1
+gtch2to_altera_fpga   6	    1
+gtch2to_altera_fpga   7	    1
+gtch2to_altera_fpga   8	    1
+gtch2to_altera_fpga   9	    1
+gtch2to_altera_fpga  10	    1
+gtch2to_altera_fpga  11	    1
+gtch2to_altera_fpga  12	    1
+gtch2to_altera_fpga  13	    1
+gtch2to_altera_fpga  14	    1
+gtch2to_altera_fpga  15	    1
+gtch2to_altera_fpga  16	    0 
+gtch2to_altera_fpga  17	    1
+gtch2to_altera_fpga  18	    1
+gtch2to_altera_fpga  19	    1
+gtch2to_altera_fpga  20	    1
+gtch2to_altera_fpga  21	    1
+gtch2to_altera_fpga  22	    1
+gtch2to_altera_fpga  23	    1
+gtch2to_altera_fpga  24	    1
+gtch2to_altera_fpga  25	    1
+gtch2to_altera_fpga  26	    1
+gtch2to_altera_fpga  27	    1
+gtch2to_altera_fpga  28	    1
+gtch2to_altera_fpga  29	    1
+gtch2to_altera_fpga  30	    1
+gtch2to_altera_fpga  31	    1
+gtch2to_altera_fpga  32	    1 
+gtch2to_altera_fpga  33	    0
+gtch2to_altera_fpga  34	    0 
+gtch2to_altera_fpga  35	    0
+gtch2to_altera_fpga  36	    0
+gtch2to_altera_fpga  37	    0
+gtch2to_altera_fpga  38	    0
+gtch2to_altera_fpga  39	    0
+gtch2to_altera_fpga  40	    0
+gtch2to_altera_fpga  41	    0
+gtch2to_altera_fpga  42	    0
+gtch2to_altera_fpga  43	    0
+gtch2to_altera_fpga  44	    0
+gtch2to_altera_fpga  45	    0
+gtch2to_altera_fpga  46	    0
+gtch2to_altera_fpga  47	    0
+gtch2to_altera_fpga  48	    0
+gtch2to_altera_fpga  49	    0
+gtch2to_altera_fpga  50	    0 
+gtch2to_altera_fpga  51	    0
+gtch2to_altera_fpga  52	    0
+gtch2to_altera_fpga  53	    0
+gtch2to_altera_fpga  54	    0
+gtch2to_altera_fpga  55	    0
+gtch2to_altera_fpga  56	    0
+gtch2to_altera_fpga  57	    0

@@ -1,0 +1,47 @@
+DESIGN = top
+DEVICE = xc7vx690tffg1927-2
+XDC_FILE = kc705_basex.xdc
+GENIP_DIR1 = ../ipcores/vio_1/
+GENIP_DIR2 = ../ipcores/gig_ethernet_pcs_pma_1/
+GENIP_DIR3 = ../ipcores/ila_1/
+GENIP_DIR4 = ../ipcores/tri_mode_ethernet_mac_0/
+
+
+
+
+# Make all runs to place & route
+# chose either of the following two according to your purpose
+#all : place_n_route
+all : bitstream
+
+# bitstream : Creates device bitstream
+bitstream : $(DESIGN).bit
+
+# place_n_route: Stops after place and route 
+# for analysis prior to bitstream generation
+#place_n_route : $(DESIGN)_route.dcp
+
+# translate: Stops after full design elaboration and initial optimization 
+# for analysis and floorplanning prior to place and route step
+#translate : $(DESIGN)_opt.dcp
+
+# Following calls Tcl files for each desired portion of the Vivado run
+# Design checkpoint files and bit file used for dependency management
+#$(DESIGN).bit : run_vivado_place_n_route.tcl $(DESIGN)_route.dcp
+#	vivado -mode batch -source run_vivado_bitstream.tcl -tclargs $(DESIGN)
+$(DESIGN).bit : run_vivado.tcl $(XDC_FILE)
+	vivado -mode batch -source run_vivado.tcl -tclargs $(DESIGN) $(DEVICE) $(XDC_FILE) $(GENIP_DIR1) $(GENIP_DIR2) $(GENIP_DIR3) $(GENIP_DIR4) 
+
+#$(DESIGN)_route.dcp : run_vivado_place_n_route.tcl $(DESIGN)_opt.dcp
+#	vivado -mode batch -source run_vivado_place_n_route.tcl -tclargs $(DESIGN)
+
+#$(DESIGN)_opt.dcp : run_vivado_opt.tcl $(XDC_FILE)
+#	vivado -mode batch -source run_vivado_opt.tcl -tclargs $(DESIGN) $(DEVICE) $(XDC_FILE) $(GENIP_DIR)
+
+# Clean up all the files from the Vivado run
+clean : 
+	rm -rf *.jou *.log *.rpt *.dcp *.bit *.ltx *.xml *.html *~ .Xil dummy fsm_encoding.os
+
+# Tar and compress all the files
+tar : 
+	tar -zcvf $(DESIGN).tar.gz *.jou *.log *.rpt *.dcp *.tcl Makefile

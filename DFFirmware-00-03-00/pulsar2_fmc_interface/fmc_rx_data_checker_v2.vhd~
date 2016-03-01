@@ -1,0 +1,127 @@
+------------------------------------------------------------------------------
+-- PulsarIIb
+------------------------------------------------------------------------------
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_misc.all;
+use ieee.numeric_std.all;
+
+library work;
+use work.FmcConstants.all;
+
+entity fmc_rx_data_checker is
+  port
+    ( 
+      FMC_COMMON_CLK : in std_logic;
+      RESET : in std_logic;
+      DIN   : in std_logic_vector(2*lvds_pairs_for_rx_in_each_fpga-1 downto 0);
+      COMPARE_OK     : out std_logic;
+      -- configuration
+      CONFIG_CLK_INV        : out std_logic;
+      CONFIG_CLKDELAY_DIR   : out std_logic;
+      CONFIG_CLKDELAY_CE    : out std_logic;
+      -- monitoring
+      CONFIG_SYNC_DONE  : out std_logic;
+      CONFIG_SYNC_ERROR : out std_logic
+      );
+end fmc_rx_data_checker;
+
+architecture logic of fmc_rx_data_checker is
+
+  -- ##########################################
+  component fmc_rx_mapper_fpga_to_detword is
+    port (
+      FRONT_TO_MAPPER_DIN      : in  std_logic_vector(2*lvds_pairs_for_rx_in_each_fpga-1 downto 0);
+      MAPPER_TO_FRAME_SCT_DATA : out std_logic_vector(data_width_in_each_clockcycle-1 downto 0);
+      MAPPER_TO_FRAME_SCT_CTRL : out std_logic_vector(ctrl_width_in_each_clockcycle-1 downto 0);
+      MAPPER_TO_FRAME_PIX_DATA : out std_logic_vector(data_width_in_each_clockcycle-1 downto 0);
+      MAPPER_TO_FRAME_PIX_CTRL : out std_logic_vector(ctrl_width_in_each_clockcycle-1 downto 0)
+      );
+  end component;
+  
+  signal pix_data_in : std_logic_vector(data_width_in_each_clockcycle-1 downto 0);
+  signal sct_data_in : std_logic_vector(data_width_in_each_clockcycle-1 downto 0);
+  signal pix_ctrl_in : std_logic_vector(ctrl_width_in_each_clockcycle-1 downto 0);
+  signal sct_ctrl_in : std_logic_vector(ctrl_width_in_each_clockcycle-1 downto 0);  
+  signal find_correct_idle_words : std_logic;
+
+  signal start : std_logic;
+  signal global_count_buf : std_logic_vector(31 downto 0);
+  signal error_count_buf : std_logic_vector(31 downto 0);
+  signal correct_count_buf : std_logic_vector(31 downto 0);
+  signal output_buf_i  : std_logic:='0';
+  signal reset_i : std_logic;
+   
+  attribute mark_debug : string; 
+  attribute mark_debug of correct_count_buf  : signal is "true";
+  attribute mark_debug of global_count_buf  : signal is "true";
+  attribute mark_debug of pix_data_in  : signal is "true";
+  attribute mark_debug of sct_data_in  : signal is "true";
+  attribute mark_debug of pix_ctrl_in  : signal is "true";
+  attribute mark_debug of sct_ctrl_in  : signal is "true";
+  attribute mark_debug of start : signal is "true";
+  attribute mark_debug of output_buf_i : signal is "true";
+
+begin
+
+  MAPPER : fmc_rx_mapper_fpga_to_detword
+    port map (
+      FRONT_TO_MAPPER_DIN      => DIN, 
+      MAPPER_TO_FRAME_SCT_DATA => sct_data_in,
+      MAPPER_TO_FRAME_SCT_CTRL => sct_ctrl_in,
+      MAPPER_TO_FRAME_PIX_DATA => pix_data_in,
+      MAPPER_TO_FRAME_PIX_CTRL => pix_ctrl_in
+      );
+  
+  COMPARE_OK <= output_buf_i;
+  reset_i <= RESET;
+    
+  process(FMC_COMMON_CLK, RESET)
+  begin
+    -- <reset>
+    if RESET='1' then
+      start     <= '0';
+      global_count_buf      <= (others => '0');
+    elsif (FMC_COMMON_CLK'event and FMC_COMMON_CLK='1') then
+      global_count_buf    <= global_count_buf + 1;
+      if (global_count_buf(0)='1')then
+        start <= '1';
+      end if;
+    end if;
+  end process;
+  -- <error/couneterrrect counter>
+  
+  process(FMC_COMMON_CLK, RESET)
+  begin
+    if RESET='1' then
+      correct_count_buf         <= (others => '0'); 
+      error_count_buf           <= (others => '0');
+      output_buf_i  <= '0';
+    else
+      if rising_edge(FMC_COMMON_CLK) then
+        if(start='1') then
+          if (global_count_buf >= x"01312d00") then -- start counting after 0.1 s. 
+            if ( (sct_data_in=data_idleword) and
+                 (pix_data_in=data_idleword) and
+                 (sct_ctrl_in=ctrl_idleword) and
+                 (pix_ctrl_in=ctrl_idleword) ) then
+
+              correct_count_buf <= correct_count_buf + 1;
+            else
+              error_count_buf <= error_count_buf + 1;
+            end if;
+          end if; --start
+        end if; --rising
+      end if; --reset
+    end if;
+    
+    if (correct_count_buf = x"17d78400") then
+      if (error_count_buf = x"00000000" AND correct_count_buf >= x"10000000") then
+        output_buf_i  <= '1';
+      end if;
+    end if;       
+  end process;
+end logic;

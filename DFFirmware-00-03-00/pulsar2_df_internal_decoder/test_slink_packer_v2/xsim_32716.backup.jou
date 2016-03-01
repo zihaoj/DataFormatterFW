@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# xsim v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+# IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+# Start of session at: Wed Feb 10 00:26:40 2016
+# Process ID: 32716
+# Current directory: /afs/cern.ch/work/z/zijiang/DFFirmwareDebugSpy/pulsar2_df_internal_decoder/test_slink_packer_v2
+# Command line: xsim -source {xsim.dir/run_gen/xsim_script.tcl}
+# Log file: /afs/cern.ch/work/z/zijiang/DFFirmwareDebugSpy/pulsar2_df_internal_decoder/test_slink_packer_v2/xsim.log
+# Journal file: /afs/cern.ch/work/z/zijiang/DFFirmwareDebugSpy/pulsar2_df_internal_decoder/test_slink_packer_v2/xsim.jou
+#-----------------------------------------------------------
+start_gui
+source xsim.dir/run_gen/xsim_script.tcl
+add_wave {{/testbench/my_slink_packer/current_state}} {{/testbench/my_slink_packer/moddata_empty_i}} {{/testbench/my_slink_packer/moddata_full_i}} {{/testbench/my_slink_packer/frame_empty_i}} {{/testbench/my_slink_packer/frame_full_i}} {{/testbench/my_slink_packer/link_ready}} {{/testbench/my_slink_packer/slink_ready}} {{/testbench/my_slink_packer/slink_out_buf}} {{/testbench/my_slink_packer/float_moddata}} {{/testbench/my_slink_packer/float_frame}} {{/testbench/my_slink_packer/allow_read_fifo_at_next_cycle}} {{/testbench/my_slink_packer/moddata_input_go_next_if_exist_i}} {{/testbench/my_slink_packer/frame_input_go_next_if_exist_i}} {{/testbench/my_slink_packer/frame_data_i}} {{/testbench/my_slink_packer/frame_ctrl_i}} {{/testbench/my_slink_packer/frame_den_i}} {{/testbench/my_slink_packer/moddata_data_i}} {{/testbench/my_slink_packer/moddata_den_i}} {{/testbench/my_slink_packer/readmode}} {{/testbench/my_slink_packer/moddata_selected}} {{/testbench/my_slink_packer/frame_selected}} 
+run 20 us
+add_wave {{/testbench/my_slink_packer/df_internal_event_counter}} 
+restart
+run 20 us
+close_sim

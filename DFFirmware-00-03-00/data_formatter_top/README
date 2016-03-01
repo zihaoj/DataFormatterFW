@@ -1,0 +1,5 @@
+16 out -> 16 in for self loopback (v2)
+add internal link I/O (24 internal links = 20 for fabric backplane, and 4 for RTM optic) (v3)
+
+remove 16 SLINK LDC channels, all 34 SLINK OUT is implemented as the final version,
+output switching is implemented like the final version (v4)

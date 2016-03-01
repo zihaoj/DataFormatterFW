@@ -1,0 +1,44 @@
+/*
+
+Vivado v2015.3 (64-bit)
+SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+Process ID: 29521
+
+Current time: 	12/10/15 2:21:14 PM CET
+Time zone: 	Central European Time (Europe/Vaduz)
+
+OS: Scientific Linux CERN SLC release 6.7 (Carbon)
+Version: 2.6.32-573.8.1.el6.x86_64
+Architecture: amd64
+Available processors (cores): 8
+
+DISPLAY: localhost:10.0
+Screen size: 800x600
+Screen resolution (DPI): 95
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	/home/Xilinx/Vivado/2015.3/tps/lnx64/jre
+
+User name: 	zijiang
+User home directory: /afs/cern.ch/user/z/zijiang
+User working directory: /afs/cern.ch/work/z/zijiang/DFFirmware2015/data_formatter_firmware
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: /afs/cern.ch/user/z/zijiang/.Xilinx/Vivado/2015.3/vivado.ini
+Vivado layouts directory: /afs/cern.ch/user/z/zijiang/.Xilinx/Vivado/2015.3/layouts
+
+GUI allocated memory:	140 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,844 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 40 MB (+39067kb) [00:00:05]
+// [Engine Memory]: 4,844 MB (+4928322kb) [00:00:05]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,854 MB. GUI used memory: 22 MB. Current time: 12/10/15 2:21:16 PM CET

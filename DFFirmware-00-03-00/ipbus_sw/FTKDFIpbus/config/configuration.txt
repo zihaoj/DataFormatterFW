@@ -1,0 +1,703 @@
+# tested with sh run_quest.sh test.v20140707_sct.txt 2 0X2
+
+#### this_board_mask <uint32_t>
+this_board_mask				0X00000001
+this_board_mask_internal_link_input	0X00000008 # special setting for single board testing
+
+#### imfpga2clkinv   <uint32_t (IM FPGA (0-7))> <uint32_t (INV 0-1)>
+imfpga2clkinv 	     0	       0
+imfpga2clkinv 	     1	       0
+imfpga2clkinv 	     2	       0
+imfpga2clkinv 	     3	       0
+imfpga2clkinv 	     4	       0
+imfpga2clkinv 	     5	       0
+imfpga2clkinv 	     6	       0
+imfpga2clkinv 	     7	       0
+
+
+#### imfpga2clkdelay <uint32_t (IM FPGA (0-7))> <uint32_t (DELAY 0-31)>
+imfpga2clkdelay	     0	       16
+imfpga2clkdelay	     1	       16
+imfpga2clkdelay	     2	       12
+imfpga2clkdelay	     3	       12
+imfpga2clkdelay	     4	       19
+imfpga2clkdelay	     5	       19
+imfpga2clkdelay	     6	       18
+imfpga2clkdelay	     7	       18
+
+#### enable_fmc_lanes_mask <uint32_t>
+enable_fmc_lanes_mask	   0X0200
+
+#### fmcin2nummodules <uint32_t (FMC module in (0-15))> <uint32_t (number of modules)>
+fmcin2nummodules      0		7
+fmcin2nummodules      1		21
+fmcin2nummodules      2		7
+fmcin2nummodules      3		21
+fmcin2nummodules      4		7
+fmcin2nummodules      5		21
+fmcin2nummodules      6		7
+fmcin2nummodules      7		21
+fmcin2nummodules      8		7
+fmcin2nummodules      9		21
+fmcin2nummodules     10		7
+fmcin2nummodules     11		21
+fmcin2nummodules     12		7
+fmcin2nummodules     13		21
+fmcin2nummodules     14		7
+fmcin2nummodules     15		21
+
+#### lane_mod2idx <uint32_t (lane id (0-15))> <uint32_t (module id (14-bit))> <uint32_t (index)>
+#### lane_idx2mod <uint32_t (lane id (0-15))> <uint32_t (index)> <uint32_t (module id (14-bit))>
+#### Lane 0 Pixel
+lane_mod2idx	  0	    0X0000   0
+lane_idx2mod	  0	    0	     0X0000
+lane_mod2idx	  0	    0X0002   1
+lane_idx2mod	  0	    1	     0X0002
+lane_mod2idx	  0	    0X0010   2
+lane_idx2mod	  0	    2	     0X0010
+lane_mod2idx	  0	    0X0060   3
+lane_idx2mod	  0	    3	     0X0060
+lane_mod2idx	  0	    0X0062   4
+lane_idx2mod	  0	    4	     0X0062
+lane_mod2idx	  0	    0X0070   5
+lane_idx2mod	  0	    5	     0X0070
+lane_mod2idx	  0	    0X0072   6
+lane_idx2mod	  0	    6	     0X0072
+
+#### Lane 2 Pixel
+lane_mod2idx	  2	    0X0000   0
+lane_idx2mod	  2	    0	     0X0000
+lane_mod2idx	  2	    0X0002   1
+lane_idx2mod	  2	    1	     0X0002
+lane_mod2idx	  2	    0X0010   2
+lane_idx2mod	  2	    2	     0X0010
+lane_mod2idx	  2	    0X0060   3
+lane_idx2mod	  2	    3	     0X0060
+lane_mod2idx	  2	    0X0062   4
+lane_idx2mod	  2	    4	     0X0062
+lane_mod2idx	  2	    0X0070   5
+lane_idx2mod	  2	    5	     0X0070
+lane_mod2idx	  2	    0X0072   6
+lane_idx2mod	  2	    6	     0X0072
+
+#### Lane 4 Pixel
+lane_mod2idx	  4	    0X0000   0
+lane_idx2mod	  4	    0	     0X0000
+lane_mod2idx	  4	    0X0002   1
+lane_idx2mod	  4	    1	     0X0002
+lane_mod2idx	  4	    0X0010   2
+lane_idx2mod	  4	    2	     0X0010
+lane_mod2idx	  4	    0X0060   3
+lane_idx2mod	  4	    3	     0X0060
+lane_mod2idx	  4	    0X0062   4
+lane_idx2mod	  4	    4	     0X0062
+lane_mod2idx	  4	    0X0070   5
+lane_idx2mod	  4	    5	     0X0070
+lane_mod2idx	  4	    0X0072   6
+lane_idx2mod	  4	    6	     0X0072
+
+#### Lane 6 Pixel
+lane_mod2idx	  6	    0X0000   0
+lane_idx2mod	  6	    0	     0X0000
+lane_mod2idx	  6	    0X0002   1
+lane_idx2mod	  6	    1	     0X0002
+lane_mod2idx	  6	    0X0010   2
+lane_idx2mod	  6	    2	     0X0010
+lane_mod2idx	  6	    0X0060   3
+lane_idx2mod	  6	    3	     0X0060
+lane_mod2idx	  6	    0X0062   4
+lane_idx2mod	  6	    4	     0X0062
+lane_mod2idx	  6	    0X0070   5
+lane_idx2mod	  6	    5	     0X0070
+lane_mod2idx	  6	    0X0072   6
+lane_idx2mod	  6	    6	     0X0072
+
+#### Lane 8 Pixel
+lane_mod2idx	  8	    0X0000   0
+lane_idx2mod	  8	    0	     0X0000
+lane_mod2idx	  8	    0X0002   1
+lane_idx2mod	  8	    1	     0X0002
+lane_mod2idx	  8	    0X0010   2
+lane_idx2mod	  8	    2	     0X0010
+lane_mod2idx	  8	    0X0060   3
+lane_idx2mod	  8	    3	     0X0060
+lane_mod2idx	  8	    0X0062   4
+lane_idx2mod	  8	    4	     0X0062
+lane_mod2idx	  8	    0X0070   5
+lane_idx2mod	  8	    5	     0X0070
+lane_mod2idx	  8	    0X0072   6
+lane_idx2mod	  8	    6	     0X0072
+
+#### Lane 10 Pixel
+lane_mod2idx	  10	    0X0000   0
+lane_idx2mod	  10	    0	     0X0000
+lane_mod2idx	  10	    0X0002   1
+lane_idx2mod	  10	    1	     0X0002
+lane_mod2idx	  10	    0X0010   2
+lane_idx2mod	  10	    2	     0X0010
+lane_mod2idx	  10	    0X0060   3
+lane_idx2mod	  10	    3	     0X0060
+lane_mod2idx	  10	    0X0062   4
+lane_idx2mod	  10	    4	     0X0062
+lane_mod2idx	  10	    0X0070   5
+lane_idx2mod	  10	    5	     0X0070
+lane_mod2idx	  10	    0X0072   6
+lane_idx2mod	  10	    6	     0X0072
+
+#### Lane 12 Pixel
+lane_mod2idx	  12	    0X0000   0
+lane_idx2mod	  12	    0	     0X0000
+lane_mod2idx	  12	    0X0002   1
+lane_idx2mod	  12	    1	     0X0002
+lane_mod2idx	  12	    0X0010   2
+lane_idx2mod	  12	    2	     0X0010
+lane_mod2idx	  12	    0X0060   3
+lane_idx2mod	  12	    3	     0X0060
+lane_mod2idx	  12	    0X0062   4
+lane_idx2mod	  12	    4	     0X0062
+lane_mod2idx	  12	    0X0070   5
+lane_idx2mod	  12	    5	     0X0070
+lane_mod2idx	  12	    0X0072   6
+lane_idx2mod	  12	    6	     0X0072
+
+#### Lane 14 Pixel
+lane_mod2idx	  14	    0X0000   0
+lane_idx2mod	  14	    0	     0X0000
+lane_mod2idx	  14	    0X0002   1
+lane_idx2mod	  14	    1	     0X0002
+lane_mod2idx	  14	    0X0010   2
+lane_idx2mod	  14	    2	     0X0010
+lane_mod2idx	  14	    0X0060   3
+lane_idx2mod	  14	    3	     0X0060
+lane_mod2idx	  14	    0X0062   4
+lane_idx2mod	  14	    4	     0X0062
+lane_mod2idx	  14	    0X0070   5
+lane_idx2mod	  14	    5	     0X0070
+lane_mod2idx	  14	    0X0072   6
+lane_idx2mod	  14	    6	     0X0072
+
+#### Lane 1 SCT
+lane_mod2idx	  1	    0X1a01   0
+lane_idx2mod	  1	    0	     0X1a01
+lane_mod2idx	  1	    0X0a02    1
+lane_idx2mod	  1	    1	     0X0a02
+lane_mod2idx	  1	    0X1a03   2
+lane_idx2mod	  1	    2	     0X1a03
+lane_mod2idx	  1	    0X0a04    3
+lane_idx2mod	  1	    3	     0X0a04
+lane_mod2idx	  1	    0X1a05   4
+lane_idx2mod	  1	    4	     0X1a05
+lane_mod2idx	  1	    0X0a06    5
+lane_idx2mod	  1	    5	     0X0a06
+lane_mod2idx	  1	    0X1a07   6
+lane_idx2mod	  1	    6	     0X1a07
+lane_mod2idx	  1	    0X0a08    7
+lane_idx2mod	  1	    7	     0X0a08
+lane_mod2idx	  1	    0X1a09   8
+lane_idx2mod	  1	    8	     0X1a09
+lane_mod2idx	  1	    0X0a0a    9
+lane_idx2mod	  1	    9	     0X0a0a
+lane_mod2idx	  1	    0X1a0b   10
+lane_idx2mod	  1	    10	     0X1a0b
+lane_mod2idx	  1	    0X0a0c    11
+lane_idx2mod	  1	    11	     0X0a0c
+lane_mod2idx	  1	    0X1a0d   12
+lane_idx2mod	  1	    12	     0X1a0d
+lane_mod2idx	  1	    0X0a0e    13
+lane_idx2mod	  1	    13	     0X0a0e
+lane_mod2idx	  1	    0X1a0f   14
+lane_idx2mod	  1	    14	     0X1a0f
+lane_mod2idx	  1	    0X0a10    15
+lane_idx2mod	  1	    15	     0X0a10
+lane_mod2idx	  1	    0X0a20    16
+lane_idx2mod	  1	    16	     0X0a20
+lane_mod2idx	  1	    0X1a25   17
+lane_idx2mod	  1	    17	     0X1a25
+lane_mod2idx	  1	    0X0a30    18
+lane_idx2mod	  1	    18	     0X0a30
+lane_mod2idx	  1	    0X0a40    19
+lane_idx2mod	  1	    19	     0X0a40
+lane_mod2idx	  1	    0X0a50    20
+lane_idx2mod	  1	    20	     0X0a50
+
+#### Lane 3 SCT
+lane_mod2idx	  3	    0X1a01   0
+lane_idx2mod	  3	    0	     0X1a01
+lane_mod2idx	  3	    0X0a02    1
+lane_idx2mod	  3	    1	     0X0a02
+lane_mod2idx	  3	    0X1a03   2
+lane_idx2mod	  3	    2	     0X1a03
+lane_mod2idx	  3	    0X0a04    3
+lane_idx2mod	  3	    3	     0X0a04
+lane_mod2idx	  3	    0X1a05   4
+lane_idx2mod	  3	    4	     0X1a05
+lane_mod2idx	  3	    0X0a06    5
+lane_idx2mod	  3	    5	     0X0a06
+lane_mod2idx	  3	    0X1a07   6
+lane_idx2mod	  3	    6	     0X1a07
+lane_mod2idx	  3	    0X0a08    7
+lane_idx2mod	  3	    7	     0X0a08
+lane_mod2idx	  3	    0X1a09   8
+lane_idx2mod	  3	    8	     0X1a09
+lane_mod2idx	  3	    0X0a0a    9
+lane_idx2mod	  3	    9	     0X0a0a
+lane_mod2idx	  3	    0X1a0b   10
+lane_idx2mod	  3	    10	     0X1a0b
+lane_mod2idx	  3	    0X0a0c    11
+lane_idx2mod	  3	    11	     0X0a0c
+lane_mod2idx	  3	    0X1a0d   12
+lane_idx2mod	  3	    12	     0X1a0d
+lane_mod2idx	  3	    0X0a0e    13
+lane_idx2mod	  3	    13	     0X0a0e
+lane_mod2idx	  3	    0X1a0f   14
+lane_idx2mod	  3	    14	     0X1a0f
+lane_mod2idx	  3	    0X0a10    15
+lane_idx2mod	  3	    15	     0X0a10
+lane_mod2idx	  3	    0X0a20    16
+lane_idx2mod	  3	    16	     0X0a20
+lane_mod2idx	  3	    0X1a25   17
+lane_idx2mod	  3	    17	     0X1a25
+lane_mod2idx	  3	    0X0a30    18
+lane_idx2mod	  3	    18	     0X0a30
+lane_mod2idx	  3	    0X0a40    19
+lane_idx2mod	  3	    19	     0X0a40
+lane_mod2idx	  3	    0X0a50    20
+lane_idx2mod	  3	    20	     0X0a50
+
+#### Lane 5 SCT
+lane_mod2idx	  5	    0X1a01   0
+lane_idx2mod	  5	    0	     0X1a01
+lane_mod2idx	  5	    0X0a02    1
+lane_idx2mod	  5	    1	     0X0a02
+lane_mod2idx	  5	    0X1a03   2
+lane_idx2mod	  5	    2	     0X1a03
+lane_mod2idx	  5	    0X0a04    3
+lane_idx2mod	  5	    3	     0X0a04
+lane_mod2idx	  5	    0X1a05   4
+lane_idx2mod	  5	    4	     0X1a05
+lane_mod2idx	  5	    0X0a06    5
+lane_idx2mod	  5	    5	     0X0a06
+lane_mod2idx	  5	    0X1a07   6
+lane_idx2mod	  5	    6	     0X1a07
+lane_mod2idx	  5	    0X0a08    7
+lane_idx2mod	  5	    7	     0X0a08
+lane_mod2idx	  5	    0X1a09   8
+lane_idx2mod	  5	    8	     0X1a09
+lane_mod2idx	  5	    0X0a0a    9
+lane_idx2mod	  5	    9	     0X0a0a
+lane_mod2idx	  5	    0X1a0b   10
+lane_idx2mod	  5	    10	     0X1a0b
+lane_mod2idx	  5	    0X0a0c    11
+lane_idx2mod	  5	    11	     0X0a0c
+lane_mod2idx	  5	    0X1a0d   12
+lane_idx2mod	  5	    12	     0X1a0d
+lane_mod2idx	  5	    0X0a0e    13
+lane_idx2mod	  5	    13	     0X0a0e
+lane_mod2idx	  5	    0X1a0f   14
+lane_idx2mod	  5	    14	     0X1a0f
+lane_mod2idx	  5	    0X0a10    15
+lane_idx2mod	  5	    15	     0X0a10
+lane_mod2idx	  5	    0X0a20    16
+lane_idx2mod	  5	    16	     0X0a20
+lane_mod2idx	  5	    0X1a25   17
+lane_idx2mod	  5	    17	     0X1a25
+lane_mod2idx	  5	    0X0a30    18
+lane_idx2mod	  5	    18	     0X0a30
+lane_mod2idx	  5	    0X0a40    19
+lane_idx2mod	  5	    19	     0X0a40
+lane_mod2idx	  5	    0X0a50    20
+lane_idx2mod	  5	    20	     0X0a50
+
+#### Lane 7 SCT
+lane_mod2idx	  7	    0X1a01   0
+lane_idx2mod	  7	    0	     0X1a01
+lane_mod2idx	  7	    0X0a02    1
+lane_idx2mod	  7	    1	     0X0a02
+lane_mod2idx	  7	    0X1a03   2
+lane_idx2mod	  7	    2	     0X1a03
+lane_mod2idx	  7	    0X0a04    3
+lane_idx2mod	  7	    3	     0X0a04
+lane_mod2idx	  7	    0X1a05   4
+lane_idx2mod	  7	    4	     0X1a05
+lane_mod2idx	  7	    0X0a06    5
+lane_idx2mod	  7	    5	     0X0a06
+lane_mod2idx	  7	    0X1a07   6
+lane_idx2mod	  7	    6	     0X1a07
+lane_mod2idx	  7	    0X0a08    7
+lane_idx2mod	  7	    7	     0X0a08
+lane_mod2idx	  7	    0X1a09   8
+lane_idx2mod	  7	    8	     0X1a09
+lane_mod2idx	  7	    0X0a0a    9
+lane_idx2mod	  7	    9	     0X0a0a
+lane_mod2idx	  7	    0X1a0b   10
+lane_idx2mod	  7	    10	     0X1a0b
+lane_mod2idx	  7	    0X0a0c    11
+lane_idx2mod	  7	    11	     0X0a0c
+lane_mod2idx	  7	    0X1a0d   12
+lane_idx2mod	  7	    12	     0X1a0d
+lane_mod2idx	  7	    0X0a0e    13
+lane_idx2mod	  7	    13	     0X0a0e
+lane_mod2idx	  7	    0X1a0f   14
+lane_idx2mod	  7	    14	     0X1a0f
+lane_mod2idx	  7	    0X0a10    15
+lane_idx2mod	  7	    15	     0X0a10
+lane_mod2idx	  7	    0X0a20    16
+lane_idx2mod	  7	    16	     0X0a20
+lane_mod2idx	  7	    0X1a25   17
+lane_idx2mod	  7	    17	     0X1a25
+lane_mod2idx	  7	    0X0a30    18
+lane_idx2mod	  7	    18	     0X0a30
+lane_mod2idx	  7	    0X0a40    19
+lane_idx2mod	  7	    19	     0X0a40
+lane_mod2idx	  7	    0X0a50    20
+lane_idx2mod	  7	    20	     0X0a50
+
+#### Lane 9 SCT
+lane_mod2idx	  9	    0X1a01   0
+lane_idx2mod	  9	    0	     0X1a01
+lane_mod2idx	  9	    0X0a02    1
+lane_idx2mod	  9	    1	     0X0a02
+lane_mod2idx	  9	    0X1a03   2
+lane_idx2mod	  9	    2	     0X1a03
+lane_mod2idx	  9	    0X0a04    3
+lane_idx2mod	  9	    3	     0X0a04
+lane_mod2idx	  9	    0X1a05   4
+lane_idx2mod	  9	    4	     0X1a05
+lane_mod2idx	  9	    0X0a06    5
+lane_idx2mod	  9	    5	     0X0a06
+lane_mod2idx	  9	    0X1a07   6
+lane_idx2mod	  9	    6	     0X1a07
+lane_mod2idx	  9	    0X0a08    7
+lane_idx2mod	  9	    7	     0X0a08
+lane_mod2idx	  9	    0X1a09   8
+lane_idx2mod	  9	    8	     0X1a09
+lane_mod2idx	  9	    0X0a0a    9
+lane_idx2mod	  9	    9	     0X0a0a
+lane_mod2idx	  9	    0X1a0b   10
+lane_idx2mod	  9	    10	     0X1a0b
+lane_mod2idx	  9	    0X0a0c    11
+lane_idx2mod	  9	    11	     0X0a0c
+lane_mod2idx	  9	    0X1a0d   12
+lane_idx2mod	  9	    12	     0X1a0d
+lane_mod2idx	  9	    0X0a0e    13
+lane_idx2mod	  9	    13	     0X0a0e
+lane_mod2idx	  9	    0X1a0f   14
+lane_idx2mod	  9	    14	     0X1a0f
+lane_mod2idx	  9	    0X0a10    15
+lane_idx2mod	  9	    15	     0X0a10
+lane_mod2idx	  9	    0X0a20    16
+lane_idx2mod	  9	    16	     0X0a20
+lane_mod2idx	  9	    0X1a25   17
+lane_idx2mod	  9	    17	     0X1a25
+lane_mod2idx	  9	    0X0a30    18
+lane_idx2mod	  9	    18	     0X0a30
+lane_mod2idx	  9	    0X0a40    19
+lane_idx2mod	  9	    19	     0X0a40
+lane_mod2idx	  9	    0X0a50    20
+lane_idx2mod	  9	    20	     0X0a50
+
+#### Lane 11 SCT
+lane_mod2idx	  11	    0X1a01   0
+lane_idx2mod	  11	    0	     0X1a01
+lane_mod2idx	  11	    0X0a02    1
+lane_idx2mod	  11	    1	     0X0a02
+lane_mod2idx	  11	    0X1a03   2
+lane_idx2mod	  11	    2	     0X1a03
+lane_mod2idx	  11	    0X0a04    3
+lane_idx2mod	  11	    3	     0X0a04
+lane_mod2idx	  11	    0X1a05   4
+lane_idx2mod	  11	    4	     0X1a05
+lane_mod2idx	  11	    0X0a06    5
+lane_idx2mod	  11	    5	     0X0a06
+lane_mod2idx	  11	    0X1a07   6
+lane_idx2mod	  11	    6	     0X1a07
+lane_mod2idx	  11	    0X0a08    7
+lane_idx2mod	  11	    7	     0X0a08
+lane_mod2idx	  11	    0X1a09   8
+lane_idx2mod	  11	    8	     0X1a09
+lane_mod2idx	  11	    0X0a0a    9
+lane_idx2mod	  11	    9	     0X0a0a
+lane_mod2idx	  11	    0X1a0b   10
+lane_idx2mod	  11	    10	     0X1a0b
+lane_mod2idx	  11	    0X0a0c    11
+lane_idx2mod	  11	    11	     0X0a0c
+lane_mod2idx	  11	    0X1a0d   12
+lane_idx2mod	  11	    12	     0X1a0d
+lane_mod2idx	  11	    0X0a0e    13
+lane_idx2mod	  11	    13	     0X0a0e
+lane_mod2idx	  11	    0X1a0f   14
+lane_idx2mod	  11	    14	     0X1a0f
+lane_mod2idx	  11	    0X0a10    15
+lane_idx2mod	  11	    15	     0X0a10
+lane_mod2idx	  11	    0X0a20    16
+lane_idx2mod	  11	    16	     0X0a20
+lane_mod2idx	  11	    0X1a25   17
+lane_idx2mod	  11	    17	     0X1a25
+lane_mod2idx	  11	    0X0a30    18
+lane_idx2mod	  11	    18	     0X0a30
+lane_mod2idx	  11	    0X0a40    19
+lane_idx2mod	  11	    19	     0X0a40
+lane_mod2idx	  11	    0X0a50    20
+lane_idx2mod	  11	    20	     0X0a50
+
+#### Lane 13 SCT
+lane_mod2idx	  13	    0X1a01   0
+lane_idx2mod	  13	    0	     0X1a01
+lane_mod2idx	  13	    0X0a02    1
+lane_idx2mod	  13	    1	     0X0a02
+lane_mod2idx	  13	    0X1a03   2
+lane_idx2mod	  13	    2	     0X1a03
+lane_mod2idx	  13	    0X0a04    3
+lane_idx2mod	  13	    3	     0X0a04
+lane_mod2idx	  13	    0X1a05   4
+lane_idx2mod	  13	    4	     0X1a05
+lane_mod2idx	  13	    0X0a06    5
+lane_idx2mod	  13	    5	     0X0a06
+lane_mod2idx	  13	    0X1a07   6
+lane_idx2mod	  13	    6	     0X1a07
+lane_mod2idx	  13	    0X0a08    7
+lane_idx2mod	  13	    7	     0X0a08
+lane_mod2idx	  13	    0X1a09   8
+lane_idx2mod	  13	    8	     0X1a09
+lane_mod2idx	  13	    0X0a0a    9
+lane_idx2mod	  13	    9	     0X0a0a
+lane_mod2idx	  13	    0X1a0b   10
+lane_idx2mod	  13	    10	     0X1a0b
+lane_mod2idx	  13	    0X0a0c    11
+lane_idx2mod	  13	    11	     0X0a0c
+lane_mod2idx	  13	    0X1a0d   12
+lane_idx2mod	  13	    12	     0X1a0d
+lane_mod2idx	  13	    0X0a0e    13
+lane_idx2mod	  13	    13	     0X0a0e
+lane_mod2idx	  13	    0X1a0f   14
+lane_idx2mod	  13	    14	     0X1a0f
+lane_mod2idx	  13	    0X0a10    15
+lane_idx2mod	  13	    15	     0X0a10
+lane_mod2idx	  13	    0X0a20    16
+lane_idx2mod	  13	    16	     0X0a20
+lane_mod2idx	  13	    0X1a25   17
+lane_idx2mod	  13	    17	     0X1a25
+lane_mod2idx	  13	    0X0a30    18
+lane_idx2mod	  13	    18	     0X0a30
+lane_mod2idx	  13	    0X0a40    19
+lane_idx2mod	  13	    19	     0X0a40
+lane_mod2idx	  13	    0X0a50    20
+lane_idx2mod	  13	    20	     0X0a50
+
+#### Lane 15 SCT
+lane_mod2idx	  15	    0X1a01   0
+lane_idx2mod	  15	    0	     0X1a01
+lane_mod2idx	  15	    0X0a02    1
+lane_idx2mod	  15	    1	     0X0a02
+lane_mod2idx	  15	    0X1a03   2
+lane_idx2mod	  15	    2	     0X1a03
+lane_mod2idx	  15	    0X0a04    3
+lane_idx2mod	  15	    3	     0X0a04
+lane_mod2idx	  15	    0X1a05   4
+lane_idx2mod	  15	    4	     0X1a05
+lane_mod2idx	  15	    0X0a06    5
+lane_idx2mod	  15	    5	     0X0a06
+lane_mod2idx	  15	    0X1a07   6
+lane_idx2mod	  15	    6	     0X1a07
+lane_mod2idx	  15	    0X0a08    7
+lane_idx2mod	  15	    7	     0X0a08
+lane_mod2idx	  15	    0X1a09   8
+lane_idx2mod	  15	    8	     0X1a09
+lane_mod2idx	  15	    0X0a0a    9
+lane_idx2mod	  15	    9	     0X0a0a
+lane_mod2idx	  15	    0X1a0b   10
+lane_idx2mod	  15	    10	     0X1a0b
+lane_mod2idx	  15	    0X0a0c    11
+lane_idx2mod	  15	    11	     0X0a0c
+lane_mod2idx	  15	    0X1a0d   12
+lane_idx2mod	  15	    12	     0X1a0d
+lane_mod2idx	  15	    0X0a0e    13
+lane_idx2mod	  15	    13	     0X0a0e
+lane_mod2idx	  15	    0X1a0f   14
+lane_idx2mod	  15	    14	     0X1a0f
+lane_mod2idx	  15	    0X0a10    15
+lane_idx2mod	  15	    15	     0X0a10
+lane_mod2idx	  15	    0X0a20    16
+lane_idx2mod	  15	    16	     0X0a20
+lane_mod2idx	  15	    0X1a25   17
+lane_idx2mod	  15	    17	     0X1a25
+lane_mod2idx	  15	    0X0a30    18
+lane_idx2mod	  15	    18	     0X0a30
+lane_mod2idx	  15	    0X0a40    19
+lane_idx2mod	  15	    19	     0X0a40
+lane_mod2idx	  15	    0X0a50    20
+lane_idx2mod	  15	    20	     0X0a50
+
+#### pixmod2dst   	<uint32_t (pixel module id (11-bit))> <uint32_t (32bit destination mask)>
+pixmod2dst		0X0000	  0X00000009
+pixmod2dst		0X0002	  0X00000009
+pixmod2dst		0X0010	  0X00000009
+pixmod2dst		0X0060	  0X00000009
+pixmod2dst		0X0062	  0X00000009
+pixmod2dst		0X0070	  0X00000009
+pixmod2dst		0X0072	  0X00000009
+
+#### pixmod2ftkplane	<uint32_t (pixel module id (11-bit))> <uint32_t (9bit df output lane)>
+pixmod2ftkplane		0X0000	  0X1FF
+pixmod2ftkplane		0X0002	  0X1FF
+pixmod2ftkplane		0X0010	  0X1FF
+pixmod2ftkplane		0X0060	  0X1FF
+pixmod2ftkplane		0X0062	  0X1FF
+pixmod2ftkplane		0X0070	  0X1FF
+pixmod2ftkplane		0X0072	  0X1FF
+
+#### pixmod2tower	<uint32_t (pixel module id (11-bit))> <uint32_t (2bit tower)>
+pixmod2tower		0X0000	  0X3
+pixmod2tower		0X0002	  0X3
+pixmod2tower		0X0010	  0X3
+pixmod2tower		0X0060	  0X3
+pixmod2tower		0X0062	  0X3
+pixmod2tower		0X0070	  0X3
+pixmod2tower		0X0072	  0X3
+
+#### sctmod2dst   	<uint32_t (sctel module id (13-bit))> <uint32_t (32bit destination mask)>
+sctmod2dst	    0X1a01	  0X00000009
+sctmod2dst	    0X0a02	  0X00000009
+sctmod2dst	    0X1a03	  0X00000009
+sctmod2dst	    0X0a04	  0X00000009
+sctmod2dst	    0X1a05	  0X00000009
+sctmod2dst	    0X0a06	  0X00000009
+sctmod2dst	    0X1a07	  0X00000009
+sctmod2dst	    0X0a08	  0X00000009
+sctmod2dst	    0X1a09	  0X00000009
+sctmod2dst	    0X0a0a	  0X00000009
+sctmod2dst	    0X1a0b	  0X00000009
+sctmod2dst	    0X0a0c	  0X00000009
+sctmod2dst	    0X1a0d	  0X00000009
+sctmod2dst	    0X0a0e	  0X00000009
+sctmod2dst	    0X1a0f	  0X00000009
+sctmod2dst	    0X0a10	  0X00000009
+sctmod2dst	    0X0a20	  0X00000009
+sctmod2dst	    0X1a25	  0X00000009
+sctmod2dst	    0X0a30	  0X00000009
+sctmod2dst	    0X0a40	  0X00000009
+sctmod2dst	    0X0a50	  0X00000009
+
+#### sctmod2ftkplane	<uint32_t (sctel module id (13-bit))> <uint32_t (9bit df output lane)>
+sctmod2ftkplane	    0X1a01	  0X1FF
+sctmod2ftkplane	    0X0a02	  0X1FF
+sctmod2ftkplane	    0X1a03	  0X1FF
+sctmod2ftkplane	    0X0a04	  0X1FF
+sctmod2ftkplane	    0X1a05	  0X1FF
+sctmod2ftkplane	    0X0a06	  0X1FF
+sctmod2ftkplane	    0X1a07	  0X1FF
+sctmod2ftkplane	    0X0a08	  0X1FF
+sctmod2ftkplane	    0X1a09	  0X1FF
+sctmod2ftkplane	    0X0a0a	  0X1FF
+sctmod2ftkplane	    0X1a0b	  0X1FF
+sctmod2ftkplane	    0X0a0c	  0X1FF
+sctmod2ftkplane	    0X1a0d	  0X1FF
+sctmod2ftkplane	    0X0a0e	  0X1FF
+sctmod2ftkplane	    0X1a0f	  0X1FF
+sctmod2ftkplane	    0X0a10	  0X1FF
+sctmod2ftkplane	    0X0a20	  0X1FF
+sctmod2ftkplane	    0X1a25	  0X1FF
+sctmod2ftkplane	    0X0a30	  0X1FF
+sctmod2ftkplane	    0X0a40	  0X1FF
+sctmod2ftkplane	    0X0a50	  0X1FF
+
+#### sctmod2tower	<uint32_t (sctel module id (13-bit))> <uint32_t (2bit tower)>
+sctmod2tower	    0X1a01	  0X3
+sctmod2tower	    0X0a02	  0X3
+sctmod2tower	    0X1a03	  0X3
+sctmod2tower	    0X0a04	  0X3
+sctmod2tower	    0X1a05	  0X3
+sctmod2tower	    0X0a06	  0X3
+sctmod2tower	    0X1a07	  0X3
+sctmod2tower	    0X0a08	  0X3
+sctmod2tower	    0X1a09	  0X3
+sctmod2tower	    0X0a0a	  0X3
+sctmod2tower	    0X1a0b	  0X3
+sctmod2tower	    0X0a0c	  0X3
+sctmod2tower	    0X1a0d	  0X3
+sctmod2tower	    0X0a0e	  0X3
+sctmod2tower	    0X1a0f	  0X3
+sctmod2tower	    0X0a10	  0X3
+sctmod2tower	    0X0a20	  0X3
+sctmod2tower	    0X1a25	  0X3
+sctmod2tower	    0X0a30	  0X3
+sctmod2tower	    0X0a40	  0X3
+sctmod2tower	    0X0a50	  0X3
+
+#### slinkout2nummodules     <uint32_t (SLINK output (0-33))> <uint32_t (number of modules)>
+slinkout2nummodules	     0	       42
+slinkout2nummodules	     1	       42
+slinkout2nummodules	     2	       42
+slinkout2nummodules	     3	       42
+slinkout2nummodules	     4	       42
+slinkout2nummodules	     5	       42
+slinkout2nummodules	     6	       42
+slinkout2nummodules	     7	       42
+slinkout2nummodules	     8	       42
+slinkout2nummodules	     9	       42
+slinkout2nummodules	     10	       42
+slinkout2nummodules	     11	       42
+slinkout2nummodules	     12	       42
+slinkout2nummodules	     13	       42
+slinkout2nummodules	     14	       42
+slinkout2nummodules	     15	       42
+slinkout2nummodules	     16	       42
+slinkout2nummodules	     17	       42
+slinkout2nummodules	     18	       42
+slinkout2nummodules	     19	       42
+slinkout2nummodules	     20	       42
+slinkout2nummodules	     21	       42
+slinkout2nummodules	     22	       42
+slinkout2nummodules	     23	       42
+slinkout2nummodules	     24	       42
+slinkout2nummodules	     25	       42
+slinkout2nummodules	     26	       42
+slinkout2nummodules	     27	       42
+slinkout2nummodules	     28	       42
+slinkout2nummodules	     29	       42
+slinkout2nummodules	     30	       42
+slinkout2nummodules	     31	       42
+slinkout2nummodules	     32	       42
+slinkout2nummodules	     33	       42
+
+
+#### centralswlaneid2destinationmask <uint32_t (Central Switch Output ()> <uint32_t (destination mask)> 
+centralswlaneid2destinationmask	     0	       0X0000 # for shelf1 slot 3
+centralswlaneid2destinationmask	     1	       0X4000 # for shelf2 slot 3
+centralswlaneid2destinationmask	     2	       0X4000 # for shelf3 slot 3
+centralswlaneid2destinationmask	     3	       0X8000 # for shelf4 slot 3
+
+centralswlaneid2destinationmask	     4	       0X0001 # for shelf1 slot 4
+centralswlaneid2destinationmask	     5	       0X4000 # for shelf2 slot 4
+centralswlaneid2destinationmask	     6	       0X4000 # for shelf3 slot 4
+centralswlaneid2destinationmask	     7	       0X8000 # for shelf4 slot 4
+
+centralswlaneid2destinationmask	     8	       0X0100 # for shelf1 slot 5
+centralswlaneid2destinationmask	     9	       0X4000 # for shelf2 slot 5
+centralswlaneid2destinationmask	     10	       0X4000 # for shelf3 slot 5
+centralswlaneid2destinationmask	     11	       0X8000 # for shelf4 slot 5
+
+centralswlaneid2destinationmask	     12	       0X0010 # for shelf1 slot 6
+centralswlaneid2destinationmask	     13	       0X4000 # for shelf2 slot 6
+centralswlaneid2destinationmask	     14	       0X4000 # for shelf3 slot 6
+centralswlaneid2destinationmask	     15	       0X8000 # for shelf4 slot 6
+
+centralswlaneid2destinationmask	     16	       0X1000 # for shelf1 slot 7
+centralswlaneid2destinationmask	     17	       0X4000 # for shelf2 slot 7
+centralswlaneid2destinationmask	     18	       0X8000 # for shelf3 slot 7
+centralswlaneid2destinationmask	     19	       0X8000 # for shelf4 slot 7
+
+centralswlaneid2destinationmask	     20	       0X0004 # for shelf1 slot 8
+centralswlaneid2destinationmask	     21	       0X4000 # for shelf2 slot 8
+centralswlaneid2destinationmask	     22	       0X8000 # for shelf3 slot 8
+centralswlaneid2destinationmask	     23	       0X8000 # for shelf4 slot 8
+
+centralswlaneid2destinationmask	     24	       0X0400 # for shelf1 slot 9
+centralswlaneid2destinationmask	     25	       0X4000 # for shelf2 slot 9
+centralswlaneid2destinationmask	     26	       0X8000 # for shelf3 slot 9
+centralswlaneid2destinationmask	     27	       0X8000 # for shelf4 slot 9
+
+centralswlaneid2destinationmask	     28	       0X0040 # for shelf1 slot 10
+centralswlaneid2destinationmask	     29	       0X4000 # for shelf2 slot 10
+centralswlaneid2destinationmask	     30	       0X8000 # for shelf3 slot 10
+centralswlaneid2destinationmask	     31	       0X8000 # for shelf4 slot 10

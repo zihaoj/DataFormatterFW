@@ -1,0 +1,37 @@
+/*
+
+Vivado v2014.2 (64-bit)
+SW Build 932637 on Wed Jun 11 13:08:52 MDT 2014
+Process ID: 14200
+
+Current time: 	2/2/16 3:27:49 PM
+Time zone: 	Central European Time (Europe/Vaduz)
+
+OS: Scientific Linux CERN SLC release 6.7 (Carbon)
+Version: 2.6.32-573.12.1.el6.x86_64
+Architecture: amd64
+Available processors (cores): 8
+
+DISPLAY: :0.0
+Screen size: 1920x1200
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.7.0_40 64-bit
+Java home: 	/opt/Xilinx/Vivado/2014.2/tps/lnx64/jre
+
+User name: 	zijiang
+User directory: /afs/cern.ch/work/z/zijiang/DFFirmwareDebugSpy/pulsar2_df_internal_decoder/test_slink_packer
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Gui allocated memory:	122 mb
+Gui max memory:		3,066 mb
+Engine allocated memory: 3,866 mb
+
+*/
+
+// TclEventType: START_GUI
+closeMainWindow("Vivado 2014.2"); // cg:JFrame
+// an:bF (cg:JFrame): Exit Vivado: addNotify

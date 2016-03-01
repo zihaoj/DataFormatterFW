@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<connections>
+  <connection id="DF1" uri="ipbusudp-2.0://10.193.64.20:50001" address_table="file://address_df.xml" />
+  <connection id="DF4" uri="chtcp-2.0://localhost:10203?target=10.193.64.22:50001" address_table="file://address_df.xml" />
+  <connection id="DF4D" uri="ipbusudp-2.0://10.193.64.22:50001" address_table="file://address_df.xml" />
+</connections>

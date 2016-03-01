@@ -1,0 +1,1 @@
+-incremental -prj "simulation_xsim.prj" -s "run_gen" "work.testbench" --debug "all" 

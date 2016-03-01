@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="simulation_xsim.wdb" id="1">
+         <top_modules>
+            <top_module name="attributes" />
+            <top_module name="data_formatter_constants" />
+            <top_module name="fmcconstants" />
+            <top_module name="standard" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_misc" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="testbench" />
+            <top_module name="textio" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="group18" type="group">
+      <obj_property name="label">testbench top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/testbench/main_clk_i" type="logic">
+         <obj_property name="ElementShortName">main_clk_i</obj_property>
+         <obj_property name="ObjectShortName">main_clk_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/reset_in_i" type="logic">
+         <obj_property name="ElementShortName">reset_in_i</obj_property>
+         <obj_property name="ObjectShortName">reset_in_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/moddata_din_i" type="array">
+         <obj_property name="ElementShortName">moddata_din_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">moddata_din_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/moddata_den_i" type="logic">
+         <obj_property name="ElementShortName">moddata_den_i</obj_property>
+         <obj_property name="ObjectShortName">moddata_den_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/moddata_rdy_i" type="logic">
+         <obj_property name="ElementShortName">moddata_rdy_i</obj_property>
+         <obj_property name="ObjectShortName">moddata_rdy_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/frame_data_in_i" type="array">
+         <obj_property name="ElementShortName">frame_data_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">frame_data_in_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/frame_wen_in_i" type="logic">
+         <obj_property name="ElementShortName">frame_wen_in_i</obj_property>
+         <obj_property name="ObjectShortName">frame_wen_in_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/frame_ctrl_in_i" type="logic">
+         <obj_property name="ElementShortName">frame_ctrl_in_i</obj_property>
+         <obj_property name="ObjectShortName">frame_ctrl_in_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/frame_xoff_out_i" type="logic">
+         <obj_property name="ElementShortName">frame_xoff_out_i</obj_property>
+         <obj_property name="ObjectShortName">frame_xoff_out_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/slink_ud_i" type="array">
+         <obj_property name="ElementShortName">slink_ud_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slink_ud_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/slink_uwen_n_i" type="logic">
+         <obj_property name="ElementShortName">slink_uwen_n_i</obj_property>
+         <obj_property name="ObjectShortName">slink_uwen_n_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/slink_uctrl_n_i" type="logic">
+         <obj_property name="ElementShortName">slink_uctrl_n_i</obj_property>
+         <obj_property name="ObjectShortName">slink_uctrl_n_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/number_of_discarded_modules_i" type="array">
+         <obj_property name="ElementShortName">number_of_discarded_modules_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">number_of_discarded_modules_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/pattern_generator_enable_i" type="logic">
+         <obj_property name="ElementShortName">pattern_generator_enable_i</obj_property>
+         <obj_property name="ObjectShortName">pattern_generator_enable_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/df_internal_event_counter" type="array">
+         <obj_property name="ElementShortName">df_internal_event_counter[15:0]</obj_property>
+         <obj_property name="ObjectShortName">df_internal_event_counter[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/module_counter" type="array">
+         <obj_property name="ElementShortName">module_counter[7:0]</obj_property>
+         <obj_property name="ObjectShortName">module_counter[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/current_state" type="other">
+         <obj_property name="ElementShortName">current_state</obj_property>
+         <obj_property name="ObjectShortName">current_state</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group136" type="group">
+      <obj_property name="label">slink packer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/MAIN_CLK" type="logic">
+         <obj_property name="ElementShortName">MAIN_CLK</obj_property>
+         <obj_property name="ObjectShortName">MAIN_CLK</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/RESET_IN" type="logic">
+         <obj_property name="ElementShortName">RESET_IN</obj_property>
+         <obj_property name="ObjectShortName">RESET_IN</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/MODDATA_DIN" type="array">
+         <obj_property name="ElementShortName">MODDATA_DIN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MODDATA_DIN[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/MODDATA_DEN" type="logic">
+         <obj_property name="ElementShortName">MODDATA_DEN</obj_property>
+         <obj_property name="ObjectShortName">MODDATA_DEN</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/MODDATA_RDY" type="logic">
+         <obj_property name="ElementShortName">MODDATA_RDY</obj_property>
+         <obj_property name="ObjectShortName">MODDATA_RDY</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/FRAME_DATA_IN" type="array">
+         <obj_property name="ElementShortName">FRAME_DATA_IN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FRAME_DATA_IN[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/FRAME_WEN_IN" type="logic">
+         <obj_property name="ElementShortName">FRAME_WEN_IN</obj_property>
+         <obj_property name="ObjectShortName">FRAME_WEN_IN</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/FRAME_CTRL_IN" type="logic">
+         <obj_property name="ElementShortName">FRAME_CTRL_IN</obj_property>
+         <obj_property name="ObjectShortName">FRAME_CTRL_IN</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/FRAME_XOFF_OUT" type="logic">
+         <obj_property name="ElementShortName">FRAME_XOFF_OUT</obj_property>
+         <obj_property name="ObjectShortName">FRAME_XOFF_OUT</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/SLINK_UD" type="array">
+         <obj_property name="ElementShortName">SLINK_UD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SLINK_UD[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/SLINK_UWEN_N" type="logic">
+         <obj_property name="ElementShortName">SLINK_UWEN_N</obj_property>
+         <obj_property name="ObjectShortName">SLINK_UWEN_N</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/SLINK_UCTRL_N" type="logic">
+         <obj_property name="ElementShortName">SLINK_UCTRL_N</obj_property>
+         <obj_property name="ObjectShortName">SLINK_UCTRL_N</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/SLINK_LFF_N" type="logic">
+         <obj_property name="ElementShortName">SLINK_LFF_N</obj_property>
+         <obj_property name="ObjectShortName">SLINK_LFF_N</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/SLINK_LDOWN_N" type="logic">
+         <obj_property name="ElementShortName">SLINK_LDOWN_N</obj_property>
+         <obj_property name="ObjectShortName">SLINK_LDOWN_N</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/NUMBER_OF_EXPECTED_MODULES" type="other">
+         <obj_property name="ElementShortName">NUMBER_OF_EXPECTED_MODULES</obj_property>
+         <obj_property name="ObjectShortName">NUMBER_OF_EXPECTED_MODULES</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/STATE_MACHINE_ERROR_MONITOR" type="array">
+         <obj_property name="ElementShortName">STATE_MACHINE_ERROR_MONITOR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">STATE_MACHINE_ERROR_MONITOR[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/NUMBER_OF_DISCARDED_MODULES" type="array">
+         <obj_property name="ElementShortName">NUMBER_OF_DISCARDED_MODULES[31:0]</obj_property>
+         <obj_property name="ObjectShortName">NUMBER_OF_DISCARDED_MODULES[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/current_state" type="other">
+         <obj_property name="ElementShortName">current_state</obj_property>
+         <obj_property name="ObjectShortName">current_state</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/moddata_empty_i" type="logic">
+         <obj_property name="ElementShortName">moddata_empty_i</obj_property>
+         <obj_property name="ObjectShortName">moddata_empty_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/moddata_full_i" type="logic">
+         <obj_property name="ElementShortName">moddata_full_i</obj_property>
+         <obj_property name="ObjectShortName">moddata_full_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/frame_empty_i" type="logic">
+         <obj_property name="ElementShortName">frame_empty_i</obj_property>
+         <obj_property name="ObjectShortName">frame_empty_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/frame_full_i" type="logic">
+         <obj_property name="ElementShortName">frame_full_i</obj_property>
+         <obj_property name="ObjectShortName">frame_full_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/link_ready" type="logic">
+         <obj_property name="ElementShortName">link_ready</obj_property>
+         <obj_property name="ObjectShortName">link_ready</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/slink_ready" type="logic">
+         <obj_property name="ElementShortName">slink_ready</obj_property>
+         <obj_property name="ObjectShortName">slink_ready</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/slink_out_buf" type="array">
+         <obj_property name="ElementShortName">slink_out_buf[33:0]</obj_property>
+         <obj_property name="ObjectShortName">slink_out_buf[33:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/float_moddata" type="array">
+         <obj_property name="ElementShortName">float_moddata[3:0]</obj_property>
+         <obj_property name="ObjectShortName">float_moddata[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/float_frame" type="array">
+         <obj_property name="ElementShortName">float_frame[2:0]</obj_property>
+         <obj_property name="ObjectShortName">float_frame[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/allow_read_fifo_at_next_cycle" type="logic">
+         <obj_property name="ElementShortName">allow_read_fifo_at_next_cycle</obj_property>
+         <obj_property name="ObjectShortName">allow_read_fifo_at_next_cycle</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/moddata_input_go_next_if_exist_i" type="logic">
+         <obj_property name="ElementShortName">moddata_input_go_next_if_exist_i</obj_property>
+         <obj_property name="ObjectShortName">moddata_input_go_next_if_exist_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/frame_input_go_next_if_exist_i" type="logic">
+         <obj_property name="ElementShortName">frame_input_go_next_if_exist_i</obj_property>
+         <obj_property name="ObjectShortName">frame_input_go_next_if_exist_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/frame_data_i" type="array">
+         <obj_property name="ElementShortName">frame_data_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">frame_data_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/frame_ctrl_i" type="logic">
+         <obj_property name="ElementShortName">frame_ctrl_i</obj_property>
+         <obj_property name="ObjectShortName">frame_ctrl_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/frame_den_i" type="logic">
+         <obj_property name="ElementShortName">frame_den_i</obj_property>
+         <obj_property name="ObjectShortName">frame_den_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/moddata_data_i" type="array">
+         <obj_property name="ElementShortName">moddata_data_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">moddata_data_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/moddata_den_i" type="logic">
+         <obj_property name="ElementShortName">moddata_den_i</obj_property>
+         <obj_property name="ObjectShortName">moddata_den_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/readmode" type="array">
+         <obj_property name="ElementShortName">readmode[1:0]</obj_property>
+         <obj_property name="ObjectShortName">readmode[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/moddata_selected" type="logic">
+         <obj_property name="ElementShortName">moddata_selected</obj_property>
+         <obj_property name="ObjectShortName">moddata_selected</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/frame_selected" type="logic">
+         <obj_property name="ElementShortName">frame_selected</obj_property>
+         <obj_property name="ObjectShortName">frame_selected</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/df_internal_event_counter" type="array">
+         <obj_property name="ElementShortName">df_internal_event_counter[15:0]</obj_property>
+         <obj_property name="ObjectShortName">df_internal_event_counter[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/number_of_checked_modules" type="other">
+         <obj_property name="ElementShortName">number_of_checked_modules</obj_property>
+         <obj_property name="ObjectShortName">number_of_checked_modules</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/number_of_words" type="array">
+         <obj_property name="ElementShortName">number_of_words[31:0]</obj_property>
+         <obj_property name="ObjectShortName">number_of_words[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/error_flags_buf" type="array">
+         <obj_property name="ElementShortName">error_flags_buf[31:0]</obj_property>
+         <obj_property name="ObjectShortName">error_flags_buf[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/input_moddata_din_i" type="array">
+         <obj_property name="ElementShortName">input_moddata_din_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">input_moddata_din_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/input_moddata_den_i" type="logic">
+         <obj_property name="ElementShortName">input_moddata_den_i</obj_property>
+         <obj_property name="ObjectShortName">input_moddata_den_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/input_frame_data_in_i" type="array">
+         <obj_property name="ElementShortName">input_frame_data_in_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">input_frame_data_in_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/input_frame_wen_in_i" type="logic">
+         <obj_property name="ElementShortName">input_frame_wen_in_i</obj_property>
+         <obj_property name="ObjectShortName">input_frame_wen_in_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/input_frame_ctrl_in_i" type="logic">
+         <obj_property name="ElementShortName">input_frame_ctrl_in_i</obj_property>
+         <obj_property name="ObjectShortName">input_frame_ctrl_in_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/number_of_discarded_modules_i" type="array">
+         <obj_property name="ElementShortName">number_of_discarded_modules_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">number_of_discarded_modules_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1_din_i" type="array">
+         <obj_property name="ElementShortName">eventid_comparator_1_din_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">eventid_comparator_1_din_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1_din_wen_i" type="logic">
+         <obj_property name="ElementShortName">eventid_comparator_1_din_wen_i</obj_property>
+         <obj_property name="ObjectShortName">eventid_comparator_1_din_wen_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1_din_rdy_i" type="logic">
+         <obj_property name="ElementShortName">eventid_comparator_1_din_rdy_i</obj_property>
+         <obj_property name="ObjectShortName">eventid_comparator_1_din_rdy_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1_port1_dout_i" type="array">
+         <obj_property name="ElementShortName">eventid_comparator_1_port1_dout_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">eventid_comparator_1_port1_dout_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1_port1_dout_wen_i" type="logic">
+         <obj_property name="ElementShortName">eventid_comparator_1_port1_dout_wen_i</obj_property>
+         <obj_property name="ObjectShortName">eventid_comparator_1_port1_dout_wen_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1_port1_dout_rdy_i" type="logic">
+         <obj_property name="ElementShortName">eventid_comparator_1_port1_dout_rdy_i</obj_property>
+         <obj_property name="ObjectShortName">eventid_comparator_1_port1_dout_rdy_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1_port2_dout_i" type="array">
+         <obj_property name="ElementShortName">eventid_comparator_1_port2_dout_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">eventid_comparator_1_port2_dout_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1_port2_dout_wen_i" type="logic">
+         <obj_property name="ElementShortName">eventid_comparator_1_port2_dout_wen_i</obj_property>
+         <obj_property name="ObjectShortName">eventid_comparator_1_port2_dout_wen_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1_port2_dout_rdy_i" type="logic">
+         <obj_property name="ElementShortName">eventid_comparator_1_port2_dout_rdy_i</obj_property>
+         <obj_property name="ObjectShortName">eventid_comparator_1_port2_dout_rdy_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1_number_of_discarded_modules" type="array">
+         <obj_property name="ElementShortName">eventid_comparator_1_number_of_discarded_modules[31:0]</obj_property>
+         <obj_property name="ObjectShortName">eventid_comparator_1_number_of_discarded_modules[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/merger_1_input_port1_din_i" type="array">
+         <obj_property name="ElementShortName">merger_1_input_port1_din_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">merger_1_input_port1_din_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/merger_1_input_port1_den_i" type="logic">
+         <obj_property name="ElementShortName">merger_1_input_port1_den_i</obj_property>
+         <obj_property name="ObjectShortName">merger_1_input_port1_den_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/merger_1_input_port1_rdy_i" type="logic">
+         <obj_property name="ElementShortName">merger_1_input_port1_rdy_i</obj_property>
+         <obj_property name="ObjectShortName">merger_1_input_port1_rdy_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/merger_1_input_port2_din_i" type="array">
+         <obj_property name="ElementShortName">merger_1_input_port2_din_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">merger_1_input_port2_din_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/merger_1_input_port2_den_i" type="logic">
+         <obj_property name="ElementShortName">merger_1_input_port2_den_i</obj_property>
+         <obj_property name="ObjectShortName">merger_1_input_port2_den_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/merger_1_input_port2_rdy_i" type="logic">
+         <obj_property name="ElementShortName">merger_1_input_port2_rdy_i</obj_property>
+         <obj_property name="ObjectShortName">merger_1_input_port2_rdy_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/merger_1_output_port_dout_i" type="array">
+         <obj_property name="ElementShortName">merger_1_output_port_dout_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">merger_1_output_port_dout_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/merger_1_output_port_den_i" type="logic">
+         <obj_property name="ElementShortName">merger_1_output_port_den_i</obj_property>
+         <obj_property name="ObjectShortName">merger_1_output_port_den_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/merger_1_output_port_rdy_i" type="logic">
+         <obj_property name="ElementShortName">merger_1_output_port_rdy_i</obj_property>
+         <obj_property name="ObjectShortName">merger_1_output_port_rdy_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2_din_i" type="array">
+         <obj_property name="ElementShortName">eventid_comparator_2_din_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">eventid_comparator_2_din_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2_din_wen_i" type="logic">
+         <obj_property name="ElementShortName">eventid_comparator_2_din_wen_i</obj_property>
+         <obj_property name="ObjectShortName">eventid_comparator_2_din_wen_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2_din_rdy_i" type="logic">
+         <obj_property name="ElementShortName">eventid_comparator_2_din_rdy_i</obj_property>
+         <obj_property name="ObjectShortName">eventid_comparator_2_din_rdy_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2_port1_dout_i" type="array">
+         <obj_property name="ElementShortName">eventid_comparator_2_port1_dout_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">eventid_comparator_2_port1_dout_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2_port1_dout_wen_i" type="logic">
+         <obj_property name="ElementShortName">eventid_comparator_2_port1_dout_wen_i</obj_property>
+         <obj_property name="ObjectShortName">eventid_comparator_2_port1_dout_wen_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2_port1_dout_rdy_i" type="logic">
+         <obj_property name="ElementShortName">eventid_comparator_2_port1_dout_rdy_i</obj_property>
+         <obj_property name="ObjectShortName">eventid_comparator_2_port1_dout_rdy_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2_port2_dout_i" type="array">
+         <obj_property name="ElementShortName">eventid_comparator_2_port2_dout_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">eventid_comparator_2_port2_dout_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2_port2_dout_wen_i" type="logic">
+         <obj_property name="ElementShortName">eventid_comparator_2_port2_dout_wen_i</obj_property>
+         <obj_property name="ObjectShortName">eventid_comparator_2_port2_dout_wen_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2_port2_dout_rdy_i" type="logic">
+         <obj_property name="ElementShortName">eventid_comparator_2_port2_dout_rdy_i</obj_property>
+         <obj_property name="ObjectShortName">eventid_comparator_2_port2_dout_rdy_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2_number_of_discarded_modules" type="array">
+         <obj_property name="ElementShortName">eventid_comparator_2_number_of_discarded_modules[31:0]</obj_property>
+         <obj_property name="ObjectShortName">eventid_comparator_2_number_of_discarded_modules[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/event_sorting_buffer_1_din_i" type="array">
+         <obj_property name="ElementShortName">event_sorting_buffer_1_din_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">event_sorting_buffer_1_din_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/event_sorting_buffer_1_wr_en_i" type="logic">
+         <obj_property name="ElementShortName">event_sorting_buffer_1_wr_en_i</obj_property>
+         <obj_property name="ObjectShortName">event_sorting_buffer_1_wr_en_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/event_sorting_buffer_1_dout_i" type="array">
+         <obj_property name="ElementShortName">event_sorting_buffer_1_dout_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">event_sorting_buffer_1_dout_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/event_sorting_buffer_1_rd_en_i" type="logic">
+         <obj_property name="ElementShortName">event_sorting_buffer_1_rd_en_i</obj_property>
+         <obj_property name="ObjectShortName">event_sorting_buffer_1_rd_en_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/event_sorting_buffer_1_dout_float4_i" type="array">
+         <obj_property name="ElementShortName">event_sorting_buffer_1_dout_float4_i[35:32]</obj_property>
+         <obj_property name="ObjectShortName">event_sorting_buffer_1_dout_float4_i[35:32]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/event_sorting_buffer_1_empty_i" type="logic">
+         <obj_property name="ElementShortName">event_sorting_buffer_1_empty_i</obj_property>
+         <obj_property name="ObjectShortName">event_sorting_buffer_1_empty_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/event_sorting_buffer_1_prog_full_i" type="logic">
+         <obj_property name="ElementShortName">event_sorting_buffer_1_prog_full_i</obj_property>
+         <obj_property name="ObjectShortName">event_sorting_buffer_1_prog_full_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/merger_2_input_port1_din_i" type="array">
+         <obj_property name="ElementShortName">merger_2_input_port1_din_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">merger_2_input_port1_din_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/merger_2_input_port1_den_i" type="logic">
+         <obj_property name="ElementShortName">merger_2_input_port1_den_i</obj_property>
+         <obj_property name="ObjectShortName">merger_2_input_port1_den_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/merger_2_input_port1_rdy_i" type="logic">
+         <obj_property name="ElementShortName">merger_2_input_port1_rdy_i</obj_property>
+         <obj_property name="ObjectShortName">merger_2_input_port1_rdy_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/merger_2_input_port2_din_i" type="array">
+         <obj_property name="ElementShortName">merger_2_input_port2_din_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">merger_2_input_port2_din_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/merger_2_input_port2_den_i" type="logic">
+         <obj_property name="ElementShortName">merger_2_input_port2_den_i</obj_property>
+         <obj_property name="ObjectShortName">merger_2_input_port2_den_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/merger_2_input_port2_rdy_i" type="logic">
+         <obj_property name="ElementShortName">merger_2_input_port2_rdy_i</obj_property>
+         <obj_property name="ObjectShortName">merger_2_input_port2_rdy_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/merger_2_output_port_dout_i" type="array">
+         <obj_property name="ElementShortName">merger_2_output_port_dout_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">merger_2_output_port_dout_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/merger_2_output_port_den_i" type="logic">
+         <obj_property name="ElementShortName">merger_2_output_port_den_i</obj_property>
+         <obj_property name="ObjectShortName">merger_2_output_port_den_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/merger_2_output_port_rdy_i" type="logic">
+         <obj_property name="ElementShortName">merger_2_output_port_rdy_i</obj_property>
+         <obj_property name="ObjectShortName">merger_2_output_port_rdy_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/ERROR_BITPOS_WAIT_SAMPLE_INTERNAL_HEADER_IN_FRAME_AND_SKIP" type="other">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_INTERNAL_HEADER_IN_FRAME_AND_SKIP</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_INTERNAL_HEADER_IN_FRAME_AND_SKIP</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/ERROR_BITPOS_WAIT_SAMPLE_HEADER0_AND_SEND_HEADER0" type="other">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER0_AND_SEND_HEADER0</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER0_AND_SEND_HEADER0</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/ERROR_BITPOS_WAIT_SAMPLE_HEADER1_AND_SEND_HEADER1" type="other">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER1_AND_SEND_HEADER1</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER1_AND_SEND_HEADER1</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/ERROR_BITPOS_WAIT_SAMPLE_HEADER2_AND_SEND_HEADER2" type="other">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER2_AND_SEND_HEADER2</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER2_AND_SEND_HEADER2</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/ERROR_BITPOS_WAIT_SAMPLE_HEADER3_AND_SEND_HEADER3" type="other">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER3_AND_SEND_HEADER3</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER3_AND_SEND_HEADER3</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/ERROR_BITPOS_WAIT_SAMPLE_HEADER4_AND_SEND_HEADER4" type="other">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER4_AND_SEND_HEADER4</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER4_AND_SEND_HEADER4</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/ERROR_BITPOS_WAIT_SAMPLE_HEADER5_AND_SEND_HEADER5" type="other">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER5_AND_SEND_HEADER5</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER5_AND_SEND_HEADER5</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/ERROR_BITPOS_WAIT_SAMPLE_HEADER6_AND_SEND_HEADER6" type="other">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER6_AND_SEND_HEADER6</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_HEADER6_AND_SEND_HEADER6</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/ERROR_BITPOS_WAIT_SAMPLE_INTERNAL_HEADER_IN_MODDATA_AND_DECIDE" type="other">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_INTERNAL_HEADER_IN_MODDATA_AND_DECIDE</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_INTERNAL_HEADER_IN_MODDATA_AND_DECIDE</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/ERROR_BITPOS_WAIT_SAMPLE_LOCAL_DESTINATION_WORD_AND_SKIP_IT" type="other">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_LOCAL_DESTINATION_WORD_AND_SKIP_IT</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_LOCAL_DESTINATION_WORD_AND_SKIP_IT</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/ERROR_BITPOS_WAIT_SAMPLE_DATA_AND_SEND_DATA_AND_CHECK_TRAILER" type="other">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_DATA_AND_SEND_DATA_AND_CHECK_TRAILER</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_DATA_AND_SEND_DATA_AND_CHECK_TRAILER</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/ERROR_BITPOS_WAIT_SAMPLE_DATA_AND_SKIP_AND_CHECK_TRAILER" type="other">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_DATA_AND_SKIP_AND_CHECK_TRAILER</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_DATA_AND_SKIP_AND_CHECK_TRAILER</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/ERROR_BITPOS_WAIT_SAMPLE_EODA_WORD_AND_SEND_EODA_WORD" type="other">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_EODA_WORD_AND_SEND_EODA_WORD</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_EODA_WORD_AND_SEND_EODA_WORD</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/ERROR_BITPOS_WAIT_SAMPLE_TRAILER1_SEND_TRAILER1" type="other">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_TRAILER1_SEND_TRAILER1</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_TRAILER1_SEND_TRAILER1</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/ERROR_BITPOS_WAIT_SAMPLE_TRAILER2_SEND_TRAILER2" type="other">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_TRAILER2_SEND_TRAILER2</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_TRAILER2_SEND_TRAILER2</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/ERROR_BITPOS_WAIT_SAMPLE_TRAILER3_SEND_TRAILER3" type="other">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_TRAILER3_SEND_TRAILER3</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_TRAILER3_SEND_TRAILER3</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/ERROR_BITPOS_WAIT_SAMPLE_TRAILER4_SEND_TRAILER4" type="other">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_TRAILER4_SEND_TRAILER4</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_TRAILER4_SEND_TRAILER4</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/ERROR_BITPOS_WAIT_SAMPLE_TRAILER5_SEND_TRAILER5" type="other">
+         <obj_property name="ElementShortName">ERROR_BITPOS_WAIT_SAMPLE_TRAILER5_SEND_TRAILER5</obj_property>
+         <obj_property name="ObjectShortName">ERROR_BITPOS_WAIT_SAMPLE_TRAILER5_SEND_TRAILER5</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/slink_idle" type="array">
+         <obj_property name="ElementShortName">slink_idle[33:0]</obj_property>
+         <obj_property name="ObjectShortName">slink_idle[33:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/slink_ctrl_fragment" type="array">
+         <obj_property name="ElementShortName">slink_ctrl_fragment[1:0]</obj_property>
+         <obj_property name="ObjectShortName">slink_ctrl_fragment[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/slink_data_fragment" type="array">
+         <obj_property name="ElementShortName">slink_data_fragment[1:0]</obj_property>
+         <obj_property name="ObjectShortName">slink_data_fragment[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/read_moddata_mode" type="array">
+         <obj_property name="ElementShortName">read_moddata_mode[1:0]</obj_property>
+         <obj_property name="ObjectShortName">read_moddata_mode[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/read_frame_mode" type="array">
+         <obj_property name="ElementShortName">read_frame_mode[1:0]</obj_property>
+         <obj_property name="ObjectShortName">read_frame_mode[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/noread_mode" type="array">
+         <obj_property name="ElementShortName">noread_mode[1:0]</obj_property>
+         <obj_property name="ObjectShortName">noread_mode[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group168" type="group">
+      <obj_property name="label">event id comparator 1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/MAIN_CLK" type="logic">
+         <obj_property name="ElementShortName">MAIN_CLK</obj_property>
+         <obj_property name="ObjectShortName">MAIN_CLK</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/RESET_IN" type="logic">
+         <obj_property name="ElementShortName">RESET_IN</obj_property>
+         <obj_property name="ObjectShortName">RESET_IN</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/CURRENT_EVENTID" type="array">
+         <obj_property name="ElementShortName">CURRENT_EVENTID[15:0]</obj_property>
+         <obj_property name="ObjectShortName">CURRENT_EVENTID[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/DIN" type="array">
+         <obj_property name="ElementShortName">DIN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DIN[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/DIN_WEN" type="logic">
+         <obj_property name="ElementShortName">DIN_WEN</obj_property>
+         <obj_property name="ObjectShortName">DIN_WEN</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/DIN_RDY" type="logic">
+         <obj_property name="ElementShortName">DIN_RDY</obj_property>
+         <obj_property name="ObjectShortName">DIN_RDY</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/PORT1_DOUT" type="array">
+         <obj_property name="ElementShortName">PORT1_DOUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PORT1_DOUT[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/PORT1_DOUT_WEN" type="logic">
+         <obj_property name="ElementShortName">PORT1_DOUT_WEN</obj_property>
+         <obj_property name="ObjectShortName">PORT1_DOUT_WEN</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/PORT1_DOUT_RDY" type="logic">
+         <obj_property name="ElementShortName">PORT1_DOUT_RDY</obj_property>
+         <obj_property name="ObjectShortName">PORT1_DOUT_RDY</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/PORT2_DOUT" type="array">
+         <obj_property name="ElementShortName">PORT2_DOUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PORT2_DOUT[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/PORT2_DOUT_WEN" type="logic">
+         <obj_property name="ElementShortName">PORT2_DOUT_WEN</obj_property>
+         <obj_property name="ObjectShortName">PORT2_DOUT_WEN</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/PORT2_DOUT_RDY" type="logic">
+         <obj_property name="ElementShortName">PORT2_DOUT_RDY</obj_property>
+         <obj_property name="ObjectShortName">PORT2_DOUT_RDY</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/NUMBER_OF_DISCARDED_MODULES" type="array">
+         <obj_property name="ElementShortName">NUMBER_OF_DISCARDED_MODULES[31:0]</obj_property>
+         <obj_property name="ObjectShortName">NUMBER_OF_DISCARDED_MODULES[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/current_state" type="other">
+         <obj_property name="ElementShortName">current_state</obj_property>
+         <obj_property name="ObjectShortName">current_state</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/current_eventid_i" type="array">
+         <obj_property name="ElementShortName">current_eventid_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">current_eventid_i[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/input_port_din_i" type="array">
+         <obj_property name="ElementShortName">input_port_din_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">input_port_din_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/input_port_den_i" type="logic">
+         <obj_property name="ElementShortName">input_port_den_i</obj_property>
+         <obj_property name="ObjectShortName">input_port_den_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/input_port_empty_i" type="logic">
+         <obj_property name="ElementShortName">input_port_empty_i</obj_property>
+         <obj_property name="ObjectShortName">input_port_empty_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/input_port_full_i" type="logic">
+         <obj_property name="ElementShortName">input_port_full_i</obj_property>
+         <obj_property name="ObjectShortName">input_port_full_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/allow_read_fifo_at_next_cycle_i" type="logic">
+         <obj_property name="ElementShortName">allow_read_fifo_at_next_cycle_i</obj_property>
+         <obj_property name="ObjectShortName">allow_read_fifo_at_next_cycle_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/output_port1_data_buf_i" type="array">
+         <obj_property name="ElementShortName">output_port1_data_buf_i[32:0]</obj_property>
+         <obj_property name="ObjectShortName">output_port1_data_buf_i[32:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/output_port2_data_buf_i" type="array">
+         <obj_property name="ElementShortName">output_port2_data_buf_i[32:0]</obj_property>
+         <obj_property name="ObjectShortName">output_port2_data_buf_i[32:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/number_of_discarded_modules_i" type="array">
+         <obj_property name="ElementShortName">number_of_discarded_modules_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">number_of_discarded_modules_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/input_go_next_if_exist_i" type="logic">
+         <obj_property name="ElementShortName">input_go_next_if_exist_i</obj_property>
+         <obj_property name="ObjectShortName">input_go_next_if_exist_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/din_i" type="array">
+         <obj_property name="ElementShortName">din_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">din_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/float_din_i" type="array">
+         <obj_property name="ElementShortName">float_din_i[35:32]</obj_property>
+         <obj_property name="ObjectShortName">float_din_i[35:32]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/den_i" type="logic">
+         <obj_property name="ElementShortName">den_i</obj_property>
+         <obj_property name="ObjectShortName">den_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/link_ready" type="logic">
+         <obj_property name="ElementShortName">link_ready</obj_property>
+         <obj_property name="ObjectShortName">link_ready</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/data_valid" type="logic">
+         <obj_property name="ElementShortName">data_valid</obj_property>
+         <obj_property name="ObjectShortName">data_valid</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1/idle_word" type="array">
+         <obj_property name="ElementShortName">idle_word[32:0]</obj_property>
+         <obj_property name="ObjectShortName">idle_word[32:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1_din_i" type="array">
+      <obj_property name="ElementShortName">eventid_comparator_1_din_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">eventid_comparator_1_din_i[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1_port1_dout_i" type="array">
+      <obj_property name="ElementShortName">eventid_comparator_1_port1_dout_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">eventid_comparator_1_port1_dout_i[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_1_port2_dout_i" type="array">
+      <obj_property name="ElementShortName">eventid_comparator_1_port2_dout_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">eventid_comparator_1_port2_dout_i[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/merger_1_input_port1_din_i" type="array">
+      <obj_property name="ElementShortName">merger_1_input_port1_din_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">merger_1_input_port1_din_i[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/event_sorting_buffer_1_din_i" type="array">
+      <obj_property name="ElementShortName">event_sorting_buffer_1_din_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">event_sorting_buffer_1_din_i[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/event_sorting_buffer_1_dout_i" type="array">
+      <obj_property name="ElementShortName">event_sorting_buffer_1_dout_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">event_sorting_buffer_1_dout_i[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/merger_1_input_port2_din_i" type="array">
+      <obj_property name="ElementShortName">merger_1_input_port2_din_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">merger_1_input_port2_din_i[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2_din_i" type="array">
+      <obj_property name="ElementShortName">eventid_comparator_2_din_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">eventid_comparator_2_din_i[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2_port1_dout_i" type="array">
+      <obj_property name="ElementShortName">eventid_comparator_2_port1_dout_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">eventid_comparator_2_port1_dout_i[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2_port2_dout_i" type="array">
+      <obj_property name="ElementShortName">eventid_comparator_2_port2_dout_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">eventid_comparator_2_port2_dout_i[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/merger_1_input_port2_din_i" type="array">
+      <obj_property name="ElementShortName">merger_1_input_port2_din_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">merger_1_input_port2_din_i[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/merger_2_input_port1_din_i" type="array">
+      <obj_property name="ElementShortName">merger_2_input_port1_din_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">merger_2_input_port1_din_i[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/merger_2_input_port2_din_i" type="array">
+      <obj_property name="ElementShortName">merger_2_input_port2_din_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">merger_2_input_port2_din_i[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/merger_2_output_port_dout_i" type="array">
+      <obj_property name="ElementShortName">merger_2_output_port_dout_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">merger_2_output_port_dout_i[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/df_internal_event_counter" type="array">
+      <obj_property name="ElementShortName">df_internal_event_counter[15:0]</obj_property>
+      <obj_property name="ObjectShortName">df_internal_event_counter[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/number_of_checked_modules" type="other">
+      <obj_property name="ElementShortName">number_of_checked_modules</obj_property>
+      <obj_property name="ObjectShortName">number_of_checked_modules</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/moddata_data_i" type="array">
+      <obj_property name="ElementShortName">moddata_data_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">moddata_data_i[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/input_moddata_din_i" type="array">
+      <obj_property name="ElementShortName">input_moddata_din_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">input_moddata_din_i[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/current_state" type="other">
+      <obj_property name="ElementShortName">current_state</obj_property>
+      <obj_property name="ObjectShortName">current_state</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/frame_data_i" type="array">
+      <obj_property name="ElementShortName">frame_data_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">frame_data_i[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/FRAME_DATA_IN" type="array">
+      <obj_property name="ElementShortName">FRAME_DATA_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FRAME_DATA_IN[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/FRAME_WEN_IN" type="logic">
+      <obj_property name="ElementShortName">FRAME_WEN_IN</obj_property>
+      <obj_property name="ObjectShortName">FRAME_WEN_IN</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/FRAME_CTRL_IN" type="logic">
+      <obj_property name="ElementShortName">FRAME_CTRL_IN</obj_property>
+      <obj_property name="ObjectShortName">FRAME_CTRL_IN</obj_property>
+   </wvobject>
+   <wvobject fp_name="group200" type="group">
+      <obj_property name="label">event id comparator 2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/MAIN_CLK" type="logic">
+         <obj_property name="ElementShortName">MAIN_CLK</obj_property>
+         <obj_property name="ObjectShortName">MAIN_CLK</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/RESET_IN" type="logic">
+         <obj_property name="ElementShortName">RESET_IN</obj_property>
+         <obj_property name="ObjectShortName">RESET_IN</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/CURRENT_EVENTID" type="array">
+         <obj_property name="ElementShortName">CURRENT_EVENTID[15:0]</obj_property>
+         <obj_property name="ObjectShortName">CURRENT_EVENTID[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/DIN" type="array">
+         <obj_property name="ElementShortName">DIN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DIN[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/DIN_WEN" type="logic">
+         <obj_property name="ElementShortName">DIN_WEN</obj_property>
+         <obj_property name="ObjectShortName">DIN_WEN</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/DIN_RDY" type="logic">
+         <obj_property name="ElementShortName">DIN_RDY</obj_property>
+         <obj_property name="ObjectShortName">DIN_RDY</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/PORT1_DOUT" type="array">
+         <obj_property name="ElementShortName">PORT1_DOUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PORT1_DOUT[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/PORT1_DOUT_WEN" type="logic">
+         <obj_property name="ElementShortName">PORT1_DOUT_WEN</obj_property>
+         <obj_property name="ObjectShortName">PORT1_DOUT_WEN</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/PORT1_DOUT_RDY" type="logic">
+         <obj_property name="ElementShortName">PORT1_DOUT_RDY</obj_property>
+         <obj_property name="ObjectShortName">PORT1_DOUT_RDY</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/PORT2_DOUT" type="array">
+         <obj_property name="ElementShortName">PORT2_DOUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PORT2_DOUT[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/PORT2_DOUT_WEN" type="logic">
+         <obj_property name="ElementShortName">PORT2_DOUT_WEN</obj_property>
+         <obj_property name="ObjectShortName">PORT2_DOUT_WEN</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/PORT2_DOUT_RDY" type="logic">
+         <obj_property name="ElementShortName">PORT2_DOUT_RDY</obj_property>
+         <obj_property name="ObjectShortName">PORT2_DOUT_RDY</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/NUMBER_OF_DISCARDED_MODULES" type="array">
+         <obj_property name="ElementShortName">NUMBER_OF_DISCARDED_MODULES[31:0]</obj_property>
+         <obj_property name="ObjectShortName">NUMBER_OF_DISCARDED_MODULES[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/current_state" type="other">
+         <obj_property name="ElementShortName">current_state</obj_property>
+         <obj_property name="ObjectShortName">current_state</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/current_eventid_i" type="array">
+         <obj_property name="ElementShortName">current_eventid_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">current_eventid_i[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/input_port_din_i" type="array">
+         <obj_property name="ElementShortName">input_port_din_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">input_port_din_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/input_port_den_i" type="logic">
+         <obj_property name="ElementShortName">input_port_den_i</obj_property>
+         <obj_property name="ObjectShortName">input_port_den_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/input_port_empty_i" type="logic">
+         <obj_property name="ElementShortName">input_port_empty_i</obj_property>
+         <obj_property name="ObjectShortName">input_port_empty_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/input_port_full_i" type="logic">
+         <obj_property name="ElementShortName">input_port_full_i</obj_property>
+         <obj_property name="ObjectShortName">input_port_full_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/allow_read_fifo_at_next_cycle_i" type="logic">
+         <obj_property name="ElementShortName">allow_read_fifo_at_next_cycle_i</obj_property>
+         <obj_property name="ObjectShortName">allow_read_fifo_at_next_cycle_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/output_port1_data_buf_i" type="array">
+         <obj_property name="ElementShortName">output_port1_data_buf_i[32:0]</obj_property>
+         <obj_property name="ObjectShortName">output_port1_data_buf_i[32:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/output_port2_data_buf_i" type="array">
+         <obj_property name="ElementShortName">output_port2_data_buf_i[32:0]</obj_property>
+         <obj_property name="ObjectShortName">output_port2_data_buf_i[32:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/number_of_discarded_modules_i" type="array">
+         <obj_property name="ElementShortName">number_of_discarded_modules_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">number_of_discarded_modules_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/input_go_next_if_exist_i" type="logic">
+         <obj_property name="ElementShortName">input_go_next_if_exist_i</obj_property>
+         <obj_property name="ObjectShortName">input_go_next_if_exist_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/din_i" type="array">
+         <obj_property name="ElementShortName">din_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">din_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/float_din_i" type="array">
+         <obj_property name="ElementShortName">float_din_i[35:32]</obj_property>
+         <obj_property name="ObjectShortName">float_din_i[35:32]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/den_i" type="logic">
+         <obj_property name="ElementShortName">den_i</obj_property>
+         <obj_property name="ObjectShortName">den_i</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/link_ready" type="logic">
+         <obj_property name="ElementShortName">link_ready</obj_property>
+         <obj_property name="ObjectShortName">link_ready</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/data_valid" type="logic">
+         <obj_property name="ElementShortName">data_valid</obj_property>
+         <obj_property name="ObjectShortName">data_valid</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/idle_word" type="array">
+         <obj_property name="ElementShortName">idle_word[32:0]</obj_property>
+         <obj_property name="ObjectShortName">idle_word[32:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/testbench/my_slink_packer/eventid_comparator_2/MAIN_CLK" type="logic">
+         <obj_property name="ElementShortName">MAIN_CLK</obj_property>
+         <obj_property name="ObjectShortName">MAIN_CLK</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

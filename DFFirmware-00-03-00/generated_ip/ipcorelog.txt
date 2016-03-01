@@ -1,0 +1,383 @@
+* pulsar2_simple_dpram_w36_d4096 (Block Memory Generator (8.2))
+- Used for SPY BUFFER
+- Simple Dual Port RAM & Common Clock
+- Port A : Width=36, Depth=4096, Port=Always Enabled
+- Port B : Width=36, Depth=4096, Port=Always Enabled
+- Fill Remaining Memory Locations = 0
+
+* fwft_cc_w36_d512 (FIFO Generator (12.0))
+- Native, Common Clock Block RAM
+- First Word Fall Through, 36, 512
+- Programmable Flags, Programmable Full Type=Single Programmable Full Threshold Constant / Assert@495 Negate@494
+
+
+* fwft_ic_w36_d512 (FIFO Generator (12.0))
+- Native. Independent Clocks Block RAM Synchronization Stages = 2
+- First Word Fall Through, Width=36, Depth=512
+- Programmable Flags, Programmable Full Type=Single Programmable Full Threshold Constant / Assert@495 Negate@494
+
+* pulsar2_sysclk
+- Primary 200 Differential clock capable pin 
+- FMC_COMMON_CLK (200), MAIN_LOGIC_CLK (150), CLK50 (50)
+
+* pulsar2_fifo_w36_d1024_fwft (used in FMC input buffer)
+- Native, Independent Clocks Block RAM Synchronization Stages = 2
+- Fist Word Fall Through, Width=36, Depth=1024
+- Almost Full Flag
+- Write Data Count (Synchonized with Write Clk) 10b # NOTE This is Data Count Monitor synchronized with Write Clock
+
+* pulsar2_fifo_w37_d512_standard (used in the slink_testpattern_transmitter)
+- Native, Common Clock Block RAM
+- Standard FIFO
+- Width=37, Depth=512
+- Data count # NOTE Common clock is used and no difference of write and read clock
+
+* pulsar2_fifo_w32_d512_standard (used in the slink_testpattern_transmitter)
+- Native, Independent Clocks Block RAM Synchronization Stages = 2
+- Standard FIFO, Width=32, Depth=512
+- Write Data Count (Synchnozied with Write Clk) 9b, Read Data Count (Synchnozied with Read Clk) 9b
+
+* tp_w37_d4096_true_dp_cc
+- True Dual Port RAM [Checked] Common Clk
+- PortA Configuration Write Width=37, Read Width=37, Write Depth=4096, Read Depth=4096 Enable Port Type = Always Enabled
+- PortB also Enable Port Type=Always Enabled
+- [Checked] Load Coe File Coe File = Browes and ../coefiles/testpattern_2.coe
+
+* pulsar2_fifo_w36_d8192_fwft
+- Native Independent Clocks Block RAM Synchronization Stages = 2
+- First Word Fall Through, Width=36 Depth=8192
+- Almost Full Flag
+- Write Data Count (Synchronized with Write Clk) 13b
+
+* input_idx2mod (index=0-511 address, module Id=14bit data, isSCT is added as 14th bit of address)
+- True Dual Port RAM [checked] Common Clock
+- Port A Write Width=14, Read Width=14, Data Depth=512, Enalbe Port Type=Always Enabled
+- Port B also Enable Port Type=Always Enabled
+- Load Input File Coe File=testinput_idx2mod.coe (to be modified in order to desabled by default)
+
+* input_mod2idx (module ID=14bit address. index=0-511 data, isSCT is added as 14th bit of address, index=511 is used as INVALID value)
+- True Dual Port RAM [checked] Common Clock
+- Port A Write Width=9, Read Width=9, Write Depth=16384, Read Depth=16384, Enable Port Type=Always Enabled
+- Port B also Enable Port Type=Always Enablde
+- Load Input File Coe File=testinput_input_mod2idx.coe
+
+* input_pixmod2dest (32 bit is enough but 36 bit is reserved for future potential use case)
+- Native. True Dual Port RAM [Checked] Common Clock
+- Port A Write Width=36, Read Width=36, Write Depth=2048 (11 bit), Read Depth=2048 (12 bit), Enable Port Type=Always Enabled 
+- Port B also Enable Port Type=Always Enablde
+- Load Input File Coe File=test_destination_pix.coe
+
+* input_sctmod2dest (32 bit is enough but 36 bit is reserved for future potential use case)
+- Native. True Dual Port RAM [Checked] Common Clock
+- Port A Write Width=36, Read Width=36, Write Depth=8192 (13 bit), Read Depth=8192 (13 bit), Enable Port Type=Always Enabled 
+- Port B also Enable Port Type=Always Enablde
+- Load Input File Coe File=test_destination_sct.coe
+
+* output_pixmod2ftkplane (12 bit is for 12 plane actually it can be described with four bits since there is no multi assignment)
+- Native. True Dual Port RAM [Checked] Common Clock
+- Port A Write Width=12, Read Width=12, Write Depth=2048 (11 bit), Read Depth=2048 (11 bit), Enable Port Type=Always Enabled 
+- Port B also Enable Port Type=Always Enablde
+- Load Input File Coe File=test_ftkplane_pix.coe
+
+* output_sctmod2ftkplane (12 bit is for 12 plane actually it can be described with four bits since there is no multi assignment)
+- Native. True Dual Port RAM [Checked] Common Clock
+- Port A Write Width=12, Read Width=12, Write Depth=8192 (13 bit), Read Depth=8192 (13 bit), Enable Port Type=Always Enabled 
+- Port B also Enable Port Type=Always Enablde
+- Load Input File Coe File=test_ftkplane_sct.coe
+
+* output_sctmod2tower
+- Native. True Dual Port RAM [Checked] Common Clock
+- Port A Write Width=2, Read Width=, Write Depth=8192 (13 bit), Read Depth=8192 (13 bit), Enable Port Type=Always Enabled 
+- Port B also Enable Port Type=Always Enablde
+- Load Input File Coe File=test_board_to_tower_sct.coe
+
+* output_sctmod2duplication
+- Native. True Dual Port RAM [Checked] Common Clock
+- Port A Write Width=2, Read Width=, Write Depth=8192 (13 bit), Read Depth=8192 (13 bit), Enable Port Type=Always Enabled 
+- Port B also Enable Port Type=Always Enablde
+- Fill Remaining Memory Location = 3 ("11") default fully duplication
+
+* output_pixmod2tower
+- Native. True Dual Port RAM [Checked] Common Clock
+- Port A Write Width=2, Read Width=2, Write Depth=2048 (11 bit), Read Depth=2048 (11 bit), Enable Port Type=Always Enabled 
+- Port B also Enable Port Type=Always Enablde
+- Load Input File Coe File=test_board_to_tower_pix.coe
+
+* output_pixmod2duplication
+- Native. True Dual Port RAM [Checked] Common Clock
+- Port A Write Width=2, Read Width=2, Write Depth=2048 (11 bit), Read Depth=2048 (11 bit), Enable Port Type=Always Enabled 
+- Port B also Enable Port Type=Always Enablde
+- Fill Remaining Memory Location = 3 ("11") default fully duplication
+
+* output_sctmod2tower
+- Native. True Dual Port RAM [Checked] Common Clock
+- Port A Write Width=2, Read Width=2, Write Depth=8192 (13 bit), Read Depth=8192 (13 bit), Enable Port Type=Always Enabled 
+- Port B also Enable Port Type=Always Enablde
+- Load Input File Coe File=test_board_to_tower_sct.coe
+
+* INTERNAL_LINK_INPUT_BUFFER
+- Native, Independent Clocks Block RAM Synchronization Stages=2
+- First Word Fall Through, Write Width=32, Write Depth=2048, Read Width=32, Read Depth=2048
+- Single Programmable Full Threshold Constant 
+
+* XFIFOLSC
+- Native, Independent Clocks Block RAM Synchronization Stage=2
+- Standard FIFO, Write Width=34, Write Depth=512, Read Width=34, Read Depth=512,
+- Write Data Count (Synchronized with Write Clk) with 9b
+
+* XFIFOLDC
+- Native, Independent Clocks Block RAM Synchronization Stage=2
+- Standard FIFO, Write Width=33, Write Depth=512, Read Width=33, Read Depth=512,
+- Read Data Count (Synchronized with Read Clk) with 9b
+
+* gt_2g_16b_right
+- include Shared Logic in example design
+- Line Rate=2 / 200 MHz Reference Clock input
+- Activated Lanes
+  1) 110_2 (bottom SFP+ B5) with Ref=110
+  2) 110_3 (bottom SFP+ B6) with Ref=110
+- NOTE:
+  1) 110_2 = (Right) X1Y2  Ref=110 = (Right) REFCLK0
+  2) 110_3 = (Right) X1Y3  Ref=110 = (Right) REFCLK0
+- GT Channels :
+  gt0 = 110_2 (bottom SFP+ B5)
+  gt1 = 110_3 (bottom SFP+ B6)
+- External Data Width=16, Encoding 8B/10B, Internal Data Width=20, DRP Clock Frequency 50 MHz
+- Two Byte Boundaries, 
+  [Unchecked] RXSLIDE
+  [checked] ENPCOMMAALIGN
+  [checked] ENMCOMMAALIGN
+  [checked] RXBYTEISALIGN
+  RX equalization DFE-Auto
+  RX Termination  Programmable, 900mV
+  [checked] TXPOLARITY
+  [checked] RXPOLARITY
+
+* gt_2g_16b_left
+- include Shared Logic in example design
+- Line Rate=2 / 200 MHz Reference Clock input
+- Activated Lanes
+  3) 213_1 (bottom QSFP+ B1) with Ref=214 < NOTE!! 213_1 is for Ch0>
+  4) 213_0 (bottom QSFP+ B1) with Ref=214 < NOTE!! 213_0 is for Ch1>
+  5) 214_3 (bottom QSFP+ B1) with Ref=214 < NOTE!! 213_3 is for Ch2>
+  6) 214_2 (bottom QSFP+ B1) with Ref=214 < NOTE!! 213_2 is for Ch3>
+- NOTE : 
+  3) 213_1 = (Left)  X0Y13 Ref=214 = (Left)  REFCLK4
+  4) 213_0 = (Left)  X0Y12 Ref=214 = (Left)  REFCLK4
+  5) 214_3 = (Left)  X0Y19 Ref=214 = (Left)  REFCLK4
+  6) 214_2 = (Left)  X0Y18 Ref=214 = (Left)  REFCLK4
+- GT Channels :
+  gt0 = 213_0 (bottom QSFP+ B1 ch1)
+  gt1 = 213_1 (bottom QSFP+ B1 ch0)
+  gt2 = 214_2 (bottom QSFP+ B1 ch3)
+  gt3 = 214_3 (bottom QSFP+ B1 ch2)
+- External Data Width=16, Encoding 8B/10B, Internal Data Width=20, DRP Clock Frequency 50 MHz
+- Two Byte Boundaries, 
+  [Unchecked] RXSLIDE
+  [checked] ENPCOMMAALIGN
+  [checked] ENMCOMMAALIGN
+  [checked] RXBYTEISALIGN
+  RX equalization DFE-Auto
+  RX Termination  Programmable, 900mV
+  [checked] TXPOLARITY
+  [checked] RXPOLARITY
+
+* gt_3g_32b_right
+- include Shared Logic in example design
+- Line Rate=3 / 200 MHz Reference Clock input
+- Activated Lanes :
+  1) 116_0 (Ch4P1) with Ref=115
+  2) 115_2 (Ch5P1) with Ref=115
+- NOTE :
+  1) 116_0 (right) X1Y24 (Ch4P1) with Ref=115 REFCLK5
+  2) 115_2 (right) X1Y22 (Ch5P1) with Ref=115 REFCLK5
+- GT Channels :
+  gt0 = 115_2 (Ch5P1) 
+  gt1 = 116_0 (Ch4P1) 
+- External Data Width=32, Encoding 8B/10B, Internal Data Width=40, DRP Clock Frequency 50 MHz
+- Four Byte Boundaries, 
+  [Unchecked] RXSLIDE
+  [checked] ENPCOMMAALIGN
+  [checked] ENMCOMMAALIGN
+  [checked] RXBYTEISALIGN
+  RX equalization DFE-Auto
+  RX Termination  Programmable, 900mV
+  [checked] TXPOLARITY
+  [checked] RXPOLARITY
+
+* gt_6g_32b_right
+- include Shared Logic in example design
+- Line Rate=6 / 200 MHz Reference Clock input
+- Activated Lanes :
+  1) 110_2 (bottom SFP+ B5) with Ref=110
+  2) 110_3 (bottom SFP+ B6) with Ref=110
+  1) 116_0 (Ch4P1) with Ref=115
+  2) 115_2 (Ch5P1) with Ref=115
+- NOTE :
+  1) 110_2 = (Right) X1Y2  Ref=110 = (Right) REFCLK0
+  2) 110_3 = (Right) X1Y3  Ref=110 = (Right) REFCLK0
+  3) 116_0 = (right) X1Y24 (Ch4P1) with Ref=115 REFCLK5
+  4) 115_2 = (right) X1Y22 (Ch5P1) with Ref=115 REFCLK5
+- GT Channels :
+  gt0 = 110_2 (bottom SFP+ B5)
+  gt1 = 110_3 (bottom SFP+ B6)
+  gt2 = 115_2 (Ch5P1) 
+  gt3 = 116_0 (Ch4P1) 
+- External Data Width=32, Encoding 8B/10B, Internal Data Width=40, DRP Clock Frequency 50 MHz
+- Four Byte Boundaries, 
+  [Unchecked] RXSLIDE
+  [checked] ENPCOMMAALIGN
+  [checked] ENMCOMMAALIGN
+  [checked] RXBYTEISALIGN
+  RX equalization DFE-Auto
+  RX Termination  Programmable, 900mV
+  [checked] TXPOLARITY
+  [checked] RXPOLARITY
+
+* gt_6g_32b_left
+- include Shared Logic in example design
+- Line Rate=6 / 200 MHz Reference Clock input
+- Activated Lanes :
+  3) 213_1 (bottom QSFP+ B1) with Ref=214 < NOTE!! 213_1 is for Ch0>
+  4) 213_0 (bottom QSFP+ B1) with Ref=214 < NOTE!! 213_0 is for Ch1>
+  5) 214_3 (bottom QSFP+ B1) with Ref=214 < NOTE!! 213_3 is for Ch2>
+  6) 214_2 (bottom QSFP+ B1) with Ref=214 < NOTE!! 213_2 is for Ch3>
+- NOTE : 
+  3) 213_1 = (Left)  X0Y13 Ref=214 = (Left)  REFCLK4
+  4) 213_0 = (Left)  X0Y12 Ref=214 = (Left)  REFCLK4
+  5) 214_3 = (Left)  X0Y19 Ref=214 = (Left)  REFCLK4
+  6) 214_2 = (Left)  X0Y18 Ref=214 = (Left)  REFCLK4
+- GT Channels :
+  gt0 = 213_0 (bottom QSFP+ B1 ch1)
+  gt1 = 213_1 (bottom QSFP+ B1 ch0)
+  gt2 = 214_2 (bottom QSFP+ B1 ch3)
+  gt3 = 214_3 (bottom QSFP+ B1 ch2)
+- External Data Width=32, Encoding 8B/10B, Internal Data Width=40, DRP Clock Frequency 50 MHz
+- Four Byte Boundaries, 
+  [Unchecked] RXSLIDE
+  [checked] ENPCOMMAALIGN
+  [checked] ENMCOMMAALIGN
+  [checked] RXBYTEISALIGN
+  RX equalization DFE-Auto
+  RX Termination  Programmable, 900mV
+  [checked] TXPOLARITY
+  [checked] RXPOLARITY
+
+* gtq_8g_fab20
+- include Shared Logic in example design
+- Line Rate=8 / 125 MHz Reference Clock input, QPLL 
+- Activated Lanes
+  X1Y8 - X1Y27 (20 channel in total) -- right
+- GT Channels :
+  gt0  : Ch12P1
+  gt1  : Ch12P0
+  gt2  : Ch11P1
+  gt3  : Ch11P0
+  gt4  : Ch10P1
+  gt5  : Ch10P0
+  gt6  : Ch9P1
+  gt7  : Ch9P0
+  gt8  : Ch8P1
+  gt9  : Ch8P0
+  gt10 : Ch7P1
+  gt11 : Ch7P0
+  gt12 : Ch6P1
+  gt13 : Ch6P0
+  gt14 : Ch5P1
+  gt15 : Ch5P0
+  gt16 : Ch4P1
+  gt17 : Ch4P0
+  gt18 : Ch3P1
+  gt19 : Ch3P0
+- External Data Width=32, Encoding 8B/10B, Internal Data Width=40, DRP Clock Frequency 50 MHz
+- Four Byte Boundaries, 
+  [Unchecked] RXSLIDE
+  [checked] ENPCOMMAALIGN
+  [checked] ENMCOMMAALIGN
+  [checked] RXBYTEISALIGN
+  RX equalization DFE-Auto
+  RX Termination  Programmable, 900mV
+  [checked] TXPOLARITY
+  [checked] RXPOLARITY
+
+* gt_6g_rtm_l
+- include Shared Logic in example design
+- Line Rate=6 / 150 MHz Reference Clock input, QPLL 
+- Activated Lanes
+  X0Y0 - X0Y33 except for X0Y14 (33 channel in total) -- right
+- GT Channels :
+  gt0 = QSFP+ B4 ch1
+  gt1 = QSFP+ B4 ch0
+  gt2 = QSFP+ B3 ch3
+  gt3 = QSFP+ B3 ch2
+  gt4 = QSFP+ B3 ch1
+  gt5 = QSFP+ B3 ch0
+  gt6 = QSFP+ B2 ch3
+  gt7 = QSFP+ B2 ch2
+  gt8 = QSFP+ B2 ch1
+  gt9 = QSFP+ B2 ch0
+  gt10= QSFP+ B1 ch3
+  gt11= QSFP+ B1 ch2
+  gt12= QSFP+ B1 ch1
+  gt13= QSFP+ B1 ch0
+  gt14= SFP+  T7
+  gt15= SFP+  T6
+  gt16= SFP+  T5
+  gt17= QSFP+ T4 ch3
+  gt18= QSFP+ T4 ch2
+  gt19= QSFP+ T4 ch1
+  gt20= QSFP+ T4 ch0
+  gt21= QSFP+ T3 ch3
+  gt22= QSFP+ T3 ch2
+  gt23= QSFP+ T3 ch1
+  gt24= QSFP+ T3 ch0
+  gt25= QSFP+ T2 ch3
+  gt26= QSFP+ T2 ch2
+  gt27= QSFP+ T2 ch1
+  gt28= QSFP+ T2 ch0
+  gt29= QSFP+ T1 ch3
+  gt30= QSFP+ T1 ch2
+  gt31= QSFP+ T1 ch1
+  gt32= QSFP+ T1 ch0
+- External Data Width=32, Encoding 8B/10B, Internal Data Width=40, DRP Clock Frequency 50 MHz
+- Four Byte Boundaries, 
+  [Unchecked] RXSLIDE
+  [checked] ENPCOMMAALIGN
+  [checked] ENMCOMMAALIGN
+  [checked] RXBYTEISALIGN
+  RX equalization DFE-Auto
+  RX Termination  Programmable, 900mV
+  [checked] TXPOLARITY
+  [checked] RXPOLARITY
+
+* gt_6g_rtm_r
+- include Shared Logic in example design
+- Line Rate=6 / 150 MHz Reference Clock input, QPLL 
+- Activated Lanes
+  X1Y0 - X1Y3 (4 channel in total) -- right; 
+   # should be 5 channels
+   # for the initial testing, I reserved one channel for IPBus
+- GT Channels :
+  gt0 = QSFP+ B4 Ch2
+  gt1 = QSFP+ B4 ch3
+  gt2 = SFP+  B5
+  gt3 = SFP+  B6
+- External Data Width=32, Encoding 8B/10B, Internal Data Width=40, DRP Clock Frequency 50 MHz
+- Four Byte Boundaries, 
+  [Unchecked] RXSLIDE
+  [checked] ENPCOMMAALIGN
+  [checked] ENMCOMMAALIGN
+  [checked] RXBYTEISALIGN
+  RX equalization DFE-Auto
+  RX Termination  Programmable, 900mV
+  [checked] TXPOLARITY
+  [checked] RXPOLARITY
+
+* tri_mode_ethernet_mac_0 (TRI MODE Ethernet MAC 1000Base )
+- PHYINTERFACE : Internal 
+- MAC SPEED : 1000 Base
+- MANAGEMENT TYPE : Configuration Vector
+
+* gig_ethernet_pcs_pma_1 (Ethernet 1000Base-X PCS/PMA or SGMII)
+- [checked]   additional transceiver control or status 
+- [unchecked] MDIO managemenet internface    

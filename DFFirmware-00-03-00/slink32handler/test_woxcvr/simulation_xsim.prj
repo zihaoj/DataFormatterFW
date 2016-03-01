@@ -1,0 +1,18 @@
+vhdl work ../../slink32handler/TLK_GT_Interface/tlk_gtx_interface.vhd
+vhdl work ../../slink32handler/TLK_GT_Interface/tlk_gtx_interfaceLib.vhd
+
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/XFIFOLSC/XFIFOLSC_funcsim.vhdl
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/XFIFOLDC/XFIFOLDC_funcsim.vhdl
+
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/XFIFOLSC/XFIFOLSC_my_wrapper.vhd
+vhdl work ../../generated_ip/xc7k325t-ffg900-2/XFIFOLDC/XFIFOLDC_my_wrapper.vhd
+
+vhdl work ../../slink32handler/LSC/core_holalsc.vhd
+vhdl work ../../slink32handler/LSC/holalsc_gtx.vhd
+vhdl work ../../slink32handler/LSC/core_holalscLib.vhd
+
+vhdl work ../../slink32handler/LDC/core_holaldc.vhd
+vhdl work ../../slink32handler/LDC/holaldc_gtx.vhd
+vhdl work ../../slink32handler/LDC/core_holaldcLib.vhd
+
+vhdl work testbench.vhd

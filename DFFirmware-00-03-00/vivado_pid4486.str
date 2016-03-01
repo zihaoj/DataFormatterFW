@@ -1,0 +1,46 @@
+/*
+
+Vivado v2014.2 (64-bit)
+SW Build 932637 on Wed Jun 11 13:08:52 MDT 2014
+Process ID: 4486
+
+Current time: 	11/17/15 11:01:12 PM
+Time zone: 	Central European Time (Europe/Vaduz)
+
+OS: Scientific Linux CERN SLC release 6.7 (Carbon)
+Version: 2.6.32-573.8.1.el6.x86_64
+Architecture: amd64
+Available processors (cores): 8
+
+DISPLAY: :0.0
+Screen size: 1920x1200
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.7.0_40 64-bit
+Java home: 	/opt/Xilinx/Vivado/2014.2/tps/lnx64/jre
+
+User name: 	zijiang
+User directory: /afs/cern.ch/work/z/zijiang/DFFirmware/data_formatter_firmware
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Gui allocated memory:	122 mb
+Gui max memory:		3,066 mb
+Engine allocated memory: 3,866 mb
+
+*/
+
+// TclEventType: START_GUI
+// HMemoryUtils.trashcanNow. Engine heap size: 3,869 MB. GUI used memory: 24 MB. Current time: 11/17/15 11:01:14 PM
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Y:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_EXAMPLE_PROJECT, "Open Example Project"); // Y:JMenu (JPopupMenu:JComponent, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+closeMainWindow("Vivado 2014.2"); // cg:JFrame
+// an:bF (cg:JFrame): Exit Vivado: addNotify
